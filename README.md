@@ -273,19 +273,148 @@ URL del respositorio de GitHub de la organización: [https://github.com/orgs/Inn
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
+**Branding:**
+
+* Logo representativo de _Car2Go_
+  ![logo-car2go](assets/logo.png)
+
+**Typography:**
+
+* La tipografía de nuestro logotipo adoptará el elegante estilo Roboto, reconocido por su modernidad y su atractivo visual para nuestros usuarios. Este estilo no solo refleja la innovación y la creatividad que caracterizarán a nuestra aplicación, sino que también resalta la vanguardia que buscamos transmitir.
+
+![typografia](assets/typografia1.jpg)
+---
+![typografia](assets/typografia2.1.jpg)
+
+**Colors:**
+* Hemos seleccionado el color #F4C23D como color primario porque transmite confianza y amabilidad, cualidades esenciales para crear una plataforma donde los usuarios se sientan bienvenidos y seguros al interactuar. Este tono dorado, cálido y acogedor, invita a la participación y genera un ambiente positivo para las transacciones.
+
+* Como color secundario, hemos elegido #2959AD por su asociación con el profesionalismo y la seriedad. Este azul oscuro añade un toque de credibilidad y formalidad a la plataforma, asegurando a los usuarios que están realizando sus transacciones en un entorno confiable y bien gestionado.
+
+![colors](assets/colors.jpg)
 ### 4.1.2. Web Style Guidelines.
+_Icons:_
+
+* Cuando se trata de diseñar una página web, los íconos juegan un papel crucial en la creación de una interfaz de usuario intuitiva y fácil de usar. Estos elementos visuales pequeños tienen el poder de mejorar la comprensión de los usuarios sobre la funcionalidad de diferentes partes de nuestra página. Los íconos permiten a los usuarios entender rápidamente la función de cada elemento y su simplicidad y claridad los hacen fácilmente comprensibles. Mantener una consistencia en el uso de íconos en toda la página ayuda a evitar confusiones entre los usuarios.
+
+![Icons:](assets/icons.jpg)
+
+_Breackpoints_
+
+* Los breakpoints más conocidos en **ANGULAR** son los siguientes:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center;">Breakpoint</th>
+      <th style="text-align:center;">Class infix</th>
+      <th style="text-align:center;">Dimensions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;">X-Small</td>
+      <td style="text-align:center;">None</td>
+      <td style="text-align:center;">&lt;576px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Small</td>
+      <td style="text-align:center;">sm</td>
+      <td style="text-align:center;">≥576px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Medium</td>
+      <td style="text-align:center;">md</td>
+      <td style="text-align:center;">≥768px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Large</td>
+      <td style="text-align:center;">lg</td>
+      <td style="text-align:center;">≥992px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Extra large</td>
+      <td style="text-align:center;">xl</td>
+      <td style="text-align:center;">≥1200px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Extra, extra large</td>
+      <td style="text-align:center;">xxl</td>
+      <td style="text-align:center;">≥1400px</td>
+    </tr>
+  </tbody>
+</table>
+
+
+* Y los que usaremos en el proyecto principalmente son los de 768px y 1024px, ya que son los más comunes en los dispositivos móviles y de escritorio.
 ### 4.1.3. Mobile Style Guidelines.
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 #### 4.1.3.2. Android Mobile Style Guidelines.
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
+El sitio web se dividirá en las siguientes secciones:
+- Home: Aquí se ubicará el eslogan de la marca y un botón para dirigir a los usuarios a la aplicación web. <br><br/>
+- Services: Se muestran las principales características que ofrece la aplicación. <br><br/>
+- Plans: Se ubican los planes de suscripción para los segmentos objetivos y las ventajas de cada uno. <br><br/>
+- About us: Descripción de la plataforma, misión, visión y los integrantes del proyecto<br><br/>
+- Contact us: Formulario para enviar dudas de los usuarios por correo más información de contacto.<br><br/>
+
+La aplicación web tendrá las siguientes secciones según el segmento objetivo:
+- Vendedor: "Home", "Plans", "Car Listing", "My Cars" y "Profile"
+- Comprador: "Home","Favorites", "Car Listing" y "Profile"
+- Mecánico: "Home", "Uninspected Cars", "Reviewed Cars"
+
+Con relación al sistema secuencial, se tienen 2 procesos principales:
+- Compra de vehículo: Seleccionar, contactar, pagar y confirmar. <br><br/>
+- Publicación de venta: Añadir fotos, detalles del vehículo, información adicional y publicar la oferta.
 ### 4.2.2. Labeling Systems.
+Colocar las etiquetas adecuadas en las secciones, botones y otros elementos en el landing page y la aplicación web permiten que los usuarios comprendan rápidamente las funcionalidades y contenido de la plataforma.
+A continuación, se listarán las principales etiquetas según las principales funcionalidades:
+- Navegación Principal: "Home", "Favorites", "Car Listing", "Profile"
+  <br></br>
+- Listado de autos: "My Cars", "Sell Car", "Price", "Filters"
+  <br></br>
+- Detalle del vehículo: "Year", "Colors", "Mileage", "Location", "Add Offer"
+  <br></br>
+- Publicación de oferta: "Brand", "Model", "Color", "Description", "Contact Data"
+  <br></br>
+- Proceso de compra : "Add Offer", "Review here", "Send", "Data"
+  <br></br>
+- Perfil del usuario: "Name", "Last Name", "Birthdate", "Identity document", "Address", "PHOTO URL"
+  <br></br>
 ### 4.2.3. SEO Tags and Meta Tags
+Con el fin de mejorar la prioridad en los motores de búsqueda, facilitar la llegada de nuevas usuarios y brindarles información relevante del landing page y la aplicación web, se añadirán los siguientes "Meta tags" como etiquetas HTML en las principales páginas de nuestra plataforma:
+
+````
+<title>Car2Go - Compra y Venta de Autos de Segunda Mano</title>
+<meta name="description" content="Car2Go es tu plataforma ideal para comprar y vender autos de segunda mano de manera rápida y segura. Explora vehículos, publica anuncios y coordina sin complicaciones.">
+<meta name="keywords" content="compra autos segunda mano, venta autos usados, plataforma autos, anuncios vehículos, comprar coches">
+<meta name="author" content="Car2Go Team">
+````
 ### 4.2.4. Searching Systems.
+Es importante facilitar la búsqueda y el filtro de información para los usuarios con el fin de que puedan utilizar la plataforma sin problemas. Se dispondrá de una barra de búsqueda en la sección "Car Listing" y los usuarios podrán guardar en favoritos los autos de su preferencia. Sumado a esto, se podrán aplicar una variedad de filtros (marca, modelo, rango de precio, año de fabricación, etc.) a los resultados de la búsqueda para que cada usuario encuentre el auto de su preferencia. <br><br/>
+Los resultados de la búsqueda se mostrarán en una cuadrícula, donde cada vehículo incluirá una foto, su precio, marca, modelo, ubicación, entre otros datos.Finalmente, al hacer clic en un resultado específico, se mostrarán más imágenes y detalles del vehículo, junto con un botón para contactar al vendedor.
+
 ### 4.2.5. Navigation Systems.
+Navegar por nuestra plataforma debe ser lo suficientemente intuitivo para que los usuarios puedan cumplir satisfactoriamente sus objetivos. Con esto en mente, la principal forma desplazarse en el contenido será una barra de navegación ubicada en la parte superior de todas las páginas. Esta contendrá las siguientes secciones: Home, Car Listing, Profile, Plans, etc. Además, se incluirán "call to action" en distintas partes de cada sección. Por ejemplo, "Sell Car" en "Car Listing" y "Add Offer" en los ofertas publicadas. <br><br/>
+Por otro lado, se agregará la paginación en la parte inferior de la cuadrícula de los resultados. Finalmente, el footer contendrá secciones como "About Us", "Terms and conditions" y "Privacy Policy", así como información de contacto.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+![Landing-Page-Wireframe:](assets/landing-wireframe.png)
+
+**Hero alterno 1**:
+![Landing-Page-Wireframe:](assets/landing-wireframe-hero2.png)
+---
+**Hero alterno 2**:
+![Landing-Page-Wireframe:](assets/landing-wireframe-hero3.png)
 ### 4.3.2. Landing Page Mock-up.
+![Landing-Page-Mock-up:](assets/landing-mock-up.png)
+
+**Hero alterno 1**:
+![Landing-Page-Mock-up:](assets/landing-mock-up-hero2.png)
+---
+**Hero alterno 2**:
+![Landing-Page-Mock-up:](assets/landing-mock-up-hero3.png)
 ## 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
@@ -296,19 +425,311 @@ URL del respositorio de GitHub de la organización: [https://github.com/orgs/Inn
 ### 4.5.2. iOS Mobile Applications Prototyping.
 ## 4.6. Web Applications UX/UI Design.
 ### 4.6.1. Web Applications Wireframes.
+![Landing-Page-Mock-up:](assets/wireframe-1.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-2.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-3.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-4.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-5.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-6.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-7.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-8.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-9.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-10.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-12.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-13.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-14.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-15.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-16.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-17.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-18.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-19.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-20.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-21.png)
+---
+![Landing-Page-Mock-up:](assets/wireframe-22.png)
 ### 4.6.2. Web Applications Wireflow Diagrams.
+![wireflow-diagrams](assets/wireflow-diagrams-1.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-2.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-3.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-4.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-5.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-6.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-7.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-8.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-9.png)
+---
+![wireflow-diagrams](assets/wireflow-diagrams-10.png)
 ### 4.6.3. Web Applications Mock-ups.
+#### Login
+<img src="assets/web-mockup-1.png" alt="Mockup 1"/>
+<img src="assets/web-mockup-2.png" alt="Mockup 2"/>
+<img src="assets/web-mockup-3.png" alt="Mockup 3"/>
+
+### Vista del vendedor
+<img src="assets/web-mockup-4.png" alt="Mockup 4"/>
+<img src="assets/web-mockup-5.png" alt="Mockup 5"/>
+<img src="assets/web-mockup-6.png" alt="Mockup 6"/>
+<img src="assets/web-mockup-7.png" alt="Mockup 7"/>
+<img src="assets/web-mockup-8.png" alt="Mockup 8"/>
+<img src="assets/web-mockup-9.png" alt="Mockup 9"/>
+<img src="assets/web-mockup-10.png" alt="Mockup 10"/>
+<img src="assets/web-mockup-11.png" alt="Mockup 11"/>
+<img src="assets/web-mockup-12.png" alt="Mockup 12"/>
+
+### Vista del comprador
+<img src="assets/web-mockup-13.png" alt="Mockup 13"/>
+<img src="assets/web-mockup-14.png" alt="Mockup 14"/>
+<img src="assets/web-mockup-15.png" alt="Mockup 15"/>
+<img src="assets/web-mockup-16.png" alt="Mockup 16"/>
+<img src="assets/web-mockup-17.png" alt="Mockup 17"/>
+<img src="assets/web-mockup-18.png" alt="Mockup 18"/>
+<img src="assets/web-mockup-19.png" alt="Mockup 19"/>
+
+### Vista del mecánico
+<img src="assets/web-mockup-20.png" alt="Mockup 20"/>
+<img src="assets/web-mockup-21.png" alt="Mockup 21"/>
+<img src="assets/web-mockup-22.png" alt="Mockup 22"/>
 ### 4.6.4. Web Applications User Flow Diagrams.
+<img src="assets/web-userflow-1.png" alt="User flow 1"/>
+<img src="assets/web-userflow-2.png" alt="User flow 2"/>
+<img src="assets/web-userflow-3.png" alt="User flow 3"/>
+<img src="assets/web-userflow-4.png" alt="User flow 4"/>
+<img src="assets/web-userflow-5.png" alt="User flow 5"/>
+<img src="assets/web-userflow-6.png" alt="User flow 6"/>
+<img src="assets/web-userflow-7.png" alt="User flow 7"/>
+<img src="assets/web-userflow-8.png" alt="User flow 8"/>
+<img src="assets/web-userflow-9.png" alt="User flow 9"/>
+<img src="assets/web-userflow-10.png" alt="User flow 10"/>
+
 ## 4.7. Web Applications Prototyping.
+Para poder elaborar los prototipos de la interfaz de usuario destinados a Desktop se siguieron una serie
+de criterios fundamentales, entre ellos:
+
+1. Claridad y Facilidad: El enfoque fue lograr que la navegación en la aplicación sea intuitiva y comprensible, con el objetivo
+   de que los usuarios puedan comprender plenamente las funciones de la aplicación.
+   visualización de reportes estadísticos.
+2. Diseño Responsive: Se ha tenido en cuenta la importancia del diseño "responsive" para garantizar que la aplicación web
+   sea compatible con una variedad tamaños de pantalla, de tal manera que los usuarios no se vean limitados por el dispositivo que utilicen.
+3. Priorización de Información Relevante: El diseño de la aplicación se enfoca en mostrar únicamente la información más importante para los usuarios pertenecientes al segmento objetivo.
 ## 4.8. Domain-Driven Software Architecture.
+El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de **Car2Go**, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
 ### 4.8.1. Software Architecture Context Diagram.
+El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software **Car2Go**, los usuarios y, si es el caso, de otros sistemas externos.
+
+<div align="center">
+    <img src="assets/SystemContext.png" alt="System diagram">
+</div>
+
 ### 4.8.2. Software Architecture Container Diagrams.
+El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software **Car2Go**.
+
+<div align="center">
+    <img src="assets/containerDiagram.png" alt="Container diagram">
+</div>
+
 ### 4.8.3. Software Architecture Components Diagrams.
+Los diagramas de componentes muestran una vista de las relaciones de los componentes principales del sistema de software **Car2Go**. Estos componentes detallan la implementación de los respectivos módulos en el programa.
+
+### - Authentication Bounded Context
+
+<div align="center">
+    <img src="assets/AuthenticationBC.png" alt="Authentication Bounded Context" width="800" />
+</div>
+
+### - Payment Bounded Context
+
+<div align="center">
+    <img src="assets/PaymentBC.png" alt="Payment Bounded Context" width="800" />
+</div>
+
+### - User Interaction Bounded Context
+
+<div align="center">
+    <img src="assets/UserInteractionBC.png" alt="User Interaction Bounded Context" width="800" />
+</div>
+
+### - Vehicle Management Bounded Context
+
+<div align="center">
+    <img src="assets/VehicleManagementBC.png" alt="Vehicle Management Bounded Context" width="800" />
+</div>
+
 ## 4.9. Software Object-Oriented Design.
 ### 4.9.1. Class Diagrams.
+<img src="assets/class-diagram.png" alt="class diagram"/>
+
 ### 4.9.2. Class Dictionary.
+Clase User
+
+| Atributo           | Tipo   | Descripción                     |
+|--------------------|--------|---------------------------------|
+| id                 | long   | Identificador único del usuario |
+| createdAt          | Date   | Fecha de creación del usuario   |
+| updateAt           | Date   | Última actualización del usuario|
+| username           | String | Nombre de usuario               |
+| password           | String | Contraseña del usuario          |
+| roles              | Set    | Rol del usuario                 |
+
+<br><br/>
+Clase Role
+
+| Atributo | Tipo   | Descripción                                  |
+|----------|--------|----------------------------------------------| 
+| id       | Long   | Identificador único del rol                  |
+| name     | String | Nombre del rol                               |
+
+ 
+<br><br/>
+Clase Profile
+
+| Atributo | Tipo   | Descripción                                  |
+|----------|--------|----------------------------------------------|
+| id       | int    | Identificador único del perfil               |
+| name     | String | Nombre del perfil                            |
+| email    | String | Correo electrónico                           |
+| image    | String | Foto de perfil                               |
+| dni      | String | Documento nacional de identidad              |
+| address  | String | Dirección del perfil                         |
+| phone    | String | Número de celular del perfil                 |
+| profileId | Long  | Identificar del perfil                       |
+| paymentMethods | List | Lista de métodos de pago                 |
+ 
+ 
+<br><br/>
+Clase Transaction
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | int     | Identificador único de la transacción |
+| buyerId       | int     | Identificador del comprador           |
+| sellerId      | int     | Identificar del vendedor              |
+| vehicle       | Vehicle | Vehículo de interés                   |
+| amount        | double  | Precio de venta                       |
+| date          | date    | Fecha de la transacción               |
+| paymentStatus | string  | Estado del pago de la transacción     |
+
+
+<br><br/>
+
+Clase Vehicle
+
+| Atributo           | Tipo   | Descripción                      |
+|--------------------|--------|----------------------------------|
+| id                 | int    | Identificador único del vehículo |
+| name               | String | Nombre del vendedor              |
+| phone              | String | Teléfono del vendedor            |
+| email              | String | Correo del vendedor              |
+| brand              | string | Marca del vehículo               |
+| model              | string | Modelo                           |
+| year               | int    | Año de fabricación               |
+| price              | double | Precio del vehículo              |
+| color              | string | Color principal del vehículo     |
+| transmission       | String | Tipo de transmisión              |
+| engine             | String | Motor del vehículo               |
+| mileage            | double | Kilometraje                      |
+| doors              | String | Número de puertas del vehículo   |
+| plate              | String | Número de placa                  |
+| location           | string | Ubicación del vehículo           |
+| images             | List   | Imágenes del vehículo            |
+| description        | String | Descripción                      |
+| fuel               | String | Combustible                      |
+| speed              | int    | Velocidad                        |
+| profileId          | long   | Identificador del vendedor       |
+| createdDate        | LocalDateTime | Fecha de creación del post |
+| lastModifiedDate   | LocalDateTime | Fecha de última modificación del post |
+| reviews            | List   | Revisiones del vehículo          |
+| myOffers           | List   | Ofertas recibidas                |
+
+
+<br><br/>
+
+Clase Review
+
+| Atributo | Tipo   | Descripción                                     |
+|----------|--------|-------------------------------------------------|
+| id       | long   | Identificador único de la revisión              |
+| vehicle  | Vehicle | Vehículo que recibe la revisión                |
+| reviewedBy | String | Mecánico que realizó la revisión              |
+| notes    | String | Notas de la revisión                            |
+| reviewDate | LocalDateTime | Fecha de la revisión                   |
+
+<br><br/>
+
+Clase Subscription
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | long    | Identificador único de la suscripción |
+| createdAt     | Date    | Fecha de suscripción                  |
+| updateAt      | Date    | Fecha de actualización de suscripción |
+| description   | String  | Descripción de la suscripción         |
+| status        | SubscriptionStatus | Precio de venta            |
+| profileId     | Long    | Id del usuario suscrito               |
+
+<br><br/>
+
+Clase Favorite
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | int     | Identificador del vehículo favorito   | 
+| vehicle       | Vehicle | Vehículo agregado como favorito       |
+| profileId     | Long    | Id del usuario                        |
+| createdAt     | LocalDateTime | Fecha de agregar                |
+
+<br><br/>
+
+Clase PaymentMethod
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | Long    | Identificador del método de pago      | 
+| type          | String  | Tipo de método de pago                |
+| details       | String  | Detalles del método de pago           |
+
+<br><br/>
+
+Clase PersonName
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| firstName     | String  | Primer nombre del usuario             |
+| lastName      | String  | Apellido del usuario                  |
+
+<br><br/>
+
 ## 4.10. Database Design.
+El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos para generar las tablas y establecer sus relaciones en nuestra plataforma será MySQL. Hemos elegido MySQL por su facilidad de uso y por su integración con MySQL Workbench, que nos proporciona una herramienta visual eficiente para la administración de la base de datos.
 ### 4.10.1. Relational/Non-Relational Database Diagram.
+<img src="assets/db-diagram.png" alt="database diagram"/>
+
 # Capítulo V: Product Implementation
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
