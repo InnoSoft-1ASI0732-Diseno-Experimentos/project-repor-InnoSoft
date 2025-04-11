@@ -590,140 +590,135 @@ Clase User
 
 | Atributo           | Tipo   | Descripción                     |
 |--------------------|--------|---------------------------------|
-| id                 | long   | Identificador único del usuario |
-| createdAt          | Date   | Fecha de creación del usuario   |
-| updateAt           | Date   | Última actualización del usuario|
-| username           | String | Nombre de usuario               |
-| password           | String | Contraseña del usuario          |
-| roles              | Set    | Rol del usuario                 |
+| userID             | int    | Identificador único del usuario |
+| names              | string | Nombres del usuario             |
+| last_name          | string | Apellidos del usuario           |
+| phone_number       | string | Número telefónio del usuario    |
+| email              | string | Correo del usuario              |
+| password           | string | Contraseña del usuario          |
+| role               | string | Rol del usuario                 |
+| subscriptionPlan   | Subscription | Plan de subscripción            |
+| transactionHistory | list   | Historial de transacciones      |
 
 <br><br/>
-Clase Role
-
-| Atributo | Tipo   | Descripción                                  |
-|----------|--------|----------------------------------------------| 
-| id       | Long   | Identificador único del rol                  |
-| name     | String | Nombre del rol                               |
-
- 
-<br><br/>
-Clase Profile
+Clase SubscriptionPlan
 
 | Atributo | Tipo   | Descripción                                  |
 |----------|--------|----------------------------------------------|
-| id       | int    | Identificador único del perfil               |
-| name     | String | Nombre del perfil                            |
-| email    | String | Correo electrónico                           |
-| image    | String | Foto de perfil                               |
-| dni      | String | Documento nacional de identidad              |
-| address  | String | Dirección del perfil                         |
-| phone    | String | Número de celular del perfil                 |
-| profileId | Long  | Identificar del perfil                       |
-| paymentMethods | List | Lista de métodos de pago                 |
- 
+| planID   | int    | Identificador único del plan de subscripción |
+| name     | string | Nombre del plan                              |
+| price    | double | Precio del plan                              |
+| startDate| date   | Fecha de inicio de la subscripción           |
+| endDate  | date   | Fecha de expiración de la subscripción       |
+| status   | string | Estado de la subscripción                    |
  
 <br><br/>
 Clase Transaction
 
 | Atributo      | Tipo    | Descripción                           |
 |---------------|---------|---------------------------------------|
-| id            | int     | Identificador único de la transacción |
-| buyerId       | int     | Identificador del comprador           |
-| sellerId      | int     | Identificar del vendedor              |
-| vehicle       | Vehicle | Vehículo de interés                   |
+| transactionID | int     | Identificador único de la transacción |
+| buyer         | User    | Comprador del auto                    |
+| seller        | User    | Vendedor del auto                     |
+| vehicle       | Vehicle | Vehículo vendido                      |
 | amount        | double  | Precio de venta                       |
 | date          | date    | Fecha de la transacción               |
 | paymentStatus | string  | Estado del pago de la transacción     |
 
+<br><br/>
+Clase Payment
+
+| Atributo      | Tipo        | Descripción                    |
+|---------------|-------------|--------------------------------|
+| paymentID     | int         | Identificador único del pago   |
+| transaction   | Transaction | Transación perteniente al pago |
+| paymentMethod | string      | Método de pago                 |
+| paymentDate   | date        | Fecha del pago                 |
 
 <br><br/>
 
+<br>
+Clase Post
+
+| Atributo    | Tipo    | Descripción                  |
+|-------------|---------|------------------------------|
+| postID      | int     | Identificador único del post |
+| vehicle     | Vehicle | Vehículo en venta            |
+| seller      | User    | Vendedor                     |
+| title       | string  | Título del post              |
+| description | string  | Descripción del post         |
+| price       | double  | Precio del vehículo          |
+| status      | string  | Status del post              |
+| createdDate | date    | Fecha de creación del post   |
+| location    | string  | Ubicación del vehículo       |
+| images      | list    | Imágenes del vehículo        |
+
+<br><br/>
 Clase Vehicle
 
 | Atributo           | Tipo   | Descripción                      |
 |--------------------|--------|----------------------------------|
-| id                 | int    | Identificador único del vehículo |
-| name               | String | Nombre del vendedor              |
-| phone              | String | Teléfono del vendedor            |
-| email              | String | Correo del vendedor              |
+| vehicleID          | int    | Identificador único del vehículo |
 | brand              | string | Marca del vehículo               |
 | model              | string | Modelo                           |
 | year               | int    | Año de fabricación               |
 | price              | double | Precio del vehículo              |
 | color              | string | Color principal del vehículo     |
-| transmission       | String | Tipo de transmisión              |
-| engine             | String | Motor del vehículo               |
 | mileage            | double | Kilometraje                      |
-| doors              | String | Número de puertas del vehículo   |
-| plate              | String | Número de placa                  |
 | location           | string | Ubicación del vehículo           |
-| images             | List   | Imágenes del vehículo            |
-| description        | String | Descripción                      |
-| fuel               | String | Combustible                      |
-| speed              | int    | Velocidad                        |
-| profileId          | long   | Identificador del vendedor       |
-| createdDate        | LocalDateTime | Fecha de creación del post |
-| lastModifiedDate   | LocalDateTime | Fecha de última modificación del post |
-| reviews            | List   | Revisiones del vehículo          |
-| myOffers           | List   | Ofertas recibidas                |
-
+| images             | list   | Imágenes del vehículo            |
+| description        | string | Descripción                      |
+| maintenanceHistory | list   | Historial de mantenimiento       |
 
 <br><br/>
+Clase Contact
 
+| Atributo  | Tipo   | Descripción                                                 |
+|-----------|--------|-------------------------------------------------------------|
+| contactID | int    | Identificador único del contacto entre comprador y vendedor |
+| sender    | User   | Usuario interesado en el vehículo                           |
+| receiver  | User   | Usuario dueño del vehículo                                  |
+| message   | string | Mensaje enviado                                             |
+| date      | date   | Fecha del mensaje                                           |
+
+<br><br/>
 Clase Review
 
 | Atributo | Tipo   | Descripción                                     |
 |----------|--------|-------------------------------------------------|
-| id       | long   | Identificador único de la revisión              |
-| vehicle  | Vehicle | Vehículo que recibe la revisión                |
-| reviewedBy | String | Mecánico que realizó la revisión              |
-| notes    | String | Notas de la revisión                            |
-| reviewDate | LocalDateTime | Fecha de la revisión                   |
+| reviewID | int    | Identificador único de la reseña de un vendedor |
+| user     | User   | Usuario que publicó la reseña                   |
+| seller   | User   | Vendedor que recibe las reseñas                 |
+| rating   | int    | Calificación del vendedor                       |
+| comment  | string | Comentarios de la reseña                        |
+| date     | date   | Fecha de publicación                            |
 
 <br><br/>
+Clase Maintenance
 
-Clase Subscription
-
-| Atributo      | Tipo    | Descripción                           |
-|---------------|---------|---------------------------------------|
-| id            | long    | Identificador único de la suscripción |
-| createdAt     | Date    | Fecha de suscripción                  |
-| updateAt      | Date    | Fecha de actualización de suscripción |
-| description   | String  | Descripción de la suscripción         |
-| status        | SubscriptionStatus | Precio de venta            |
-| profileId     | Long    | Id del usuario suscrito               |
-
-<br><br/>
-
-Clase Favorite
-
-| Atributo      | Tipo    | Descripción                           |
-|---------------|---------|---------------------------------------|
-| id            | int     | Identificador del vehículo favorito   | 
-| vehicle       | Vehicle | Vehículo agregado como favorito       |
-| profileId     | Long    | Id del usuario                        |
-| createdAt     | LocalDateTime | Fecha de agregar                |
+| Atributo      | Tipo     | Descripción                           |
+|---------------|----------|---------------------------------------|
+| maintenanceID | int      | Identificador único del mantenimiento |
+| vehicle       | Vehicle  | Vehículo objetivo del mantenimiento   |
+| date          | date     | Fecha del mantenimiento               |
+| description   | string   | Descripción del mantenimiento         |
+| cost          | double   | Costo del mantenimiento               |
+| mechanic      | Mechanic | Mecánico a cargo del mantenimiento    |
 
 <br><br/>
+Clase Mechanic
 
-Clase PaymentMethod
+| Atributo    | Tipo   | Descripción                          |
+|-------------|--------|--------------------------------------|
+| mechanicID  | int    | Identificador único del mecánico     |
+| names       | string | Nombres                              |
+| last_name   | string | Apellidos                            |
+| phonenumber | string | Número telefónico                    |
+| address     | string | Dirección del taller automotriz      |
+| company     | string | Nombre del taller automotriz         |
+| email       | string | Correo del mecánico                  |
+| password    | string | Contraseña de la cuenta del mecánico |
 
-| Atributo      | Tipo    | Descripción                           |
-|---------------|---------|---------------------------------------|
-| id            | Long    | Identificador del método de pago      | 
-| type          | String  | Tipo de método de pago                |
-| details       | String  | Detalles del método de pago           |
-
-<br><br/>
-
-Clase PersonName
-
-| Atributo      | Tipo    | Descripción                           |
-|---------------|---------|---------------------------------------|
-| firstName     | String  | Primer nombre del usuario             |
-| lastName      | String  | Apellido del usuario                  |
-
-<br><br/>
 
 ## 4.10. Database Design.
 El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos para generar las tablas y establecer sus relaciones en nuestra plataforma será MySQL. Hemos elegido MySQL por su facilidad de uso y por su integración con MySQL Workbench, que nos proporciona una herramienta visual eficiente para la administración de la base de datos.
