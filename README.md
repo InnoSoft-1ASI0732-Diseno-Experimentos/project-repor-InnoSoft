@@ -265,9 +265,38 @@ URL del respositorio de GitHub de la organización: [https://github.com/orgs/Inn
 ### 2.3.4. Empathy Mapping.
 ### 2.3.5. As-is Scenario Mapping.
 ## 2.4. Ubiquitous Language.
-# Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping.
-## 3.2. User Stories.
+# Chapter III: Requirements Specifications
+## 3.1. To-Be Scenario Mapping
+
+En esta sección, el equipo presenta el To-Be Scenario Mapping para Car2Go, que ilustra las mejoras propuestas en el proceso de compra y venta de autos de segunda mano a través de nuestra plataforma. Este proceso comenzó con una fase de preparación, seguida de una lluvia de ideas individual para identificar mejoras potenciales. Posteriormente, se llevó a cabo una revisión y se identificaron las fases relevantes, que se organizaron en las columnas de Phases, Doing, Thinking y Feeling en la herramienta de mapeo seleccionada. El To-Be Scenario Mapping se comparó con el As-Is Scenario Mapping para identificar y resaltar los cambios propuestos que optimizarán la experiencia del usuario. La captura del mapeo realizado proporciona una visión clara de cómo estas mejoras impactarán en las diferentes etapas del proceso, abordando las necesidades y expectativas de cada User Persona y contribuyendo a nuestra misión de facilitar un proceso de compra y venta intuitivo, seguro y eficiente.
+
+**Segmento objetivo: Compradores de Autos Usados**
+![image](assets/tobeMap-compradores.jpg)
+*Imagen (N°10). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556). https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556*
+
+**Segmento objetivo: Vendedores de Autos Usados**
+![image](assets/tobeMap-vendedores.jpg)
+*Imagen (N°11). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556). https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556*
+
+**Segmento objetivo: Talleres Técnicos**
+![image](assets/tobeMap-talleres.jpg)
+*Imagen (N°12). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556). https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556*
+
+## 3.2. User Stories
+
+**Cuadro de Epics**
+
+| Epic ID | Título                                | Descripción                                                                                                                                                                                                            |
+|---------|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP01    | Plataforma de Compra y Venta de Autos | Implementar la plataforma principal para la compra y venta de autos usados, facilitando la interacción entre compradores y vendedores.                                                                                 |
+| EP02    | Certificación y Verificación de Autos | Implementar el proceso para la certificación y verificación de autos a través de talleres técnicos, asegurando la calidad de los vehículos.                                                                            |
+| EP03    | Seguridad en la Transacción           | Garantizar que las transacciones de compra y venta sean seguras y confiables mediante sistemas de pago y confirmación de transacciones.                                                                                |
+| EP04    | Plataforma de Talleres Técnicos       | Facilitar la integración y gestión de talleres técnicos en la plataforma para ofrecer servicios de certificación y verificación.                                                                                       |
+| EP05    | Soporte y Atención al Cliente         | Implementar un sistema de soporte y atención al cliente para resolver dudas y problemas de los usuarios.                                                                                                               |
+| EP06    | Experiencia de Usuario en Móvil       | Optimizar la plataforma para ofrecer una experiencia de usuario fluida y eficiente en dispositivos móviles.                                                                                                            |
+| EP07    | Análisis y Reportes                   | Implementar herramientas para el análisis y reporte de datos de transacciones y uso de la plataforma.                                                                                                                  |
+| EP08    | Gestión de Publicidad y Promociones   | Implementar funcionalidades para que los vendedores puedan promocionar sus autos mediante anuncios destacados, y para que la plataforma pueda ofrecer promociones y campañas publicitarias a compradores y vendedores. |
+
 ## 3.3. Product Backlog.
 ## 3.4. Impact Mapping.
 # Capítulo IV: Product Design
