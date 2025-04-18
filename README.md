@@ -482,6 +482,52 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 ![Landing-Page-Mock-up:](assets/landing-mock-up-hero3.png)
 ## 4.4. Mobile Applications UX/UI Design.
 ### 4.4.1. Mobile Applications Wireframes.
+**Registrarse:**
+
+![Mobile-wireframes-registro](./assets/Sign%20Up.png)
+
+**Iniciar Sesion:**
+
+![Mobile-wireframes-iniciar-sesion](./assets/Sign%20In.png)
+
+**Recuperar contraseña**
+
+![Mobile-wireframes-iniciar-sesion](./assets/Recovery%20Password.png)
+
+**Vendedor**
+
+![Mobile-wireframes-vendedor-1](./assets/Movil-wireframes-01.png)
+![Mobile-wireframes-vendedor-2](./assets/Movil-wireframes-02.png)
+![Mobile-wireframes-vendedor-3](./assets/Movil-wireframes-03.png)
+![Mobile-wireframes-vendedor-4](./assets/Movil-wireframes-04.png)
+![Mobile-wireframes-vendedor-5](./assets/Movil-wireframes-05.png)
+![Mobile-wireframes-vendedor-6](./assets/Movil-wireframes-06.png)
+![Mobile-wireframes-vendedor-7](./assets/Movil-wireframes-07.png)
+![Mobile-wireframes-vendedor-8](./assets/Movil-wireframes-08.png)
+![Mobile-wireframes-vendedor-9](./assets/Movil-wireframes-09.png)
+![Mobile-wireframes-vendedor-10](./assets/Movil-wireframes-10.png)
+![Mobile-wireframes-vendedor-11](./assets/Movil-wireframes-11.png)
+![Mobile-wireframes-vendedor-12](./assets/Movil-wireframes-12.png)
+![Mobile-wireframes-vendedor-13](./assets/Movil-wireframes-13.png)
+
+**Comprador**
+
+![Mobile-wireframes-comprador-1](./assets/Movil-wireframes-comprador-01.png)
+![Mobile-wireframes-comprador-2](./assets/Movil-wireframes-comprador-02.png)
+
+![Mobile-wireframes-comprador-3](./assets/Movil-wireframes-comprador-03-arreglado.png)
+![Mobile-wireframes-comprador-4](./assets/Movil-wireframes-comprador-04.png)
+![Mobile-wireframes-comprador-5](./assets/Movil-wireframes-comprador-05.png)
+![Mobile-wireframes-comprador-6](./assets/Movil-wireframes-comprador-06.png)
+
+**Mecanico**
+
+![Mobile-wireframes-mecanico-1](./assets/Movil-wireframes-mecanico-01-arreglado.png)
+![Mobile-wireframes-mecanico-2](./assets/Movil-wireframes-mecanico-02.png)
+  
+
+
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 ### 4.4.3. Mobile Applications Mock-ups.
 
