@@ -497,46 +497,77 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 **Vendedor**
 
 ![Mobile-wireframes-vendedor-1](./assets/Movil-wireframes-01.png)
+---
 ![Mobile-wireframes-vendedor-2](./assets/Movil-wireframes-02.png)
+---
 ![Mobile-wireframes-vendedor-3](./assets/Movil-wireframes-03.png)
+---
 ![Mobile-wireframes-vendedor-4](./assets/Movil-wireframes-04.png)
+---
 ![Mobile-wireframes-vendedor-5](./assets/Movil-wireframes-05.png)
+---
 ![Mobile-wireframes-vendedor-6](./assets/Movil-wireframes-06.png)
+---
 ![Mobile-wireframes-vendedor-7](./assets/Movil-wireframes-07.png)
+---
 ![Mobile-wireframes-vendedor-8](./assets/Movil-wireframes-08.png)
+---
 ![Mobile-wireframes-vendedor-9](./assets/Movil-wireframes-09.png)
+---
 ![Mobile-wireframes-vendedor-10](./assets/Movil-wireframes-10.png)
+---
 ![Mobile-wireframes-vendedor-11](./assets/Movil-wireframes-11.png)
+---
 ![Mobile-wireframes-vendedor-12](./assets/Movil-wireframes-12.png)
+---
 ![Mobile-wireframes-vendedor-13](./assets/Movil-wireframes-13.png)
+---
 
 **Comprador**
 
 ![Mobile-wireframes-comprador-1](./assets/Movil-wireframes-comprador-01.png)
+---
 ![Mobile-wireframes-comprador-2](./assets/Movil-wireframes-comprador-02.png)
-
+---
 ![Mobile-wireframes-comprador-3](./assets/Movil-wireframes-comprador-03-arreglado.png)
+---
 ![Mobile-wireframes-comprador-4](./assets/Movil-wireframes-comprador-04.png)
+---
 ![Mobile-wireframes-comprador-5](./assets/Movil-wireframes-comprador-05.png)
+---
 ![Mobile-wireframes-comprador-6](./assets/Movil-wireframes-comprador-06.png)
 
 **Mecanico**
 
 ![Mobile-wireframes-mecanico-1](./assets/Movil-wireframes-mecanico-01-arreglado.png)
+---
 ![Mobile-wireframes-mecanico-2](./assets/Movil-wireframes-mecanico-02.png)
   
 
 
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
+
+![Mobile-Wireflow-01](./assets/Listado%20de%20Autos%20wireframes.png)
+---
+![Mobile-Wireflow-02](./assets/Ver%20detalle%20completo%20de%20los%20autos%20publicados.png)
+---
+![Mobile-Wireflow-03](./assets/Editar%20un%20anuncio%20de%20Auto%20Listado.png)
+---
+![Mobile-Wireflow-04](./assets/Eliminar%20un%20auto.png)
+---
+![Mobile-Wireflow-05](./assets/Guardar%20auto%20como%20favorito.png)
+---
+![Mobile-Wireflow-06](./assets/Comprar%20auto.png)
+---
 ### 4.4.3. Mobile Applications Mock-ups.
 
 **Iniciar Sesion:**
 
 ![Mobile-mockup-iniciar-Sesion-01](./assets/mobile-mockup-iniciar-sesion-1.png)
-
+---
 ![Mobile-mockup-iniciar-Sesion-02](./assets/mobile-mockup-iniciar-sesion-2.png)
-
+---
 ![Mobile-mockup-iniciar-Sesion-03](./assets/mobile-mockup-iniciar-sesion-3.png)
 
 **Vendedor**
