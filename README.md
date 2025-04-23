@@ -752,11 +752,7 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
 - Buscan una plataforma que les permita listar sus vehículos de forma eficiente y atraer a compradores potenciales.
 - Interesados en un proceso de venta transparente y sin complicaciones, con opciones de verificación y pagos seguros.
 
-**Talleres Técnicos:**
-- Empresas y profesionales que ofrecen servicios de inspección y certificación de vehículos.
-- Buscan una plataforma que les permita promocionar sus servicios y colaborar con compradores y vendedores.
-- Interesados en una mayor visibilidad y demanda de sus servicios, con la posibilidad de ofrecer valor agregado a los usuarios.
-  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br>
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
