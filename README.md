@@ -439,7 +439,7 @@ Mi nombre es Lynn Jeeferzon Meza Camayo, tengo 21 años. Me considero un integra
     </tr>
     <tr align="center">
         <td rowspan="3">
-<img src="assets/Harold-integrante.jpg">
+<img src="assets/integrante-Samuel.png">
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -463,7 +463,7 @@ Samuel Ignacio, Valera Garces
     </tr>
     <tr align="center">
         <td rowspan="3">
-<img src="assets/integrante-Samuel.png">
+<img src="assets/integrante-(name).png">
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
