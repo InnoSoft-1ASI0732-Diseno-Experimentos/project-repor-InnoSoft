@@ -637,8 +637,18 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 ![Mobile-User-Flow-08](./assets/mobile-mockup-user-flow-08.png)
 
 ## 4.5. Mobile Applications Prototyping.
+![Mobile Applications Prototiping](./assets/Mobile%20Applications%20Prototyping.png)
 ### 4.5.1. Android Mobile Applications Prototyping.
+![Mobile Applications Prototiping](./assets/Mobile%20Applications%20Prototyping-android.png)
+
+[Link del video Android](https://drive.google.com/file/d/1MkEfYLDvhWnqCsu8oyKr32VPtOOdNF56/view?usp=sharing)
+
 ### 4.5.2. iOS Mobile Applications Prototyping.
+![Mobile Applications Prototiping](./assets/Mobile%20Applications%20Prototyping-ios.png)
+
+[Link del video IOS](https://drive.google.com/file/d/16jxS-h_tQdrCmrbPsso76fqsp8y62IMh/view?usp=sharing)
+
+
 ## 4.6. Web Applications UX/UI Design.
 ### 4.6.1. Web Applications Wireframes.
 ![Landing-Page-Mock-up:](assets/wireframe-1.png)
