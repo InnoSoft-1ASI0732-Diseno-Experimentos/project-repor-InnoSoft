@@ -35,8 +35,8 @@
       <td>...</td>
   </tr>
   <tr>
-      <td>...</td>
-      <td>...</td>
+      <td>Samuel Ignacio, Valera Garces</td>
+      <td>U202111952</td>
   </tr>
   <tr>
       <td>...</td>
@@ -61,11 +61,11 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
 
 | Integrante | Actvidades Asignadas                       |
 | ---------- | ------------------------------------------ |
-|            | - Entrevista <br> - Capitulo 1<br> -       |
-|            | - Entrevista <br> - Capitulo 2 <br> -      |
-|            | - Entrevista <br> - Capitulo 4 <br> - <br> |
-|            | - Entrevista <br> - Capitulo 3             |
-|            | - Entrevista <br> - Capitulo 4             |
+|            | - ... <br> - Capitulo 1<br> -       |
+|            | - ... <br> - Capitulo 2 <br> -      |
+|            | - ... <br> - Capitulo 4 <br> - <br> |
+|Samuel Ignacio, Valera Garces|- Capitulo 1-3 -> modificaciones             |
+|            | - ... <br> - Capitulo 4             |
 
 **Evidencia**:
 
@@ -137,7 +137,10 @@ conclusiones cual por parte del grupo, que permiten sustentar el haber alcanzado
     <td><b>Conclusiones</b></td>
   </tr>
   <tr>
-    <td><b></b></td>
+    <td><b>4.c.1 Reconoce responsabilidad
+ética y profesional en
+situaciones de ingeniería de
+software </b></td>
     <td><br>
 <br>
    </td>
@@ -145,7 +148,12 @@ conclusiones cual por parte del grupo, que permiten sustentar el haber alcanzado
 </tr>
 <br><br>
   <tr>
-    <td><b></b></td>
+    <td><b>4.c.2 Emite juicios informados
+considerando el impacto de las
+soluciones de ingeniería de
+software en contextos globales,
+económicos, ambientales y
+sociales</b></td>
 <td>
 </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
@@ -436,7 +444,7 @@ Mi nombre es Lynn Jeeferzon Meza Camayo, tengo 21 años. Me considero un integra
         <td align="left">
             <b>Nombre y Apellido:</b>
             <br>            
-...        
+Samuel Ignacio, Valera Garces        
         </td>
     </tr>
     <tr>
@@ -450,12 +458,12 @@ Mi nombre es Lynn Jeeferzon Meza Camayo, tengo 21 años. Me considero un integra
         <td align="left">
         <b>Acerca de:</b>
         <br>
-            ...
+            Hola, mi nombre es Samuel, estudiante de la carrera de Ingeniería de software. Me considero una persona responsable, empática y con adaptación rápida al trabajo en equipo. Cuento con conocimiento en diversos lenguajes de programacion. Mi objetivo a futuro es utilizar la tecnología para el desarrollo de aplicaciones que necesite la sociedad en el día a día. En mis tiempos libres, me gusta practicar guitarra y leer.
         </td>
     </tr>
     <tr align="center">
         <td rowspan="3">
-<img src="assets/integrante-Joaquin.png">
+<img src="assets/integrante-Samuel.png">
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
