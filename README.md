@@ -418,9 +418,9 @@ Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universida
 <img src="assets/integrante-Gerald.jpeg">
         </td>
         <td align="left">
-            <b>Nombre y Apellido:</b>
+            <b>Nombre y Apellido: </b>
             <br>            
-...
+Gerald Patricio Serrano Uchuya
         </td>
     </tr>
     <tr>
@@ -434,7 +434,7 @@ Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universida
         <td align="left">
         <b>Acerca de:</b>
         <br>
-...
+Soy Gerald Serrano. Estoy en 7mp ciclo de Ingeniería de software. Me enfoco en las tecnologías web como Angular, ASP.net y Spring. Soy alguien muy entusiasta al momento de aprender nuevas tecnologías y me gusta cumplir lo mejor que pueda mis responsibilidades en un grupo de trabajo.
         </td>
     </tr>
     <tr align="center">
