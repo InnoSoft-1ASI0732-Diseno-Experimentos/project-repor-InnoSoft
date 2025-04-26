@@ -176,21 +176,20 @@ sociales</b></td>
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
-- [Chapter II: Requirements Elicitation \& Analysis](#chapter-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [Segmento 1: Compradores de Autos de Segunda Mano](#segmento-1-compradores-de-autos-de-segunda-mano)
-      - [Segmento 2: Vendedores de Autos de Segunda Mano](#segmento-2-vendedores-de-autos-de-segunda-mano)
-      - [Segmento 3: Talleres mecánicos encargados de revisiones](#segmento-3-talleres-mecánicos-encargados-de-revisiones)
+    - [1.2.2. Lean UX Process.](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](#21-competidores)
+    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
@@ -198,18 +197,14 @@ sociales</b></td>
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
-- [Chapter III: Requirements Specifications](#chapter-iii-requirements-specifications)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-      - [Impact Mapping 1:](#impact-mapping-1)
-      - [Impact Mapping 2:](#impact-mapping-2)
-      - [Impact Mapping 3:](#impact-mapping-3)
-  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+  - [3.2. User Stories.](#32-user-stories)
+  - [3.3. Product Backlog.](#33-product-backlog)
+  - [3.4. Impact Mapping.](#34-impact-mapping)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-  - [](#-1)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
     - [4.1.3. Mobile Style Guidelines.](#413-mobile-style-guidelines)
       - [4.1.3.1. iOS Mobile Style Guidelines.](#4131-ios-mobile-style-guidelines)
@@ -222,113 +217,25 @@ sociales</b></td>
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-  - [](#-2)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [](#-3)
   - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
-  - [](#-4)
-  - [](#-5)
-  - [](#-6)
-  - [](#-7)
-  - [](#-8)
-  - [](#-9)
-  - [](#-10)
-  - [](#-11)
-  - [](#-12)
-  - [](#-13)
-  - [](#-14)
-  - [](#-15)
-  - [](#-16)
-  - [](#-17)
-  - [](#-18)
-  - [](#-19)
-  - [](#-20)
-  - [](#-21)
-  - [](#-22)
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
-  - [](#-23)
-  - [](#-24)
-  - [](#-25)
-  - [](#-26)
-  - [](#-27)
-  - [](#-28)
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
-  - [](#-29)
-  - [](#-30)
-  - [](#-31)
-  - [](#-32)
-  - [](#-33)
-  - [](#-34)
-  - [](#-35)
-  - [](#-36)
-  - [](#-37)
-  - [](#-38)
-  - [](#-39)
-  - [](#-40)
-  - [](#-41)
-  - [](#-42)
-  - [](#-43)
-  - [](#-44)
-  - [](#-45)
-  - [](#-46)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
-  - [](#-47)
-  - [](#-48)
-  - [](#-49)
-  - [](#-50)
-  - [](#-51)
-  - [](#-52)
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
     - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
   - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
     - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
-  - [](#-53)
-  - [](#-54)
-  - [](#-55)
-  - [](#-56)
-  - [](#-57)
-  - [](#-58)
-  - [](#-59)
-  - [](#-60)
-  - [](#-61)
-  - [](#-62)
-  - [](#-63)
-  - [](#-64)
-  - [](#-65)
-  - [](#-66)
-  - [](#-67)
-  - [](#-68)
-  - [](#-69)
-  - [](#-70)
-  - [](#-71)
-  - [](#-72)
     - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
-  - [](#-73)
-  - [](#-74)
-  - [](#-75)
-  - [](#-76)
-  - [](#-77)
-  - [](#-78)
-  - [](#-79)
-  - [](#-80)
-  - [](#-81)
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
-      - [Login](#login)
-    - [Vista del vendedor](#vista-del-vendedor)
-    - [Vista del comprador](#vista-del-comprador)
-    - [Vista del mecánico](#vista-del-mecánico)
     - [4.6.4. Web Applications User Flow Diagrams.](#464-web-applications-user-flow-diagrams)
   - [4.7. Web Applications Prototyping.](#47-web-applications-prototyping)
   - [4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)
     - [4.8.1. Software Architecture Context Diagram.](#481-software-architecture-context-diagram)
     - [4.8.2. Software Architecture Container Diagrams.](#482-software-architecture-container-diagrams)
     - [4.8.3. Software Architecture Components Diagrams.](#483-software-architecture-components-diagrams)
-    - [- Authentication Bounded Context](#--authentication-bounded-context)
-    - [- Payment Bounded Context](#--payment-bounded-context)
-    - [- User Interaction Bounded Context](#--user-interaction-bounded-context)
-    - [- Vehicle Management Bounded Context](#--vehicle-management-bounded-context)
   - [4.9. Software Object-Oriented Design.](#49-software-object-oriented-design)
     - [4.9.1. Class Diagrams.](#491-class-diagrams)
     - [4.9.2. Class Dictionary.](#492-class-dictionary)
@@ -427,6 +334,8 @@ sociales</b></td>
   - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
     - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 - [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Video About-the-Team.](#video-about-the-team)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Video About-the-Team.](#video-about-the-team)
 - [Bibliografía](#bibliografía)
@@ -1078,6 +987,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 
 ## 2.3. Needfinding.
 
+
 ### 2.3.1. User Personas.
 
 ### 2.3.2. User Task Matrix.
@@ -1277,7 +1187,9 @@ En esta sección del Product Backlog se encuentran recopiladas todas las User St
 
 # Capítulo IV: Product Design
 
+
 ## 4.1. Style Guidelines.
+
 
 ### 4.1.1. General Style Guidelines.
 **Branding:**
@@ -1356,11 +1268,15 @@ _Breackpoints_
 * Y los que usaremos en el proyecto principalmente son los de 768px y 1024px, ya que son los más comunes en los dispositivos móviles y de escritorio.
 ### 4.1.3. Mobile Style Guidelines.
 
+
 #### 4.1.3.1. iOS Mobile Style Guidelines.
+
 
 #### 4.1.3.2. Android Mobile Style Guidelines.
 
+
 ## 4.2. Information Architecture.
+
 
 ### 4.2.1. Organization Systems.
 El sitio web se dividirá en las siguientes secciones:
@@ -1411,6 +1327,7 @@ Navegar por nuestra plataforma debe ser lo suficientemente intuitivo para que lo
 Por otro lado, se agregará la paginación en la parte inferior de la cuadrícula de los resultados. Finalmente, el footer contendrá secciones como "About Us", "Terms and conditions" y "Privacy Policy", así como información de contacto.
 ## 4.3. Landing Page UI Design.
 
+
 ### 4.3.1. Landing Page Wireframe.
 ![Landing-Page-Wireframe:](assets/landing-wireframe.png)
 
@@ -1428,6 +1345,7 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 **Hero alterno 2**:
 ![Landing-Page-Mock-up:](assets/landing-mock-up-hero3.png)
 ## 4.4. Mobile Applications UX/UI Design.
+
 
 ### 4.4.1. Mobile Applications Wireframes.
 **Registrarse:**
@@ -1588,6 +1506,7 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 
 ## 4.6. Web Applications UX/UI Design.
 
+
 ### 4.6.1. Web Applications Wireframes.
 ![Landing-Page-Mock-up:](assets/wireframe-1.png)
 ---
@@ -1747,6 +1666,7 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 
 ## 4.9. Software Object-Oriented Design.
 
+
 ### 4.9.1. Class Diagrams.
 <img src="assets/class-diagram.png" alt="class diagram"/>
 
@@ -1894,11 +1814,120 @@ El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos par
 
 ## 5.1. Software Configuration Management.
 
+A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de **Car2Go**.
+
 ### 5.1.1. Software Development Environment Configuration.
+
+**Requirements Management**
+
+- **Trello:** Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario pertenecientes al sprint a desarrollar.
+  - Ruta de referencia: https://trello.com/es
+
+**Product UX/UI Design**
+
+- **Figma:** Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser.
+
+  - Ruta de referencia: https://www.figma.com/login
+
+- **Lucidchart:** Aplicación para diagramar flujos. Será empleado para el diseño de wireflows, user-flows y el diagrama de clases asociado a la aplicación.
+  - Ruta de referencia: https://www.lucidchart.com/
+
+**Software Development**
+
+- **Visual Studio Code:** Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidade en múltiples sistemas operativos, entre otros beneficios.
+
+  - Ruta de referencia: https://code.visualstudio.com/
+
+- **HTML5:** HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+
+  - Ruta de referencia: https://www.w3schools.com/html/html5_syntax.asp
+
+- **CSS:** Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML.
+  - Ruta de referencia: https://google.github.io/styleguide/htmlcssguide.html
+  -
+- **Bootstrap:** Framework CSS que permitirá crear componentes web de manera rápida y eficiente. Bootstrap se utilizará para la creación de la interfaz responsiva, asegurando que la plataforma funcione correctamente en distintos dispositivos.
+
+  - Ruta de referencia: https://getbootstrap.com/
+
+- **Next.js:** Este framework basado en React es utilizado para optimizar el desarrollo del frontend. Next.js proporciona funcionalidades como el renderizado del lado del servidor (SSR), rutas dinámicas, y la generación estática de sitios (SSG), lo cual mejora la experiencia del usuario y el SEO de la página.
+  - Ruta de referencia: https://nextjs.org/
+    <br>
+    <br>
+
+**Software Deployment**
+<br>
+<br>
+
+- Git: Una herramienta de control de versiones que facilita el registro y la gestión de las distintas versiones del programa. Su propósito es mantener un historial de cambios y simplificar la corrección de errores. Los integrantes del equipo
+  accederán a través de la línea de comandos en sus sistemas locales.
+
+  Ruta de referencia: https://git-scm.com/
+  <br>
+  <br>
+  **Software Documentation and Project Management**
+  <br>
+  <br>
+
+- Github: Una plataforma en la nube que hospedará los repositorios de código del proyecto. Permitirá la colaboración en
+  tiempo real y la revisión de contribuciones de cada miembro del equipo. Los integrantes del equipo podrán acceder a través de sus navegadores web.
+
+  Ruta de referencia: https://github.com/
 
 ### 5.1.2. Source Code Management.
 
+El proyecto seguirá las convenciones del flujo de trabajo establecido por el modelo GitFlow para el control de versiones, empleando GitHub como plataforma y sistema de control de versiones. A continuación, se describirá la implementación de GitFlow como un flujo de trabajo para el control de versiones, junto con el enlace del Landing Page.
+
+**Repositorio de GitHub:**
+
+- Enlace para acceder a la [organización](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa)
+- Enlace para acceder al repositorio de la [landing page](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Landing-page)
+- Enlace para acceder al repositorio del [informe](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa/project-report)
+
+**Flujo de trabajo GitFlow**
+
+El flujo de trabajo a ser implementado para el desarrollo del proyecto se basará en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
+<img src="assets/gitflow.png" alt="gitflow">
+</div>
+
+Gitflow es un modelo de ramificación para Git que se centra en la organización de las ramas de un proyecto de software. El modelo de Gitflow define una serie de ramas estándar y reglas para su uso, lo que facilita la colaboración y la gestión del código en un equipo de desarrollo. En UniRider, utilizamos el modelo de Gitflow para organizar y gestionar las ramas de nuestro proyecto, lo que nos permite trabajar de forma eficiente y colaborativa en el desarrollo de nuestra aplicación web.
+
+La rama **main** es la rama principal de nuestro proyecto, que contiene la versión estables, operativas y listas para implementar de UniRider. Estas variantes han sido previamente evaluadas y se ha verificado la total funcionalidad de estas tras su implementación. Emplearemos etiquetas para identificar cada variante estable y lista para implementar, lo que nos permitirá tener un seguimiento preciso de las variantes y simplificar la administración de futuras actualizaciones.
+
+La rama **develop** es la rama de desarrollo de nuestro proyecto, que contiene la versión en desarrollo de UniRider que aún no han sido sometidas a pruebas, aunque están completadas al 100% y contienen todas las características que se esperan hasta ese momento. Este canal se emplea para cargar la versión y llevar a cabo pruebas finales con el fin de corregir cualquier inconveniente antes de la publicación final en la rama main.
+
+La rama **feature** es la rama de características de nuestro proyecto, que contiene las nuevas características y funcionalidades que se están desarrollando para UniRider. Cada nueva característica se desarrolla en una rama de características separada, lo que permite a los miembros del equipo trabajar de forma independiente en diferentes aspectos de la aplicación y facilita la integración de las nuevas características en la rama de desarrollo.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se seguirán las siguientes convenciones de estilo:
+
+**HTML:**
+
+- Todos los elementos deben estar correctamente cerrados.
+- Declarar el tipo de documento en la primera línea como `<!DOCTYPE html>`.
+- Utilizar comillas en los atributos que contengan espacios.
+- Especificar los atributos `alt`, `width`, y `height` en las imágenes para garantizar la accesibilidad y el rendimiento de la página.
+
+**CSS:**
+
+- Sangría de 2 espacios para mantener el código legible.
+- Todo el código en minúsculas.
+- Usar comentarios explicativos y eliminar espacios en blanco innecesarios.
+- Nombres de clase deben ser descriptivos, reflejando la función o propósito del elemento.
+
+**Bootstrap:**
+
+- Usar las utilidades predefinidas de Bootstrap para componentes y grillas responsivas.
+- Evitar la sobrecarga de estilos personalizados y priorizar el uso de las clases estándar de Bootstrap.
+
+**Next.js:**
+
+- Seguir las convenciones de componentes funcionales de React.
+- Utilizar hooks cuando sea necesario y modularizar el código en componentes reutilizables.
 
 ### 5.1.4. Software Deployment Configuration.
 
@@ -1906,7 +1935,24 @@ El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos par
 
 ### 5.2.1. Sprint Backlogs.
 
+| Sprint                             | Sprint 1                                                                                                                                                                                     |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sprint Planning Background         |
+| Date                               | 2025/04/13                                                                                                                                                                                   |
+| Time                               | 21:00 PM                                                                                                                                                                                     |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                        |
+| Prepared By                        | Meza Camayo, Lynn Jeeferzon                                                                                                                                                                  |
+| Attendees (to planning meeting)    | Meza Camayo, Lynn Jeeferzon/Castilla Pachas, César Antonio/Serrano Uchuya, Gerald Patricio /Alvarado De La Cruz, Juan Carlos/Valera Garcés, Samuel Ignacio                                   |
+| Sprint n – 1 Review Summary        |  -                                                                                |
+| Sprint n – 1 Retrospective Summary |                                                                                                                                                                                              |
+| Sprint Goal & User Stories         |
+| Sprint 1 Goal                      | Desarrollar y desplegar la landing page, aplicación mobil y aplicación web funcional garantizando que cumpla con los requisitos básicos de diseño, contenido y accesibilidad. |
+| Sprint 1 Velocity                  | 8                                                                                                                                                                                            |
+| Sum of Story Points                | 5                                                                                                                                                                                            |
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
