@@ -463,12 +463,12 @@ Samuel Ignacio, Valera Garces
     </tr>
     <tr align="center">
         <td rowspan="3">
-<img src="assets/integrante-(name).png">
+<img src="assets/integrate-juan.jpg">
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
             <br>            
-...
+Juan Carlos, Alvarado De La Cruz
         </td>
     </tr>
     <tr>
@@ -482,7 +482,7 @@ Samuel Ignacio, Valera Garces
         <td align="left">
         <b>Acerca de:</b>
         <br>
-...
+Soy Juan Carlos Alvarado, soy estudiante de la carrera de Ing. de Software. Me gusta resolver problemas y aprender cosas que son de mi interés, tengo experiencia programando en C++ y en Python.
         </td>
     </tr>
 </table>
