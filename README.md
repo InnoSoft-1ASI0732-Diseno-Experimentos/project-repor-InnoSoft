@@ -101,8 +101,6 @@ URL del respositorio de GitHub de la organización: [https://github.com/orgs/Inn
   - [](#-2)
   - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
-    - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
-    - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
   - [](#-3)
   - [](#-4)
   - [](#-5)
@@ -121,19 +119,15 @@ URL del respositorio de GitHub de la organización: [https://github.com/orgs/Inn
   - [](#-18)
   - [](#-19)
   - [](#-20)
-    - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
   - [](#-21)
+    - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
   - [](#-22)
   - [](#-23)
   - [](#-24)
   - [](#-25)
   - [](#-26)
   - [](#-27)
-  - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
-    - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
-    - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
-  - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
-    - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
+    - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
   - [](#-28)
   - [](#-29)
   - [](#-30)
@@ -152,18 +146,48 @@ URL del respositorio de GitHub de la organización: [https://github.com/orgs/Inn
   - [](#-43)
   - [](#-44)
   - [](#-45)
+    - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
   - [](#-46)
   - [](#-47)
-    - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
   - [](#-48)
   - [](#-49)
   - [](#-50)
   - [](#-51)
+  - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
+    - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
+    - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
+  - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
+    - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
   - [](#-52)
   - [](#-53)
   - [](#-54)
   - [](#-55)
   - [](#-56)
+  - [](#-57)
+  - [](#-58)
+  - [](#-59)
+  - [](#-60)
+  - [](#-61)
+  - [](#-62)
+  - [](#-63)
+  - [](#-64)
+  - [](#-65)
+  - [](#-66)
+  - [](#-67)
+  - [](#-68)
+  - [](#-69)
+  - [](#-70)
+  - [](#-71)
+    - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
+  - [](#-72)
+  - [](#-73)
+  - [](#-74)
+  - [](#-75)
+  - [](#-76)
+  - [](#-77)
+  - [](#-78)
+  - [](#-79)
+  - [](#-80)
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
       - [Login](#login)
     - [Vista del vendedor](#vista-del-vendedor)
@@ -542,9 +566,6 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 ![Mobile-wireframes-mecanico-1](./assets/Movil-wireframes-mecanico-01-arreglado.png)
 ---
 ![Mobile-wireframes-mecanico-2](./assets/Movil-wireframes-mecanico-02.png)
-  
-
-
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 
@@ -595,8 +616,7 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 ![Mobile-mockup-vendedor-11](./assets/mobile-mockup-vendedor-11.png)
 ---
 ![Mobile-mockup-vendedor-12](./assets/mobile-mockup-vendedor-12.png)
----
-![Mobile-mockup-vendedor-13](./assets/mobile-mockup-vendedor-13.png)
+
 
 **Comprador**
 
@@ -612,11 +632,6 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 ---
 ![Mobile-mockup-comprador-06](./assets/mobile-mockup-comprador-06.png)
 
-**Mecanico**
-
-![Mobile-mockup-mecanico-01](./assets/mobile-mockup-mecanico-01.png)
----
-![Mobile-mockup-mecanico-02](./assets/mobile-mockup-mecanico-02.png)
 
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
@@ -625,8 +640,6 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 ![Mobile-User-Flow-02](./assets/mobile-mockup-user-flow-02.png)
 ---
 ![Mobile-User-Flow-03](./assets/mobile-mockup-user-flow-03.png)
----
-![Mobile-User-Flow-04](./assets/mobile-mockup-user-flow-04.png)
 ---
 ![Mobile-User-Flow-05](./assets/mobile-mockup-user-flow-05.png)
 ---
