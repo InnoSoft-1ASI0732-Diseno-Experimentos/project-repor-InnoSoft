@@ -142,6 +142,7 @@ conclusiones cual por parte del grupo, que permiten sustentar el haber alcanzado
 situaciones de ingeniería de
 software </b></td>
     <td>TB1:<br>Castilla Pachas Cesar Antonio: <br>Identifico y asumo mi responsabilidad ética y profesional al analizar y tomar decisiones en proyectos de ingeniería de software, respetando principios de honestidad, confidencialidad y calidad. <br>
+    <br>Serrano Uchuya, Gerald Patricio: <br>En esta entrega, demostré responsabilidad ética y profesional al realizar una entrevista a vendedores, garantizando confidencialidad y uso ético de los datos. En el diseño de la Information Architecture, prioricé claridad y accesibilidad para el usuario. Además, los diagramas de clases y base de datos se desarrollaron bajo principios de integridad, seguridad y escalabilidad, asegurando un sistema robusto y alineado con estándares de la ingeniería de software. <br>
 <br>
    </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y diferenciarse de la competencia. Los estilos visuales seleccionados, junto con una cuidadosa organización de la información, garantizan no solo coherencia estética, sino también una navegación intuitiva y un acceso simplificado a las funciones clave para todos los usuarios, independientemente de su nivel de experiencia.<br>
@@ -156,8 +157,10 @@ económicos, ambientales y
 sociales</b></td>
 <td>
 TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluando cómo las soluciones de software afectan de manera global, económica, ambiental y social, proponiendo alternativas responsables.<br>
+<br>Serrano Uchuya, Gerald Patricio: <br>Mediante entrevistas a vendedores de autos, identifiqué necesidades clave y diseñé funcionalidades para la plataforma, evaluando su impacto económico (optimización de ventas), social (transparencia en transacciones) y ambiental (potencial para promover vehículos sostenibles), asegurando que la solución aporte valor tanto a usuarios como al sector automotriz.<br>
 </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
+    
 </tr>
 <br><br>
 </table>
