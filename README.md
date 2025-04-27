@@ -460,15 +460,339 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 10. ¿Qué consideraciones adicionales tendrías al integrarte en una plataforma que busca asegurar la credibilidad de los autos en venta?
 
 <br><br><br><br>
-### 2.2.2. Registro de entrevistas.
-### 2.2.3. Análisis de entrevistas.
+## 2.2.2. Registro de entrevistas.
+
+### **Segmento 1: Compradores de Autos de Segunda Mano**
+
+### **Entrevistado 1:**
+- **Nombre y Apellido:** ...
+- **Edad:** ... años
+- **Tiempo de la entrevista:** ...
+- **Evidencia de la reunión:**
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- **URL del video:** [...](link)
+  <br><br>
+- **Informe de Resumen sobre la entrevista:**
+
+  ...
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+### **Entrevistado 2:**
+- **Nombre y Apellido:** ...
+- **Edad:** ... años
+- **Tiempo de la entrevista:** ...
+- **Evidencia de la reunión:**
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- **URL del video:** [...](link)
+  <br><br>
+- **Informe de Resumen sobre la entrevista:**
+
+  ...
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+### **Segmento 2: Vendedores de Autos de Segunda Mano**
+
+### **Entrevistado 1:**
+- **Nombre y Apellido:** ...
+- **Edad:** ... años
+- **Tiempo de la entrevista:** ...
+- **Evidencia de la reunión:**
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- **URL del video:** [...](link)
+  <br><br>
+- **Informe de Resumen sobre la entrevista:**
+
+  ...
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+### **Entrevistado 2:**
+- **Nombre y Apellido:** ...
+- **Edad:** ... años
+- **Tiempo de la entrevista:** ...
+- **Evidencia de la reunión:**
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- **URL del video:** [...](link)
+  <br><br>
+- **Informe de Resumen sobre la entrevista:**
+
+  ...
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+### **Entrevistado 3:**
+- **Nombre y Apellido:** ...
+- **Edad:** ... años
+- **Tiempo de la entrevista:** ...
+- **Evidencia de la reunión:**
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- **URL del video:** [...](link)
+  <br><br>
+- **Informe de Resumen sobre la entrevista:**
+
+  ...
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+## 2.2.3. Análisis de entrevistas
+**Segmento objetivo: Compradores de Autos de Segunda Mano**
+
+En las entrevistas con Gabriel Martel y Anatoly Noriega, encontramos que ambos coinciden en la importancia de la transparencia por parte del vendedor, así como en la necesidad de contar con revisiones técnicas recientes para garantizar el estado del auto. Ambos compradores también priorizan el kilometraje como un factor clave en su decisión de compra. Sin embargo, mientras Gabriel se fija en aspectos estéticos como la pintura, Anatoly pone mayor énfasis en la digitalización del proceso de compra y la obtención de certificaciones verificadas. Este análisis revela que los compradores buscan confianza y seguridad en sus transacciones, siendo la transparencia y la documentación los elementos más valorados.
+
+**Segmento objetivo: Vendedores de Autos de Segunda Mano**
+
+Mijael Yen y Jefrey Sanchez coincidieron en que la desconfianza de los compradores es el principal desafío al intentar vender autos de segunda mano. Ambos destacaron la importancia de proporcionar documentación que garantice la autenticidad del estado del vehículo. Mijael ve en la transparencia una oportunidad para generar confianza con el comprador, mientras que Jefrey considera que establecer un precio justo es clave para acelerar la venta. El análisis muestra que la confianza y una comunicación clara sobre el estado del auto son factores determinantes en el éxito de una venta.
+
+**Segmento objetivo: Talleres Mecánicos**
+
+Tanto Maomed Chocce como Oscar Román destacaron la importancia de revisar los componentes clave del vehículo, como los frenos, el motor y la batería, antes de ponerlos a la venta. Ambos coincidieron en que el kilometraje es uno de los factores más importantes para evaluar el estado del auto. Además, ambos ven en las plataformas tecnológicas una oportunidad para atraer más clientes interesados en revisar autos antes de comprarlos, lo que mejoraría la seguridad en las transacciones.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ## 2.3. Needfinding.
-### 2.3.1. User Personas.
-### 2.3.2. User Task Matrix.
-### 2.3.3. User Journey Mapping.
-### 2.3.4. Empathy Mapping.
-### 2.3.5. As-is Scenario Mapping.
-## 2.4. Ubiquitous Language.
+## 2.3.1. User Personas.
+
+### Compradores de segunda mano:
+
+<img src="assets/UserPersona_Comprador.png">
+
+
+
+### Vendedores de segunda mano:
+
+<img src="assets/UserPersona_Vendedor.jpg">
+
+<br><br><br><br><br><br>
+
+### Talleres mecánicos:
+
+<img src="assets/UserPersona_Talleres.png">
+<br><br><br><br>
+
+
+## 2.3.2. User Task Matrix.
+
+A continuación, presentaremos los User Task Matrix de los segmentos objetivos que encontramos.
+
+<table>
+ <tr>
+    <th>Task Matrix</th>
+    <th colspan="2">Vendedor de autos</th>
+    <th colspan="2">Comprador de autos</th>
+    <th colspan="2">Talleres Mecánicos</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <th>Inspeccionar la pintura del vehículo</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Media</th>
+    <th>Media</th>
+  </tr>
+  <tr>
+    <th>Revisar el kilometraje</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Revisar el historial de mantenimiento</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Evaluar el interior del vehículo</th>
+    <th>Alta</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Baja</th>
+  </tr>
+  <tr>
+    <th>Verificar el funcionamiento del motor</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Comprobar el sistema de frenos</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Verificar los documentos legales</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Revisar el estado de la batería</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Verificar las llantas y la suspensión</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Revisar posibles fugas de fluidos</th>
+    <th>Baja</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+</table>
+
+Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
+<br><br><br><br>
+
+## 2.3.3. User Journey Mapping.
+
+### Compradores de segunda mano:
+
+<img src="assets/Journey_Comprador.png">
+<br><br><br><br><br><br><br><br>
+
+### Vendedores de segunda mano:
+
+<img src="assets/Journey_Vendedor.png">
+
+### Talleres mecánicos:
+
+<img src="assets/Journey_Talleres.png">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## 2.3.4. Empathy Mapping.
+
+### Compradores de segunda mano:
+
+<img src="assets/Empathy_Comprador.png">
+<br><br><br><br><br><br>
+
+### Vendedores de segunda mano:
+
+<img src="assets/Empathy_Vendedor.png">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Talleres mecánicos:
+
+<img src="assets/Empathy_Talleres.png">
+<br><br><br><br><br><br><br><br><br>
+
+## 2.3.5. As-is Scenario Mapping
+
+### Segmento Objetivo #1:  Compradores de autos de segunda mano (25-45 años)
+
+<img src="assets/As-Is_Comprador.png">
+
+### Segmento Objetivo #2: Vendedores de autos de segunda mano (25-55 años)
+
+<img src="assets/As-Is_Vendedor.png">
+
+### Segmento Objetivo #3:  Talleres mecánicos
+
+<img src="assets/As-Is_Talleres.png">
+
+
+[LINK DEL MIRO](https://miro.com/app/board/uXjVMm70eUI=/?share_link_id=313743584808)
+<br><br>
+
+## 2.4 Ubiquitous Language
+
+1. **Comprador:** Persona que está interesada en adquirir un auto de segunda mano.
+
+2. **Vendedor:** Persona que ofrece su auto para la venta en la plataforma.
+
+3. **Auto Verificado:** Vehículo que ha pasado por una inspección técnica realizada por un taller mecánico asociado.
+
+4. **Taller Mecánico:** Entidad o empresa encargada de revisar y certificar el estado de los autos listados en la plataforma.
+
+5. **Transacción Segura:** Proceso de compra-venta en el que se utiliza el sistema de pagos de la plataforma para asegurar que ambas partes cumplan con sus compromisos.
+
+6. **Anuncio Destacado:** Publicación que aparece en la parte superior de los resultados de búsqueda para mejorar la visibilidad del auto que está en venta.
+
+7. **Inspección Técnica:** Proceso mediante el cual un taller verifica el estado del auto en términos de mecánica, carrocería, y documentación.
+
+8. **Historial del Auto:** Registro de los eventos relevantes asociados al vehículo, como reparaciones, multas o accidentes anteriores.
+
+9. **Kilometraje:** Distancia total recorrida por el auto, un indicador clave del desgaste del vehículo.
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
 ## 3.2. User Stories.
