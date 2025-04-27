@@ -59,13 +59,13 @@ _TB1_
 
 Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la siguiente forma:
 
-| Integrante | Actvidades Asignadas                       |
-| ---------- | ------------------------------------------ |
-|            | - ... <br> - Capitulo 1<br> -       |
-|            | - ... <br> - Capitulo 2 <br> -      |
-|            | - ... <br> - Capitulo 4 <br> - <br> |
-|Samuel Ignacio, Valera Garces|- Capitulo 1-3 -> modificaciones             |
-|            | - ... <br> - Capitulo 4             |
+| Integrante                    | Actvidades Asignadas          |
+|-------------------------------|-------------------------------|
+|                               | - ... <br> - Capitulo 1<br> - |
+| Castilla Pachas Cesar Antonio | - Capitulo 3 <br> - App movil |
+|                               | - ... <br> - Capitulo 4 <br> - <br> |
+| Samuel Ignacio, Valera Garces | - Capitulo 1-3 -> modificaciones |
+|                               | - ... <br> - Capitulo 4       |
 
 **Evidencia**:
 
@@ -141,7 +141,7 @@ conclusiones cual por parte del grupo, que permiten sustentar el haber alcanzado
 ética y profesional en
 situaciones de ingeniería de
 software </b></td>
-    <td><br>
+    <td>TB1:<br>Castilla Pachas Cesar Antonio: <br>Identifico y asumo mi responsabilidad ética y profesional al analizar y tomar decisiones en proyectos de ingeniería de software, respetando principios de honestidad, confidencialidad y calidad. <br>
 <br>
    </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y diferenciarse de la competencia. Los estilos visuales seleccionados, junto con una cuidadosa organización de la información, garantizan no solo coherencia estética, sino también una navegación intuitiva y un acceso simplificado a las funciones clave para todos los usuarios, independientemente de su nivel de experiencia.<br>
@@ -155,6 +155,7 @@ software en contextos globales,
 económicos, ambientales y
 sociales</b></td>
 <td>
+TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluando cómo las soluciones de software afectan de manera global, económica, ambiental y social, proponiendo alternativas responsables.<br>
 </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
 </tr>
