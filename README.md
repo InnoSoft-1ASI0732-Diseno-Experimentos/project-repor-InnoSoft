@@ -645,8 +645,7 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Importancia</th>
     <th>Frecuencia</th>
     <th>Importancia</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
+
   </tr>
   <tr>
     <th>Inspeccionar la pintura del vehículo</th>
@@ -654,13 +653,9 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
-    <th>Media</th>
-    <th>Media</th>
   </tr>
   <tr>
     <th>Revisar el kilometraje</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -672,8 +667,7 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
-    <th>Alta</th>
-    <th>Alta</th>
+
   </tr>
   <tr>
     <th>Evaluar el interior del vehículo</th>
@@ -681,14 +675,10 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Media</th>
     <th>Alta</th>
     <th>Media</th>
-    <th>Media</th>
-    <th>Baja</th>
   </tr>
   <tr>
     <th>Verificar el funcionamiento del motor</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -699,13 +689,9 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
-    <th>Alta</th>
-    <th>Alta</th>
   </tr>
   <tr>
     <th>Verificar los documentos legales</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -717,14 +703,10 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Media</th>
     <th>Media</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
   </tr>
   <tr>
     <th>Verificar las llantas y la suspensión</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -734,8 +716,6 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Baja</th>
     <th>Media</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
   </tr>
 </table>
