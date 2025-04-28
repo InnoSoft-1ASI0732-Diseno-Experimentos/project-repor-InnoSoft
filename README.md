@@ -560,6 +560,56 @@ El usuario puede enviar sus consultas directamente a través de un formulario de
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+En esta sección se presentan las evidencias de la aplicación movil, la cual fue desarrollada en Android Studio. La aplicación movil cuenta con un diseño responsivo y amigable para el usuario, permitiendo una mejor experiencia al momento de navegar por la aplicación.
+
+- Login screens
+
+![alt text](assets/sign-in-mobile.png)
+![alt text](assets/sign-up-mobile.png)
+![alt text](assets/password-recovery-mobile.png)
+
+**- Vendedor**
+
+- Home screen
+
+![alt text](assets/home-mobile.png)
+![alt text](assets/screens-mobile.png)
+
+- Car list screen
+
+![alt text](assets/car-listing-mobile.png)
+
+- My car screen
+
+![alt text](assets/my-cars-mobile.png)
+![alt text](assets/my-cars-mobile-2.png)
+
+- Car details screen
+
+![alt text](assets/car-details-mobile.png)
+
+- Car sell screen
+
+![alt text](assets/sell-car-mobile-1.png)
+![alt text](assets/sell-car-mobile-2.png)
+![alt text](assets/sell-car-mobile-3.png)
+![alt text](assets/sell-car-mobile-4.png)
+
+- Plan screen
+
+![alt text](assets/plans-mobile.png)
+
+- Profile screen
+
+![alt text](assets/profile-mobile.png)
+
+- Wallet screen
+
+![alt text](assets/wallet-mobile.png)
+
+Execution Evidence for Sprint Review
+
+Link : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUC_C6MPuDRBofzl1uDSLbABCOi6iZImr5IjzSq1ufzQeQ?e=pSoNBi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
