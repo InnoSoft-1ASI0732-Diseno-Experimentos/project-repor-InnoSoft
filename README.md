@@ -199,15 +199,16 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
       - [Segmento 1: Compradores de Autos de Segunda Mano](#segmento-1-compradores-de-autos-de-segunda-mano)
       - [Segmento 2: Vendedores de Autos de Segunda Mano](#segmento-2-vendedores-de-autos-de-segunda-mano)
-      - [Segmento 3: Talleres mecánicos encargados de revisiones](#segmento-3-talleres-mecánicos-encargados-de-revisiones)
   - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [**Segmento 1: Compradores de Autos de Segunda Mano**](#segmento-1-compradores-de-autos-de-segunda-mano-1)
     - [**Entrevistado 1:**](#entrevistado-1)
+  - [Piero Ricaldi Solis, nos comenta que los factores principales para que compre un auto este en buen estado, conocer su historial de mantenimiento y si tuvo accidentes. Por ello, siempre pide llevar a un mecánico para verificar su estado. El indica que se sentiría cómodo si hubiera una plataforma que brinde todos los factores que la ve que es necesario para la compra de auto.](#piero-ricaldi-solis-nos-comenta-que-los-factores-principales-para-que-compre-un-auto-este-en-buen-estado-conocer-su-historial-de-mantenimiento-y-si-tuvo-accidentes-por-ello-siempre-pide-llevar-a-un-mecánico-para-verificar-su-estado-el-indica-que-se-sentiría-cómodo-si-hubiera-una-plataforma-que-brinde-todos-los-factores-que-la-ve-que-es-necesario-para-la-compra-de-auto)
     - [**Entrevistado 2:**](#entrevistado-2)
+    - [Entrevistado 3:](#entrevistado-3)
     - [**Segmento 2: Vendedores de Autos de Segunda Mano**](#segmento-2-vendedores-de-autos-de-segunda-mano-1)
     - [**Entrevistado 1:**](#entrevistado-1-1)
     - [**Entrevistado 2:**](#entrevistado-2-1)
-    - [**Entrevistado 3:**](#entrevistado-3)
+    - [**Entrevistado 3:**](#entrevistado-3-1)
   - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
   - [2.3.1. User Personas.](#231-user-personas)
@@ -226,7 +227,6 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
   - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
     - [Segmento Objetivo #1:  Compradores de autos de segunda mano (25-45 años)](#segmento-objetivo-1--compradores-de-autos-de-segunda-mano-25-45-años)
     - [Segmento Objetivo #2: Vendedores de autos de segunda mano (25-55 años)](#segmento-objetivo-2-vendedores-de-autos-de-segunda-mano-25-55-años)
-    - [Segmento Objetivo #3:  Talleres mecánicos](#segmento-objetivo-3--talleres-mecánicos)
   - [2.4 Ubiquitous Language](#24-ubiquitous-language)
 - [Chapter III: Requirements Specifications](#chapter-iii-requirements-specifications)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -252,25 +252,113 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+  - [](#-2)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [](#-3)
   - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
+  - [](#-4)
+  - [](#-5)
+  - [](#-6)
+  - [](#-7)
+  - [](#-8)
+  - [](#-9)
+  - [](#-10)
+  - [](#-11)
+  - [](#-12)
+  - [](#-13)
+  - [](#-14)
+  - [](#-15)
+  - [](#-16)
+  - [](#-17)
+  - [](#-18)
+  - [](#-19)
+  - [](#-20)
+  - [](#-21)
+  - [](#-22)
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
+  - [](#-23)
+  - [](#-24)
+  - [](#-25)
+  - [](#-26)
+  - [](#-27)
+  - [](#-28)
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
+  - [](#-29)
+  - [](#-30)
+  - [](#-31)
+  - [](#-32)
+  - [](#-33)
+  - [](#-34)
+  - [](#-35)
+  - [](#-36)
+  - [](#-37)
+  - [](#-38)
+  - [](#-39)
+  - [](#-40)
+  - [](#-41)
+  - [](#-42)
+  - [](#-43)
+  - [](#-44)
+  - [](#-45)
+  - [](#-46)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
+  - [](#-47)
+  - [](#-48)
+  - [](#-49)
+  - [](#-50)
+  - [](#-51)
+  - [](#-52)
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
     - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
   - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
     - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
+  - [](#-53)
+  - [](#-54)
+  - [](#-55)
+  - [](#-56)
+  - [](#-57)
+  - [](#-58)
+  - [](#-59)
+  - [](#-60)
+  - [](#-61)
+  - [](#-62)
+  - [](#-63)
+  - [](#-64)
+  - [](#-65)
+  - [](#-66)
+  - [](#-67)
+  - [](#-68)
+  - [](#-69)
+  - [](#-70)
+  - [](#-71)
+  - [](#-72)
     - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
+  - [](#-73)
+  - [](#-74)
+  - [](#-75)
+  - [](#-76)
+  - [](#-77)
+  - [](#-78)
+  - [](#-79)
+  - [](#-80)
+  - [](#-81)
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
+      - [Login](#login)
+    - [Vista del vendedor](#vista-del-vendedor)
+    - [Vista del comprador](#vista-del-comprador)
+    - [Vista del mecánico](#vista-del-mecánico)
     - [4.6.4. Web Applications User Flow Diagrams.](#464-web-applications-user-flow-diagrams)
   - [4.7. Web Applications Prototyping.](#47-web-applications-prototyping)
   - [4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)
     - [4.8.1. Software Architecture Context Diagram.](#481-software-architecture-context-diagram)
     - [4.8.2. Software Architecture Container Diagrams.](#482-software-architecture-container-diagrams)
     - [4.8.3. Software Architecture Components Diagrams.](#483-software-architecture-components-diagrams)
+    - [- Authentication Bounded Context](#--authentication-bounded-context)
+    - [- Payment Bounded Context](#--payment-bounded-context)
+    - [- User Interaction Bounded Context](#--user-interaction-bounded-context)
+    - [- Vehicle Management Bounded Context](#--vehicle-management-bounded-context)
   - [4.9. Software Object-Oriented Design.](#49-software-object-oriented-design)
     - [4.9.1. Class Diagrams.](#491-class-diagrams)
     - [4.9.2. Class Dictionary.](#492-class-dictionary)
@@ -1004,41 +1092,28 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 9. ¿Qué tan dispuesto estarías a pagar una tarifa adicional por servicios que aumenten la confianza del comprador?
 10. ¿Qué características o servicios adicionales te gustaría que ofreciera una plataforma dedicada a la venta de autos de segunda mano?
 
-#### Segmento 3: Talleres mecánicos encargados de revisiones
-1.  ¿Cuál es tu nivel de experiencia en realizar inspecciones y revisiones para la venta de autos de segunda mano?
-2.  ¿Qué tipos de revisiones crees que son esenciales para garantizar la calidad y seguridad de un vehículo usado?
-3.  ¿Qué tan interesado estarías en asociarte con una plataforma que te conecte con vendedores que buscan revisiones pagadas?
-4.  ¿Qué tipo de certificaciones o informes sueles emitir después de realizar una inspección completa?
-5.  ¿Cómo garantizarías la precisión y objetividad en los datos que proporcionas sobre un vehículo?
-6.  ¿Qué tipos de revisiones o servicios adicionales te gustaría ofrecer a través de una plataforma de venta de autos?
-7.  ¿Cómo gestionarías la demanda de revisiones si el volumen de solicitudes aumenta debido a la asociación con la plataforma?
-8.  ¿Qué tan importante es para ti mantener una buena reputación y confianza entre compradores y vendedores?
-9.  ¿Cómo valorarías la oportunidad de aumentar tus ingresos a través de estas revisiones pagadas?
-10. ¿Qué consideraciones adicionales tendrías al integrarte en una plataforma que busca asegurar la credibilidad de los autos en venta?
-
 <br><br><br><br>
 ## 2.2.2. Registro de entrevistas.
 
 ### **Segmento 1: Compradores de Autos de Segunda Mano**
 
 ### **Entrevistado 1:**
-- **Nombre y Apellido:** Joan Teves
-- **Edad:**  26 años
-- **Tiempo de la entrevista:** 3:22
+- **Nombre y Apellido:** Piero Ricaldi Solis
+- **Edad:** 23 años
+- **Tiempo de la entrevista:** 2:48
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/entrevista-imagen.png" alt="Entrevista Mijael" width="800"/>
+    <img src="./assets/Entrevista_Piero.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [https://drive.google.com/file/d/1vrdnvqR9zZ469q7DMIi8fNAAvQMUhmsU/view?usp=sharing](link)
+- **URL del video:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EQtn_9T6rBpCtL5UbA802LQBJMlBk9RKEmm_UDCCrcZYZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=42NQEh>
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  <br>El entrevistado prioriza el buen estado mecánico, el kilometraje, la ausencia de choques graves y la reputación del vendedor al comprar un auto usado. Considera imprescindible conocer el historial de mantenimiento, accidentes, número de dueños y deudas pendientes. Para verificar la credibilidad del vendedor y el estado del vehículo, revisa documentos oficiales (SOAT, revisión técnica) y a veces lleva a un mecánico de confianza. Valora mucho la transparencia y se sentiría más seguro si el auto cuenta con reportes técnicos verificados por talleres confiables, incluso estaría dispuesto a pagar más por ello. Ha enfrentado problemas como ocultamiento de fallas mecánicas o manipulación del kilometraje. Aunque utiliza plataformas en línea para buscar opciones, le preocupa la falta de validación en ellas. Le gustaría que estas plataformas ofrezcan reportes técnicos, alertas de antecedentes, chat directo con vendedores y filtros de autos verificados. Finalmente, confía más en concesionarios por las garantías ofrecidas, aunque también consideraría a particulares si toda la documentación está en regla.<br>
-
+  Piero Ricaldi Solis, nos comenta que los factores principales para que compre un auto este en buen estado, conocer su historial de mantenimiento y si tuvo accidentes. Por ello, siempre pide llevar a un mecánico para verificar su estado. El indica que se sentiría cómodo si hubiera una plataforma que brinde todos los factores que la ve que es necesario para la compra de auto.
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
