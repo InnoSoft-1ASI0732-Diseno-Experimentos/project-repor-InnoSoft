@@ -638,7 +638,6 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Task Matrix</th>
     <th colspan="2">Vendedor de autos</th>
     <th colspan="2">Comprador de autos</th>
-    <th colspan="2">Talleres Mecánicos</th>
   </tr>
   <tr>
     <th></th>
@@ -741,7 +740,7 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
   </tr>
 </table>
 
-Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
+Podemos ver que hay muchas actividades que comparten los 2 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
 <br><br><br><br>
 
 ## 2.3.3. User Journey Mapping.
@@ -787,10 +786,6 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 ### Segmento Objetivo #2: Vendedores de autos de segunda mano (25-55 años)
 
 <img src="assets/As-Is_Vendedor.png">
-
-### Segmento Objetivo #3:  Talleres mecánicos
-
-<img src="assets/As-Is_Talleres.png">
 
 
 [LINK DEL MIRO](https://miro.com/app/board/uXjVMm70eUI=/?share_link_id=313743584808)
