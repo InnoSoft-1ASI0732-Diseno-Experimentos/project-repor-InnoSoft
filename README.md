@@ -563,6 +563,14 @@ El usuario puede enviar sus consultas directamente a través de un formulario de
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
+
+![alt text](assets/Swagger01.jpg)
+![alt text](assets/Swagger02.jpg)
+![alt text](assets/Swagger03.jpg)
+![alt text](assets/Swagger04.jpg)
+
+
 ### 5.2.6. RESTful API documentation
 
 ### 5.2.7. Team Collaboration Insights
