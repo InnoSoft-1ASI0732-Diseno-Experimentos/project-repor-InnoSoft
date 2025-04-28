@@ -370,8 +370,16 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Product Implementation \& Deployment.](#52-product-implementation--deployment)
+    - [Sprint 1](#sprint-1)
     - [5.2.1. Sprint Backlogs.](#521-sprint-backlogs)
+    - [Tabla de control de estado Sprint 1](#tabla-de-control-de-estado-sprint-1)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+- [-Sección inicio:](#-sección-inicio)
+- [-Sección What We Offer:](#-sección-what-we-offer)
+- [-Sección Planes:](#-sección-planes)
+- [-Sección About Us::](#-sección-about-us)
+- [-Sección Our Team:](#-sección-our-team)
+- [-Sección Contacto:](#-sección-contacto)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
     - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
@@ -2406,7 +2414,9 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 
 ## 5.2. Product Implementation & Deployment.
 
-### 5.2.1. Sprint Backlogs.
+### Sprint 1
+
+Sprint planning
 
 | Sprint                             | Sprint 1                                                                                                                                                                      |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2420,20 +2430,149 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 | Sprint n – 1 Retrospective Summary |                                                                                                                                                                               |
 | Sprint Goal & User Stories         |
 | Sprint 1 Goal                      | Desarrollar y desplegar la landing page, aplicación mobil y aplicación web funcional garantizando que cumpla con los requisitos básicos de diseño, contenido y accesibilidad. |
-| Sprint 1 Velocity                  | 8                                                                                                                                                                             |
-| Sum of Story Points                | 5                                                                                                                                                                             |
+| Sprint 1 Velocity                  | 8                                                                                                                                                                                            |
+| Sum of Story Points                | 5                                                                                                                                                                                            |
+
+
+
+### 5.2.1. Sprint Backlogs.
+
+### Tabla de control de estado Sprint 1
+
+| User Story ID | User Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|:--------------|:-----------------|:--------|:-----------|:-----------------|:------------------|:------------|:-------|
+| US-01 | Registro de Usuario | T-01 | Implementar API de registro | Backend para creación de cuentas de usuario | 8h | Alvarado De La Cruz, Juan Carlos | Done |
+| US-01 | Registro de Usuario | T-02 | Diseñar formulario de registro | Frontend web/mobile para registro de usuarios | 6h | Castilla Pachas, Cesar Antonio | Done |
+| US-01 | Registro de Usuario | T-03 | Validación de datos | Validar datos antes de enviar registro | 4h | Serrano Uchuya, Gerald Patricio| Done |
+| US-01 | Registro de Usuario | T-04 | Recuperación de contraseña | Módulo de recuperación de contraseña | 5h | Valera Garcés, Samuel Ignacio | Done |
+| US-02 | Búsqueda de Autos | T-05 | API de búsqueda de autos | Crear endpoint para buscar autos por filtros | 7h | Meza Camayo, Lynn Jeeferzon | In-Process |
+| US-02 | Búsqueda de Autos | T-06 | Interfaz de búsqueda | Frontend de filtros y resultados | 6h | Alvarado De La Cruz, Juan Carlos | Done |
+| US-03 | Listado de Autos | T-07 | API de publicación de autos | Crear endpoint para agregar autos | 7h | Meza Camayo, Lynn Jeeferzon | Done |
+| US-03 | Listado de Autos | T-08 | Formulario de listado | Formulario de frontend para agregar autos | 6h | Serrano Uchuya, Gerald Patricio  | Done |
+| US-04 | Edición de Listado de Autos | T-09 | API de edición de autos | Actualizar información del auto listado | 5h | Valera Garcés, Samuel Ignacio | Done |
+| US-04 | Edición de Listado de Autos | T-10 | Interfaz de edición | UI para editar autos en perfil | 4h | Castilla Pachas, Cesar Antonio | Done |
+| US-06 | Ver Detalles del Auto | T-11 | API de detalles de autos | Obtener información completa de autos | 5h |Alvarado De La Cruz, Juan Carlos | Done |
+| US-06 | Ver Detalles del Auto | T-12 | Pantalla de detalles de auto | Mostrar datos de autos en frontend | 5h | Meza Camayo, Lynn Jeeferzon | Done |
+| US-08 | Guardar Autos Favoritos | T-13 | API de favoritos | Endpoint para guardar autos como favoritos | 4h | Serrano Uchuya, Gerald Patricio | Done |
+| US-08 | Guardar Autos Favoritos | T-14 | Funcionalidad de "Agregar a favoritos" | Botón en el frontend para guardar favoritos | 4h | Valera Garcés, Samuel Ignacio | Done |
+| US-16 | Sistema de Pago Seguro | T-15 | Diseño de wallet | Permitir que usuarios configuren su wallet | 5h | Castilla Pachas, Cesar Antonio | In-Process |
+| US-17 | Confirmación de Transacción | T-16 | Lógica de confirmación de compra | Notificar sobre transacciones realizadas | 5h | Alvarado De La Cruz, Juan Carlos | In-Process |
+
+---
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+Se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La página muestra varias secciones en las que el usuario puede encontrar información relevante sobre los servicios, planes y equipo de Car2Go. A continuación se presentan evidencias del progreso logrado:
+
+
+# -Sección inicio:
+El usuario puede visualizar el inicio de la alnding page.
+
+![alt text](assets/list-cars.png)
+
+# -Sección What We Offer: 
+El usuario puede ver las características clave que ofrecemos, como transacciones seguras, verificación de calidad, talleres especializados y pagos seguros.
+
+![alt text](assets/whatweoffer.png)
+
+# -Sección Planes:
+El usuario puede ver los planes que opfrecemos, los cuales se adaptan dependiendo de las necesidades y uso del usuario.
+
+![alt text](assets/planes.png)
+
+# -Sección About Us::
+En esta sección, el usuario puede conocer más sobre la misión y visión de Car2Go, así como entender nuestro compromiso con la seguridad y el servicio al cliente.
+
+![alt text](assets/aboutus.png)
+
+# -Sección Our Team:
+El usuario puede conocer a los miembros clave del equipo de Car2Go y leer sus testimonios.
+
+![alt text](assets/ourteam.png)
+
+
+# -Sección Contacto:
+El usuario puede enviar sus consultas directamente a través de un formulario de contacto, o utilizar las opciones de contacto directo proporcionadas.
+
+![alt text](assets/contacto.png)
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+A continuación, se muestran algunos de los resultados de las diferentes pantallas al ejecutar la aplicación.
+
+![login-screen](https://github.com/user-attachments/assets/b69e84bc-0a47-493f-aeee-3c2d1af0fc6e)
+![car-details](https://github.com/user-attachments/assets/ebe26857-cad9-4a80-b9c9-718807797992)
+![list-cars](https://github.com/user-attachments/assets/b48f9459-b6a7-4bb4-aefd-4eb083c4f227)
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+En esta sección se presentan las evidencias de la aplicación movil, la cual fue desarrollada en Android Studio. La aplicación movil cuenta con un diseño responsivo y amigable para el usuario, permitiendo una mejor experiencia al momento de navegar por la aplicación.
+
+- Login screens
+
+![alt text](assets/sign-in-mobile.png)
+![alt text](assets/sign-up-mobile.png)
+![alt text](assets/password-recovery-mobile.png)
+
+**- Vendedor**
+
+- Home screen
+
+![alt text](assets/home-mobile.png)
+![alt text](assets/screens-mobile.png)
+
+- Car list screen
+
+![alt text](assets/car-listing-mobile.png)
+
+- My car screen
+
+![alt text](assets/my-cars-mobile.png)
+![alt text](assets/my-cars-mobile-2.png)
+
+- Car details screen
+
+![alt text](assets/car-details-mobile.png)
+
+- Car sell screen
+
+![alt text](assets/sell-car-mobile-1.png)
+![alt text](assets/sell-car-mobile-2.png)
+![alt text](assets/sell-car-mobile-3.png)
+![alt text](assets/sell-car-mobile-4.png)
+
+- Plan screen
+
+![alt text](assets/plans-mobile.png)
+
+- Profile screen
+
+![alt text](assets/profile-mobile.png)
+
+- Wallet screen
+
+![alt text](assets/wallet-mobile.png)
+
+Execution Evidence for Sprint Review
+
+Link : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUC_C6MPuDRBofzl1uDSLbABCOi6iZImr5IjzSq1ufzQeQ?e=pSoNBi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
+
+![alt text](assets/Swagger01.jpg)
+![alt text](assets/Swagger02.jpg)
+![alt text](assets/Swagger03.jpg)
+![alt text](assets/Swagger04.jpg)
+
+
 ### 5.2.6. RESTful API documentation
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa
 
 ### 5.2.7. Team Collaboration Insights
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EaRI4vRGmwlCsuV5OCCZwMsB7Z3XHiqhNtDnqI469CBygg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1euKVz
 
 ## 5.3. Video About-the-Product.
 
