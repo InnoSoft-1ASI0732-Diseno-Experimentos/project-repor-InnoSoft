@@ -559,6 +559,7 @@ El usuario puede enviar sus consultas directamente a través de un formulario de
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 En esta sección se presentan las evidencias de la aplicación movil, la cual fue desarrollada en Android Studio. La aplicación movil cuenta con un diseño responsivo y amigable para el usuario, permitiendo una mejor experiencia al momento de navegar por la aplicación.
 
@@ -622,10 +623,12 @@ En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end
 
 
 ### 5.2.6. RESTful API documentation
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa
 
 ### 5.2.7. Team Collaboration Insights
-
-
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EaRI4vRGmwlCsuV5OCCZwMsB7Z3XHiqhNtDnqI469CBygg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1euKVz
 
 ## 5.3. Video About-the-Product.
 
