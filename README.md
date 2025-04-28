@@ -559,6 +559,11 @@ El usuario puede enviar sus consultas directamente a través de un formulario de
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+A continuación, se muestran algunos de los resultados de las diferentes pantallas al ejecutar la aplicación.
+
+![login-screen](https://github.com/user-attachments/assets/b69e84bc-0a47-493f-aeee-3c2d1af0fc6e)
+![car-details](https://github.com/user-attachments/assets/ebe26857-cad9-4a80-b9c9-718807797992)
+![list-cars](https://github.com/user-attachments/assets/b48f9459-b6a7-4bb4-aefd-4eb083c4f227)
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 En esta sección se presentan las evidencias de la aplicación movil, la cual fue desarrollada en Android Studio. La aplicación movil cuenta con un diseño responsivo y amigable para el usuario, permitiendo una mejor experiencia al momento de navegar por la aplicación.
