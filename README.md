@@ -530,6 +530,30 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
+### Entrevistado 3:
+- Nombre y Apellido: Joan Teves
+- Edad: 26 años
+- Tiempo de la entrevista: 3:22
+- Evidencia de la reunión:
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_Joan.png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- URL del video: [(https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ET3RfpgE0qtEriq6mNOAshQB5-9tT4T_lDtaoaJwQQecxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W4fcwE)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ET3RfpgE0qtEriq6mNOAshQB5-9tT4T_lDtaoaJwQQecxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W4fcwE))
+  <br><br>
+- Informe de Resumen sobre la entrevista:
+
+  Joan prioriza el estado mecánico, kilometraje, historial de accidentes y reputación del vendedor al comprar un auto de segunda mano. Necesita información clara sobre mantenimiento, kilometraje real, accidentes, dueños anteriores y deudas. Para verificar, revisa documentos oficiales y a veces lleva un mecánico de confianza.
+
+Destaca que la transparencia es clave y estaría dispuesto a pagar más por un auto con historial técnico verificado. Aunque usa plataformas online para buscar opciones, prefiere que haya validaciones confiables. Confía más en concesionarios, pero también considera particulares si todo está en regla.
+
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
 ### **Segmento 2: Vendedores de Autos de Segunda Mano**
 
 ### **Entrevistado 1:**
