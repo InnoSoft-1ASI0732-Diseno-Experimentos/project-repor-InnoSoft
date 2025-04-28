@@ -1105,18 +1105,18 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 ### **Segmento 1: Compradores de Autos de Segunda Mano**
 
 ### **Entrevistado 1:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Joan Teves
+- **Edad:**  26 años
+- **Tiempo de la entrevista:** 3:22
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/entrevista-imagen.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** [https://drive.google.com/file/d/1vrdnvqR9zZ469q7DMIi8fNAAvQMUhmsU/view?usp=sharing](link)
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
