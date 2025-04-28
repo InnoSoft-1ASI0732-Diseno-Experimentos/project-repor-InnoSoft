@@ -552,22 +552,22 @@ Carlos Alberto, emprender del rubro de venta de autos usados. Nos indica que el 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 2:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Gonzalo Carhuancote
+- **Edad:** 27 años
+- **Tiempo de la entrevista:** 3:26
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/entrevista Gonzalo.png" alt="Entrevista Gonzalo" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ESSfgeVbn0RMmZWCS8jYbRgBKpuGSSry0eVl3E2Fwhq6QA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y3t3Cc](link)
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  El principal reto al vender un auto de segunda mano es generar confianza. Para lograrlo, el vendedor muestra documentos, historial de mantenimiento y permite revisiones técnicas. Cree que un historial verificable acelera la venta y está dispuesto a compartir información en plataformas seguras y pagar tarifas adicionales si mejoran la confianza. Sugiere que las plataformas ofrezcan verificación técnica, asesoría legal, financiamiento y valoraciones basadas en experiencias reales.
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
