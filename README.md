@@ -508,22 +508,24 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 2:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Ariana Quiñones
+- **Edad:** 25 años
+- **Tiempo de la entrevista:** 3:34
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/Entrevista_Ariana.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** [(https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW))
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  Ariana Quiñones, emprendedora de 25 años, habló sobre su interés en comprar autos usados. Destaca la importancia de la confianza en el vendedor, los registros en regla, el historial de mantenimiento, y la verificación en talleres certificados. Prefiere comprar en concesionarios por la seguridad que ofrecen y estaría dispuesta a pagar más por un auto con
+  información transparente. También considera útiles las plataformas online que faciliten contacto directo con el vendedor y den seguimiento postventa.
+
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -573,23 +575,23 @@ Carlos Alberto, emprender del rubro de venta de autos usados. Nos indica que el 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 3:**
-- **Nombre y Apellido:** Ariana Quiñones
-- **Edad:** 25 años
-- **Tiempo de la entrevista:** 3:34
+- **Nombre y Apellido:** Mijael Yen
+- **Edad:** 22 años
+- **Tiempo de la entrevista:** 8:46
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_Ariana.png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/Entrevista_Mijael.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [(https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW))
+- **URL del video:** [(Link Entrevista)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/EQthj2hJ9ItIsxTMuQdwZVIBKDh7E9d098j54Xed3wRA_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qlCcdZ))
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  Ariana Quiñones, emprendedora de 25 años, habló sobre su interés en comprar autos usados. Destaca la importancia de la confianza en el vendedor, los registros en regla, el historial de mantenimiento, y la verificación en talleres certificados. Prefiere comprar en concesionarios por la seguridad que ofrecen y estaría dispuesta a pagar más por un auto con
-  información transparente. También considera útiles las plataformas online que faciliten contacto directo con el vendedor y den seguimiento postventa.
+  Mijael Yen, de 22 años, es analista de ciberseguridad y vendedor ocasional de autos junto a su padre. Explicó que uno de los mayores desafíos al vender autos de segunda mano es generar confianza con los compradores, ya que la venta implica una inversión significativa. Por ello, Mijael enfatiza la importancia de proporcionar toda la documentación del auto, incluyendo certificados de revisión técnica y detalles sobre reparaciones. Comentó que un comprador informado y que tiene acceso a los antecedentes del auto es más probable que confíe en la venta, lo que agiliza el proceso.
+
 
 
 ---
@@ -954,7 +956,6 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 # Video About-the-Team.
 # Bibliografía
 # Anexos
-
 
 
 
