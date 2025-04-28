@@ -1120,7 +1120,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  <br>El entrevistado prioriza el buen estado mecánico, el kilometraje, la ausencia de choques graves y la reputación del vendedor al comprar un auto usado. Considera imprescindible conocer el historial de mantenimiento, accidentes, número de dueños y deudas pendientes. Para verificar la credibilidad del vendedor y el estado del vehículo, revisa documentos oficiales (SOAT, revisión técnica) y a veces lleva a un mecánico de confianza. Valora mucho la transparencia y se sentiría más seguro si el auto cuenta con reportes técnicos verificados por talleres confiables, incluso estaría dispuesto a pagar más por ello. Ha enfrentado problemas como ocultamiento de fallas mecánicas o manipulación del kilometraje. Aunque utiliza plataformas en línea para buscar opciones, le preocupa la falta de validación en ellas. Le gustaría que estas plataformas ofrezcan reportes técnicos, alertas de antecedentes, chat directo con vendedores y filtros de autos verificados. Finalmente, confía más en concesionarios por las garantías ofrecidas, aunque también consideraría a particulares si toda la documentación está en regla.<br>
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
