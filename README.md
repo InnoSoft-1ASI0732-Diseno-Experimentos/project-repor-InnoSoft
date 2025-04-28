@@ -28,7 +28,7 @@
   </tr>
   <tr>
       <td>Castilla Pachas, César Antonio</td>
-      <td>...</td>
+      <td>u202218735</td>
   </tr>
   <tr>
       <td>Serrano Uchuya, Gerald Patricio</td>
