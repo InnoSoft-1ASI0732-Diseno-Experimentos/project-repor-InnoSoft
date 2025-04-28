@@ -551,22 +551,24 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 3:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Ariana Quiñones
+- **Edad:** 25 años
+- **Tiempo de la entrevista:** 3:34
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/Entrevista_Ariana.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** [(https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW))
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  Ariana Quiñones, emprendedora de 25 años, habló sobre su interés en comprar autos usados. Destaca la importancia de la confianza en el vendedor, los registros en regla, el historial de mantenimiento, y la verificación en talleres certificados. Prefiere comprar en concesionarios por la seguridad que ofrecen y estaría dispuesta a pagar más por un auto con
+  información transparente. También considera útiles las plataformas online que faciliten contacto directo con el vendedor y den seguimiento postventa.
+
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -575,15 +577,11 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 ## 2.2.3. Análisis de entrevistas
 **Segmento objetivo: Compradores de Autos de Segunda Mano**
 
-En las entrevistas con Gabriel Martel y Anatoly Noriega, encontramos que ambos coinciden en la importancia de la transparencia por parte del vendedor, así como en la necesidad de contar con revisiones técnicas recientes para garantizar el estado del auto. Ambos compradores también priorizan el kilometraje como un factor clave en su decisión de compra. Sin embargo, mientras Gabriel se fija en aspectos estéticos como la pintura, Anatoly pone mayor énfasis en la digitalización del proceso de compra y la obtención de certificaciones verificadas. Este análisis revela que los compradores buscan confianza y seguridad en sus transacciones, siendo la transparencia y la documentación los elementos más valorados.
-
+Analisis de entrevista Compradores 3:
+En la entrevista, Ariana representa al comprador joven que prioriza la confianza y la transparencia en las transacciones de autos usados. Su interés en registros verificables y su preferencia por concesionarios reflejan una necesidad de seguridad jurídica y técnica. También muestra apertura a plataformas digitales, siempre que éstas ofrezcan acompañamiento posterior a la compra. Esto indica una oportunidad para el mercado online de autos usados si fortalece garantías, historial verificado y soporte al cliente.
 **Segmento objetivo: Vendedores de Autos de Segunda Mano**
 
 Mijael Yen y Jefrey Sanchez coincidieron en que la desconfianza de los compradores es el principal desafío al intentar vender autos de segunda mano. Ambos destacaron la importancia de proporcionar documentación que garantice la autenticidad del estado del vehículo. Mijael ve en la transparencia una oportunidad para generar confianza con el comprador, mientras que Jefrey considera que establecer un precio justo es clave para acelerar la venta. El análisis muestra que la confianza y una comunicación clara sobre el estado del auto son factores determinantes en el éxito de una venta.
-
-**Segmento objetivo: Talleres Mecánicos**
-
-Tanto Maomed Chocce como Oscar Román destacaron la importancia de revisar los componentes clave del vehículo, como los frenos, el motor y la batería, antes de ponerlos a la venta. Ambos coincidieron en que el kilometraje es uno de los factores más importantes para evaluar el estado del auto. Además, ambos ven en las plataformas tecnológicas una oportunidad para atraer más clientes interesados en revisar autos antes de comprarlos, lo que mejoraría la seguridad en las transacciones.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ## 2.3. Needfinding.
