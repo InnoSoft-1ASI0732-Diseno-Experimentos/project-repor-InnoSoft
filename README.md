@@ -523,7 +523,39 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+Se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La página muestra varias secciones en las que el usuario puede encontrar información relevante sobre los servicios, planes y equipo de Car2Go. A continuación se presentan evidencias del progreso logrado:
 
+
+# -Sección inicio:
+El usuario puede visualizar el inicio de la alnding page.
+
+![alt text](assets/list-cars.png)
+
+# -Sección What We Offer: 
+El usuario puede ver las características clave que ofrecemos, como transacciones seguras, verificación de calidad, talleres especializados y pagos seguros.
+
+![alt text](assets/whatweoffer.png)
+
+# -Sección Planes:
+El usuario puede ver los planes que opfrecemos, los cuales se adaptan dependiendo de las necesidades y uso del usuario.
+
+![alt text](assets/planes.png)
+
+# -Sección About Us::
+En esta sección, el usuario puede conocer más sobre la misión y visión de Car2Go, así como entender nuestro compromiso con la seguridad y el servicio al cliente.
+
+![alt text](assets/aboutus.png)
+
+# -Sección Our Team:
+El usuario puede conocer a los miembros clave del equipo de Car2Go y leer sus testimonios.
+
+![alt text](assets/ourteam.png)
+
+
+# -Sección Contacto:
+El usuario puede enviar sus consultas directamente a través de un formulario de contacto, o utilizar las opciones de contacto directo proporcionadas.
+
+![alt text](assets/contacto.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
