@@ -252,113 +252,25 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-  - [](#-2)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [](#-3)
   - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
-  - [](#-4)
-  - [](#-5)
-  - [](#-6)
-  - [](#-7)
-  - [](#-8)
-  - [](#-9)
-  - [](#-10)
-  - [](#-11)
-  - [](#-12)
-  - [](#-13)
-  - [](#-14)
-  - [](#-15)
-  - [](#-16)
-  - [](#-17)
-  - [](#-18)
-  - [](#-19)
-  - [](#-20)
-  - [](#-21)
-  - [](#-22)
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
-  - [](#-23)
-  - [](#-24)
-  - [](#-25)
-  - [](#-26)
-  - [](#-27)
-  - [](#-28)
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
-  - [](#-29)
-  - [](#-30)
-  - [](#-31)
-  - [](#-32)
-  - [](#-33)
-  - [](#-34)
-  - [](#-35)
-  - [](#-36)
-  - [](#-37)
-  - [](#-38)
-  - [](#-39)
-  - [](#-40)
-  - [](#-41)
-  - [](#-42)
-  - [](#-43)
-  - [](#-44)
-  - [](#-45)
-  - [](#-46)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
-  - [](#-47)
-  - [](#-48)
-  - [](#-49)
-  - [](#-50)
-  - [](#-51)
-  - [](#-52)
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
     - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
   - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
     - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
-  - [](#-53)
-  - [](#-54)
-  - [](#-55)
-  - [](#-56)
-  - [](#-57)
-  - [](#-58)
-  - [](#-59)
-  - [](#-60)
-  - [](#-61)
-  - [](#-62)
-  - [](#-63)
-  - [](#-64)
-  - [](#-65)
-  - [](#-66)
-  - [](#-67)
-  - [](#-68)
-  - [](#-69)
-  - [](#-70)
-  - [](#-71)
-  - [](#-72)
     - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
-  - [](#-73)
-  - [](#-74)
-  - [](#-75)
-  - [](#-76)
-  - [](#-77)
-  - [](#-78)
-  - [](#-79)
-  - [](#-80)
-  - [](#-81)
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
-      - [Login](#login)
-    - [Vista del vendedor](#vista-del-vendedor)
-    - [Vista del comprador](#vista-del-comprador)
-    - [Vista del mecánico](#vista-del-mecánico)
     - [4.6.4. Web Applications User Flow Diagrams.](#464-web-applications-user-flow-diagrams)
   - [4.7. Web Applications Prototyping.](#47-web-applications-prototyping)
   - [4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)
     - [4.8.1. Software Architecture Context Diagram.](#481-software-architecture-context-diagram)
     - [4.8.2. Software Architecture Container Diagrams.](#482-software-architecture-container-diagrams)
     - [4.8.3. Software Architecture Components Diagrams.](#483-software-architecture-components-diagrams)
-    - [- Authentication Bounded Context](#--authentication-bounded-context)
-    - [- Payment Bounded Context](#--payment-bounded-context)
-    - [- User Interaction Bounded Context](#--user-interaction-bounded-context)
-    - [- Vehicle Management Bounded Context](#--vehicle-management-bounded-context)
   - [4.9. Software Object-Oriented Design.](#49-software-object-oriented-design)
     - [4.9.1. Class Diagrams.](#491-class-diagrams)
     - [4.9.2. Class Dictionary.](#492-class-dictionary)
@@ -1131,22 +1043,48 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 2:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Ariana Quiñones
+- **Edad:** 25 años
+- **Tiempo de la entrevista:** 3:34
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/Entrevista_Ariana.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW>
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  Ariana Quiñones, emprendedora de 25 años, habló sobre su interés en comprar autos usados. Destaca la importancia de la confianza en el vendedor, los registros en regla, el historial de mantenimiento, y la verificación en talleres certificados. Prefiere comprar en concesionarios por la seguridad que ofrecen y estaría dispuesta a pagar más por un auto con
+  información transparente. También considera útiles las plataformas online que faciliten contacto directo con el vendedor y den seguimiento postventa.
+
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Entrevistado 3:
+- Nombre y Apellido: Joan Teves
+- Edad: 26 años
+- Tiempo de la entrevista: 3:22
+- Evidencia de la reunión:
+  <br><br>
+
+  <div align=center>
+    <img src="assets/Entrevista_Joan.png" alt="Entrevista Mijael" width="800"/>
+  </div>
+<br><br>
+
+- URL del video: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ET3RfpgE0qtEriq6mNOAshQB5-9tT4T_lDtaoaJwQQecxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W4fcwE>
+  <br><br>
+- Informe de Resumen sobre la entrevista:
+
+  Joan prioriza el estado mecánico, kilometraje, historial de accidentes y reputación del vendedor al comprar un auto de segunda mano. Necesita información clara sobre mantenimiento, kilometraje real, accidentes, dueños anteriores y deudas. Para verificar, revisa documentos oficiales y a veces lleva un mecánico de confianza.
+
+Destaca que la transparencia es clave y estaría dispuesto a pagar más por un auto con historial técnico verificado. Aunque usa plataformas online para buscar opciones, prefiere que haya validaciones confiables. Confía más en concesionarios, pero también considera particulares si todo está en regla.
+
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1154,64 +1092,66 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 ### **Segmento 2: Vendedores de Autos de Segunda Mano**
 
 ### **Entrevistado 1:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Carlos Alberto
+- **Edad:** 26 años
+- **Tiempo de la entrevista:** 4:45
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="./assets/entrevista_Clinder.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/ETJOQGQPtd5Ci0nMhu6505EBvhdlegMbiaLTdhGkFiyGAQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UdJMcj>
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+Carlos Alberto, emprender del rubro de venta de autos usados. Nos indica que el mejor punto en ventas de autos el tener la confianza de los compradores, uno de esta confianza es de que no tenga fallas los autos, pero lo principal es mostrando el historial de los autos, como las revisiones y los mantenimientos estén documentados. Además, considera genial utilizar plataformas porque ayuda vender autos más rápidos.
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 2:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Gonzalo Carhuancote
+- **Edad:** 27 años
+- **Tiempo de la entrevista:** 3:26
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/entrevista Gonzalo.png" alt="Entrevista Gonzalo" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ESSfgeVbn0RMmZWCS8jYbRgBKpuGSSry0eVl3E2Fwhq6QA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y3t3Cc](link)
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  El principal reto al vender un auto de segunda mano es generar confianza. Para lograrlo, el vendedor muestra documentos, historial de mantenimiento y permite revisiones técnicas. Cree que un historial verificable acelera la venta y está dispuesto a compartir información en plataformas seguras y pagar tarifas adicionales si mejoran la confianza. Sugiere que las plataformas ofrezcan verificación técnica, asesoría legal, financiamiento y valoraciones basadas en experiencias reales.
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### **Entrevistado 3:**
-- **Nombre y Apellido:** ...
-- **Edad:** ... años
-- **Tiempo de la entrevista:** ...
+- **Nombre y Apellido:** Mijael Yen
+- **Edad:** 22 años
+- **Tiempo de la entrevista:** 8:46
 - **Evidencia de la reunión:**
   <br><br>
 
   <div align=center>
-    <img src="assets/Entrevista_(name).png" alt="Entrevista Mijael" width="800"/>
+    <img src="assets/Entrevista_Mijael.png" alt="Entrevista Mijael" width="800"/>
   </div>
 <br><br>
 
-- **URL del video:** [...](link)
+- **URL del video:** [(Link Entrevista)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/EQthj2hJ9ItIsxTMuQdwZVIBKDh7E9d098j54Xed3wRA_g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qlCcdZ))
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
-  ...
+  Mijael Yen, de 22 años, es analista de ciberseguridad y vendedor ocasional de autos junto a su padre. Explicó que uno de los mayores desafíos al vender autos de segunda mano es generar confianza con los compradores, ya que la venta implica una inversión significativa. Por ello, Mijael enfatiza la importancia de proporcionar toda la documentación del auto, incluyendo certificados de revisión técnica y detalles sobre reparaciones. Comentó que un comprador informado y que tiene acceso a los antecedentes del auto es más probable que confíe en la venta, lo que agiliza el proceso.
+
+
 
 ---
 <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1220,15 +1160,11 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 ## 2.2.3. Análisis de entrevistas
 **Segmento objetivo: Compradores de Autos de Segunda Mano**
 
-En las entrevistas con Gabriel Martel y Anatoly Noriega, encontramos que ambos coinciden en la importancia de la transparencia por parte del vendedor, así como en la necesidad de contar con revisiones técnicas recientes para garantizar el estado del auto. Ambos compradores también priorizan el kilometraje como un factor clave en su decisión de compra. Sin embargo, mientras Gabriel se fija en aspectos estéticos como la pintura, Anatoly pone mayor énfasis en la digitalización del proceso de compra y la obtención de certificaciones verificadas. Este análisis revela que los compradores buscan confianza y seguridad en sus transacciones, siendo la transparencia y la documentación los elementos más valorados.
-
+Analisis de entrevista Compradores 3:
+En la entrevista, Ariana representa al comprador joven que prioriza la confianza y la transparencia en las transacciones de autos usados. Su interés en registros verificables y su preferencia por concesionarios reflejan una necesidad de seguridad jurídica y técnica. También muestra apertura a plataformas digitales, siempre que éstas ofrezcan acompañamiento posterior a la compra. Esto indica una oportunidad para el mercado online de autos usados si fortalece garantías, historial verificado y soporte al cliente.
 **Segmento objetivo: Vendedores de Autos de Segunda Mano**
 
 Mijael Yen y Jefrey Sanchez coincidieron en que la desconfianza de los compradores es el principal desafío al intentar vender autos de segunda mano. Ambos destacaron la importancia de proporcionar documentación que garantice la autenticidad del estado del vehículo. Mijael ve en la transparencia una oportunidad para generar confianza con el comprador, mientras que Jefrey considera que establecer un precio justo es clave para acelerar la venta. El análisis muestra que la confianza y una comunicación clara sobre el estado del auto son factores determinantes en el éxito de una venta.
-
-**Segmento objetivo: Talleres Mecánicos**
-
-Tanto Maomed Chocce como Oscar Román destacaron la importancia de revisar los componentes clave del vehículo, como los frenos, el motor y la batería, antes de ponerlos a la venta. Ambos coincidieron en que el kilometraje es uno de los factores más importantes para evaluar el estado del auto. Además, ambos ven en las plataformas tecnológicas una oportunidad para atraer más clientes interesados en revisar autos antes de comprarlos, lo que mejoraría la seguridad en las transacciones.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ## 2.3. Needfinding.
@@ -1261,7 +1197,6 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Task Matrix</th>
     <th colspan="2">Vendedor de autos</th>
     <th colspan="2">Comprador de autos</th>
-    <th colspan="2">Talleres Mecánicos</th>
   </tr>
   <tr>
     <th></th>
@@ -1269,8 +1204,7 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Importancia</th>
     <th>Frecuencia</th>
     <th>Importancia</th>
-    <th>Frecuencia</th>
-    <th>Importancia</th>
+
   </tr>
   <tr>
     <th>Inspeccionar la pintura del vehículo</th>
@@ -1278,13 +1212,9 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
-    <th>Media</th>
-    <th>Media</th>
   </tr>
   <tr>
     <th>Revisar el kilometraje</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -1296,8 +1226,7 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
-    <th>Alta</th>
-    <th>Alta</th>
+
   </tr>
   <tr>
     <th>Evaluar el interior del vehículo</th>
@@ -1305,14 +1234,10 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Media</th>
     <th>Alta</th>
     <th>Media</th>
-    <th>Media</th>
-    <th>Baja</th>
   </tr>
   <tr>
     <th>Verificar el funcionamiento del motor</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -1323,13 +1248,9 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
-    <th>Alta</th>
-    <th>Alta</th>
   </tr>
   <tr>
     <th>Verificar los documentos legales</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -1341,14 +1262,10 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Media</th>
     <th>Media</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
   </tr>
   <tr>
     <th>Verificar las llantas y la suspensión</th>
     <th>Media</th>
-    <th>Alta</th>
-    <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
     <th>Alta</th>
@@ -1359,12 +1276,10 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
     <th>Media</th>
     <th>Media</th>
     <th>Alta</th>
-    <th>Alta</th>
-    <th>Alta</th>
   </tr>
 </table>
 
-Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
+Podemos ver que hay muchas actividades que comparten los 2 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
 <br><br><br><br>
 
 ## 2.3.3. User Journey Mapping.
@@ -1410,10 +1325,6 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 ### Segmento Objetivo #2: Vendedores de autos de segunda mano (25-55 años)
 
 <img src="assets/As-Is_Vendedor.png">
-
-### Segmento Objetivo #3:  Talleres mecánicos
-
-<img src="assets/As-Is_Talleres.png">
 
 
 [LINK DEL MIRO](https://miro.com/app/board/uXjVMm70eUI=/?share_link_id=313743584808)
@@ -2568,3 +2479,8 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 # Bibliografía
 
 # Anexos
+
+
+
+
+
