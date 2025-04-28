@@ -2572,9 +2572,16 @@ En esta seccion, se muestra la documentacion de los servicios del back end de la
 Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa
 
 ### 5.2.7. Team Collaboration Insights
-link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EaRI4vRGmwlCsuV5OCCZwMsB7Z3XHiqhNtDnqI469CBygg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1euKVz
+En esta seccion, se muestra las evidencias de contribuciones del equipo de desarrollo.
+
+![insights-sprint](./assets/insights-evidence.png)
+![contributiors-sprint](./assets/contributiors-sprint.png)
+![red-sprint](./assets/red-sprint.png)
+
 
 ## 5.3. Video About-the-Product.
+
+link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EaRI4vRGmwlCsuV5OCCZwMsB7Z3XHiqhNtDnqI469CBygg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1euKVz>
 
 # Part II: Verification, Validation & Pipeline
 
