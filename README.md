@@ -519,7 +519,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
   </div>
 <br><br>
 
-- **URL del video:** [(https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW))
+- **URL del video:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EcZzvgGJOyxKqQTOXEenuD4BJvtPrntKl-Tm1przfoEL-g?e=iGw7pW>
   <br><br>
 - **Informe de Resumen sobre la entrevista:**
 
@@ -542,7 +542,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
   </div>
 <br><br>
 
-- URL del video: [(https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ET3RfpgE0qtEriq6mNOAshQB5-9tT4T_lDtaoaJwQQecxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W4fcwE)]([link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ET3RfpgE0qtEriq6mNOAshQB5-9tT4T_lDtaoaJwQQecxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W4fcwE))
+- URL del video: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/ET3RfpgE0qtEriq6mNOAshQB5-9tT4T_lDtaoaJwQQecxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W4fcwE>
   <br><br>
 - Informe de Resumen sobre la entrevista:
 
