@@ -28,11 +28,11 @@
   </tr>
   <tr>
       <td>Castilla Pachas, César Antonio</td>
-      <td>...</td>
+      <td>U202218735</td>
   </tr>
   <tr>
       <td>Serrano Uchuya, Gerald Patricio</td>
-      <td>...</td>
+      <td>U202122876</td>
   </tr>
   <tr>
       <td>Valera Garces, Samuel Ignacio</td>
@@ -40,15 +40,15 @@
   </tr>
   <tr>
       <td>Alvarado De La Cruz, Juan Carlos</td>
-      <td>...</td>
+      <td>U202216150</td>
   </tr>
 </table>
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                             | Descripción de modificación |
-| ------- | ---------- | ------------------------------------------------------------------------------------------------- | --------------------------- |
-| V0.1    | 27/04/2025 | Lynn Jeeferzon <br>  César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br>  Juan Carlos | Desarrollo del primer Hito  |
+| Versión | Fecha      | Autor                                                                                       | Descripción de modificación |
+| ------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------- |
+| V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito  |
 
 ---
 
@@ -59,17 +59,17 @@ _TB1_
 
 Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la siguiente forma:
 
-| Integrante                    | Actvidades Asignadas                |
-| ----------------------------- | ----------------------------------- |
-|  Serrano Uchuya, Gerald Patricio  | - ... <br> - Capitulo 1<br> -       |
-| Castilla Pachas Cesar Antonio | - Capitulo 3 <br> - App movil       |
-| Meza Camayo, Lynn Jeeferzon | - ... <br> - Capitulo 4 <br> - <br> |
-|  Valera Garces, Samuel Ignacio | - Capitulo 1-3 -> modificaciones <br> - landing page   |
-|  Alvarado De La Cruz, Juan Carlos | - ... <br> - Capitulo 4             |
+| Integrante                       | Actvidades Asignadas                                                             |
+| -------------------------------- | -------------------------------------------------------------------------------- |
+| Serrano Uchuya, Gerald Patricio  | - capitulo 4 - 5- Capitulo 1<br> - Entrevista vendedor                           |
+| Castilla Pachas Cesar Antonio    | - Capitulo 3 <br> - App movil <br> - Entrevista vendedor                         |
+| Meza Camayo, Lynn Jeeferzon      | - app movil- Capitulo 4 <br> - Entrevista Comprador <br>                         |
+| Valera Garces, Samuel Ignacio    | - Capitulo 1-3 -> modificaciones <br> - landing page <br> - Entrevista Comprador |
+| Alvarado De La Cruz, Juan Carlos | -app web- Capitulo 4 <br> - Entrevista Comprador y vendedor                      |
 
 **Evidencia**:
 
-![TB1](...)
+![commit-tb1](./assets/contributiors-sprint.png)
 
 ---
 
@@ -180,7 +180,7 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
   - [](#)
 - [Student Outcome](#student-outcome)
 - [Contenido](#contenido)
-    - [Tabla de contenido](#tabla-de-contenido)
+  - [Tabla de contenido](#tabla-de-contenido)
 - [Chapter I: Introducción](#chapter-i-introducción)
   - [1.1. StartUp Profile](#11-startup-profile)
     - [1.1.1. Description de la StartUp](#111-description-de-la-startup)
@@ -202,14 +202,6 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
       - [Segmento 1: Compradores de Autos de Segunda Mano](#segmento-1-compradores-de-autos-de-segunda-mano)
       - [Segmento 2: Vendedores de Autos de Segunda Mano](#segmento-2-vendedores-de-autos-de-segunda-mano)
   - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [**Segmento 1: Compradores de Autos de Segunda Mano**](#segmento-1-compradores-de-autos-de-segunda-mano-1)
-    - [**Entrevistado 1:**](#entrevistado-1)
-    - [**Entrevistado 2:**](#entrevistado-2)
-    - [Entrevistado 3:](#entrevistado-3)
-    - [**Segmento 2: Vendedores de Autos de Segunda Mano**](#segmento-2-vendedores-de-autos-de-segunda-mano-1)
-    - [**Entrevistado 1:**](#entrevistado-1-1)
-    - [**Entrevistado 2:**](#entrevistado-2-1)
-    - [**Entrevistado 3:**](#entrevistado-3-1)
   - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding.](#23-needfinding)
   - [2.3.1. User Personas.](#231-user-personas)
@@ -233,9 +225,9 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
-      - [Impact Mapping 1:](#impact-mapping-1)
-      - [Impact Mapping 2:](#impact-mapping-2)
-      - [Impact Mapping 3:](#impact-mapping-3)
+    - [Impact Mapping 1:](#impact-mapping-1)
+    - [Impact Mapping 2:](#impact-mapping-2)
+    - [Impact Mapping 3:](#impact-mapping-3)
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
@@ -256,93 +248,15 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
   - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
-  - [](#-2)
-  - [](#-3)
-  - [](#-4)
-  - [](#-5)
-  - [](#-6)
-  - [](#-7)
-  - [](#-8)
-  - [](#-9)
-  - [](#-10)
-  - [](#-11)
-  - [](#-12)
-  - [](#-13)
-  - [](#-14)
-  - [](#-15)
-  - [](#-16)
-  - [](#-17)
-  - [](#-18)
-  - [](#-19)
-  - [](#-20)
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
-  - [](#-21)
-  - [](#-22)
-  - [](#-23)
-  - [](#-24)
-  - [](#-25)
-  - [](#-26)
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
-  - [](#-27)
-  - [](#-28)
-  - [](#-29)
-  - [](#-30)
-  - [](#-31)
-  - [](#-32)
-  - [](#-33)
-  - [](#-34)
-  - [](#-35)
-  - [](#-36)
-  - [](#-37)
-  - [](#-38)
-  - [](#-39)
-  - [](#-40)
-  - [](#-41)
-  - [](#-42)
-  - [](#-43)
-  - [](#-44)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
-  - [](#-45)
-  - [](#-46)
-  - [](#-47)
-  - [](#-48)
-  - [](#-49)
-  - [](#-50)
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
     - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
   - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
     - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
-  - [](#-51)
-  - [](#-52)
-  - [](#-53)
-  - [](#-54)
-  - [](#-55)
-  - [](#-56)
-  - [](#-57)
-  - [](#-58)
-  - [](#-59)
-  - [](#-60)
-  - [](#-61)
-  - [](#-62)
-  - [](#-63)
-  - [](#-64)
-  - [](#-65)
-  - [](#-66)
-  - [](#-67)
-  - [](#-68)
-  - [](#-69)
-  - [](#-70)
     - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
-  - [](#-71)
-  - [](#-72)
-  - [](#-73)
-  - [](#-74)
-  - [](#-75)
-  - [](#-76)
-  - [](#-77)
-  - [](#-78)
-  - [](#-79)
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
       - [Login](#login)
     - [Vista del vendedor](#vista-del-vendedor)
@@ -380,11 +294,11 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
 - [-Sección About Us::](#-sección-about-us)
 - [-Sección Our Team:](#-sección-our-team)
 - [-Sección Contacto:](#-sección-contacto)
-    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+  - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+  - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product.](#53-video-about-the-product)
 - [Part II: Verification, Validation \& Pipeline](#part-ii-verification-validation--pipeline)
 - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
@@ -1568,22 +1482,16 @@ En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alca
 
 #### Impact Mapping 1:
 
-![image](assets/impact-map1.png)
+![image](./assets/Impact%20map%201.png)
 _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
 
 **Segmento objetivo: Vendedores de Autos Usados**
 
 #### Impact Mapping 2:
 
-![image](assets/impact-map2.png)
+![image](./assets/Impact%20map%202.png)
 _Imagen (N°14). Elaboración propia. Realizado en UXPRESSIA_
 
-**Segmento objetivo: Talleres Técnicos**
-
-#### Impact Mapping 3:
-
-![image](assets/impact-map3.png)
-_Imagen (N°15). Elaboración propia. Realizado en UXPRESSIA_
 <br><br><br><br>
 
 ## 3.4. Product Backlog
@@ -2430,33 +2338,31 @@ Sprint planning
 | Sprint n – 1 Retrospective Summary |                                                                                                                                                                               |
 | Sprint Goal & User Stories         |
 | Sprint 1 Goal                      | Desarrollar y desplegar la landing page, aplicación mobil y aplicación web funcional garantizando que cumpla con los requisitos básicos de diseño, contenido y accesibilidad. |
-| Sprint 1 Velocity                  | 8                                                                                                                                                                                            |
-| Sum of Story Points                | 5                                                                                                                                                                                            |
-
-
+| Sprint 1 Velocity                  | 8                                                                                                                                                                             |
+| Sum of Story Points                | 5                                                                                                                                                                             |
 
 ### 5.2.1. Sprint Backlogs.
 
 ### Tabla de control de estado Sprint 1
 
-| User Story ID | User Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|:--------------|:-----------------|:--------|:-----------|:-----------------|:------------------|:------------|:-------|
-| US-01 | Registro de Usuario | T-01 | Implementar API de registro | Backend para creación de cuentas de usuario | 8h | Alvarado De La Cruz, Juan Carlos | Done |
-| US-01 | Registro de Usuario | T-02 | Diseñar formulario de registro | Frontend web/mobile para registro de usuarios | 6h | Castilla Pachas, Cesar Antonio | Done |
-| US-01 | Registro de Usuario | T-03 | Validación de datos | Validar datos antes de enviar registro | 4h | Serrano Uchuya, Gerald Patricio| Done |
-| US-01 | Registro de Usuario | T-04 | Recuperación de contraseña | Módulo de recuperación de contraseña | 5h | Valera Garcés, Samuel Ignacio | Done |
-| US-02 | Búsqueda de Autos | T-05 | API de búsqueda de autos | Crear endpoint para buscar autos por filtros | 7h | Meza Camayo, Lynn Jeeferzon | In-Process |
-| US-02 | Búsqueda de Autos | T-06 | Interfaz de búsqueda | Frontend de filtros y resultados | 6h | Alvarado De La Cruz, Juan Carlos | Done |
-| US-03 | Listado de Autos | T-07 | API de publicación de autos | Crear endpoint para agregar autos | 7h | Meza Camayo, Lynn Jeeferzon | Done |
-| US-03 | Listado de Autos | T-08 | Formulario de listado | Formulario de frontend para agregar autos | 6h | Serrano Uchuya, Gerald Patricio  | Done |
-| US-04 | Edición de Listado de Autos | T-09 | API de edición de autos | Actualizar información del auto listado | 5h | Valera Garcés, Samuel Ignacio | Done |
-| US-04 | Edición de Listado de Autos | T-10 | Interfaz de edición | UI para editar autos en perfil | 4h | Castilla Pachas, Cesar Antonio | Done |
-| US-06 | Ver Detalles del Auto | T-11 | API de detalles de autos | Obtener información completa de autos | 5h |Alvarado De La Cruz, Juan Carlos | Done |
-| US-06 | Ver Detalles del Auto | T-12 | Pantalla de detalles de auto | Mostrar datos de autos en frontend | 5h | Meza Camayo, Lynn Jeeferzon | Done |
-| US-08 | Guardar Autos Favoritos | T-13 | API de favoritos | Endpoint para guardar autos como favoritos | 4h | Serrano Uchuya, Gerald Patricio | Done |
-| US-08 | Guardar Autos Favoritos | T-14 | Funcionalidad de "Agregar a favoritos" | Botón en el frontend para guardar favoritos | 4h | Valera Garcés, Samuel Ignacio | Done |
-| US-16 | Sistema de Pago Seguro | T-15 | Diseño de wallet | Permitir que usuarios configuren su wallet | 5h | Castilla Pachas, Cesar Antonio | In-Process |
-| US-17 | Confirmación de Transacción | T-16 | Lógica de confirmación de compra | Notificar sobre transacciones realizadas | 5h | Alvarado De La Cruz, Juan Carlos | In-Process |
+| User Story ID | User Story Title            | Task ID | Task Title                             | Task Description                              | Estimation (Hours) | Assigned To                      | Status     |
+| :------------ | :-------------------------- | :------ | :------------------------------------- | :-------------------------------------------- | :----------------- | :------------------------------- | :--------- |
+| US-01         | Registro de Usuario         | T-01    | Implementar API de registro            | Backend para creación de cuentas de usuario   | 8h                 | Alvarado De La Cruz, Juan Carlos | Done       |
+| US-01         | Registro de Usuario         | T-02    | Diseñar formulario de registro         | Frontend web/mobile para registro de usuarios | 6h                 | Castilla Pachas, Cesar Antonio   | Done       |
+| US-01         | Registro de Usuario         | T-03    | Validación de datos                    | Validar datos antes de enviar registro        | 4h                 | Serrano Uchuya, Gerald Patricio  | Done       |
+| US-01         | Registro de Usuario         | T-04    | Recuperación de contraseña             | Módulo de recuperación de contraseña          | 5h                 | Valera Garcés, Samuel Ignacio    | Done       |
+| US-02         | Búsqueda de Autos           | T-05    | API de búsqueda de autos               | Crear endpoint para buscar autos por filtros  | 7h                 | Meza Camayo, Lynn Jeeferzon      | In-Process |
+| US-02         | Búsqueda de Autos           | T-06    | Interfaz de búsqueda                   | Frontend de filtros y resultados              | 6h                 | Alvarado De La Cruz, Juan Carlos | Done       |
+| US-03         | Listado de Autos            | T-07    | API de publicación de autos            | Crear endpoint para agregar autos             | 7h                 | Meza Camayo, Lynn Jeeferzon      | Done       |
+| US-03         | Listado de Autos            | T-08    | Formulario de listado                  | Formulario de frontend para agregar autos     | 6h                 | Serrano Uchuya, Gerald Patricio  | Done       |
+| US-04         | Edición de Listado de Autos | T-09    | API de edición de autos                | Actualizar información del auto listado       | 5h                 | Valera Garcés, Samuel Ignacio    | Done       |
+| US-04         | Edición de Listado de Autos | T-10    | Interfaz de edición                    | UI para editar autos en perfil                | 4h                 | Castilla Pachas, Cesar Antonio   | Done       |
+| US-06         | Ver Detalles del Auto       | T-11    | API de detalles de autos               | Obtener información completa de autos         | 5h                 | Alvarado De La Cruz, Juan Carlos | Done       |
+| US-06         | Ver Detalles del Auto       | T-12    | Pantalla de detalles de auto           | Mostrar datos de autos en frontend            | 5h                 | Meza Camayo, Lynn Jeeferzon      | Done       |
+| US-08         | Guardar Autos Favoritos     | T-13    | API de favoritos                       | Endpoint para guardar autos como favoritos    | 4h                 | Serrano Uchuya, Gerald Patricio  | Done       |
+| US-08         | Guardar Autos Favoritos     | T-14    | Funcionalidad de "Agregar a favoritos" | Botón en el frontend para guardar favoritos   | 4h                 | Valera Garcés, Samuel Ignacio    | Done       |
+| US-16         | Sistema de Pago Seguro      | T-15    | Diseño de wallet                       | Permitir que usuarios configuren su wallet    | 5h                 | Castilla Pachas, Cesar Antonio   | In-Process |
+| US-17         | Confirmación de Transacción | T-16    | Lógica de confirmación de compra       | Notificar sobre transacciones realizadas      | 5h                 | Alvarado De La Cruz, Juan Carlos | In-Process |
 
 ---
 
@@ -2464,34 +2370,38 @@ Sprint planning
 
 Se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La página muestra varias secciones en las que el usuario puede encontrar información relevante sobre los servicios, planes y equipo de Car2Go. A continuación se presentan evidencias del progreso logrado:
 
-
 # -Sección inicio:
+
 El usuario puede visualizar el inicio de la alnding page.
 
 ![alt text](assets/list-cars.png)
 
-# -Sección What We Offer: 
+# -Sección What We Offer:
+
 El usuario puede ver las características clave que ofrecemos, como transacciones seguras, verificación de calidad, talleres especializados y pagos seguros.
 
 ![alt text](assets/whatweoffer.png)
 
 # -Sección Planes:
+
 El usuario puede ver los planes que opfrecemos, los cuales se adaptan dependiendo de las necesidades y uso del usuario.
 
 ![alt text](assets/planes.png)
 
 # -Sección About Us::
+
 En esta sección, el usuario puede conocer más sobre la misión y visión de Car2Go, así como entender nuestro compromiso con la seguridad y el servicio al cliente.
 
 ![alt text](assets/aboutus.png)
 
 # -Sección Our Team:
+
 El usuario puede conocer a los miembros clave del equipo de Car2Go y leer sus testimonios.
 
 ![alt text](assets/ourteam.png)
 
-
 # -Sección Contacto:
+
 El usuario puede enviar sus consultas directamente a través de un formulario de contacto, o utilizar las opciones de contacto directo proporcionadas.
 
 ![alt text](assets/contacto.png)
@@ -2505,6 +2415,7 @@ A continuación, se muestran algunos de los resultados de las diferentes pantall
 ![list-cars](https://github.com/user-attachments/assets/b48f9459-b6a7-4bb4-aefd-4eb083c4f227)
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
 En esta sección se presentan las evidencias de la aplicación movil, la cual fue desarrollada en Android Studio. La aplicación movil cuenta con un diseño responsivo y amigable para el usuario, permitiendo una mejor experiencia al momento de navegar por la aplicación.
 
 - Login screens
@@ -2565,19 +2476,19 @@ En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end
 ![alt text](assets/Swagger03.jpg)
 ![alt text](assets/Swagger04.jpg)
 
-
 ### 5.2.6. RESTful API documentation
+
 En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
 
 Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa
 
 ### 5.2.7. Team Collaboration Insights
+
 En esta seccion, se muestra las evidencias de contribuciones del equipo de desarrollo.
 
 ![insights-sprint](./assets/insights-evidence.png)
 ![contributiors-sprint](./assets/contributiors-sprint.png)
 ![red-sprint](./assets/red-sprint.png)
-
 
 ## 5.3. Video About-the-Product.
 
@@ -2740,6 +2651,14 @@ link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/E
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
+
+**Concluciones:**
+
+-Al iniciar este proyecto, identificamos que el mercado de autos de segunda mano enfrenta problemas de desconfianza y falta de transparencia. Con el Lean UX Canvas, validamos que tanto compradores como vendedores necesitan una plataforma segura, fácil de usar y con herramientas de verificación confiables. Nuestro equipo, con habilidades en desarrollo, diseño y marketing, trabajó en conjunto para definir una solución realista y centrada en el usuario.
+
+- Con las entrevistas realizadas, los usuarios compradores han confirmado que necesitan de una plataforma que les ayude a facilitar la compra de autos de segunda mano.
+
+- En conclusión, este proyecto no solo ha resultado en una aplicación funcional y alineada con las necesidades del mercado, sino que también nos ha brindado valiosas lecciones sobre el desarrollo de plataformas digitales centradas en el usuario. Estamos convencidos de que, con las actualizaciones y mejoras planeadas, nuestra solución se posicionará como una de las opciones más confiables y eficientes para la compraventa de autos usados. El trabajo en equipo, la metodología aplicada y el feedback constante han sido clave para llegar a este punto, y seguiremos iterando para ofrecer una experiencia aún mejor en el futuro.
 
 # Video About-the-Team.
 
