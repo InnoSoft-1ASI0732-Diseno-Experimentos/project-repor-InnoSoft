@@ -504,7 +504,9 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 
 ## 5.2. Product Implementation & Deployment.
 
-### 5.2.1. Sprint Backlogs.
+### Sprint 1
+
+Sprint planning
 
 | Sprint                             | Sprint 1                                                                                                                                                                                     |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -520,6 +522,33 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 | Sprint 1 Goal                      | Desarrollar y desplegar la landing page, aplicación mobil y aplicación web funcional garantizando que cumpla con los requisitos básicos de diseño, contenido y accesibilidad. |
 | Sprint 1 Velocity                  | 8                                                                                                                                                                                            |
 | Sum of Story Points                | 5                                                                                                                                                                                            |
+
+
+
+### 5.2.1. Sprint Backlogs.
+
+### Tabla de control de estado Sprint 1
+
+| User Story ID | User Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|:--------------|:-----------------|:--------|:-----------|:-----------------|:------------------|:------------|:-------|
+| US-01 | Registro de Usuario | T-01 | Implementar API de registro | Backend para creación de cuentas de usuario | 8h | Alvarado De La Cruz, Juan Carlos | Done |
+| US-01 | Registro de Usuario | T-02 | Diseñar formulario de registro | Frontend web/mobile para registro de usuarios | 6h | Castilla Pachas, Cesar Antonio | Done |
+| US-01 | Registro de Usuario | T-03 | Validación de datos | Validar datos antes de enviar registro | 4h | Serrano Uchuya, Gerald Patricio| Done |
+| US-01 | Registro de Usuario | T-04 | Recuperación de contraseña | Módulo de recuperación de contraseña | 5h | Valera Garcés, Samuel Ignacio | Done |
+| US-02 | Búsqueda de Autos | T-05 | API de búsqueda de autos | Crear endpoint para buscar autos por filtros | 7h | Meza Camayo, Lynn Jeeferzon | In-Process |
+| US-02 | Búsqueda de Autos | T-06 | Interfaz de búsqueda | Frontend de filtros y resultados | 6h | Alvarado De La Cruz, Juan Carlos | Done |
+| US-03 | Listado de Autos | T-07 | API de publicación de autos | Crear endpoint para agregar autos | 7h | Meza Camayo, Lynn Jeeferzon | Done |
+| US-03 | Listado de Autos | T-08 | Formulario de listado | Formulario de frontend para agregar autos | 6h | Serrano Uchuya, Gerald Patricio  | Done |
+| US-04 | Edición de Listado de Autos | T-09 | API de edición de autos | Actualizar información del auto listado | 5h | Valera Garcés, Samuel Ignacio | Done |
+| US-04 | Edición de Listado de Autos | T-10 | Interfaz de edición | UI para editar autos en perfil | 4h | Castilla Pachas, Cesar Antonio | Done |
+| US-06 | Ver Detalles del Auto | T-11 | API de detalles de autos | Obtener información completa de autos | 5h |Alvarado De La Cruz, Juan Carlos | Done |
+| US-06 | Ver Detalles del Auto | T-12 | Pantalla de detalles de auto | Mostrar datos de autos en frontend | 5h | Meza Camayo, Lynn Jeeferzon | Done |
+| US-08 | Guardar Autos Favoritos | T-13 | API de favoritos | Endpoint para guardar autos como favoritos | 4h | Serrano Uchuya, Gerald Patricio | Done |
+| US-08 | Guardar Autos Favoritos | T-14 | Funcionalidad de "Agregar a favoritos" | Botón en el frontend para guardar favoritos | 4h | Valera Garcés, Samuel Ignacio | Done |
+| US-16 | Sistema de Pago Seguro | T-15 | Diseño de wallet | Permitir que usuarios configuren su wallet | 5h | Castilla Pachas, Cesar Antonio | In-Process |
+| US-17 | Confirmación de Transacción | T-16 | Lógica de confirmación de compra | Notificar sobre transacciones realizadas | 5h | Alvarado De La Cruz, Juan Carlos | In-Process |
+
+---
 
 ### 5.2.2. Implemented Landing Page Evidence
 
