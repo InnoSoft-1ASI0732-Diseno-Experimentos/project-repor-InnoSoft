@@ -146,6 +146,9 @@ software </b></td>
     <br>Alvarado De La Cruz, Juan Carlos <br>Durante el desarrollo del proyecto, me comprometí a actuar con responsabilidad ética y profesional al diseñar y validar las soluciones de software. Consideré principios fundamentales como la protección de datos personales, la transparencia en el uso de la información y la entrega de un producto de alta calidad. Participé activamente en la creación de prototipos y validaciones, asegurando que las decisiones tomadas respetaran los estándares éticos y profesionales de la ingeniería de software.<br>
     <br>Valera Garces, Samuel Ignacio <br> Para este proyecto, me propuse a cumplir mis responsabilidades, asegurando asi demostrar etica y profesionalismo. Ademaás, participé en la reuniones demostrando mi capacidad para el trabajo en equipo, asi como también comparti mis ideas y resultados con mi grupo.<br>
     <br>Meza Camayo, Lynn Jeeferzon <br> Reconocí mi responsabilidad ética y profesional al realizar entrevistas con compradores y vendedores, garantizando confidencialidad y uso adecuado de los datos. En el diseño de wireframes y wireflows, prioricé interfaces intuitivas y accesibles, y en el desarrollo móvil, seguí buenas prácticas de seguridad y calidad, cumpliendo con estándares éticos y técnicos.<br>
+    <br>
+  TP:
+  <br>Serrano Uchuya, Gerald Patricio <br>Se desarrollaron las pruebas unitarias de las entidades principales de la plataforma para garantizar el correcto funcionamiento de sus comandos y queries, así como de los controladores. De este modo, se brinda un software competente que cumpla con lo que ofrece sin problemas.<br>
 
 <br>
    </td>
@@ -165,6 +168,9 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
 <br>Alvarado De La Cruz, Juan Carlos: <br>Realicé un análisis detallado del impacto de nuestras soluciones en diferentes contextos. Evalué cómo la plataforma Car2Go podría optimizar procesos de compra-venta de vehículos a nivel económico, fomentar prácticas responsables en lo social y promover una mayor conciencia ambiental. Además, propuse mejoras que permitieran al sistema adaptarse a un entorno global competitivo, buscando siempre aportar valor sostenible a largo plazo.<br>
 <br>Valera Garces, Samuel Ignacio: <br>Mediante la busqueda actica de informacion, recursos, el analisis de datos y las entrevistas con potenciales clientes, logré estimar la importancia del pryecto, viendo como una plataforma como la que estamos desarrollando podria ayudar a multiples personas en el pais.<br>
 <br>Meza Camayo, Lynn Jeeferzon <br>Desarrollé las aplicaciones móviles analizando el impacto real de cada decisión técnica. Elegí arquitecturas ligeras para optimizar recursos, implementé sólo funcionalidades que resolvieran necesidades genuinas de usuarios, y descarté elementos superfluos que pudieran afectar rendimiento o accesibilidad. Así aseguré que la solución fuera técnicamente sólida, socialmente útil y ambientalmente consciente.<br>
+<br>
+  TP:
+  <br>Serrano Uchuya, Gerald Patricio <br>La implementación de pruebas unitarias permite garantizar que los modelos core de nuestra aplicación funcionen correctamente y el usuario no tenga inconvenientes con el uso de la plataforma.<br>
 </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
     
@@ -2501,6 +2507,15 @@ link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/E
 ## 6.1. Testing Suites & Validation
 
 ### 6.1.1. Core Entities Unit Tests.
+
+ Las entidades core de la plataforma son Vehicle y Profile, de modo que los test unitarios se han centrado en ellos para comprobar la fiabilidad de la ejecución de sus funcionalidades.
+ Se desarrollaron tests para los modelos, comandos, peticiones y controladores de ambos.
+ #### Vehicle
+##### Descripción: Se validan procesos críticos de la plataforma como la creación de vehículos, actualización de su información, gestión de estados, entre otras funcionalidades que requieran de un rol en específico. 
+ #### Profile
+ ##### Descripción: Las pruebas permiten validar el correcto funcionamiento de la gestión de identidades dentro de la paltaforma. Se valida la creación y actualización de datos pertenecientes a los usuarios, la gestión de sus métodos de pago, y todos los demás comandos y peticiones relacionados a ello. 
+ 
+
 
 ### 6.1.2. Core Integration Tests.
 
