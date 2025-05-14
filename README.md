@@ -2521,6 +2521,45 @@ link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/E
 
 ### 6.1.3. Core Behavior-Driven Development
 
+
+##  Core Behavior-Driven Development (BDD)
+
+En esta sección se aplicaron técnicas de Behavior-Driven Development (BDD) para definir y verificar el comportamiento esperado del sistema desde la perspectiva del usuario. Se utilizó la herramienta Cucumber integrada con Spring Boot y JUnit 5, permitiendo escribir pruebas automatizadas en lenguaje natural mediante escenarios Gherkin.
+
+### Herramientas utilizadas:
+
+-   **Cucumber 7.14.0**
+    
+-   **JUnit Platform Suite (JUnit 5)**
+    
+-   **Spring Boot 3.3.4**
+    
+-   **IntelliJ IDEA con plugin Cucumber for Java**
+
+### Escenario aplicado: Publicación de vehículo por parte de un vendedor
+
+Se eligió validar el flujo funcional de la publicación de un nuevo vehículo, correspondiente a la _User Story US-03_, donde un vendedor desea registrar un vehículo en la plataforma.
+
+###  Escenario BDD (`publicar_auto.feature`)
+
+![](assets/feature.png)
+
+###  Implementación del escenario en Java
+
+La lógica de cada paso (`Given`, `When`, `Then`) fue implementada en la clase `VehiclePublicationSteps.java`:
+
+![](assets/Steps-1.png)
+
+![](assets/Steps-2.png)
+
+###  Resultado de la ejecución
+
+La prueba se ejecutó correctamente utilizando el runner `CucumberTestRunner.java`, arrojando un resultado exitoso:
+
+![](assets/Cucumber.png)
+
+Mediante BDD y Cucumber se logró documentar y validar el comportamiento funcional de una de las funcionalidades clave del sistema. Esta práctica no solo permitió verificar la lógica de negocio desde el punto de vista del usuario, sino que también aporta a la automatización de pruebas y la trazabilidad entre los requerimientos funcionales y su implementación técnica.
+
 ### 6.1.4. Core System Tests.
 
 ## 6.2. Static testing & Verification
