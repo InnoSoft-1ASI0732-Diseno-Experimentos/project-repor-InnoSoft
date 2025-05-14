@@ -2602,9 +2602,6 @@ En esta sección se realizaron pruebas de sistema con el objetivo de validar la 
 
 ![alt text](assets/test-favorites.png)
 
----
-
-##  Conclusión
 
 Las pruebas de sistema validaron que las funcionalidades críticas del sistema (publicación de vehículos y gestión de favoritos) funcionan correctamente, integrando autenticación, persistencia de datos, lógica de negocio y respuesta API. Esto garantiza que la aplicación está lista para pruebas de aceptación por parte del usuario final.
 
