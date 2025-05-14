@@ -2521,9 +2521,6 @@ link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/E
 
 ### 6.1.3. Core Behavior-Driven Development
 
-
-##  Core Behavior-Driven Development (BDD)
-
 En esta sección se aplicaron técnicas de Behavior-Driven Development (BDD) para definir y verificar el comportamiento esperado del sistema desde la perspectiva del usuario. Se utilizó la herramienta Cucumber integrada con Spring Boot y JUnit 5, permitiendo escribir pruebas automatizadas en lenguaje natural mediante escenarios Gherkin.
 
 ### Herramientas utilizadas:
@@ -2561,6 +2558,56 @@ La prueba se ejecutó correctamente utilizando el runner `CucumberTestRunner.jav
 Mediante BDD y Cucumber se logró documentar y validar el comportamiento funcional de una de las funcionalidades clave del sistema. Esta práctica no solo permitió verificar la lógica de negocio desde el punto de vista del usuario, sino que también aporta a la automatización de pruebas y la trazabilidad entre los requerimientos funcionales y su implementación técnica.
 
 ### 6.1.4. Core System Tests.
+
+En esta sección se realizaron pruebas de sistema con el objetivo de validar la funcionalidad integral del sistema Car2Go, considerando la interacción entre frontend, backend y base de datos. Estas pruebas simulan escenarios reales desde el punto de vista del usuario y permiten validar la respuesta del sistema ante operaciones completas, como publicar un vehículo o guardar favoritos.
+
+---
+
+###  Prueba 1: Publicación de vehículo (flujo completo Web)
+
+**Objetivo:** Validar que un vendedor pueda publicar un nuevo vehículo desde la interfaz o mediante API, y que este vehículo sea registrado correctamente en la plataforma.
+
+| Elemento             | Descripción                              |
+|----------------------|-------------------------------------------|
+| Plataforma           | Web                                       |
+| Rol                  | Vendedor                                  |
+| Endpoint involucrado | `POST /api/v1/vehicle`                    |
+| Datos enviados       | Marca, modelo, precio, imágenes, etc.     |
+| Resultado esperado   | Respuesta 201 y vehículo con estado `PENDING` |
+
+**Evidencia:**
+- Prueba ejecutada mediante escenario BDD (`CucumberTestRunner`)
+- Resultado exitoso: `1 test passed - Process finished with exit code 0`
+- El vehículo puede consultarse luego con `GET /api/v1/vehicle/{id}`
+
+![alt text](assets/test-addVehicle.png)
+
+---
+
+### Prueba 2: Guardar vehículo como favorito (flujo móvil o API)
+
+**Objetivo:** Validar que un comprador pueda guardar un vehículo en su lista de favoritos correctamente.
+
+| Elemento             | Descripción                                 |
+|----------------------|----------------------------------------------|
+| Plataforma           | Móvil / API                                  |
+| Rol                  | Comprador                                    |
+| Endpoint involucrado | `POST /api/v1/favorites/{vehicleId}`        |
+| Requisitos           | Usuario autenticado con rol `BUYER`         |
+| Resultado esperado   | Código 200 y objeto `Favorite` creado       |
+
+**Evidencia:**
+- Se envió una solicitud autenticada con JWT válido
+- El vehículo fue agregado a favoritos y puede verificarse con `GET /api/v1/favorites/my-favorites`
+
+![alt text](assets/test-favorites.png)
+
+---
+
+##  Conclusión
+
+Las pruebas de sistema validaron que las funcionalidades críticas del sistema (publicación de vehículos y gestión de favoritos) funcionan correctamente, integrando autenticación, persistencia de datos, lógica de negocio y respuesta API. Esto garantiza que la aplicación está lista para pruebas de aceptación por parte del usuario final.
+
 
 ## 6.2. Static testing & Verification
 
