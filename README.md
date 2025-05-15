@@ -2636,14 +2636,14 @@ link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/Ea
 
 Para la integración continua se utilizó GitHub Actions, la cual es una plataforma de automatización CI/CD que permite ejecutar flujos de trabajo definidos en archivos YAML. Para esto, se configuró un archivo llamado flutter_ci.yml dentro del directorio .github/workflows, el cual define una serie de acciones automatizadas para compilar, analizar y probar el proyecto Flutter, utilizando buenas practicas como lo son "flutter analyze" o "flutter test" que se ven en la captura.
 
-![alt text](assets/wftrbj1.jpg)
+![alt text](assets/wftrbj1.png)
 
 ### 7.1.2. Build & Test Suite Pipeline Components.
 
 El pipeline de CI incluye las siguientes etapas previametne configuradas:
 
-![alt text](assets/wftrbj2.jpg)
-![alt text](assets/wftrbj5jpg)
+![alt text](assets/wftrbj2.png)
+![alt text](assets/wftrbj5,png)
 
 ## 7.2. Continuous Delivery
 
@@ -2651,7 +2651,7 @@ El pipeline de CI incluye las siguientes etapas previametne configuradas:
 
 Se aplicó Continuous Delivery al mantener el software en un estado liberable en todo momento, gracias al pipeline de pruebas y análisis configurado en GitHub Actions.
 
-![alt text](assets/wftrbj3.jpg)
+![alt text](assets/wftrbj3.png)
 
 
 ### 7.2.2. Stages Deployment Pipeline Components.
