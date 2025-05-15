@@ -2643,7 +2643,7 @@ Para la integración continua se utilizó GitHub Actions, la cual es una platafo
 El pipeline de CI incluye las siguientes etapas previametne configuradas:
 
 ![alt text](assets/wftrbj2.png)
-![alt text](assets/wftrbj5,png)
+![alt text](assets/wftrbj5.png)
 
 ## 7.2. Continuous Delivery
 
@@ -2664,7 +2664,7 @@ Test: Asegurando que el comportamiento de la aplicación está validado automát
 
 Resultado final: Al pasar estas etapas, el proyecto está en un estado listo para entrega.
 
-![alt text](assets/wftrbj4.jpg)
+![alt text](assets/wftrbj4.png)
 
 
 ## 7.3. Continuous deployment
