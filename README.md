@@ -2655,7 +2655,38 @@ Pruebas de ejecución:
 ![](assets/profile-unit-test.png)
  
 
-### 6.1.2. Core Integration Tests.
+### 6.1.2. Core Integration Test – UserRepository
+
+En esta sección se desarrolló una **prueba de integración** para garantizar el correcto funcionamiento del repositorio de usuarios (`UserRepository`). Esta prueba valida que las operaciones fundamentales de persistencia —guardar y recuperar usuarios— funcionen adecuadamente dentro del ecosistema de la aplicación, utilizando una base de datos en memoria.
+
+### Herramientas utilizadas:
+
+- **Spring Boot 3.3.4**
+- **Spring Data JPA**
+- **JUnit 5**
+- **H2 Database (scope test)**
+- **AssertJ**
+- **IntelliJ IDEA**
+
+---
+
+### Escenario aplicado: Persistencia de usuario en el sistema
+
+Se validó el flujo de creación y recuperación de un usuario por nombre de usuario. El objetivo fue verificar que `UserRepository` pueda guardar un objeto `User` y luego recuperarlo correctamente mediante el método `findByUsername`.
+
+---
+
+##Archivo application-test.properties:
+spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+
+
+### Implementación del test
+
 
 ### 6.1.3. Core Behavior-Driven Development
 
