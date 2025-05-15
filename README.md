@@ -2508,14 +2508,152 @@ link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/E
 
 ### 6.1.1. Core Entities Unit Tests.
 
- Las entidades core de la plataforma son Vehicle y Profile, de modo que los test unitarios se han centrado en ellos para comprobar la fiabilidad de la ejecución de sus funcionalidades.
- Se desarrollaron tests para los modelos, comandos, peticiones y controladores de ambos.
- #### Vehicle
-##### Descripción: Se validan procesos críticos de la plataforma como la creación de vehículos, actualización de su información, gestión de estados, entre otras funcionalidades que requieran de un rol en específico. 
- #### Profile
- ##### Descripción: Las pruebas permiten validar el correcto funcionamiento de la gestión de identidades dentro de la paltaforma. Se valida la creación y actualización de datos pertenecientes a los usuarios, la gestión de sus métodos de pago, y todos los demás comandos y peticiones relacionados a ello. 
- 
+La plataforma al servir como un intermediario entre compradores y vendedores entre la transacción de vehículos debe garantizar que sus características principales funcionen adecuadamente para que nuestros usuarios no tengan dificultades en el uso de la aplicación. Con este objetivo, se desarrollaron las pruebas unitarias para nuestras entidades core: Vehicle y Profile.
 
+<br>
+Vehicle: 
+<br> 
+ Las pruebas unitarias realizadas incluyen la verificación del correcto funcionamiento de la clase Vehicle, asegurando que la creaeción y actualización de vehíuclos se realice adecuadamente, que lo atributos se asignen y modifiquen según lo esperado, y que el estado del vehículo se gestione correctamente. Además, se valida la asignación y recuperación del id del perfil de usuario, así como el mantenimiento del estado por defecto al crear un nuevo vehículo.
+
+ Se incluyen las siguientes pruebas:
+ <ul>
+  <li>testVehicleCreation()</li>
+  <li>testVehicleUpdate()</li>
+  <li>testStatusUpdate()</li>
+  <li>testSetAndGetProfileId()</li>
+  <li>testDefaultStatusIsPending()</li>
+  <li>testRejectVehicle()</li>
+ </ul>
+
+Ejemplo de prueba unitaria:
+
+* Actualización de los datos de un vehículo
+```
+ @Test
+    @DisplayName("Should update a vehicle correctly")
+    void testVehicleUpdate() {
+        // Arrange: 
+        vehicle = new Vehicle(validCreateCommand);
+        UpdateVehicleCommand updateCommand = new UpdateVehicleCommand(
+            UPDATED_NAME,
+            UPDATED_PHONE,
+            UPDATED_EMAIL,
+            VALID_BRAND,
+            UPDATED_MODEL,
+            UPDATED_COLOR,
+            VALID_YEAR,
+            UPDATED_PRICE,
+            VALID_TRANSMISSION,
+            VALID_ENGINE,
+            VALID_MILEAGE,
+            VALID_DOORS,
+            VALID_PLATE,
+            VALID_LOCATION,
+            VALID_DESCRIPTION,
+            VALID_IMAGES,
+            VALID_FUEL,
+            VALID_SPEED,
+            vehicleStatus.PENDING
+        );
+        
+        // Act: 
+        vehicle.updateVehicleInfo(updateCommand);
+        
+        // Assert: 
+        assertEquals(UPDATED_NAME, vehicle.getName());
+        assertEquals(UPDATED_PHONE, vehicle.getPhone());
+        assertEquals(UPDATED_EMAIL, vehicle.getEmail());
+        assertEquals(UPDATED_MODEL, vehicle.getModel());
+        assertEquals(UPDATED_COLOR, vehicle.getColor());
+        assertEquals(UPDATED_PRICE, vehicle.getPrice());
+        assertEquals(vehicleStatus.PENDING, vehicle.getStatus());
+    }
+
+```
+* Agregar profile id a un vehículo
+```
+@Test
+    @DisplayName("Should set and get profileId correctly")
+    void testSetAndGetProfileId() {
+        // Arrange:
+        vehicle = new Vehicle(validCreateCommand);
+        long profileId = 12345L;
+        
+        // Act:
+        vehicle.setProfileId(profileId);
+        
+        // Assert:
+        assertEquals(profileId, vehicle.getProfileId());
+        assertEquals(profileId, vehicle.getUserId());
+    }
+```
+
+Pruebas de ejecución:
+![](assets/vehicle-unit-tests.png)
+
+<br><br>
+Profile:
+<br> 
+ Las pruebas unitarias se enfocan en validar la correcta creación y actualización de perfiles de usuario, así como la gestión de sus métodos de pago. Se verifican que los atributos del perfil se asignen correctamente tanto al crear como actualizar, que el identificador del perfil pueda establecerse y recupearase, y que los métodos de pago puedan añadirse, actualizarse y eliminarse.
+
+ Se incluyen las siguientes pruebas:
+  * testCreateProfileWithCommand()
+  * testCreateProfileWithUpdateCommand()
+  * testUpdateName()
+  * testSetAndGetProfileId()
+  * testAddPaymentMethod()
+  * testAddPaymentMethodExceedingLimit()
+  * testRemovePaymentMethodById()
+  * testRemoveNonExistentPaymentMethod()
+  * testUpdatePaymentMethod()
+  * testUpdateNonExistentPaymentMethod()
+
+Ejemplo de prueba unitaria:
+
+* Crear un perfil de usuario
+```
+ @Test
+    @DisplayName("Should create a profile correctly with CreateProfileCommand")
+    void testCreateProfileWithCommand() {
+        // Arrange
+        CreateProfileCommand command = createSampleCommand();
+        
+        // Act
+        Profile profile = new Profile(command, PROFILE_ID);
+        
+        // Assert
+        assertEquals(command.firstName(), profile.getFirstName());
+        assertEquals(command.lastName(), profile.getLastName());
+        assertEquals(command.email(), profile.getEmail());
+        assertEquals(command.image(), profile.getImage());
+        assertEquals(command.dni(), profile.getDni());
+        assertEquals(command.address(), profile.getAddress());
+        assertEquals(command.phone(), profile.getPhone());
+        assertEquals(PROFILE_ID, profile.getProfileId());
+        assertTrue(profile.getPaymentMethods().isEmpty());
+    }
+
+```
+* Obtener id del perfil de usuario
+```
+@Test
+    @DisplayName("Should set and get profileId correctly")
+    void testSetAndGetProfileId() {
+        // Arrange
+        Profile profile = new Profile(createSampleCommand(), PROFILE_ID);
+        Long newProfileId = 2L;
+        
+        // Act
+        profile.setProfileId(newProfileId);
+        
+        // Assert
+        assertEquals(newProfileId, profile.getProfileId());
+    }
+```
+
+Pruebas de ejecución:
+![](assets/profile-unit-test.png)
+ 
 
 ### 6.1.2. Core Integration Tests.
 
