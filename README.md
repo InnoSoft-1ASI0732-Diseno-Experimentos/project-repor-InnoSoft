@@ -2691,7 +2691,7 @@ void testCreateAndFindUserByUsername() {
 ```
 
 ##Archivo application-test.properties:
-![](assets/Captura-application.png)
+![](assets/Captura-application.PNG)
 
 ### Resultado de ejecución
 
@@ -2704,7 +2704,7 @@ El error principal fue un conflicto entre la versión del SDK utilizada en el pr
 Como resultado, la prueba quedó en estado fallido, pero con la estructura y configuraciones necesarias preparadas para su ejecución futura.
 
 Pruebas de ejecución:
-![](assets/Captura-test.png)
+![](assets/Captura-test.PNG)
 
 
 
