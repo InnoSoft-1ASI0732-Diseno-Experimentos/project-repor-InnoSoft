@@ -2657,32 +2657,55 @@ Pruebas de ejecución:
 
 ### 6.1.2. Core Integration Test – UserRepository
 
-En esta sección se desarrolló una **prueba de integración** para garantizar el correcto funcionamiento del repositorio de usuarios (`UserRepository`). Esta prueba valida que las operaciones fundamentales de persistencia —guardar y recuperar usuarios— funcionen adecuadamente dentro del ecosistema de la aplicación, utilizando una base de datos en memoria.
+En esta sección se intentó implementar una **prueba de integración** para validar el correcto funcionamiento del repositorio de usuarios (`UserRepository`). Esta prueba tenía como objetivo garantizar que las operaciones de persistencia (guardar y recuperar usuarios) funcionaran correctamente utilizando una base de datos en memoria.
 
 ### Herramientas utilizadas:
 
 - **Spring Boot 3.3.4**
 - **Spring Data JPA**
 - **JUnit 5**
-- **H2 Database (scope test)**
+- **H2 Database (test scope)**
 - **AssertJ**
 - **IntelliJ IDEA**
 
 ---
 
-### Escenario aplicado: Persistencia de usuario en el sistema
+### Escenario aplicado: Persistencia de usuario
 
-Se validó el flujo de creación y recuperación de un usuario por nombre de usuario. El objetivo fue verificar que `UserRepository` pueda guardar un objeto `User` y luego recuperarlo correctamente mediante el método `findByUsername`.
+Se buscó validar el flujo de creación y recuperación de un usuario mediante el método `findByUsername`. Para ello se desarrolló el siguiente test:
 
----
+```java
+@Test
+void testCreateAndFindUserByUsername() {
+    // Arrange
+    User user = new User("testuser", "secret123");
+
+    // Act
+    userRepository.save(user);
+    Optional<User> found = userRepository.findByUsername("testuser");
+
+    // Assert
+    assertThat(found).isPresent();
+    assertThat(found.get().getPassword()).isEqualTo("secret123");
+}
+```
 
 ##Archivo application-test.properties:
-spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
-spring.datasource.driver-class-name=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.jpa.hibernate.ddl-auto=create-drop
+![](assets/Captura-application.png)
+
+### Resultado de ejecución
+
+Durante la ejecución de la prueba, se presentaron conflictos relacionados con la configuración del entorno de pruebas y la compatibilidad entre versiones del SDK de Java, Maven y Spring Boot. 
+
+A pesar de haber realizado múltiples correcciones —como la inclusión de la base de datos H2, la creación del archivo `application-test.properties`, la alineación del `pom.xml` con Java 21 y la configuración adecuada del entorno en IntelliJ IDEA—, la prueba no se ejecutó exitosamente.
+
+El error principal fue un conflicto entre la versión del SDK utilizada en el proyecto (Java 21) y configuraciones residuales que hacían referencia a Java 23, provocando fallos al compilar y cargar el contexto de Spring Boot. Adicionalmente, se presentaron errores de integración con la base de datos embebida al momento de instanciar el `DataSource`.
+
+Como resultado, la prueba quedó en estado fallido, pero con la estructura y configuraciones necesarias preparadas para su ejecución futura.
+
+Pruebas de ejecución:
+![](assets/Captura-test.png)
+
 
 
 ### Implementación del test
