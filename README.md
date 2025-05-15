@@ -2690,7 +2690,7 @@ void testCreateAndFindUserByUsername() {
 }
 ```
 
-##Archivo application-test.properties:
+## Archivo application-test.properties:
 ![](assets/Captura-application.PNG)
 
 ### Resultado de ejecución
@@ -2706,9 +2706,6 @@ Como resultado, la prueba quedó en estado fallido, pero con la estructura y con
 Pruebas de ejecución:
 ![](assets/Captura-test.PNG)
 
-
-
-### Implementación del test
 
 
 ### 6.1.3. Core Behavior-Driven Development
