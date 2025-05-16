@@ -2915,6 +2915,10 @@ Resultado final: Al pasar estas etapas, el proyecto está en un estado listo par
 
 ### 7.3.1. Tools and Practices.
 
+Para el despliegue continuo se implementó una automatización que permite que cada cambio validado y aprobado en el repositorio se despliegue automáticamente a un entorno de staging o distribución interna sin intervención manual. Esto se logró extendiendo el pipeline de GitHub Actions con workflows adicionales para la publicación automática de la aplicación Flutter en Firebase App Distribution.
+
+Se configuraron acciones que generan el build de producción y lo suben a Firebase App Distribution, asegurando una entrega rápida, confiable y constante del software a los usuarios finales. Se aplican buenas prácticas como la validación previa en entornos de prueba y el monitoreo post-despliegue.
+
 ### 7.3.2. Production Deployment Pipeline Components.
 
 ## 7.4. Continuous Monitoring
