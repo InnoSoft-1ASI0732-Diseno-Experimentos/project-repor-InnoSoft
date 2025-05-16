@@ -49,6 +49,7 @@
 | Versión | Fecha      | Autor                                                                                       | Descripción de modificación |
 | ------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------- |
 | V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito  |
+| V0.2    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial  |s
 
 ---
 
@@ -77,13 +78,13 @@ _TP1_
 
 Para el desarrollo de la entrega TP1, se opto por dividir el trabajo de la siguiente forma:
 
-| Integrante | Actvidades Asignadas |
-| ---------- | -------------------- |
-|            | -                    |
-|            | -                    |
-|            | -                    |
-|            | -                    |
-|            | -                    |
+| Integrante                       | Actvidades Asignadas |
+| -------------------------------- | -------------------- |
+| Serrano Uchuya, Gerald Patricio  | - capitulo 6         |
+| Castilla Pachas Cesar Antonio    | - capitulo 6         |
+| Meza Camayo, Lynn Jeeferzon      | - Capitulo 7 - SaaS  |
+| Valera Garces, Samuel Ignacio    | - Capitulo 7         |
+| Alvarado De La Cruz, Juan Carlos | -capitulo 6          |
 
 **Evidencia**:
 
@@ -2425,14 +2426,15 @@ A continuación, se muestran algunos de los resultados de las diferentes pantall
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
-Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. 
+Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS.
 
-***Acuerdo de Servicio SaaS (SaaS Agreement) – Car2Go***
+**_Acuerdo de Servicio SaaS (SaaS Agreement) – Car2Go_**
 
 1.Objeto del Acuerdo
+
 - Este Acuerdo regula el uso del servicio de software como servicio (SaaS) ofrecido por Car2Go a sus usuarios, estableciendo los derechos, obligaciones y limitaciones aplicables.
 
-2.Derechos y Obligaciones del Usuario
+  2.Derechos y Obligaciones del Usuario
 
   - El usuario tiene derecho a acceder y utilizar la plataforma conforme a las condiciones estipuladas.
 
@@ -2440,23 +2442,23 @@ Esta sección establece los derechos, obligaciones y restricciones aplicables a 
 
   - El usuario acepta no realizar actividades que puedan dañar, interferir o afectar la seguridad del servicio.
 
-3.Restricciones
+  3.Restricciones
 
   - Queda prohibida la distribución, copia, modificación o explotación no autorizada del software y sus contenidos.
 
   - Está prohibido el uso del servicio para fines ilegales o no autorizados.
 
-4.Transparencia y Accesibilidad
+  4.Transparencia y Accesibilidad
 
   - Car2Go garantiza que los términos son claros, accesibles y están disponibles para consulta pública en todo momento.
 
   - Se asegura el cumplimiento normativo vigente aplicable a servicios digitales.
 
-5.Modificaciones al Acuerdo
+  5.Modificaciones al Acuerdo
 
   - Car2Go podrá modificar los términos y condiciones, notificando oportunamente a los usuarios y manteniendo la transparencia.
 
-6.Protección de Datos
+  6.Protección de Datos
 
   - Car2Go se compromete a proteger los datos personales conforme a la legislación aplicable y su política de privacidad.
 
@@ -2555,7 +2557,8 @@ Vehicle:
 <br> 
  Las pruebas unitarias realizadas incluyen la verificación del correcto funcionamiento de la clase Vehicle, asegurando que la creaeción y actualización de vehíuclos se realice adecuadamente, que lo atributos se asignen y modifiquen según lo esperado, y que el estado del vehículo se gestione correctamente. Además, se valida la asignación y recuperación del id del perfil de usuario, así como el mantenimiento del estado por defecto al crear un nuevo vehículo.
 
- Se incluyen las siguientes pruebas:
+Se incluyen las siguientes pruebas:
+
  <ul>
   <li>testVehicleCreation()</li>
   <li>testVehicleUpdate()</li>
@@ -2567,12 +2570,13 @@ Vehicle:
 
 Ejemplo de prueba unitaria:
 
-* Actualización de los datos de un vehículo
+- Actualización de los datos de un vehículo
+
 ```
  @Test
     @DisplayName("Should update a vehicle correctly")
     void testVehicleUpdate() {
-        // Arrange: 
+        // Arrange:
         vehicle = new Vehicle(validCreateCommand);
         UpdateVehicleCommand updateCommand = new UpdateVehicleCommand(
             UPDATED_NAME,
@@ -2595,11 +2599,11 @@ Ejemplo de prueba unitaria:
             VALID_SPEED,
             vehicleStatus.PENDING
         );
-        
-        // Act: 
+
+        // Act:
         vehicle.updateVehicleInfo(updateCommand);
-        
-        // Assert: 
+
+        // Assert:
         assertEquals(UPDATED_NAME, vehicle.getName());
         assertEquals(UPDATED_PHONE, vehicle.getPhone());
         assertEquals(UPDATED_EMAIL, vehicle.getEmail());
@@ -2610,7 +2614,9 @@ Ejemplo de prueba unitaria:
     }
 
 ```
-* Agregar profile id a un vehículo
+
+- Agregar profile id a un vehículo
+
 ```
 @Test
     @DisplayName("Should set and get profileId correctly")
@@ -2618,10 +2624,10 @@ Ejemplo de prueba unitaria:
         // Arrange:
         vehicle = new Vehicle(validCreateCommand);
         long profileId = 12345L;
-        
+
         // Act:
         vehicle.setProfileId(profileId);
-        
+
         // Assert:
         assertEquals(profileId, vehicle.getProfileId());
         assertEquals(profileId, vehicle.getUserId());
@@ -2633,34 +2639,36 @@ Pruebas de ejecución:
 
 <br><br>
 Profile:
-<br> 
- Las pruebas unitarias se enfocan en validar la correcta creación y actualización de perfiles de usuario, así como la gestión de sus métodos de pago. Se verifican que los atributos del perfil se asignen correctamente tanto al crear como actualizar, que el identificador del perfil pueda establecerse y recupearase, y que los métodos de pago puedan añadirse, actualizarse y eliminarse.
+<br>
+Las pruebas unitarias se enfocan en validar la correcta creación y actualización de perfiles de usuario, así como la gestión de sus métodos de pago. Se verifican que los atributos del perfil se asignen correctamente tanto al crear como actualizar, que el identificador del perfil pueda establecerse y recupearase, y que los métodos de pago puedan añadirse, actualizarse y eliminarse.
 
- Se incluyen las siguientes pruebas:
-  * testCreateProfileWithCommand()
-  * testCreateProfileWithUpdateCommand()
-  * testUpdateName()
-  * testSetAndGetProfileId()
-  * testAddPaymentMethod()
-  * testAddPaymentMethodExceedingLimit()
-  * testRemovePaymentMethodById()
-  * testRemoveNonExistentPaymentMethod()
-  * testUpdatePaymentMethod()
-  * testUpdateNonExistentPaymentMethod()
+Se incluyen las siguientes pruebas:
+
+- testCreateProfileWithCommand()
+- testCreateProfileWithUpdateCommand()
+- testUpdateName()
+- testSetAndGetProfileId()
+- testAddPaymentMethod()
+- testAddPaymentMethodExceedingLimit()
+- testRemovePaymentMethodById()
+- testRemoveNonExistentPaymentMethod()
+- testUpdatePaymentMethod()
+- testUpdateNonExistentPaymentMethod()
 
 Ejemplo de prueba unitaria:
 
-* Crear un perfil de usuario
+- Crear un perfil de usuario
+
 ```
  @Test
     @DisplayName("Should create a profile correctly with CreateProfileCommand")
     void testCreateProfileWithCommand() {
         // Arrange
         CreateProfileCommand command = createSampleCommand();
-        
+
         // Act
         Profile profile = new Profile(command, PROFILE_ID);
-        
+
         // Assert
         assertEquals(command.firstName(), profile.getFirstName());
         assertEquals(command.lastName(), profile.getLastName());
@@ -2674,7 +2682,9 @@ Ejemplo de prueba unitaria:
     }
 
 ```
-* Obtener id del perfil de usuario
+
+- Obtener id del perfil de usuario
+
 ```
 @Test
     @DisplayName("Should set and get profileId correctly")
@@ -2682,10 +2692,10 @@ Ejemplo de prueba unitaria:
         // Arrange
         Profile profile = new Profile(createSampleCommand(), PROFILE_ID);
         Long newProfileId = 2L;
-        
+
         // Act
         profile.setProfileId(newProfileId);
-        
+
         // Assert
         assertEquals(newProfileId, profile.getProfileId());
     }
@@ -2693,7 +2703,6 @@ Ejemplo de prueba unitaria:
 
 Pruebas de ejecución:
 ![](assets/profile-unit-test.png)
- 
 
 ### 6.1.2. Core Integration Test – UserRepository
 
@@ -2731,11 +2740,12 @@ void testCreateAndFindUserByUsername() {
 ```
 
 ## Archivo application-test.properties:
+
 ![](assets/Captura-application.PNG)
 
 ### Resultado de ejecución
 
-Durante la ejecución de la prueba, se presentaron conflictos relacionados con la configuración del entorno de pruebas y la compatibilidad entre versiones del SDK de Java, Maven y Spring Boot. 
+Durante la ejecución de la prueba, se presentaron conflictos relacionados con la configuración del entorno de pruebas y la compatibilidad entre versiones del SDK de Java, Maven y Spring Boot.
 
 A pesar de haber realizado múltiples correcciones —como la inclusión de la base de datos H2, la creación del archivo `application-test.properties`, la alineación del `pom.xml` con Java 21 y la configuración adecuada del entorno en IntelliJ IDEA—, la prueba no se ejecutó exitosamente.
 
@@ -2746,31 +2756,26 @@ Como resultado, la prueba quedó en estado fallido, pero con la estructura y con
 Pruebas de ejecución:
 ![](assets/Captura-test.PNG)
 
-
-
 ### 6.1.3. Core Behavior-Driven Development
 
 En esta sección se aplicaron técnicas de Behavior-Driven Development (BDD) para definir y verificar el comportamiento esperado del sistema desde la perspectiva del usuario. Se utilizó la herramienta Cucumber integrada con Spring Boot y JUnit 5, permitiendo escribir pruebas automatizadas en lenguaje natural mediante escenarios Gherkin.
 
 ### Herramientas utilizadas:
 
--   **Cucumber 7.14.0**
-    
--   **JUnit Platform Suite (JUnit 5)**
-    
--   **Spring Boot 3.3.4**
-    
--   **IntelliJ IDEA con plugin Cucumber for Java**
+- **Cucumber 7.14.0**
+- **JUnit Platform Suite (JUnit 5)**
+- **Spring Boot 3.3.4**
+- **IntelliJ IDEA con plugin Cucumber for Java**
 
 ### Escenario aplicado: Publicación de vehículo por parte de un vendedor
 
 Se eligió validar el flujo funcional de la publicación de un nuevo vehículo, correspondiente a la _User Story US-03_, donde un vendedor desea registrar un vehículo en la plataforma.
 
-###  Escenario BDD (`publicar_auto.feature`)
+### Escenario BDD (`publicar_auto.feature`)
 
 ![](assets/feature.png)
 
-###  Implementación del escenario en Java
+### Implementación del escenario en Java
 
 La lógica de cada paso (`Given`, `When`, `Then`) fue implementada en la clase `VehiclePublicationSteps.java`:
 
@@ -2778,7 +2783,7 @@ La lógica de cada paso (`Given`, `When`, `Then`) fue implementada en la clase `
 
 ![](assets/Steps-2.png)
 
-###  Resultado de la ejecución
+### Resultado de la ejecución
 
 La prueba se ejecutó correctamente utilizando el runner `CucumberTestRunner.java`, arrojando un resultado exitoso:
 
@@ -2792,19 +2797,20 @@ En esta sección se realizaron pruebas de sistema con el objetivo de validar la 
 
 ---
 
-###  Prueba 1: Publicación de vehículo (flujo completo Web)
+### Prueba 1: Publicación de vehículo (flujo completo Web)
 
 **Objetivo:** Validar que un vendedor pueda publicar un nuevo vehículo desde la interfaz o mediante API, y que este vehículo sea registrado correctamente en la plataforma.
 
-| Elemento             | Descripción                              |
-|----------------------|-------------------------------------------|
-| Plataforma           | Web                                       |
-| Rol                  | Vendedor                                  |
-| Endpoint involucrado | `POST /api/v1/vehicle`                    |
-| Datos enviados       | Marca, modelo, precio, imágenes, etc.     |
+| Elemento             | Descripción                                   |
+| -------------------- | --------------------------------------------- |
+| Plataforma           | Web                                           |
+| Rol                  | Vendedor                                      |
+| Endpoint involucrado | `POST /api/v1/vehicle`                        |
+| Datos enviados       | Marca, modelo, precio, imágenes, etc.         |
 | Resultado esperado   | Respuesta 201 y vehículo con estado `PENDING` |
 
 **Evidencia:**
+
 - Prueba ejecutada mediante escenario BDD (`CucumberTestRunner`)
 - Resultado exitoso: `1 test passed - Process finished with exit code 0`
 - El vehículo puede consultarse luego con `GET /api/v1/vehicle/{id}`
@@ -2817,23 +2823,22 @@ En esta sección se realizaron pruebas de sistema con el objetivo de validar la 
 
 **Objetivo:** Validar que un comprador pueda guardar un vehículo en su lista de favoritos correctamente.
 
-| Elemento             | Descripción                                 |
-|----------------------|----------------------------------------------|
-| Plataforma           | Móvil / API                                  |
-| Rol                  | Comprador                                    |
-| Endpoint involucrado | `POST /api/v1/favorites/{vehicleId}`        |
-| Requisitos           | Usuario autenticado con rol `BUYER`         |
-| Resultado esperado   | Código 200 y objeto `Favorite` creado       |
+| Elemento             | Descripción                           |
+| -------------------- | ------------------------------------- |
+| Plataforma           | Móvil / API                           |
+| Rol                  | Comprador                             |
+| Endpoint involucrado | `POST /api/v1/favorites/{vehicleId}`  |
+| Requisitos           | Usuario autenticado con rol `BUYER`   |
+| Resultado esperado   | Código 200 y objeto `Favorite` creado |
 
 **Evidencia:**
+
 - Se envió una solicitud autenticada con JWT válido
 - El vehículo fue agregado a favoritos y puede verificarse con `GET /api/v1/favorites/my-favorites`
 
 ![alt text](assets/test-favorites.png)
 
-
 Las pruebas de sistema validaron que las funcionalidades críticas del sistema (publicación de vehículos y gestión de favoritos) funcionan correctamente, integrando autenticación, persistencia de datos, lógica de negocio y respuesta API. Esto garantiza que la aplicación está lista para pruebas de aceptación por parte del usuario final.
-
 
 ## 6.2. Static testing & Verification
 
@@ -2898,7 +2903,6 @@ Se aplicó Continuous Delivery al mantener el software en un estado liberable en
 
 ![alt text](assets/wftrbj3.png)
 
-
 ### 7.2.2. Stages Deployment Pipeline Components.
 
 Las pruebas mostraron resultados correctos en los siguientes stages de nuestro pipeline:
@@ -2910,7 +2914,6 @@ Test: Asegurando que el comportamiento de la aplicación está validado automát
 Resultado final: Al pasar estas etapas, el proyecto está en un estado listo para entrega.
 
 ![alt text](assets/wftrbj4.png)
-
 
 ## 7.3. Continuous deployment
 
@@ -3019,6 +3022,7 @@ Se configuraron acciones que generan el build de producción y lo suben a Fireba
 - En conclusion,En esta etapa se implemento suites de pruebas unitarias, de integración, basadas en comportamiento y pruebas del sistema completo, lo que permitió validar la estabilidad y correcto funcionamiento de las funcionalidades centrales del proyecto, asegurando un producto confiable y robusto.
 
 - En conclusión, se incorporaron prácticas DevOps de integración continua, entrega continua y despliegue continuo. La automatización de los pipelines de compilación, pruebas y despliegue facilitó un flujo de trabajo ágil y confiable, garantizando que las actualizaciones mantengan altos estándares de calidad y se entreguen de manera eficiente a producción.
+
 # Video About-the-Team.
 
 # Bibliografía
