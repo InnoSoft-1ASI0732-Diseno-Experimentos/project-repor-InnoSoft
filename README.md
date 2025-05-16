@@ -88,7 +88,7 @@ Para el desarrollo de la entrega TP1, se opto por dividir el trabajo de la sigui
 
 **Evidencia**:
 
-## ![TP1](...)
+## ![TP1](./assets/tp-colaboration.png)
 
 _TB2_
 
@@ -187,7 +187,6 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
 ### Tabla de contenido
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [](#)
 - [Student Outcome](#student-outcome)
 - [Contenido](#contenido)
   - [Tabla de contenido](#tabla-de-contenido)
@@ -242,7 +241,6 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-  - [](#-1)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
     - [4.1.3. Mobile Style Guidelines.](#413-mobile-style-guidelines)
       - [4.1.3.1. iOS Mobile Style Guidelines.](#4131-ios-mobile-style-guidelines)
@@ -268,7 +266,6 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
     - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
-      - [Login](#login)
     - [Vista del vendedor](#vista-del-vendedor)
     - [Vista del comprador](#vista-del-comprador)
     - [Vista del mecánico](#vista-del-mecánico)
@@ -294,21 +291,13 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Product Implementation \& Deployment.](#52-product-implementation--deployment)
-    - [Sprint 1](#sprint-1)
     - [5.2.1. Sprint Backlogs.](#521-sprint-backlogs)
-    - [Tabla de control de estado Sprint 1](#tabla-de-control-de-estado-sprint-1)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-- [-Sección inicio:](#-sección-inicio)
-- [-Sección What We Offer:](#-sección-what-we-offer)
-- [-Sección Planes:](#-sección-planes)
-- [-Sección About Us::](#-sección-about-us)
-- [-Sección Our Team:](#-sección-our-team)
-- [-Sección Contacto:](#-sección-contacto)
-  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-  - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-  - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product.](#53-video-about-the-product)
 - [Part II: Verification, Validation \& Pipeline](#part-ii-verification-validation--pipeline)
 - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
