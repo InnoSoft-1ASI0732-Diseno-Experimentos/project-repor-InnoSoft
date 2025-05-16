@@ -148,9 +148,8 @@ software </b></td>
     <br>Meza Camayo, Lynn Jeeferzon <br> Reconocí mi responsabilidad ética y profesional al realizar entrevistas con compradores y vendedores, garantizando confidencialidad y uso adecuado de los datos. En el diseño de wireframes y wireflows, prioricé interfaces intuitivas y accesibles, y en el desarrollo móvil, seguí buenas prácticas de seguridad y calidad, cumpliendo con estándares éticos y técnicos.<br>
     <br>TP:<br>Valera Garces, Samuel Ignacio <br> Me encargué de configurar el pipeline de CI/CD con GitHub Actions, aplicando buenas prácticas como flutter analyze y flutter test. Estas acciones aseguraron la calidad del código y fomentaron un desarrollo responsable, transparente y profesional dentro del equipo.<br><br>Castilla Pachas, Cesar Antonio<br> En esta entrega, avancé principalmente con la implementación de pruebas de sistema y pruebas BDD. A través de estas pruebas, reconocí mi responsabilidad profesional al validar que el sistema funcione de forma correcta, segura y conforme a los roles definidos. Me aseguré de que los endpoints respondan adecuadamente ante solicitudes válidas y que se respete la autenticación y autorización de cada usuario. Este enfoque de validación no solo mejora la calidad del software, sino que también refleja un compromiso ético con la confianza y seguridad de los usuarios que interactuarán con la plataforma.<br>
     <br>Alvarado De La Cruz, Juan Carlos<br>Reconocí mi responsabilidad ética y profesional al desarrollar una prueba de integración para el repositorio de usuarios (UserRepository) en el backend del sistema. Me aseguré de validar correctamente la persistencia de datos, respetando principios de calidad y consistencia de la información. Para ello, utilicé una base de datos H2 aislada, evitando riesgos sobre datos reales y promoviendo buenas prácticas en pruebas automatizadas, lo cual es clave para entregar software confiable y mantenible.<br>
-    <br>Meza Camayo, Lynn: Me encargue de desplegar a produccion el pipiline components, aplicando buenas practicas de flutter y desplegando en la nube.</br>    <br>
-  TP:
-  <br>Serrano Uchuya, Gerald Patricio <br>Se desarrollaron las pruebas unitarias de las entidades principales de la plataforma para garantizar el correcto funcionamiento de sus comandos y queries, así como de los controladores. De este modo, se brinda un software competente que cumpla con lo que ofrece sin problemas.<br>
+    <br>Meza Camayo, Lynn: Me encargue de desplegar a produccion el pipiline components, aplicando buenas practicas de flutter y desplegando en la nube.</br> 
+    <br>Serrano Uchuya, Gerald Patricio <br>Se desarrollaron las pruebas unitarias de las entidades principales de la plataforma para garantizar el correcto funcionamiento de sus comandos y queries, así como de los controladores. De este modo, se brinda un software competente que cumpla con lo que ofrece sin problemas.<br>
 
 <br>
    </td>
@@ -173,8 +172,6 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
 <br>TP:<br>Valera Garces, Samuel Ignacio <br> Implementar CI/CD permitió optimizar recursos y reducir errores, mejorando la eficiencia del desarrollo. Esta decisión aportó valor económico y técnico al proyecto, mostrando un enfoque consciente y sostenible en la entrega de software.<br><br>Castilla Pachas, Cesar Antonio<br> En esta etapa del proyecto me enfoqué en la validación de funcionalidades clave mediante pruebas BDD y pruebas de sistema. Esta labor me permitió reflexionar sobre el impacto que puede tener una solución como Car2Go en el contexto económico y social: por ejemplo, facilitar la compraventa de vehículos de forma segura puede reducir fraudes y generar nuevas oportunidades de ingreso para vendedores independientes. Además, al validar rigurosamente los procesos críticos, contribuyo a que la plataforma sea confiable y accesible para diversos perfiles de usuarios, lo cual es clave para su sostenibilidad e impacto positivo a nivel social. <br>
 <br>Alvarado De La Cruz, Juan Carlos<br> Al implementar esta prueba de integración, comprendí la importancia de asegurar la confiabilidad de los datos en un sistema que conecta compradores y vendedores de vehículos. Esta validación contribuye a un sistema más robusto, lo cual impacta positivamente en el contexto social (transacciones más seguras), económico (menor riesgo de errores que afecten operaciones) y profesional (mayor confianza del usuario). Esta acción refuerza la responsabilidad del software como una herramienta que debe funcionar correctamente en escenarios reales y diversos.<br>
 <br>Meza Camayo, Lynn<br> Desarrolle la implementación de de Continuous deployment con buenas practizas y herramientas y Production Deployment Pipeline Components.</br>
-<br>
-  TP:
   <br>Serrano Uchuya, Gerald Patricio <br>La implementación de pruebas unitarias permite garantizar que los modelos core de nuestra aplicación funcionen correctamente y el usuario no tenga inconvenientes con el uso de la plataforma.<br>
 </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
@@ -2425,7 +2422,44 @@ A continuación, se muestran algunos de los resultados de las diferentes pantall
 ![car-details](https://github.com/user-attachments/assets/ebe26857-cad9-4a80-b9c9-718807797992)
 ![list-cars](https://github.com/user-attachments/assets/b48f9459-b6a7-4bb4-aefd-4eb083c4f227)
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. 
+
+***Acuerdo de Servicio SaaS (SaaS Agreement) – Car2Go***
+
+1.Objeto del Acuerdo
+- Este Acuerdo regula el uso del servicio de software como servicio (SaaS) ofrecido por Car2Go a sus usuarios, estableciendo los derechos, obligaciones y limitaciones aplicables.
+
+2.Derechos y Obligaciones del Usuario
+
+  - El usuario tiene derecho a acceder y utilizar la plataforma conforme a las condiciones estipuladas.
+
+  - El usuario se compromete a utilizar el servicio de manera responsable y conforme a la ley.
+
+  - El usuario acepta no realizar actividades que puedan dañar, interferir o afectar la seguridad del servicio.
+
+3.Restricciones
+
+  - Queda prohibida la distribución, copia, modificación o explotación no autorizada del software y sus contenidos.
+
+  - Está prohibido el uso del servicio para fines ilegales o no autorizados.
+
+4.Transparencia y Accesibilidad
+
+  - Car2Go garantiza que los términos son claros, accesibles y están disponibles para consulta pública en todo momento.
+
+  - Se asegura el cumplimiento normativo vigente aplicable a servicios digitales.
+
+5.Modificaciones al Acuerdo
+
+  - Car2Go podrá modificar los términos y condiciones, notificando oportunamente a los usuarios y manteniendo la transparencia.
+
+6.Protección de Datos
+
+  - Car2Go se compromete a proteger los datos personales conforme a la legislación aplicable y su política de privacidad.
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 En esta sección se presentan las evidencias de la aplicación movil, la cual fue desarrollada en Android Studio. La aplicación movil cuenta con un diseño responsivo y amigable para el usuario, permitiendo una mejor experiencia al momento de navegar por la aplicación.
 
@@ -2478,7 +2512,7 @@ Execution Evidence for Sprint Review
 
 Link : https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUC_C6MPuDRBofzl1uDSLbABCOi6iZImr5IjzSq1ufzQeQ?e=pSoNBi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
 
@@ -2487,13 +2521,13 @@ En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end
 ![alt text](assets/Swagger03.jpg)
 ![alt text](assets/Swagger04.jpg)
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
 
 Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 En esta seccion, se muestra las evidencias de contribuciones del equipo de desarrollo.
 
