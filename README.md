@@ -49,7 +49,7 @@
 | Versión | Fecha      | Autor                                                                                       | Descripción de modificación |
 | ------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------- |
 | V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito  |
-| V0.2    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial  |s
+| V0.2    | 15/05/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial  |
 
 ---
 
@@ -82,7 +82,7 @@ Para el desarrollo de la entrega TP1, se opto por dividir el trabajo de la sigui
 | -------------------------------- | -------------------- |
 | Serrano Uchuya, Gerald Patricio  | - capitulo 6         |
 | Castilla Pachas Cesar Antonio    | - capitulo 6         |
-| Meza Camayo, Lynn Jeeferzon      | - Capitulo 7 - SaaS  |
+| Meza Camayo, Lynn Jeeferzon      | - Capitulo 7         |
 | Valera Garces, Samuel Ignacio    | - Capitulo 7         |
 | Alvarado De La Cruz, Juan Carlos | -capitulo 6          |
 
