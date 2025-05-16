@@ -153,7 +153,8 @@ software </b></td>
 
 <br>
    </td>
-    <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y diferenciarse de la competencia. Los estilos visuales seleccionados, junto con una cuidadosa organización de la información, garantizan no solo coherencia estética, sino también una navegación intuitiva y un acceso simplificado a las funciones clave para todos los usuarios, independientemente de su nivel de experiencia.<br>
+    <td>tb1: Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y diferenciarse de la competencia. Los estilos visuales seleccionados, junto con una cuidadosa organización de la información, garantizan no solo coherencia estética, sino también una navegación intuitiva y un acceso simplificado a las funciones clave para todos los usuarios, independientemente de su nivel de experiencia.<br>
+    tp:Durante esta entrega se reafirmó el compromiso con la responsabilidad ética y profesional en la ingeniería de software. La implementación del Acuerdo de Servicio SaaS, la documentación detallada de la API, la ejecución de pruebas rigurosas y la adopción de prácticas DevOps para la integración, entrega y despliegue continuo, aseguraron no solo la calidad técnica del producto sino también la transparencia y seguridad para los usuarios. Este enfoque ético garantiza que el desarrollo se realice respetando la privacidad, la fiabilidad y la integridad del software, respondiendo a las necesidades reales del mercado y fomentando la confianza en la plataforma.
 </tr>
 <br><br>
   <tr>
@@ -175,7 +176,7 @@ TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluan
   <br>Serrano Uchuya, Gerald Patricio <br>La implementación de pruebas unitarias permite garantizar que los modelos core de nuestra aplicación funcionen correctamente y el usuario no tenga inconvenientes con el uso de la plataforma.<br>
 </td>
     <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
-    
+    tp:Durante esta entrega, se evidenció la capacidad de emitir juicios informados respecto al impacto de las soluciones de ingeniería de software desarrolladas. Se consideraron aspectos globales, económicos, ambientales y sociales en la implementación del proyecto, buscando generar un producto que no solo sea técnicamente eficiente, sino también responsable y sostenible. La solución propuesta promueve la inclusión digital al facilitar el acceso seguro a la compra y venta de autos de segunda mano, contribuyendo a una economía circular y fomentando prácticas que minimizan el impacto ambiental asociado a la producción y consumo de vehículos nuevos. De esta manera, el proyecto refleja una visión integral que valora tanto la innovación tecnológica como su repercusión en la sociedad y el entorno.</br>
 </tr>
 <br><br>
 </table>
@@ -3015,6 +3016,9 @@ Se configuraron acciones que generan el build de producción y lo suben a Fireba
 
 - En conclusión, este proyecto no solo ha resultado en una aplicación funcional y alineada con las necesidades del mercado, sino que también nos ha brindado valiosas lecciones sobre el desarrollo de plataformas digitales centradas en el usuario. Estamos convencidos de que, con las actualizaciones y mejoras planeadas, nuestra solución se posicionará como una de las opciones más confiables y eficientes para la compraventa de autos usados. El trabajo en equipo, la metodología aplicada y el feedback constante han sido clave para llegar a este punto, y seguiremos iterando para ofrecer una experiencia aún mejor en el futuro.
 
+- En conclusion,En esta etapa se implemento suites de pruebas unitarias, de integración, basadas en comportamiento y pruebas del sistema completo, lo que permitió validar la estabilidad y correcto funcionamiento de las funcionalidades centrales del proyecto, asegurando un producto confiable y robusto.
+
+- En conclusión, se incorporaron prácticas DevOps de integración continua, entrega continua y despliegue continuo. La automatización de los pipelines de compilación, pruebas y despliegue facilitó un flujo de trabajo ágil y confiable, garantizando que las actualizaciones mantengan altos estándares de calidad y se entreguen de manera eficiente a producción.
 # Video About-the-Team.
 
 # Bibliografía
