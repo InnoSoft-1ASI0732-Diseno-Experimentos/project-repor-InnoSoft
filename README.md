@@ -2919,11 +2919,51 @@ Resultado final: Al pasar estas etapas, el proyecto está en un estado listo par
 
 ### 7.3.1. Tools and Practices.
 
-Para el despliegue continuo se implementó una automatización que permite que cada cambio validado y aprobado en el repositorio se despliegue automáticamente a un entorno de staging o distribución interna sin intervención manual. Esto se logró extendiendo el pipeline de GitHub Actions con workflows adicionales para la publicación automática de la aplicación Flutter en Firebase App Distribution.
+Para implementar el despliegue continuo en este proyecto, se ha utilizado GitHub Actions como herramienta principal de integración y entrega continua (CI/CD). GitHub Actions permite automatizar tareas de construcción, pruebas y despliegue directamente desde el repositorio de código fuente, integrándose con otros servicios externos mediante acciones preconstruidas o personalizadas.
 
-Se configuraron acciones que generan el build de producción y lo suben a Firebase App Distribution, asegurando una entrega rápida, confiable y constante del software a los usuarios finales. Se aplican buenas prácticas como la validación previa en entornos de prueba y el monitoreo post-despliegue.
+En el flujo implementado, se emplea Flutter para la construcción del proyecto en versión web, y Firebase Hosting como plataforma para el despliegue y hospedaje de la aplicación. La configuración incluye:
+
+  - Automatización del pipeline: mediante workflows definidos en archivos YAML, se ejecutan pasos automáticos al realizar un push a ramas específicas del repositorio.
+
+  - Manejo seguro de credenciales: las claves necesarias para el despliegue a Firebase, como el token de acceso y la cuenta de servicio, se gestionan mediante secretos en GitHub, garantizando confidencialidad.
+
+  - Control de versiones y ramas: se utiliza una rama específica para despliegue (pg-deployment), asegurando que solo código validado y estable sea desplegado en producción.
+
+  - Pruebas automatizadas: antes del despliegue se ejecutan comandos de análisis y testeo para asegurar la calidad del código.
+
+![Image-yml-archivo](./assets/deployme-pipeline-yml.png)
+  
+Estas prácticas garantizan un proceso confiable, repetible y escalable para la entrega continua de la aplicación.
 
 ### 7.3.2. Production Deployment Pipeline Components.
+
+El pipeline de despliegue productivo está compuesto por los siguientes elementos principales:
+
+    Repositorio de código en GitHub: donde se mantiene el código fuente y se gestionan las ramas para desarrollo y despliegue.
+
+    Workflow de GitHub Actions: definido en un archivo .yml dentro del repositorio, que orquesta las siguientes fases:
+
+      - Checkout del código.
+
+      - Instalación de la versión específica de Flutter.
+
+      - Instalación de dependencias del proyecto.
+
+      - Construcción de la aplicación para web en modo release.
+
+      - Instalación de la CLI de Firebase.
+
+      - Despliegue automático a Firebase Hosting usando credenciales almacenadas en secretos.
+
+    Firebase Hosting: plataforma cloud que recibe y hospeda la aplicación web generada, ofreciendo alta disponibilidad y rendimiento para los usuarios finales.
+
+    Gestión de secretos: el pipeline utiliza variables de entorno seguras para manejar tokens y credenciales de Firebase sin exponerlas en el código.
+
+    Control de ramas: el despliegue solo se activa mediante push en la rama designada, evitando despliegues accidentales de código no validado.
+
+![github-deployment-pipeline](./assets/deployme-pipeline-github.png)
+
+Este pipeline permite que cada cambio aprobado y consolidado en la rama de despliegue sea inmediatamente publicado, asegurando que la aplicación se mantenga actualizada y disponible para los usuarios sin necesidad de intervenciones manuales.
 
 ## 7.4. Continuous Monitoring
 
@@ -3032,3 +3072,7 @@ Se configuraron acciones que generan el build de producción y lo suben a Fireba
 Link del repositorio de Github: <https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos>
 
 Link de landing page desplegado: <https://innosoft-1asi0732-diseno-experimentos.github.io/Car2Go-Landing-Page/>
+
+link de Continuous Integration y Continuous Delivery : <https://github.com/testttttttertetewtwesdv/Car2Go-Movil> 
+
+Link de Production Deployment Pipeline Components: <https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos/Car2Go-Movil/actions>
