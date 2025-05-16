@@ -2928,27 +2928,27 @@ Estas prácticas garantizan un proceso confiable, repetible y escalable para la 
 
 El pipeline de despliegue productivo está compuesto por los siguientes elementos principales:
 
-    Repositorio de código en GitHub: donde se mantiene el código fuente y se gestionan las ramas para desarrollo y despliegue.
+Repositorio de código en GitHub: donde se mantiene el código fuente y se gestionan las ramas para desarrollo y despliegue.
 
-    Workflow de GitHub Actions: definido en un archivo .yml dentro del repositorio, que orquesta las siguientes fases:
+Workflow de GitHub Actions: definido en un archivo .yml dentro del repositorio, que orquesta las siguientes fases:
 
-      - Checkout del código.
+  - Checkout del código.
 
-      - Instalación de la versión específica de Flutter.
+  - Instalación de la versión específica de Flutter.
 
-      - Instalación de dependencias del proyecto.
+  - Instalación de dependencias del proyecto.
 
-      - Construcción de la aplicación para web en modo release.
+  - Construcción de la aplicación para web en modo release.
 
-      - Instalación de la CLI de Firebase.
+  - Instalación de la CLI de Firebase.
 
-      - Despliegue automático a Firebase Hosting usando credenciales almacenadas en secretos.
+  - Despliegue automático a Firebase Hosting usando credenciales almacenadas en secretos.
 
-    Firebase Hosting: plataforma cloud que recibe y hospeda la aplicación web generada, ofreciendo alta disponibilidad y rendimiento para los usuarios finales.
+Firebase Hosting: plataforma cloud que recibe y hospeda la aplicación web generada, ofreciendo alta disponibilidad y rendimiento para los usuarios finales.
 
-    Gestión de secretos: el pipeline utiliza variables de entorno seguras para manejar tokens y credenciales de Firebase sin exponerlas en el código.
+Gestión de secretos: el pipeline utiliza variables de entorno seguras para manejar tokens y credenciales de Firebase sin exponerlas en el código.
 
-    Control de ramas: el despliegue solo se activa mediante push en la rama designada, evitando despliegues accidentales de código no validado.
+Control de ramas: el despliegue solo se activa mediante push en la rama designada, evitando despliegues accidentales de código no validado.
 
 ![github-deployment-pipeline](./assets/deployme-pipeline-github.png)
 
