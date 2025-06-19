@@ -2801,13 +2801,86 @@ Las pruebas de sistema validaron que las funcionalidades críticas del sistema (
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
+Con el objetivo de garantizar la mantenibilidad y legibilidad del código fuente, adoptamos el estándar de estilo [Google Java Style](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) como convención oficial para el desarrollo de nuestro backend implementado en Spring Boot. 
+Las convenciones aplicadas son las siguientes:
+1. Formato y legibilidad:
+* Máximo de 100 caracteres por línea para facilitar la lectura.
+* Indentación de 2 espacios
+* Las llaves de control (if, for, while) se colocan en la misma línea que la declaración.
+
+2. Nombres y organización:
+* Uso de CamelCase para clases e interfaces y camelCase para métodos y variables.
+* Constantes en mayúsculas y con guiones bajos.
+* Importaciones ordenadas alfabéticamente y sin comodicnes.
+
+3. Comentarios y documentación
+* Se incluye Javadoc para las clases, interfaces y métodos públicos.
+* Comentarios en línea breves y pertinentes.
+
+Por el lado del frontend hecho con Angular, se siguieron las convenciones ya aplicadas por Angular CLI más las reglas de formateo de ESLint.
+* Nombres de componentes en PascalCase
+* Servicios como PascalCase + sufijo Service
+* Ficheros en kebab-case
+* Identación de 2 espacios
+* Uso de comillas simples para cadenas de texto
+* Uso de punto y coma al final de las declaraciones
+* Máximo 100 caracteres por línea
+
+Para garantizar el cumplimiento continuo durante el desarrollo de estas reglas, el proyecto integra la herramienta CheckStyle con la configuración oficial de Google antes mencionada. La herramienta analiza el código fuente automáticamente y reporta cualquier diferencia con los estándares establecidos marcándolos como advertencias. De esta forma, la legibilidad del código aumenta, se facilita la revisión del mismo y ,en general, se mejora la calidad del software entregado.
+
 #### 6.2.1.2. Code Quality & Code Security.
 
+Con la finalidad de garantizar la calidad y seguridad de nuestra plataforma, incorporamos la herramienta SonarQube logrando una calificación de A en seguridad y confiabilidad. No se detectaron vulnerabilidades críticas ni defectos que comprometan la estabilidad del sistema, aunque se identificaron 2 security hostspots resultado del cambio de configuración de cors y desactivación de spring security para ciertas rutas. Con respecto a la mantenibilidad, se obtuvo nuevamente una calificación de A, aunque es importante señalar las 74 issues abiertas, que si bien no son críticas, son puntos de mejora en la refactorización del código. Por último, se obtuvo un 3,4% como índice de duplicación, lo que refleja la correcta reutilización y eliminación de código redundante para asegurar un producto más limpio y sostenible a largo plazo.
+![alt text](assets/sonarqube-report.png)
+
 ### 6.2.2. Reviews
+
+Para complementar el análisis estático del desarrollo, se realizaron las siguientes acciones: 
+ - Verificación con la herramienta Checkstyle, dentro del editor IntelliJ IDEA, el cumplimiento de los estándaras de Google Java Style y se aplicaron las correcciones necesarias previo a la subida de los cambios al repositorio remoto.
+ - Implementación de revisiones del repositorio remoto cada vez que se suben cambios con el Code Scanning de GitHub para detectar vulnerabilidades y errores de seguridad en el código. Esta herramienta analiza automáticamente el código fuente y proporciona informes detallados sobre posibles problemas.
 
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
+
+Para validar las hipótesis y funcionalidades del sistema, se diseñaron entrevistas estructuradas con los siguientes objetivos:
+- Obtener retroalimentación directa de los usuarios finales sobre la usabilidad y funcionalidad del sistema
+- Identificar áreas de mejora en la experiencia del usuario
+- Validar la comprensión de los usuarios sobre las características clave del sistema
+- Recoger sugerencias para futuras mejoras y nuevas funcionalidades
+- Evaluar la satisfacción general de los usuarios con el sistema
+- Validar la percepción de seguridad y confianza en la plataforma
+- Identificar posibles barreras o dificultades en el uso del sistema
+- Evaluar la claridad de la información presentada en la plataforma
+
+Buenos días/ Tardes/ Noches., el propósito de esta entrevista es conocer su opinión sobre la plataforma Car2Go, la cual tiene como objetivo facilitar la compra y venta de autos de segunda mano. Agradecemos su tiempo y sinceridad en las respuestas. Por ello, le haré unas breves preguntas para conocer su opinión sobre la plataforma y su experiencia al utilizarla.
+
+Datos iniciales:
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿Cuál es su ocupación?
+
+Segmento de Vendedores:
+- ¿Cómo calificaría su experiencia al publicar un vehículo en la plataforma Car2Go?
+- ¿Qué tan fácil le resultó completar el proceso de publicación?
+- ¿Qué características de la plataforma le resultaron más útiles al publicar su vehículo?
+- ¿La plataforma cumplió con sus expectativas para el proceso de venta? ¿Por qué sí o por qué no?
+- ¿Qué mejoras sugeriría para hacer el proceso de publicación más eficiente?
+- ¿La visiblidad de su vehículo en la plataforma fue adecuada? ¿Por qué sí o por qué no?
+- ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma
+
+Segmento de Compradores:
+- ¿Cómo calificaría su experiencia al buscar y comprar un vehículo en la plataforma Car2Go?
+- ¿Qué tan fácil le resultó encontrar un vehículo que cumpliera con sus necesidades?
+- ¿Qué características de la plataforma le resultaron más útiles al buscar un vehículo?
+- ¿La plataforma cumplió con sus expectativas para el proceso de compra? ¿Por qué sí o por qué no?
+- ¿Qué mejoras sugeriría para hacer el proceso de búsqueda y compra más eficiente?
+- ¿La información proporcionada sobre los vehículos fue clara y suficiente para tomar una decisión de compra?
+- ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma?
+
+Para finalizar la entrevista, le agradecería que nos comparta cualquier comentario adicional que considere relevante sobre su experiencia con la plataforma Car2Go. Alguna mejora que le gustaría ver implementada o alguna funcionalidad que considere importante.
+
+Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayuda para mejorar la plataforma y ofrecer una mejor experiencia a nuestros usuarios.
 
 ### 6.3.2. Registro de Entrevistas.
 
