@@ -3040,16 +3040,50 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 | ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?             | 3          | 1    | 2      | 2        | 8           |
 
 
-### 8.1.5. Experiment Cards.
+## 8.1.5 Experiment Cards
 
-## 8.2. Experiment Design
+| ID    | Nombre del Experimento                        | Objetivo                                                                 | Pregunta a responder                                                                                   | Hipótesis                                                                                                                                  | Segmento objetivo          | Tipo de experimento                                | Métricas clave                                  | Criterio de éxito                     |
+|-------|------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------|
+| EXP01 | Sello de Verificación Técnica en Anuncios      | Evaluar si el sello genera mayor confianza y aumenta el interés de compra | ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?               | Creemos que al mostrar un sello de verificación en los anuncios, los compradores confiarán más y se incrementarán las interacciones       | Compradores                 | A/B Testing (anuncios con y sin sello)             | Tasa de clics (CTR), número de mensajes enviados | ≥15% de aumento en clics o contactos |
+| EXP02 | Publicaciones Destacadas para Vendedores       | Validar si destacar anuncios ayuda a concretar más ventas                | ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?          | Creemos que los anuncios destacados aumentan la visibilidad y permiten vender más rápido                                                  | Vendedores                  | Feature toggle + análisis de comportamiento         | Tasa de conversión, tiempo promedio hasta la venta | Reducción del tiempo ≥30%            |
+| EXP03 | Verificación de Pagos Segura                   | Medir impacto de verificación automatizada en la reducción de estafas    | ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?                | Creemos que si los pagos se verifican mediante comprobantes validados, se reducirá el fraude                                              | Compradores y Vendedores    | Test funcional con monitoreo de casos de disputa    | Número de disputas/fraudes, % de confirmaciones exitosas | Reducción ≥50% en fraudes        |
+| EXP04 | Historial del Vehículo en Anuncio              | Validar si mostrar el historial del vehículo influye en decisión de compra | ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?              | Creemos que mostrar el historial aumentará la confianza y reducirá la incertidumbre                                                       | Compradores                 | A/B Testing (anuncios con y sin historial)          | Tasa de conversión, tiempo en página, % de retorno | +20% clics, +10% intención de compra |
+| EXP05 | Chat Directo entre Comprador y Vendedor        | Evaluar si la comunicación directa reduce el abandono de compra          | ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?                    | Creemos que al implementar un chat directo se reducirán dudas y el abandono durante la compra                                             | Compradores y Vendedores    | Activación progresiva + monitoreo del embudo        | Tasa de abandono, duración de conversación, transacciones completadas | Reducción del abandono ≥25%      |
 
-### 8.2.1. Hypotheses.
+## 8.2.1 Hypotheses
 
-### 8.2.2. Measures.
+- Creemos que mostrar un sello visual de verificación técnica en los anuncios aumentará la confianza del comprador, lo que resultará en más interacciones con los vendedores.
+- Creemos que permitir a los vendedores destacar sus publicaciones incrementará su visibilidad, lo que resultará en una reducción del tiempo promedio hasta la venta.
+- Creemos que implementar un sistema que valide los pagos mediante comprobantes reducirá los fraudes, lo que resultará en más transacciones exitosas.
+- Creemos que incluir una sección con el historial completo del vehículo aumentará la transparencia, lo que resultará en una mejor toma de decisiones por parte del comprador.
+- Creemos que facilitar un canal de comunicación directa entre comprador y vendedor reducirá las dudas e incertidumbre, lo que resultará en una menor tasa de abandono del proceso de compra.
 
-### 8.2.3. Conditions.
+## 8.2.2 Measures
 
+**Métricas Cuantitativas:**
+- Tasa de clics en anuncios (CTR)
+- Número de mensajes enviados al vendedor
+- Tasa de conversión (visitas → contactos → venta)
+- Tiempo promedio desde publicación hasta la venta
+- Tasa de abandono del proceso de compra
+- Número de disputas o fraudes reportados
+- Porcentaje de uso de nuevas funcionalidades (filtro, chat, historial)
+
+**Métricas Cualitativas:**
+- Percepción de confianza del usuario (encuesta)
+- Comprensión del proceso de pago (test de usabilidad)
+- Feedback sobre utilidad del historial del vehículo (entrevista breve post-uso)
+- Opiniones sobre la experiencia de comunicación entre partes
+
+## 8.2.3 Conditions
+
+- **Segmentos involucrados:** Compradores y vendedores de autos usados
+- **Ambiente de prueba:** Plataforma web en entorno de staging o producción controlada con feature flags
+- **Duración del experimento:** 2 a 3 semanas por funcionalidad, con evaluación continua
+- **Muestra mínima:** 50 usuarios por grupo experimental (control y prueba)
+- **Métodos de ejecución:** A/B Testing, prototipos interactivos (Figma), entrevistas de validación, encuestas
+- **Variantes:** Anuncios con/sin sello, Con/sin historial, Chat activo/inactivo, Publicación destacada vs estándar, Pago tradicional vs verificado
+- **Ética del experimento:** Consentimiento informado, recolección anónima de datos, cumplimiento de la ley de protección de datos personales
 ### 8.2.4. Scale Calculations and Decisions.
 
 ### 8.2.5. Methods Selection.
