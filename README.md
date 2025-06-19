@@ -2884,6 +2884,64 @@ Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayud
 
 ### 6.3.2. Registro de Entrevistas.
 
+### Segmento 1: Compradores de Autos de Segunda Mano
+
+### Entrevista 1:
+* Nombre y Apellido:
+* Edad:
+* Duración de la entrevista:
+* Evidencia de la reunión:
+
+* URL del video:
+* Informe de resumen de la entrevista:
+
+### Entrevista 2:
+* Nombre y Apellido:
+* Edad:
+* Duración de la entrevista:
+* Evidencia de la reunión:
+
+* URL del video:
+* Informe de resumen de la entrevista:
+
+### Entrevista 3:
+* Nombre y Apellido:
+* Edad:
+* Duración de la entrevista:
+* Evidencia de la reunión:
+
+* URL del video:
+* Informe de resumen de la entrevista:
+
+### Segmento 2: Vendedores de Autos de Segunda Mano
+
+### Entrevista 1:
+* Nombre y Apellido:
+* Edad:
+* Duración de la entrevista:
+* Evidencia de la reunión:
+
+* URL del video:
+* Informe de resumen de la entrevista:
+
+### Entrevista 2:
+* Nombre y Apellido:
+* Edad:
+* Duración de la entrevista:
+* Evidencia de la reunión:
+
+* URL del video:
+* Informe de resumen de la entrevista:
+
+### Entrevista 3:
+* Nombre y Apellido:
+* Edad:
+* Duración de la entrevista:
+* Evidencia de la reunión:
+
+* URL del video:
+* Informe de resumen de la entrevista:
+
 ### 6.3.3. Evaluaciones según heurísticas.
 
 ## 6.4. Auditoría de Experiencias de Usuario
