@@ -2982,12 +2982,63 @@ Este pipeline permite que cada cambio aprobado y consolidado en la rama de despl
 ## 8.1. Experiment Planning
 
 ### 8.1.1. As-Is Summary.
+Actualmente, en la industria de compra y venta de autos de segunda mano existe una falta de plataformas tecnológicas confiables que permitan realizar transacciones de forma segura, rápida y eficiente. Los usuarios, tanto compradores como vendedores, enfrentan problemas relacionados con la confianza, la transparencia en la información de los vehículos, la verificación de los pagos y la comunicación fluida entre ambas partes.
+
+**Car2Go** nace como una solución a estas problemáticas, con el objetivo de proporcionar una experiencia de compra y venta confiable para todos sus usuarios. A través de experimentación y validación de hipótesis, buscamos implementar mejoras que garanticen una mayor satisfacción del usuario, aumento de transacciones exitosas y crecimiento sostenido de la plataforma.
+
+
+
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 
+### Supuestos (Assumptions)
+- Los compradores necesitan más confianza al momento de adquirir un auto usado.
+- Los vendedores requieren procesos rápidos y verificados para concretar ventas.
+- Los talleres técnicos están dispuestos a ofrecer servicios de inspección a través de la plataforma.
+- Un sistema de verificación de pago reducirá el número de fraudes en las transacciones.
+- La transparencia en la información del vehículo es un factor clave para los compradores.
+
+### Vacíos de conocimiento (Knowledge Gaps)
+- ¿Cuál es el principal motivo por el que los usuarios abandonan una compra?
+- ¿Qué porcentaje de los vendedores preferiría pagar por destacar sus publicaciones?
+- ¿Qué tan dispuestos están los usuarios a pagar por certificaciones técnicas del vehículo?
+
+### Ideas
+- Crear un sistema de reputación para compradores y vendedores.
+- Generar un historial verificable de cada vehículo.
+- Permitir que los talleres técnicos emitan certificaciones visibles para los usuarios.
+- Sistema automatizado de notificaciones en cada etapa del proceso de compra-venta.
+
+### Claims
+1. Si los compradores no confían en la información publicada sobre un vehículo, no realizarán la compra.
+2. Si no existe un sistema confiable de verificación de pagos, aumentarán los casos de estafas.
+3. Si los vendedores no pueden destacar sus publicaciones, les resultará difícil concretar ventas en un mercado competitivo.
+4. Si no se integran talleres técnicos certificados, los compradores no podrán garantizar el buen estado del vehículo.
+5. Si no existe un sistema ágil de comunicación entre compradores y vendedores, se perderán oportunidades de venta.
+6. Si no se implementa un sistema de seguimiento, los usuarios no podrán saber en qué estado se encuentra su transacción.
+
+
+
 ### 8.1.3. Experiment-Ready Questions.
+1. ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores y facilitará la concreción de ventas?
+2. ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?
+3. ¿La implementación de un sistema automatizado de verificación de pagos reducirá los casos de estafas?
+4. ¿Integrar talleres técnicos para certificaciones aumentará la percepción de seguridad en los compradores?
+5. ¿Brindar al usuario una sección con el historial del vehículo permitirá que los compradores tomen mejores decisiones?
+6. ¿Facilitar la comunicación directa entre compradores y vendedores reducirá el abandono del proceso de compra?
+
 
 ### 8.1.4. Question Backlog.
+
+| Pregunta                                                                                         | Confidence | Risk | Impact | Interest | Total Score |
+|--------------------------------------------------------------------------------------------------|------------|------|--------|----------|-------------|
+| ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?       | 3          | 2    | 3      | 3        | 11          |
+| ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?   | 3          | 1    | 2      | 2        | 8           |
+| ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?         | 3          | 2    | 3      | 3        | 11          |
+| ¿Integrar talleres técnicos para certificaciones aumentará la percepción de seguridad?           | 3          | 2    | 3      | 3        | 11          |
+| ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?      | 3          | 1    | 3      | 2        | 9           |
+| ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?             | 3          | 1    | 2      | 2        | 8           |
+
 
 ### 8.1.5. Experiment Cards.
 
