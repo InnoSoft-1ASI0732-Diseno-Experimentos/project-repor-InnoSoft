@@ -3050,7 +3050,9 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 | EXP04 | Historial del Vehículo en Anuncio              | Validar si mostrar el historial del vehículo influye en decisión de compra | ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?              | Creemos que mostrar el historial aumentará la confianza y reducirá la incertidumbre                                                       | Compradores                 | A/B Testing (anuncios con y sin historial)          | Tasa de conversión, tiempo en página, % de retorno | +20% clics, +10% intención de compra |
 | EXP05 | Chat Directo entre Comprador y Vendedor        | Evaluar si la comunicación directa reduce el abandono de compra          | ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?                    | Creemos que al implementar un chat directo se reducirán dudas y el abandono durante la compra                                             | Compradores y Vendedores    | Activación progresiva + monitoreo del embudo        | Tasa de abandono, duración de conversación, transacciones completadas | Reducción del abandono ≥25%      |
 
-## 8.2.1 Hypotheses
+## 8.2. Experiment Design
+
+### 8.2.1 Hypotheses
 
 - Creemos que mostrar un sello visual de verificación técnica en los anuncios aumentará la confianza del comprador, lo que resultará en más interacciones con los vendedores.
 - Creemos que permitir a los vendedores destacar sus publicaciones incrementará su visibilidad, lo que resultará en una reducción del tiempo promedio hasta la venta.
@@ -3058,7 +3060,7 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 - Creemos que incluir una sección con el historial completo del vehículo aumentará la transparencia, lo que resultará en una mejor toma de decisiones por parte del comprador.
 - Creemos que facilitar un canal de comunicación directa entre comprador y vendedor reducirá las dudas e incertidumbre, lo que resultará en una menor tasa de abandono del proceso de compra.
 
-## 8.2.2 Measures
+### 8.2.2 Measures
 
 **Métricas Cuantitativas:**
 - Tasa de clics en anuncios (CTR)
@@ -3075,7 +3077,7 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 - Feedback sobre utilidad del historial del vehículo (entrevista breve post-uso)
 - Opiniones sobre la experiencia de comunicación entre partes
 
-## 8.2.3 Conditions
+### 8.2.3 Conditions
 
 - **Segmentos involucrados:** Compradores y vendedores de autos usados
 - **Ambiente de prueba:** Plataforma web en entorno de staging o producción controlada con feature flags
@@ -3084,13 +3086,84 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 - **Métodos de ejecución:** A/B Testing, prototipos interactivos (Figma), entrevistas de validación, encuestas
 - **Variantes:** Anuncios con/sin sello, Con/sin historial, Chat activo/inactivo, Publicación destacada vs estándar, Pago tradicional vs verificado
 - **Ética del experimento:** Consentimiento informado, recolección anónima de datos, cumplimiento de la ley de protección de datos personales
-### 8.2.4. Scale Calculations and Decisions.
 
-### 8.2.5. Methods Selection.
 
-### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+### 8.2.4. Scale Calculations and Decisions
 
-### 8.2.7. Web and Mobile Tracking Plan.
+Para la correcta medición del impacto de nuevas funcionalidades, estrategias de monetización o mejoras en la experiencia del usuario en **Car2Go**, se realizarán **experimentos controlados (A/B tests)** con una **significancia estadística del 5% (α = 0.05)**, lo que implica una probabilidad aceptable del 5% de obtener un falso positivo (error tipo I).
+
+El **efecto mínimo detectable (MDE)** se definirá según el contexto de análisis. Por ejemplo, para evaluar la conversión de usuarios a planes de suscripción, se considerará un MDE del 3%-5% de diferencia mínima significativa entre variantes.
+
+La **potencia estadística** se fijará entre el **80% y el 95%**, dependiendo de la criticidad de la hipótesis a validar. Esto permitirá detectar diferencias reales cuando existan (minimizando errores tipo II).
+
+Además, se utilizarán **datos representativos** segmentados por tipo de usuario (comprador o vendedor), plan utilizado y ubicación geográfica para asegurar que los hallazgos sean extrapolables a toda la base de usuarios de Car2Go.
+
+---
+
+### 8.2.5. Methods Selection
+
+Car2Go implementará una combinación de métodos cuantitativos y cualitativos para validar hipótesis y optimizar la experiencia de usuario y la conversión:
+
+- **A/B Testing**: Para comparar el rendimiento de nuevas funciones (como destacar vehículos o modificar el flujo de pagos).
+- **Cohort Analysis**: Para entender el comportamiento de grupos de usuarios en función de su fecha de ingreso o tipo de plan.
+- **Funnel Analysis**: Para identificar puntos de abandono en el proceso de compra/venta.
+- **Encuestas y entrevistas (UX Research)**: Para complementar los datos con percepciones directas de los usuarios.
+- **Análisis de retención y churn**: Para monitorear el compromiso con la plataforma y evaluar el impacto de cambios específicos.
+
+La combinación de estos métodos permitirá validar hipótesis de negocio, ajustar estrategias de monetización y mejorar la satisfacción del cliente.
+
+---
+
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+Los objetivos analíticos de Car2Go se enfocarán en el **crecimiento, la retención, la conversión y la satisfacción del usuario**. Para ello, se definirán los siguientes KPIs y métricas clave:
+
+**Objetivos principales:**
+- Aumentar la tasa de conversión de visitantes a compradores/vendedores activos.
+- Optimizar el uso de los planes de suscripción.
+- Mejorar la retención de usuarios mes a mes.
+
+**KPIs seleccionados:**
+- **Tasa de conversión** (visitantes → compradores / vendedores).
+- **Customer Lifetime Value (CLV)**.
+- **Tasa de retención mensual / churn rate**.
+- **Adopción de planes premium / destacados**.
+- **Tiempo promedio de respuesta entre comprador y vendedor**.
+- **Duración media de publicación hasta la venta**.
+
+**Métricas de soporte:**
+- Tasa de clics en anuncios destacados.
+- Porcentaje de transacciones confirmadas con comprobante.
+- Número de publicaciones por usuario activo.
+- Frecuencia de uso de la plataforma por tipo de usuario.
+
+---
+
+### 8.2.7. Web and Mobile Tracking Plan
+
+Para implementar un plan de seguimiento eficaz en Car2Go (Web y App móvil), se establecerán eventos clave y parámetros personalizados en herramientas como **Google Analytics 4**, **Firebase**, o **Mixpanel**, con el objetivo de rastrear el comportamiento del usuario y alimentar los KPIs definidos.
+
+**Eventos clave a rastrear:**
+- Registro de usuario
+- Inicio de sesión / logout
+- Creación de anuncio de vehículo
+- Edición o eliminación de anuncio
+- Interacción con anuncios (clics, favoritos, compartidos)
+- Subida de comprobante de pago
+- Confirmación de transacción
+- Cambio de plan de suscripción
+- Mensajes enviados / recibidos entre usuarios
+- Notificaciones abiertas o ignoradas
+
+**Dimensiones a incluir:**
+- Tipo de usuario (vendedor/comprador)
+- Dispositivo (móvil/web)
+- Ubicación geográfica
+- Tipo de plan (free/premium)
+- Etapa del embudo de conversión
+
+Este plan asegurará una **medición integral del comportamiento de los usuarios**, facilitando mejoras iterativas en la plataforma y decisiones basadas en datos.
+
 
 ## 8.3. Experimentation
 
