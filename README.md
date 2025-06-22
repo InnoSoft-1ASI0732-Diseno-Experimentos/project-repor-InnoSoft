@@ -3167,9 +3167,42 @@ Este plan asegurará una **medición integral del comportamiento de los usuarios
 
 ## 8.3. Experimentation
 
-### 8.3.1. To-Be User Stories.
+### 8.3.1. To-Be User Stories
+
+
+| Epic / Story ID | Título                                | Descripción                                                                                       | Criterios de Aceptación                                                                                                                                                       | Relacionado con (Epic ID) |
+|-----------------|----------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| US-TB01         | Historial del Vehículo                 | Como comprador quiero ver el historial técnico y de propiedad del auto                           | Escenario: Historial disponible<br>Given el auto tiene historial cargado<br>When el comprador entra al anuncio<br>Then el sistema debe mostrar un historial detallado         | EP02                       |
+| US-TB02         | Chat Directo entre Usuarios            | Como comprador quiero comunicarme directamente con el vendedor desde la plataforma               | Escenario: Chat iniciado<br>Given el comprador está en el anuncio<br>When hace clic en "Contactar por chat"<br>Then debe abrirse un chat privado con el vendedor              | EP01                       |
+| US-TB03         | Verificación de Comprobante de Pago    | Como comprador quiero que el sistema valide automáticamente mi comprobante de pago               | Escenario: Comprobante válido<br>Given se carga un comprobante<br>When es verificado correctamente<br>Then se confirma la transacción y se notifica al vendedor               | EP03                       |
+| US-TB04         | Notificación de Transacción Segura     | Como vendedor quiero recibir una notificación cuando el comprador complete el pago validado      | Escenario: Pago confirmado<br>Given el comprador completó el pago<br>When el sistema valida el comprobante<br>Then el vendedor recibe una notificación inmediata              | EP03                       |
+| US-TB05         | Publicación Destacada Premium          | Como vendedor quiero destacar mi anuncio para que tenga mayor visibilidad                        | Escenario: Activación de destacado<br>Given el vendedor selecciona "Anuncio Destacado"<br>When realiza el pago<br>Then el anuncio aparece en sección prioritaria              | EP08                       |
+| US-TB06         | Seguimiento del Estado de Transacción  | Como comprador quiero ver en qué estado está mi proceso de compra                                | Escenario: Flujo de estados<br>Given el comprador hizo una oferta<br>When accede al detalle de la compra<br>Then el sistema muestra el estado actualizado                     | EP03                       |
+| US-TB07         | Encuesta de Confianza Post Compra      | Como comprador quiero poder evaluar si me sentí seguro durante la compra                         | Escenario: Compra finalizada<br>Given una compra ha sido completada<br>When accede a su historial<br>Then se ofrece una encuesta rápida de satisfacción                       | EP05                       |
+
+---
 
 ### 8.3.2. To-Be Product Backlog
+
+
+| Orden | User Story ID | Título                               | Descripción                                                             | Story Points |
+|-------|----------------|---------------------------------------|-------------------------------------------------------------------------|---------------|
+| 1     | US-TB03         | Verificación de Comprobante de Pago   | Validar pagos mediante comprobantes automatizados                       | 5             |
+| 2     | US-TB02         | Chat Directo entre Usuarios           | Permitir comunicación directa entre compradores y vendedores            | 5             |
+| 3     | US-TB01         | Historial del Vehículo                | Mostrar historial técnico y de propiedad en cada anuncio                | 5             |
+| 4     | US-TB05         | Publicación Destacada Premium         | Dar opción al vendedor de pagar por destacar su anuncio                 | 3             |
+| 5     | US-TB06         | Seguimiento del Estado de Transacción | Flujo visual que muestra el estado del proceso de compra                | 3             |
+| 6     | US-TB04         | Notificación de Transacción Segura    | Avisar automáticamente cuando un pago es validado                       | 3             |
+| 7     | US-TB07         | Encuesta de Confianza Post Compra     | Recolectar feedback sobre la percepción de seguridad en la transacción  | 2             |
+| 8     | US-16           | Sistema de Pago Seguro                | Plataforma para ingresar y validar pagos de forma segura                | 5             |
+| 9     | US-17           | Confirmación de Transacción           | Confirmar automáticamente que la venta se completó                      | 3             |
+| 10    | US-01           | Registro de Usuario                   | Registro en plataforma para compradores y vendedores                    | 3             |
+| 11    | US-02           | Búsqueda de Autos                     | Búsqueda con filtros por marca, modelo, precio, etc.                    | 5             |
+| 12    | US-03           | Listado de Autos                      | Permitir publicar un auto a la venta                                    | 5             |
+| 13    | US-06           | Ver Detalles del Auto                 | Mostrar toda la información del auto al hacer clic                      | 5             |
+| 14    | US-24           | Soporte en Vivo                       | Chat de soporte en tiempo real para problemas urgentes                  | 5             |
+
+---
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
