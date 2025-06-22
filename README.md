@@ -2916,13 +2916,14 @@ Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayud
 ### Segmento 2: Vendedores de Autos de Segunda Mano
 
 ### Entrevista 1:
-* Nombre y Apellido:
-* Edad:
-* Duración de la entrevista:
+* Nombre y Apellido: Mijael Imanol Yen Quispe
+* Edad: 22 años
+* Duración de la entrevista: 10 minutos y 30 segundos
 * Evidencia de la reunión:
-
-* URL del video:
-* Informe de resumen de la entrevista:
+![alt text](assets/validacion_mijael.png)
+* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/Eeyxji00RHhNjTZSY8dcedIBoBP8v_N30vfTIs55lxKlGg?e=cQAaEM)
+* Informe de resumen de la entrevista:<br/>
+Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
 
 ### Entrevista 2:
 * Nombre y Apellido:
