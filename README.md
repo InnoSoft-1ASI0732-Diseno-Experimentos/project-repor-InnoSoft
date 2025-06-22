@@ -2926,13 +2926,17 @@ Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayud
 Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
 
 ### Entrevista 2:
-* Nombre y Apellido:
-* Edad:
-* Duración de la entrevista:
+* Nombre y Apellido: Gonzalo Carhuancote
+* Edad: 27
+* Duración de la entrevista: 2 minutos y 6 segundos
 * Evidencia de la reunión:
+![alt text](assets/validacion_juancarlos.png)
 
-* URL del video:
-* Informe de resumen de la entrevista:
+* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EezHZu3fpXpEk2JjxHA4LloBRw84NQIQLONYV3ZjcA7Z9A?e=GACUKf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* Informe de resumen de la entrevista:<br>
+Gonzalo Carhuancote (27 años, ingeniero mecánico) calificó su experiencia en Car2Go como fácil y clara. Destacó la opción de adjuntar y verificar documentos como el historial del auto, lo que genera mayor confianza al vender.
+<br>
+Consideró que la plataforma cumplió sus expectativas y sugirió agregar asesoría legal o técnica. También afirmó que la visibilidad del anuncio fue adecuada y que se sintió seguro compartiendo sus datos. En general, valoró el enfoque en seguridad y confianza en el proceso de venta.
 
 ### Entrevista 3:
 * Nombre y Apellido:
