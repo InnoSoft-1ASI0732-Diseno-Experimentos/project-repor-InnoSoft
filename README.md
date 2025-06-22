@@ -2895,7 +2895,7 @@ Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayud
 **Evidencia de la reunión:**
 ![alt text](assets/interwari2.png)
 * URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/Eex1U9LImONNssgyJCQtGnQBhNaNXL3LMXtZoHpgEBRMeg?e=6hdlGk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-**Informe de resumen de la entrevista:**  
+* Informe de resumen de la entrevista:<br/>
 Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que logró su objetivo de forma rápida al buscar un vehículo. Señaló que la información está bien detallada y organizada, lo que facilitó la búsqueda de autos que cumplieran con sus expectativas.  
 
 Entre las características más útiles mencionó el apartado de recomendaciones personalizadas, que le permitió acceder fácilmente a vehículos de su interés. También valoró positivamente el proceso de pagos, mencionando que fue sencillo, transmitía confianza y que no tuvo dificultades al ingresar sus datos.
