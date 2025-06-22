@@ -2887,11 +2887,20 @@ Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayud
 ### Segmento 1: Compradores de Autos de Segunda Mano
 
 ### Entrevista 1:
-* Nombre y Apellido:
-* Edad:
-* Duración de la entrevista:
-* Evidencia de la reunión:
 
+**Nombre y Apellido:** Ariana Quiñones  
+**Edad:** 25 años  
+**Ocupación:** Emprendedora de joyas  
+**Duración de la entrevista:** 4 minutos y 42 segundos  
+**Evidencia de la reunión:**
+![alt text](assets/interwari2.png)
+* URL del video: [Link]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/Eeyxji00RHhNjTZSY8dcedIBoBP8v_N30vfTIs55lxKlGg?e=cQAaEM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/Eex1U9LImONNssgyJCQtGnQBBxGD7xSL_VF9TV1tPicL9g?e=xVfTkf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+**Informe de resumen de la entrevista:**  
+Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que logró su objetivo de forma rápida al buscar un vehículo. Señaló que la información está bien detallada y organizada, lo que facilitó la búsqueda de autos que cumplieran con sus expectativas.  
+
+Entre las características más útiles mencionó el apartado de recomendaciones personalizadas, que le permitió acceder fácilmente a vehículos de su interés. También valoró positivamente el proceso de pagos, mencionando que fue sencillo, transmitía confianza y que no tuvo dificultades al ingresar sus datos.
+
+Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareció bien implementado. Además, consideró que la información mostrada de los vehículos era clara, suficiente y bien explicada. Por último, expresó un alto nivel de satisfacción con la seguridad de la plataforma, resaltando que le generó confianza por el manejo responsable de los datos.
 * URL del video:
 * Informe de resumen de la entrevista:
 
