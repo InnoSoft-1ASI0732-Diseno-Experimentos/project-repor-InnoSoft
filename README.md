@@ -2945,6 +2945,49 @@ Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo ne
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+### Sitio a evaluar: 
+Car2Go
+
+### Tareas a evaluar:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Registro de usuario.
+2. Búsqueda de autos.
+3. Publicación de un auto.
+4. Edición de un auto publicado.
+5. Ver detalles de un auto.
+6. Comprar un auto.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Guardar un auto como favorito.
+2. Ver autos favoritos.
+3. Ver perfil de usuario.
+4. Editar perfil de usuario.
+
+### Escala de severidad:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+|Nivel|Descripción|
+|---|---|
+|1|Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que existe disponibilidad de tiempo.|
+|2| Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja. Resolverlo de cara al siguiente release.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+### Tabla resumen:
+|#|Problema|Escala de severidad|Heurística/Principio violada(o)|
+|---|---|---|---|
+|1|a|a|a|
+
+### Descripción de problemas:
+### Problema #1: --breve descripción del problema--
+
+Severidad:
+Heurística violada: 
+
+Problema:
+--párrafo explicando el problema--
+
+Recomendación:
+
 ## 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada.
