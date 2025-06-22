@@ -2967,13 +2967,51 @@ Este pipeline permite que cada cambio aprobado y consolidado en la rama de despl
 
 ## 7.4. Continuous Monitoring
 
+En el proyecto móvil se implemento un sistema de monitoreo continuo a través de Firebase, permitiendo la detección temprana de errores y el envío de notificaciones automatizadas a los usuarios. Esto asegura la estabilidad de la aplicación durante su ejecución y facilita la respuesta oportuna ante fallos.
+
 ### 7.4.1. Tools and Practices
+
+Se han utilizado las siguientes herramientas de Firebase:
+
+  - **Firebase Performance Monitoring**: Permite registrar automáticamente métricas relacionadas con el rendimiento de la app, como los tiempos de inicio, trazas personalizadas y latencia en llamadas de red.
+
+  - **Firebase Cloud Messaging (FCM)**: Se ha integrado como canal de notificación y alertas, permitiendo la suscripción de dispositivos a tópicos específicos y el envío de notificaciones push ante condiciones definidas.
 
 ### 7.4.2. Monitoring Pipeline Components
 
+El monitoreo se realiza con los siguientes componentes:
+
+  - Traces automáticos como app_start y http_request.
+
+  - Traces personalizados definidos en secciones críticas de la app.
+
+  - Monitoreo de red que evalúa latencias de respuesta en las peticiones HTTP.
+
+  - Visualización de datos desde la consola de Firebase Performance.
+
+![Monitoring Pipeline](./assets/Monitoring-movil.png)
+
 ### 7.4.3. Alerting Pipeline Components
 
+El sistema de alertas ha sido diseñado con:
+
+  - Tópicos específicos en FCM (ej. alertas-dev) a los que se suscriben los dispositivos.
+
+  - Notificaciones push internas utilizadas para informar al usuario sobre eventos clave o fallos detectados.
+
+  - Simulación y pruebas de alertas realizadas desde Firebase Console para verificar la respuesta del sistema.
+
+  ![Alerting mobile](/assets/alerting-mobile.png)
+
 ### 7.4.4. Notification Pipeline Components.
+
+Las notificaciones automáticas se gestionan con Firebase Cloud Messaging:
+
+  - Suscripción dinámica a tópicos desde la app (subscribeToTopic()).
+
+  - Mensajes push configurados desde Firebase Console o por backend para comunicar cambios o alertas.
+
+![notification-mobile](./assets/Notification-mobile.jpg)
 
 # Part III: Experiment-Driven Lifecycle
 
