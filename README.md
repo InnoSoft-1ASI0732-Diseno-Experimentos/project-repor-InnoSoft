@@ -57,6 +57,10 @@
 **Project Report Collaboration Insights**
 URL del repositorio de GitHub de la organización: [https://github.com/Cibersofa](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa)
 
+URL de la web desplegada: <https://car2go-c60fa.web.app/login> 
+
+URl del BackEnd desplegado: <https://car2go-backend.onrender.com>
+
 _TB1_
 
 Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la siguiente forma:
@@ -3319,3 +3323,7 @@ Link de landing page desplegado: <https://innosoft-1asi0732-diseno-experimentos.
 link de Continuous Integration y Continuous Delivery : <https://github.com/testttttttertetewtwesdv/Car2Go-Movil>
 
 Link de Production Deployment Pipeline Components: <https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos/Car2Go-Movil/actions>
+
+URL de la web desplegada: <https://car2go-c60fa.web.app/login> 
+
+URl del BackEnd desplegado: <https://car2go-backend.onrender.com>
