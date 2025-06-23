@@ -46,12 +46,11 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                       | Descripción de modificación |
-| ------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------- |
-| V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito  |
-| V0.2    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial  |
-| V0.3    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Segundo Hito |
-
+| Versión | Fecha      | Autor                                                                                       | Descripción de modificación   |
+| ------- | ---------- | ------------------------------------------------------------------------------------------- | ----------------------------- |
+| V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito    |
+| V0.2    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial |
+| V0.3    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Segundo Hito    |
 
 ---
 
@@ -68,7 +67,7 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
 | Castilla Pachas Cesar Antonio    | - Capitulo 3 <br> - App movil <br> - Entrevista vendedor                         |
 | Meza Camayo, Lynn Jeeferzon      | - app movil- Capitulo 4 <br> - Entrevista Comprador <br>                         |
 | Valera Garces, Samuel Ignacio    | - Capitulo 1-3 -> modificaciones <br> - landing page <br> - Entrevista Comprador |
-| Alvarado De La Cruz, Juan Carlos | -app web- Capitulo 4 <br> - Entrevista Comprador y vendedor                      |
+| Alvarado De La Cruz, Juan Carlos | - app web- Capitulo 4 <br> - Entrevista Comprador y vendedor                     |
 
 **Evidencia**:
 
@@ -96,13 +95,13 @@ _TB2_
 
 Para el desarrollo de la entrega TB2, se opto por dividir el trabajo de la siguiente forma:
 
-| Integrante | Actvidades Asignadas                                               |
-| ---------- | ------------------------------------------------------------------ |
-|            | - Entrevista <br> - BC vechile <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Payment <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Profile <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Payment <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Payment <br> - Actualización en el Frontend |
+| Integrante                       | Actvidades Asignadas                                                            |
+| -------------------------------- | ------------------------------------------------------------------------------- |
+| Serrano Uchuya, Gerald Patricio  | - Entrevista vendedor<br> - 6.2 Static testing & Verification                   |
+| Castilla Pachas Cesar Antonio    | - Entrevista vendedor<br> - 8.2. Experiment Design <br>                         |
+| Meza Camayo, Lynn Jeeferzon      | - Entrevista comprador <br> - 7.4. Continuous Monitoring <br> - Auditoria       |
+| Valera Garces, Samuel Ignacio    | - Entrevista comprador<br> - 8.2. Experiment Design <br> - 8.3. Experimentation |
+| Alvarado De La Cruz, Juan Carlos | - Entrevista comprador y vendedor<br> - 8.1.1. As-Is Summary. <br>              |
 
 **Evidencia**:
 
@@ -2455,23 +2454,23 @@ Esta sección establece los derechos, obligaciones y restricciones aplicables a 
 
   - El usuario acepta no realizar actividades que puedan dañar, interferir o afectar la seguridad del servicio.
 
-  3.Restricciones
+    3.Restricciones
 
   - Queda prohibida la distribución, copia, modificación o explotación no autorizada del software y sus contenidos.
 
   - Está prohibido el uso del servicio para fines ilegales o no autorizados.
 
-  4.Transparencia y Accesibilidad
+    4.Transparencia y Accesibilidad
 
   - Car2Go garantiza que los términos son claros, accesibles y están disponibles para consulta pública en todo momento.
 
   - Se asegura el cumplimiento normativo vigente aplicable a servicios digitales.
 
-  5.Modificaciones al Acuerdo
+    5.Modificaciones al Acuerdo
 
   - Car2Go podrá modificar los términos y condiciones, notificando oportunamente a los usuarios y manteniendo la transparencia.
 
-  6.Protección de Datos
+    6.Protección de Datos
 
   - Car2Go se compromete a proteger los datos personales conforme a la legislación aplicable y su política de privacidad.
 
@@ -2936,16 +2935,16 @@ Para implementar el despliegue continuo en este proyecto, se ha utilizado GitHub
 
 En el flujo implementado, se emplea Flutter para la construcción del proyecto en versión web, y Firebase Hosting como plataforma para el despliegue y hospedaje de la aplicación. La configuración incluye:
 
-  - Automatización del pipeline: mediante workflows definidos en archivos YAML, se ejecutan pasos automáticos al realizar un push a ramas específicas del repositorio.
+- Automatización del pipeline: mediante workflows definidos en archivos YAML, se ejecutan pasos automáticos al realizar un push a ramas específicas del repositorio.
 
-  - Manejo seguro de credenciales: las claves necesarias para el despliegue a Firebase, como el token de acceso y la cuenta de servicio, se gestionan mediante secretos en GitHub, garantizando confidencialidad.
+- Manejo seguro de credenciales: las claves necesarias para el despliegue a Firebase, como el token de acceso y la cuenta de servicio, se gestionan mediante secretos en GitHub, garantizando confidencialidad.
 
-  - Control de versiones y ramas: se utiliza una rama específica para despliegue (pg-deployment), asegurando que solo código validado y estable sea desplegado en producción.
+- Control de versiones y ramas: se utiliza una rama específica para despliegue (pg-deployment), asegurando que solo código validado y estable sea desplegado en producción.
 
-  - Pruebas automatizadas: antes del despliegue se ejecutan comandos de análisis y testeo para asegurar la calidad del código.
+- Pruebas automatizadas: antes del despliegue se ejecutan comandos de análisis y testeo para asegurar la calidad del código.
 
 ![Image-yml-archivo](./assets/deployme-pipeline-yml.png)
-  
+
 Estas prácticas garantizan un proceso confiable, repetible y escalable para la entrega continua de la aplicación.
 
 ### 7.3.2. Production Deployment Pipeline Components.
@@ -2986,21 +2985,21 @@ En el proyecto móvil se implemento un sistema de monitoreo continuo a través d
 
 Se han utilizado las siguientes herramientas de Firebase:
 
-  - **Firebase Performance Monitoring**: Permite registrar automáticamente métricas relacionadas con el rendimiento de la app, como los tiempos de inicio, trazas personalizadas y latencia en llamadas de red.
+- **Firebase Performance Monitoring**: Permite registrar automáticamente métricas relacionadas con el rendimiento de la app, como los tiempos de inicio, trazas personalizadas y latencia en llamadas de red.
 
-  - **Firebase Cloud Messaging (FCM)**: Se ha integrado como canal de notificación y alertas, permitiendo la suscripción de dispositivos a tópicos específicos y el envío de notificaciones push ante condiciones definidas.
+- **Firebase Cloud Messaging (FCM)**: Se ha integrado como canal de notificación y alertas, permitiendo la suscripción de dispositivos a tópicos específicos y el envío de notificaciones push ante condiciones definidas.
 
 ### 7.4.2. Monitoring Pipeline Components
 
 El monitoreo se realiza con los siguientes componentes:
 
-  - Traces automáticos como app_start y http_request.
+- Traces automáticos como app_start y http_request.
 
-  - Traces personalizados definidos en secciones críticas de la app.
+- Traces personalizados definidos en secciones críticas de la app.
 
-  - Monitoreo de red que evalúa latencias de respuesta en las peticiones HTTP.
+- Monitoreo de red que evalúa latencias de respuesta en las peticiones HTTP.
 
-  - Visualización de datos desde la consola de Firebase Performance.
+- Visualización de datos desde la consola de Firebase Performance.
 
 ![Monitoring Pipeline](./assets/Monitoring-movil.png)
 
@@ -3008,21 +3007,21 @@ El monitoreo se realiza con los siguientes componentes:
 
 El sistema de alertas ha sido diseñado con:
 
-  - Tópicos específicos en FCM (ej. alertas-dev) a los que se suscriben los dispositivos.
+- Tópicos específicos en FCM (ej. alertas-dev) a los que se suscriben los dispositivos.
 
-  - Notificaciones push internas utilizadas para informar al usuario sobre eventos clave o fallos detectados.
+- Notificaciones push internas utilizadas para informar al usuario sobre eventos clave o fallos detectados.
 
-  - Simulación y pruebas de alertas realizadas desde Firebase Console para verificar la respuesta del sistema.
+- Simulación y pruebas de alertas realizadas desde Firebase Console para verificar la respuesta del sistema.
 
-  ![Alerting mobile](/assets/alerting-mobile.png)
+![Alerting mobile](/assets/alerting-mobile.png)
 
 ### 7.4.4. Notification Pipeline Components.
 
 Las notificaciones automáticas se gestionan con Firebase Cloud Messaging:
 
-  - Suscripción dinámica a tópicos desde la app (subscribeToTopic()).
+- Suscripción dinámica a tópicos desde la app (subscribeToTopic()).
 
-  - Mensajes push configurados desde Firebase Console o por backend para comunicar cambios o alertas.
+- Mensajes push configurados desde Firebase Console o por backend para comunicar cambios o alertas.
 
 ![notification-mobile](./assets/Notification-mobile.jpg)
 
@@ -3033,16 +3032,15 @@ Las notificaciones automáticas se gestionan con Firebase Cloud Messaging:
 ## 8.1. Experiment Planning
 
 ### 8.1.1. As-Is Summary.
+
 Actualmente, en la industria de compra y venta de autos de segunda mano existe una falta de plataformas tecnológicas confiables que permitan realizar transacciones de forma segura, rápida y eficiente. Los usuarios, tanto compradores como vendedores, enfrentan problemas relacionados con la confianza, la transparencia en la información de los vehículos, la verificación de los pagos y la comunicación fluida entre ambas partes.
 
 **Car2Go** nace como una solución a estas problemáticas, con el objetivo de proporcionar una experiencia de compra y venta confiable para todos sus usuarios. A través de experimentación y validación de hipótesis, buscamos implementar mejoras que garanticen una mayor satisfacción del usuario, aumento de transacciones exitosas y crecimiento sostenido de la plataforma.
 
-
-
-
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 
 ### Supuestos (Assumptions)
+
 - Los compradores necesitan más confianza al momento de adquirir un auto usado.
 - Los vendedores requieren procesos rápidos y verificados para concretar ventas.
 - Los talleres técnicos están dispuestos a ofrecer servicios de inspección a través de la plataforma.
@@ -3050,17 +3048,20 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 - La transparencia en la información del vehículo es un factor clave para los compradores.
 
 ### Vacíos de conocimiento (Knowledge Gaps)
+
 - ¿Cuál es el principal motivo por el que los usuarios abandonan una compra?
 - ¿Qué porcentaje de los vendedores preferiría pagar por destacar sus publicaciones?
 - ¿Qué tan dispuestos están los usuarios a pagar por certificaciones técnicas del vehículo?
 
 ### Ideas
+
 - Crear un sistema de reputación para compradores y vendedores.
 - Generar un historial verificable de cada vehículo.
 - Permitir que los talleres técnicos emitan certificaciones visibles para los usuarios.
 - Sistema automatizado de notificaciones en cada etapa del proceso de compra-venta.
 
 ### Claims
+
 1. Si los compradores no confían en la información publicada sobre un vehículo, no realizarán la compra.
 2. Si no existe un sistema confiable de verificación de pagos, aumentarán los casos de estafas.
 3. Si los vendedores no pueden destacar sus publicaciones, les resultará difícil concretar ventas en un mercado competitivo.
@@ -3068,9 +3069,8 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 5. Si no existe un sistema ágil de comunicación entre compradores y vendedores, se perderán oportunidades de venta.
 6. Si no se implementa un sistema de seguimiento, los usuarios no podrán saber en qué estado se encuentra su transacción.
 
-
-
 ### 8.1.3. Experiment-Ready Questions.
+
 1. ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores y facilitará la concreción de ventas?
 2. ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?
 3. ¿La implementación de un sistema automatizado de verificación de pagos reducirá los casos de estafas?
@@ -3078,28 +3078,26 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 5. ¿Brindar al usuario una sección con el historial del vehículo permitirá que los compradores tomen mejores decisiones?
 6. ¿Facilitar la comunicación directa entre compradores y vendedores reducirá el abandono del proceso de compra?
 
-
 ### 8.1.4. Question Backlog.
 
-| Pregunta                                                                                         | Confidence | Risk | Impact | Interest | Total Score |
-|--------------------------------------------------------------------------------------------------|------------|------|--------|----------|-------------|
-| ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?       | 3          | 2    | 3      | 3        | 11          |
-| ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?   | 3          | 1    | 2      | 2        | 8           |
-| ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?         | 3          | 2    | 3      | 3        | 11          |
-| ¿Integrar talleres técnicos para certificaciones aumentará la percepción de seguridad?           | 3          | 2    | 3      | 3        | 11          |
-| ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?      | 3          | 1    | 3      | 2        | 9           |
-| ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?             | 3          | 1    | 2      | 2        | 8           |
-
+| Pregunta                                                                                       | Confidence | Risk | Impact | Interest | Total Score |
+| ---------------------------------------------------------------------------------------------- | ---------- | ---- | ------ | -------- | ----------- |
+| ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?     | 3          | 2    | 3      | 3        | 11          |
+| ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión? | 3          | 1    | 2      | 2        | 8           |
+| ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?       | 3          | 2    | 3      | 3        | 11          |
+| ¿Integrar talleres técnicos para certificaciones aumentará la percepción de seguridad?         | 3          | 2    | 3      | 3        | 11          |
+| ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?    | 3          | 1    | 3      | 2        | 9           |
+| ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?           | 3          | 1    | 2      | 2        | 8           |
 
 ## 8.1.5 Experiment Cards
 
-| ID    | Nombre del Experimento                        | Objetivo                                                                 | Pregunta a responder                                                                                   | Hipótesis                                                                                                                                  | Segmento objetivo          | Tipo de experimento                                | Métricas clave                                  | Criterio de éxito                     |
-|-------|------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------|
-| EXP01 | Sello de Verificación Técnica en Anuncios      | Evaluar si el sello genera mayor confianza y aumenta el interés de compra | ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?               | Creemos que al mostrar un sello de verificación en los anuncios, los compradores confiarán más y se incrementarán las interacciones       | Compradores                 | A/B Testing (anuncios con y sin sello)             | Tasa de clics (CTR), número de mensajes enviados | ≥15% de aumento en clics o contactos |
-| EXP02 | Publicaciones Destacadas para Vendedores       | Validar si destacar anuncios ayuda a concretar más ventas                | ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?          | Creemos que los anuncios destacados aumentan la visibilidad y permiten vender más rápido                                                  | Vendedores                  | Feature toggle + análisis de comportamiento         | Tasa de conversión, tiempo promedio hasta la venta | Reducción del tiempo ≥30%            |
-| EXP03 | Verificación de Pagos Segura                   | Medir impacto de verificación automatizada en la reducción de estafas    | ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?                | Creemos que si los pagos se verifican mediante comprobantes validados, se reducirá el fraude                                              | Compradores y Vendedores    | Test funcional con monitoreo de casos de disputa    | Número de disputas/fraudes, % de confirmaciones exitosas | Reducción ≥50% en fraudes        |
-| EXP04 | Historial del Vehículo en Anuncio              | Validar si mostrar el historial del vehículo influye en decisión de compra | ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?              | Creemos que mostrar el historial aumentará la confianza y reducirá la incertidumbre                                                       | Compradores                 | A/B Testing (anuncios con y sin historial)          | Tasa de conversión, tiempo en página, % de retorno | +20% clics, +10% intención de compra |
-| EXP05 | Chat Directo entre Comprador y Vendedor        | Evaluar si la comunicación directa reduce el abandono de compra          | ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?                    | Creemos que al implementar un chat directo se reducirán dudas y el abandono durante la compra                                             | Compradores y Vendedores    | Activación progresiva + monitoreo del embudo        | Tasa de abandono, duración de conversación, transacciones completadas | Reducción del abandono ≥25%      |
+| ID    | Nombre del Experimento                    | Objetivo                                                                   | Pregunta a responder                                                                           | Hipótesis                                                                                                                           | Segmento objetivo        | Tipo de experimento                              | Métricas clave                                                        | Criterio de éxito                    |
+| ----- | ----------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------ |
+| EXP01 | Sello de Verificación Técnica en Anuncios | Evaluar si el sello genera mayor confianza y aumenta el interés de compra  | ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?     | Creemos que al mostrar un sello de verificación en los anuncios, los compradores confiarán más y se incrementarán las interacciones | Compradores              | A/B Testing (anuncios con y sin sello)           | Tasa de clics (CTR), número de mensajes enviados                      | ≥15% de aumento en clics o contactos |
+| EXP02 | Publicaciones Destacadas para Vendedores  | Validar si destacar anuncios ayuda a concretar más ventas                  | ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión? | Creemos que los anuncios destacados aumentan la visibilidad y permiten vender más rápido                                            | Vendedores               | Feature toggle + análisis de comportamiento      | Tasa de conversión, tiempo promedio hasta la venta                    | Reducción del tiempo ≥30%            |
+| EXP03 | Verificación de Pagos Segura              | Medir impacto de verificación automatizada en la reducción de estafas      | ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?       | Creemos que si los pagos se verifican mediante comprobantes validados, se reducirá el fraude                                        | Compradores y Vendedores | Test funcional con monitoreo de casos de disputa | Número de disputas/fraudes, % de confirmaciones exitosas              | Reducción ≥50% en fraudes            |
+| EXP04 | Historial del Vehículo en Anuncio         | Validar si mostrar el historial del vehículo influye en decisión de compra | ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?    | Creemos que mostrar el historial aumentará la confianza y reducirá la incertidumbre                                                 | Compradores              | A/B Testing (anuncios con y sin historial)       | Tasa de conversión, tiempo en página, % de retorno                    | +20% clics, +10% intención de compra |
+| EXP05 | Chat Directo entre Comprador y Vendedor   | Evaluar si la comunicación directa reduce el abandono de compra            | ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?           | Creemos que al implementar un chat directo se reducirán dudas y el abandono durante la compra                                       | Compradores y Vendedores | Activación progresiva + monitoreo del embudo     | Tasa de abandono, duración de conversación, transacciones completadas | Reducción del abandono ≥25%          |
 
 ## 8.2. Experiment Design
 
@@ -3114,6 +3112,7 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 ### 8.2.2 Measures
 
 **Métricas Cuantitativas:**
+
 - Tasa de clics en anuncios (CTR)
 - Número de mensajes enviados al vendedor
 - Tasa de conversión (visitas → contactos → venta)
@@ -3123,6 +3122,7 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 - Porcentaje de uso de nuevas funcionalidades (filtro, chat, historial)
 
 **Métricas Cualitativas:**
+
 - Percepción de confianza del usuario (encuesta)
 - Comprensión del proceso de pago (test de usabilidad)
 - Feedback sobre utilidad del historial del vehículo (entrevista breve post-uso)
@@ -3137,7 +3137,6 @@ Actualmente, en la industria de compra y venta de autos de segunda mano existe u
 - **Métodos de ejecución:** A/B Testing, prototipos interactivos (Figma), entrevistas de validación, encuestas
 - **Variantes:** Anuncios con/sin sello, Con/sin historial, Chat activo/inactivo, Publicación destacada vs estándar, Pago tradicional vs verificado
 - **Ética del experimento:** Consentimiento informado, recolección anónima de datos, cumplimiento de la ley de protección de datos personales
-
 
 ### 8.2.4. Scale Calculations and Decisions
 
@@ -3170,11 +3169,13 @@ La combinación de estos métodos permitirá validar hipótesis de negocio, ajus
 Los objetivos analíticos de Car2Go se enfocarán en el **crecimiento, la retención, la conversión y la satisfacción del usuario**. Para ello, se definirán los siguientes KPIs y métricas clave:
 
 **Objetivos principales:**
+
 - Aumentar la tasa de conversión de visitantes a compradores/vendedores activos.
 - Optimizar el uso de los planes de suscripción.
 - Mejorar la retención de usuarios mes a mes.
 
 **KPIs seleccionados:**
+
 - **Tasa de conversión** (visitantes → compradores / vendedores).
 - **Customer Lifetime Value (CLV)**.
 - **Tasa de retención mensual / churn rate**.
@@ -3183,6 +3184,7 @@ Los objetivos analíticos de Car2Go se enfocarán en el **crecimiento, la retenc
 - **Duración media de publicación hasta la venta**.
 
 **Métricas de soporte:**
+
 - Tasa de clics en anuncios destacados.
 - Porcentaje de transacciones confirmadas con comprobante.
 - Número de publicaciones por usuario activo.
@@ -3195,6 +3197,7 @@ Los objetivos analíticos de Car2Go se enfocarán en el **crecimiento, la retenc
 Para implementar un plan de seguimiento eficaz en Car2Go (Web y App móvil), se establecerán eventos clave y parámetros personalizados en herramientas como **Google Analytics 4**, **Firebase**, o **Mixpanel**, con el objetivo de rastrear el comportamiento del usuario y alimentar los KPIs definidos.
 
 **Eventos clave a rastrear:**
+
 - Registro de usuario
 - Inicio de sesión / logout
 - Creación de anuncio de vehículo
@@ -3207,6 +3210,7 @@ Para implementar un plan de seguimiento eficaz en Car2Go (Web y App móvil), se 
 - Notificaciones abiertas o ignoradas
 
 **Dimensiones a incluir:**
+
 - Tipo de usuario (vendedor/comprador)
 - Dispositivo (móvil/web)
 - Ubicación geográfica
@@ -3215,43 +3219,40 @@ Para implementar un plan de seguimiento eficaz en Car2Go (Web y App móvil), se 
 
 Este plan asegurará una **medición integral del comportamiento de los usuarios**, facilitando mejoras iterativas en la plataforma y decisiones basadas en datos.
 
-
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories
 
-
-| Epic / Story ID | Título                                | Descripción                                                                                       | Criterios de Aceptación                                                                                                                                                       | Relacionado con (Epic ID) |
-|-----------------|----------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| US-TB01         | Historial del Vehículo                 | Como comprador quiero ver el historial técnico y de propiedad del auto                           | Escenario: Historial disponible<br>Given el auto tiene historial cargado<br>When el comprador entra al anuncio<br>Then el sistema debe mostrar un historial detallado         | EP02                       |
-| US-TB02         | Chat Directo entre Usuarios            | Como comprador quiero comunicarme directamente con el vendedor desde la plataforma               | Escenario: Chat iniciado<br>Given el comprador está en el anuncio<br>When hace clic en "Contactar por chat"<br>Then debe abrirse un chat privado con el vendedor              | EP01                       |
-| US-TB03         | Verificación de Comprobante de Pago    | Como comprador quiero que el sistema valide automáticamente mi comprobante de pago               | Escenario: Comprobante válido<br>Given se carga un comprobante<br>When es verificado correctamente<br>Then se confirma la transacción y se notifica al vendedor               | EP03                       |
-| US-TB04         | Notificación de Transacción Segura     | Como vendedor quiero recibir una notificación cuando el comprador complete el pago validado      | Escenario: Pago confirmado<br>Given el comprador completó el pago<br>When el sistema valida el comprobante<br>Then el vendedor recibe una notificación inmediata              | EP03                       |
-| US-TB05         | Publicación Destacada Premium          | Como vendedor quiero destacar mi anuncio para que tenga mayor visibilidad                        | Escenario: Activación de destacado<br>Given el vendedor selecciona "Anuncio Destacado"<br>When realiza el pago<br>Then el anuncio aparece en sección prioritaria              | EP08                       |
-| US-TB06         | Seguimiento del Estado de Transacción  | Como comprador quiero ver en qué estado está mi proceso de compra                                | Escenario: Flujo de estados<br>Given el comprador hizo una oferta<br>When accede al detalle de la compra<br>Then el sistema muestra el estado actualizado                     | EP03                       |
-| US-TB07         | Encuesta de Confianza Post Compra      | Como comprador quiero poder evaluar si me sentí seguro durante la compra                         | Escenario: Compra finalizada<br>Given una compra ha sido completada<br>When accede a su historial<br>Then se ofrece una encuesta rápida de satisfacción                       | EP05                       |
+| Epic / Story ID | Título                                | Descripción                                                                                 | Criterios de Aceptación                                                                                                                                               | Relacionado con (Epic ID) |
+| --------------- | ------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| US-TB01         | Historial del Vehículo                | Como comprador quiero ver el historial técnico y de propiedad del auto                      | Escenario: Historial disponible<br>Given el auto tiene historial cargado<br>When el comprador entra al anuncio<br>Then el sistema debe mostrar un historial detallado | EP02                      |
+| US-TB02         | Chat Directo entre Usuarios           | Como comprador quiero comunicarme directamente con el vendedor desde la plataforma          | Escenario: Chat iniciado<br>Given el comprador está en el anuncio<br>When hace clic en "Contactar por chat"<br>Then debe abrirse un chat privado con el vendedor      | EP01                      |
+| US-TB03         | Verificación de Comprobante de Pago   | Como comprador quiero que el sistema valide automáticamente mi comprobante de pago          | Escenario: Comprobante válido<br>Given se carga un comprobante<br>When es verificado correctamente<br>Then se confirma la transacción y se notifica al vendedor       | EP03                      |
+| US-TB04         | Notificación de Transacción Segura    | Como vendedor quiero recibir una notificación cuando el comprador complete el pago validado | Escenario: Pago confirmado<br>Given el comprador completó el pago<br>When el sistema valida el comprobante<br>Then el vendedor recibe una notificación inmediata      | EP03                      |
+| US-TB05         | Publicación Destacada Premium         | Como vendedor quiero destacar mi anuncio para que tenga mayor visibilidad                   | Escenario: Activación de destacado<br>Given el vendedor selecciona "Anuncio Destacado"<br>When realiza el pago<br>Then el anuncio aparece en sección prioritaria      | EP08                      |
+| US-TB06         | Seguimiento del Estado de Transacción | Como comprador quiero ver en qué estado está mi proceso de compra                           | Escenario: Flujo de estados<br>Given el comprador hizo una oferta<br>When accede al detalle de la compra<br>Then el sistema muestra el estado actualizado             | EP03                      |
+| US-TB07         | Encuesta de Confianza Post Compra     | Como comprador quiero poder evaluar si me sentí seguro durante la compra                    | Escenario: Compra finalizada<br>Given una compra ha sido completada<br>When accede a su historial<br>Then se ofrece una encuesta rápida de satisfacción               | EP05                      |
 
 ---
 
 ### 8.3.2. To-Be Product Backlog
 
-
-| Orden | User Story ID | Título                               | Descripción                                                             | Story Points |
-|-------|----------------|---------------------------------------|-------------------------------------------------------------------------|---------------|
-| 1     | US-TB03         | Verificación de Comprobante de Pago   | Validar pagos mediante comprobantes automatizados                       | 5             |
-| 2     | US-TB02         | Chat Directo entre Usuarios           | Permitir comunicación directa entre compradores y vendedores            | 5             |
-| 3     | US-TB01         | Historial del Vehículo                | Mostrar historial técnico y de propiedad en cada anuncio                | 5             |
-| 4     | US-TB05         | Publicación Destacada Premium         | Dar opción al vendedor de pagar por destacar su anuncio                 | 3             |
-| 5     | US-TB06         | Seguimiento del Estado de Transacción | Flujo visual que muestra el estado del proceso de compra                | 3             |
-| 6     | US-TB04         | Notificación de Transacción Segura    | Avisar automáticamente cuando un pago es validado                       | 3             |
-| 7     | US-TB07         | Encuesta de Confianza Post Compra     | Recolectar feedback sobre la percepción de seguridad en la transacción  | 2             |
-| 8     | US-16           | Sistema de Pago Seguro                | Plataforma para ingresar y validar pagos de forma segura                | 5             |
-| 9     | US-17           | Confirmación de Transacción           | Confirmar automáticamente que la venta se completó                      | 3             |
-| 10    | US-01           | Registro de Usuario                   | Registro en plataforma para compradores y vendedores                    | 3             |
-| 11    | US-02           | Búsqueda de Autos                     | Búsqueda con filtros por marca, modelo, precio, etc.                    | 5             |
-| 12    | US-03           | Listado de Autos                      | Permitir publicar un auto a la venta                                    | 5             |
-| 13    | US-06           | Ver Detalles del Auto                 | Mostrar toda la información del auto al hacer clic                      | 5             |
-| 14    | US-24           | Soporte en Vivo                       | Chat de soporte en tiempo real para problemas urgentes                  | 5             |
+| Orden | User Story ID | Título                                | Descripción                                                            | Story Points |
+| ----- | ------------- | ------------------------------------- | ---------------------------------------------------------------------- | ------------ |
+| 1     | US-TB03       | Verificación de Comprobante de Pago   | Validar pagos mediante comprobantes automatizados                      | 5            |
+| 2     | US-TB02       | Chat Directo entre Usuarios           | Permitir comunicación directa entre compradores y vendedores           | 5            |
+| 3     | US-TB01       | Historial del Vehículo                | Mostrar historial técnico y de propiedad en cada anuncio               | 5            |
+| 4     | US-TB05       | Publicación Destacada Premium         | Dar opción al vendedor de pagar por destacar su anuncio                | 3            |
+| 5     | US-TB06       | Seguimiento del Estado de Transacción | Flujo visual que muestra el estado del proceso de compra               | 3            |
+| 6     | US-TB04       | Notificación de Transacción Segura    | Avisar automáticamente cuando un pago es validado                      | 3            |
+| 7     | US-TB07       | Encuesta de Confianza Post Compra     | Recolectar feedback sobre la percepción de seguridad en la transacción | 2            |
+| 8     | US-16         | Sistema de Pago Seguro                | Plataforma para ingresar y validar pagos de forma segura               | 5            |
+| 9     | US-17         | Confirmación de Transacción           | Confirmar automáticamente que la venta se completó                     | 3            |
+| 10    | US-01         | Registro de Usuario                   | Registro en plataforma para compradores y vendedores                   | 3            |
+| 11    | US-02         | Búsqueda de Autos                     | Búsqueda con filtros por marca, modelo, precio, etc.                   | 5            |
+| 12    | US-03         | Listado de Autos                      | Permitir publicar un auto a la venta                                   | 5            |
+| 13    | US-06         | Ver Detalles del Auto                 | Mostrar toda la información del auto al hacer clic                     | 5            |
+| 14    | US-24         | Soporte en Vivo                       | Chat de soporte en tiempo real para problemas urgentes                 | 5            |
 
 ---
 
@@ -3315,6 +3316,6 @@ Link del repositorio de Github: <https://github.com/InnoSoft-1ASI0732-Diseno-Exp
 
 Link de landing page desplegado: <https://innosoft-1asi0732-diseno-experimentos.github.io/Car2Go-Landing-Page/>
 
-link de Continuous Integration y Continuous Delivery : <https://github.com/testttttttertetewtwesdv/Car2Go-Movil> 
+link de Continuous Integration y Continuous Delivery : <https://github.com/testttttttertetewtwesdv/Car2Go-Movil>
 
 Link de Production Deployment Pipeline Components: <https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos/Car2Go-Movil/actions>
