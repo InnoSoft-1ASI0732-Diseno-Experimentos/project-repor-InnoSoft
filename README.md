@@ -3067,9 +3067,49 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 #### 6.4.1.1. Información del grupo auditado.
 
+•	**Nombre del Producto**: “Grupo 05-ArtCollab”
+
+• **Proyecto auditado**: Plataforma colaborativa para artistas emergentes.
+
+• **Enlace proporcionado**: <https://elegant-beijinho-a167d8.netlify.app/#/register>
+
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
+•	**Fecha de auditoría**: 22 de junio de 2025
+
+•	**Duración estimada**: 30 minutos
+
+•	**Hora de la auditoria**: 18:15
+
+•	**Modo**: Remoto (vía navegador web)
+
 #### 6.4.1.3. Contenido de auditoría realizada.
+
+Durante el proceso de auditoría, se intentó acceder a la aplicación desplegada por el grupo auditado mediante el enlace proporcionado. Sin embargo, no fue posible evaluar la funcionalidad completa de la aplicación debido a un error técnico relacionado con la conexión entre el frontend y el backend.
+
+Al acceder a la aplicación, se evidenció el siguiente mensaje en la consola del navegador:
+
+    ❌ Solicitud de origen cruzado bloqueada: La política de mismo origen no permite la lectura de recursos remotos en https://art-collab.azurewebsites.net/api/v1/content/template. (Razón: Solicitud CORS sin éxito). Código de estado: (null)
+
+Este error impide cualquier acción de registro, lectura o validación, y genera una pantalla en blanco o sin respuesta, lo que imposibilita la evaluación de la experiencia del usuario en condiciones reales.
+
+**Observaciones:**
+
+•	Se sugiere al grupo auditado revisar la configuración de CORS en el backend desplegado en Azure.
+
+•	Se recomienda también implementar una página de error amigable que informe al usuario que existe una falla temporal del sistema.
+
+**Evaluación alternativa:**
+
+Debido a la imposibilidad de navegación, la evaluación se centró en los siguientes puntos visibles:
+
+•	El diseño de la interfaz inicial carga correctamente el logo y título del proyecto.
+
+•	Se observa consistencia visual en los elementos visibles, aunque no se pudo comprobar su funcionalidad.
+
+•	No fue posible evaluar la arquitectura de navegación, flujos de usuario ni rendimiento.
+
+
 
 ### 6.4.2. Auditoría recibida.
 
