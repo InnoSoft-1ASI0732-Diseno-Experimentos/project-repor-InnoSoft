@@ -55,6 +55,7 @@
 ---
 
 **Project Report Collaboration Insights**
+
 URL del repositorio de GitHub de la organización: [https://github.com/Cibersofa](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa)
 
 URL de la web desplegada: <https://car2go-c60fa.web.app/login> 
