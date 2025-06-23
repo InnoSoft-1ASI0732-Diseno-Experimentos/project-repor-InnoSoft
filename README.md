@@ -2901,17 +2901,16 @@ Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que l
 Entre las características más útiles mencionó el apartado de recomendaciones personalizadas, que le permitió acceder fácilmente a vehículos de su interés. También valoró positivamente el proceso de pagos, mencionando que fue sencillo, transmitía confianza y que no tuvo dificultades al ingresar sus datos.
 
 Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareció bien implementado. Además, consideró que la información mostrada de los vehículos era clara, suficiente y bien explicada. Por último, expresó un alto nivel de satisfacción con la seguridad de la plataforma, resaltando que le generó confianza por el manejo responsable de los datos.
-* URL del video:
-* Informe de resumen de la entrevista:
 
 ### Entrevista 2:
-* Nombre y Apellido:
-* Edad:
-* Duración de la entrevista:
+* Nombre y Apellido: Pieere Ricaldi Solis
+* Edad: 23
+* Duración de la entrevista: 6:25
 * Evidencia de la reunión:
-
-* URL del video:
+![entrevista vendedor 2](./assets/entrevista2_comprador.png)
+* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EYZUZ0f7MrNGt2u6lLfqwzQBkcUhrNinZ4zNDquKY7x4nA?e=TdARDf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * Informe de resumen de la entrevista:
+Ricaldi indico que la plataforma es sencilla, intuitiva y falcil de usar. Entre las características más valoradas de la plataforma, se mencionaron la claridad de la información sobre los vehículos, la organización de los filtros de búsqueda, y la navegación intuitiva del sitio. El proceso de compra cumplió completamente con sus expectativas, resaltando la simplicidad y rapidez del mismo. La experiencia general fue positiva en todos los aspectos evaluados, lo cual refuerza que la plataforma Car2Go está bien alineada con las necesidades y expectativas.
 
 ### Entrevista 3:
 * Nombre y Apellido:
