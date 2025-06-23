@@ -46,15 +46,21 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                       | Descripción de modificación |
-| ------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------- |
-| V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito  |
-| V0.2    | 15/05/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial  |
+| Versión | Fecha      | Autor                                                                                       | Descripción de modificación   |
+| ------- | ---------- | ------------------------------------------------------------------------------------------- | ----------------------------- |
+| V0.1    | 27/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo del primer Hito    |
+| V0.2    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Trabajo Parcial |
+| V0.3    | 15/04/2025 | Lynn Jeeferzon <br> César Antonio <br> Gerald Patricio <br> Samuel Ignacio <br> Juan Carlos | Desarrollo de Segundo Hito    |
 
 ---
 
 **Project Report Collaboration Insights**
+
 URL del repositorio de GitHub de la organización: [https://github.com/Cibersofa](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa)
+
+URL de la web desplegada: <https://car2go-c60fa.web.app/login> 
+
+URl del BackEnd desplegado: <https://car2go-backend.onrender.com>
 
 _TB1_
 
@@ -66,7 +72,7 @@ Para el desarrollo de la entrega TB1, se opto por dividir el trabajo de la sigui
 | Castilla Pachas Cesar Antonio    | - Capitulo 3 <br> - App movil <br> - Entrevista vendedor                         |
 | Meza Camayo, Lynn Jeeferzon      | - app movil- Capitulo 4 <br> - Entrevista Comprador <br>                         |
 | Valera Garces, Samuel Ignacio    | - Capitulo 1-3 -> modificaciones <br> - landing page <br> - Entrevista Comprador |
-| Alvarado De La Cruz, Juan Carlos | -app web- Capitulo 4 <br> - Entrevista Comprador y vendedor                      |
+| Alvarado De La Cruz, Juan Carlos | - app web- Capitulo 4 <br> - Entrevista Comprador y vendedor                     |
 
 **Evidencia**:
 
@@ -94,13 +100,13 @@ _TB2_
 
 Para el desarrollo de la entrega TB2, se opto por dividir el trabajo de la siguiente forma:
 
-| Integrante | Actvidades Asignadas                                               |
-| ---------- | ------------------------------------------------------------------ |
-|            | - Entrevista <br> - BC vechile <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Payment <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Profile <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Payment <br> - Actualización en el Frontend |
-|            | - Entrevista <br> - BC Payment <br> - Actualización en el Frontend |
+| Integrante                       | Actvidades Asignadas                                                            |
+| -------------------------------- | ------------------------------------------------------------------------------- |
+| Serrano Uchuya, Gerald Patricio  | - Entrevista vendedor<br> - 6.2 Static testing & Verification                   |
+| Castilla Pachas Cesar Antonio    | - Entrevista vendedor<br> - 8.2. Experiment Design <br>                         |
+| Meza Camayo, Lynn Jeeferzon      | - Entrevista comprador <br> - 7.4. Continuous Monitoring <br> - Auditoria       |
+| Valera Garces, Samuel Ignacio    | - Entrevista comprador<br> - 8.2. Experiment Design <br> - 8.3. Experimentation |
+| Alvarado De La Cruz, Juan Carlos | - Entrevista comprador y vendedor<br> - 8.1.1. As-Is Summary. <br>              |
 
 **Evidencia**:
 
@@ -149,13 +155,17 @@ software </b></td>
     <br>Meza Camayo, Lynn Jeeferzon <br> Reconocí mi responsabilidad ética y profesional al realizar entrevistas con compradores y vendedores, garantizando confidencialidad y uso adecuado de los datos. En el diseño de wireframes y wireflows, prioricé interfaces intuitivas y accesibles, y en el desarrollo móvil, seguí buenas prácticas de seguridad y calidad, cumpliendo con estándares éticos y técnicos.<br>
     <br>TP:<br>Valera Garces, Samuel Ignacio <br> Me encargué de configurar el pipeline de CI/CD con GitHub Actions, aplicando buenas prácticas como flutter analyze y flutter test. Estas acciones aseguraron la calidad del código y fomentaron un desarrollo responsable, transparente y profesional dentro del equipo.<br><br>Castilla Pachas, Cesar Antonio<br> En esta entrega, avancé principalmente con la implementación de pruebas de sistema y pruebas BDD. A través de estas pruebas, reconocí mi responsabilidad profesional al validar que el sistema funcione de forma correcta, segura y conforme a los roles definidos. Me aseguré de que los endpoints respondan adecuadamente ante solicitudes válidas y que se respete la autenticación y autorización de cada usuario. Este enfoque de validación no solo mejora la calidad del software, sino que también refleja un compromiso ético con la confianza y seguridad de los usuarios que interactuarán con la plataforma.<br>
     <br>Alvarado De La Cruz, Juan Carlos<br>Reconocí mi responsabilidad ética y profesional al desarrollar una prueba de integración para el repositorio de usuarios (UserRepository) en el backend del sistema. Me aseguré de validar correctamente la persistencia de datos, respetando principios de calidad y consistencia de la información. Para ello, utilicé una base de datos H2 aislada, evitando riesgos sobre datos reales y promoviendo buenas prácticas en pruebas automatizadas, lo cual es clave para entregar software confiable y mantenible.<br>
-    <br>Meza Camayo, Lynn: Me encargue de desplegar a produccion el pipiline components, aplicando buenas practicas de flutter y desplegando en la nube.</br> 
+    <br>Meza Camayo, Lynn:<br> Me encargue de desplegar a produccion el pipiline components, aplicando buenas practicas de flutter y desplegando en la nube.</br> 
     <br>Serrano Uchuya, Gerald Patricio <br>Se desarrollaron las pruebas unitarias de las entidades principales de la plataforma para garantizar el correcto funcionamiento de sus comandos y queries, así como de los controladores. De este modo, se brinda un software competente que cumpla con lo que ofrece sin problemas.<br>
-
-<br>
+    <br>TB2:<br>Valera Garces, Samuel Ignacio<br>Durante esta iteración del proyecto, participé en el diseño y desarrollo de funcionalidades clave como la verificación de comprobantes de pago, el historial del vehículo y el sistema de chat directo entre compradores y vendedores. Estas historias de usuario fueron priorizadas por su impacto directo en la confianza del usuario y la seguridad de las transacciones. Analicé cómo cada una podía influir en los contextos sociales y económicos de los usuarios, especialmente en la reducción de fraudes, la mejora en la toma de decisiones de compra, y la agilidad en la comunicación. <br><br>Asimismo, colaboré en la planificación y ejecución de experimentos (como A/B Testing y toggles de funcionalidades) para validar hipótesis orientadas a mejorar la experiencia de compra-venta de autos usados en entornos reales. A través de estos experimentos, buscamos evidencias concretas del impacto positivo de estas soluciones en métricas como la tasa de clics, abandono y conversión. Evalué también cómo decisiones técnicas (como activar ciertas funciones solo a segmentos específicos) permiten un desarrollo más consciente, medible y adaptable a distintos perfiles de usuario, promoviendo así un enfoque más responsable e inclusivo del software.
+    <br>Alvarado De La Cruz, Juan Carlos<br>Durante el desarrollo de la sección 8.1 Experiment Planning del proyecto Car2Go, reconocí la importancia de aplicar principios éticos al definir los experimentos, garantizando que las preguntas, supuestos y vacíos de conocimiento estén correctamente alineados con los objetivos del sistema y sean respetuosos con la privacidad y los intereses de los usuarios. Evité formular hipótesis sesgadas y me aseguré de que el trabajo cumpliera con estándares profesionales, promoviendo una actitud crítica y responsable frente a los posibles riesgos derivados de malas decisiones de ingeniería de software.
+    <br>Meza Camayo, Lynn:<br>Desarrollé un pipeline de CI/CD con GitHub Actions para automatizar el análisis, testeo y despliegue del sistema. También integré Firebase Performance Monitoring y Cloud Messaging para el monitoreo y envío de alertas en tiempo real. Estas decisiones reflejan una responsabilidad profesional, priorizando la estabilidad, seguridad y experiencia del usuario, entendiendo que una falla puede afectar directamente a quienes dependen del sistema.
+    <br>Serrano Uchuya, Gerald Patricio:<br>Desarrollé las secciones del capítulo 6 relacionados a la descripción de los estándares y convenciones utilizados en el desarrollo de la aplicación tanto para el frontend como el backend. Asimismo, agregué los resultados del análisis de calidad de software de la herramienta SonarQube. Por último, diseñé las entrevistas de validación y agregué la evaluación de heurísticas.
+    <br>Castilla Pachas Cesar Antonio:<br>Durante el desarrollo de esta entrega, reconocí y apliqué principios éticos y profesionales al diseñar experimentos A/B y estrategias de análisis de datos que respetaran la privacidad y segmentación justa de los usuarios. Me aseguré de establecer niveles adecuados de significancia estadística y potencia para evitar decisiones erróneas que pudieran perjudicar la experiencia del usuario o generar resultados sesgados. Asimismo, seleccioné métodos y KPIs que no solo maximizan la conversión y retención, sino que también promueven la transparencia, la equidad y la mejora continua de la plataforma para todos los perfiles de usuario.
    </td>
-    <td>tb1: Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y diferenciarse de la competencia. Los estilos visuales seleccionados, junto con una cuidadosa organización de la información, garantizan no solo coherencia estética, sino también una navegación intuitiva y un acceso simplificado a las funciones clave para todos los usuarios, independientemente de su nivel de experiencia.<br>
-    tp:Durante esta entrega se reafirmó el compromiso con la responsabilidad ética y profesional en la ingeniería de software. La implementación del Acuerdo de Servicio SaaS, la documentación detallada de la API, la ejecución de pruebas rigurosas y la adopción de prácticas DevOps para la integración, entrega y despliegue continuo, aseguraron no solo la calidad técnica del producto sino también la transparencia y seguridad para los usuarios. Este enfoque ético garantiza que el desarrollo se realice respetando la privacidad, la fiabilidad y la integridad del software, respondiendo a las necesidades reales del mercado y fomentando la confianza en la plataforma.
+    <td>tb1:<br> Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y diferenciarse de la competencia. Los estilos visuales seleccionados, junto con una cuidadosa organización de la información, garantizan no solo coherencia estética, sino también una navegación intuitiva y un acceso simplificado a las funciones clave para todos los usuarios, independientemente de su nivel de experiencia.<br>
+    <br>tp:<br>Durante esta entrega se reafirmó el compromiso con la responsabilidad ética y profesional en la ingeniería de software. La implementación del Acuerdo de Servicio SaaS, la documentación detallada de la API, la ejecución de pruebas rigurosas y la adopción de prácticas DevOps para la integración, entrega y despliegue continuo, aseguraron no solo la calidad técnica del producto sino también la transparencia y seguridad para los usuarios. Este enfoque ético garantiza que el desarrollo se realice respetando la privacidad, la fiabilidad y la integridad del software, respondiendo a las necesidades reales del mercado y fomentando la confianza en la plataforma.
+    <br>tb2:<br>En el desarrollo de los capítulos VI, VII y VIII, se aplicaron prácticas rigurosas de ingeniería de software que incluyeron pruebas unitarias, integrales y de sistema, análisis estático de código, auditorías de experiencia de usuario, implementación de pipelines de integración y despliegue continuo, monitoreo en tiempo real y experimentación guiada por hipótesis y métricas. Estas acciones reflejan un claro reconocimiento de la responsabilidad ética y profesional que implica construir soluciones tecnológicas confiables. Se priorizó la calidad del producto, la seguridad en el manejo de datos, la estabilidad del sistema y la validación con usuarios reales, entendiendo que cualquier falla técnica no solo representa un error funcional, sino que puede tener consecuencias sociales, económicas y de confianza en el uso del software.
 </tr>
 <br><br>
   <tr>
@@ -166,18 +176,25 @@ software en contextos globales,
 económicos, ambientales y
 sociales</b></td>
 <td>
-TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluando cómo las soluciones de software afectan de manera global, económica, ambiental y social, proponiendo alternativas responsables.<br>
+<br>TB1:<br>Castilla Pachas Cesar Antonio: <br>Formulo juicios fundamentados evaluando cómo las soluciones de software afectan de manera global, económica, ambiental y social, proponiendo alternativas responsables.<br>
 <br>Serrano Uchuya, Gerald Patricio: <br>Mediante entrevistas a vendedores de autos, identifiqué necesidades clave y diseñé funcionalidades para la plataforma, evaluando su impacto económico (optimización de ventas), social (transparencia en transacciones) y ambiental (potencial para promover vehículos sostenibles), asegurando que la solución aporte valor tanto a usuarios como al sector automotriz.<br>
 <br>Alvarado De La Cruz, Juan Carlos: <br>Realicé un análisis detallado del impacto de nuestras soluciones en diferentes contextos. Evalué cómo la plataforma Car2Go podría optimizar procesos de compra-venta de vehículos a nivel económico, fomentar prácticas responsables en lo social y promover una mayor conciencia ambiental. Además, propuse mejoras que permitieran al sistema adaptarse a un entorno global competitivo, buscando siempre aportar valor sostenible a largo plazo.<br>
 <br>Valera Garces, Samuel Ignacio: <br>Mediante la busqueda actica de informacion, recursos, el analisis de datos y las entrevistas con potenciales clientes, logré estimar la importancia del pryecto, viendo como una plataforma como la que estamos desarrollando podria ayudar a multiples personas en el pais.<br>
 <br>Meza Camayo, Lynn Jeeferzon <br>Desarrollé las aplicaciones móviles analizando el impacto real de cada decisión técnica. Elegí arquitecturas ligeras para optimizar recursos, implementé sólo funcionalidades que resolvieran necesidades genuinas de usuarios, y descarté elementos superfluos que pudieran afectar rendimiento o accesibilidad. Así aseguré que la solución fuera técnicamente sólida, socialmente útil y ambientalmente consciente.<br>
 <br>TP:<br>Valera Garces, Samuel Ignacio <br> Implementar CI/CD permitió optimizar recursos y reducir errores, mejorando la eficiencia del desarrollo. Esta decisión aportó valor económico y técnico al proyecto, mostrando un enfoque consciente y sostenible en la entrega de software.<br><br>Castilla Pachas, Cesar Antonio<br> En esta etapa del proyecto me enfoqué en la validación de funcionalidades clave mediante pruebas BDD y pruebas de sistema. Esta labor me permitió reflexionar sobre el impacto que puede tener una solución como Car2Go en el contexto económico y social: por ejemplo, facilitar la compraventa de vehículos de forma segura puede reducir fraudes y generar nuevas oportunidades de ingreso para vendedores independientes. Además, al validar rigurosamente los procesos críticos, contribuyo a que la plataforma sea confiable y accesible para diversos perfiles de usuarios, lo cual es clave para su sostenibilidad e impacto positivo a nivel social. <br>
 <br>Alvarado De La Cruz, Juan Carlos<br> Al implementar esta prueba de integración, comprendí la importancia de asegurar la confiabilidad de los datos en un sistema que conecta compradores y vendedores de vehículos. Esta validación contribuye a un sistema más robusto, lo cual impacta positivamente en el contexto social (transacciones más seguras), económico (menor riesgo de errores que afecten operaciones) y profesional (mayor confianza del usuario). Esta acción refuerza la responsabilidad del software como una herramienta que debe funcionar correctamente en escenarios reales y diversos.<br>
-<br>Meza Camayo, Lynn<br> Desarrolle la implementación de de Continuous deployment con buenas practizas y herramientas y Production Deployment Pipeline Components.</br>
-  <br>Serrano Uchuya, Gerald Patricio <br>La implementación de pruebas unitarias permite garantizar que los modelos core de nuestra aplicación funcionen correctamente y el usuario no tenga inconvenientes con el uso de la plataforma.<br>
+<br>Meza Camayo, Lynn Jeeferzon:<br> Desarrolle la implementación de de Continuous deployment con buenas practizas y herramientas y Production Deployment Pipeline Components.</br>
+<br>Serrano Uchuya, Gerald Patricio <br>La implementación de pruebas unitarias permite garantizar que los modelos core de nuestra aplicación funcionen correctamente y el usuario no tenga inconvenientes con el uso de la plataforma.<br>
+<br>TB2:<br>Valera Garces, Samuel Ignacio:<br>En esta entrega se profundizó en la capacidad de emitir juicios informados mediante el diseño de funcionalidades y experimentos enfocados en la experiencia real del usuario. Las decisiones tomadas en torno a la verificación de pagos, visibilidad de publicaciones y accesibilidad de la información tuvieron como base un análisis ético y contextual que consideró la seguridad, confianza y equidad en el proceso de compra-venta de vehículos. La implementación de pruebas controladas y métricas de impacto fortaleció la toma de decisiones fundamentadas, y permitió validar el aporte concreto del sistema en reducir fraudes, mejorar la experiencia del usuario y fomentar una economía digital más justa y transparente.
+<br>Alvarado De La Cruz, Juan Carlos:<br> En la elaboración de 8.1.2 Raw Material y 8.1.3 Experiment-Ready Questions, enfoqué el planteamiento de los experimentos considerando el impacto que la plataforma Car2Go podría tener en el contexto social y económico. Los experimentos diseñados permitieron identificar la necesidad de validar aspectos como la confianza de los usuarios en las publicaciones y los procesos de compraventa, lo que se traduce en un impacto social positivo al fortalecer la seguridad y transparencia en el mercado de autos usados. Asimismo, tomé en cuenta que una solución bien diseñada puede optimizar recursos económicos tanto para los usuarios como para el propio sistema.
+<br>Meza Camayo, Lynn Jeeferzon:<br> Desarrollé la solución tomando decisiones técnicas basadas en su impacto global, económico y social: implementé pipelines automáticos y monitoreo continuo para garantizar calidad y disponibilidad, consciente de que una falla afecta el tiempo y los recursos de los usuarios; por ello prioricé estabilidad y escalabilidad, entendiendo que incluso un software pequeño puede generar repercusiones significativas si no se gestiona responsablemente.
+<br>Serrano Uchuya, Gerald Patricio: <br> Se tomó en cuenta el uso de herramientas de análisis de código con el fin de entregar un producto de calidad que sea óptimo, fácil de mantener y expandir a largo plazo. De la misma forma, se realizaron análisis de posibles vulnerabilidades de seguridad del sistema para garantizar que la información de los usuarios no se vea interceptada por agentes externos potencialmente peligrosos. Por último, las heurísticas evaluadas reflejan la importancia que le brindamos a las necesidades y puntos de mejora detallados por los usuarios en las entrevistas con el fin de ofrecer una mejor plataforma a nuestros futuros clientes.
+<br>Castilla Pachas Cesar Antonio:<br> Durante el desarrollo del análisis de métricas y la selección de métodos en Car2Go, emití juicios informados considerando cómo las decisiones técnicas impactan no solo en los indicadores de negocio, sino también en los usuarios a nivel económico y social. Al definir KPIs relacionados con retención, conversión y satisfacción, prioricé la accesibilidad equitativa a funciones premium y la inclusión de diferentes tipos de usuarios según su contexto geográfico y económico. Además, consideré la escalabilidad responsable de la plataforma, buscando minimizar el desperdicio de recursos y fomentando decisiones basadas en datos reales que mejoren la calidad del servicio para todos, sin generar barreras digitales.
+<br>
 </td>
-    <td>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. <br>
-    tp:Durante esta entrega, se evidenció la capacidad de emitir juicios informados respecto al impacto de las soluciones de ingeniería de software desarrolladas. Se consideraron aspectos globales, económicos, ambientales y sociales en la implementación del proyecto, buscando generar un producto que no solo sea técnicamente eficiente, sino también responsable y sostenible. La solución propuesta promueve la inclusión digital al facilitar el acceso seguro a la compra y venta de autos de segunda mano, contribuyendo a una economía circular y fomentando prácticas que minimizan el impacto ambiental asociado a la producción y consumo de vehículos nuevos. De esta manera, el proyecto refleja una visión integral que valora tanto la innovación tecnológica como su repercusión en la sociedad y el entorno.</br>
+    <td>tb1:<br>Car2Go fue diseñado con el objetivo de ofrecer una experiencia de usuario excepcional y destacar frente a la competencia. Los estilos visuales cuidadosamente seleccionados y la organización meticulosa de la información garantizan una coherencia visual sólida. Además, facilitan la navegación y el acceso a las funciones clave, haciendo que tanto usuarios con experiencia técnica como aquellos menos familiarizados con la tecnología puedan utilizar la plataforma de manera eficiente. 
+    <br> tp:<br>Durante esta entrega, se evidenció la capacidad de emitir juicios informados respecto al impacto de las soluciones de ingeniería de software desarrolladas. Se consideraron aspectos globales, económicos, ambientales y sociales en la implementación del proyecto, buscando generar un producto que no solo sea técnicamente eficiente, sino también responsable y sostenible. La solución propuesta promueve la inclusión digital al facilitar el acceso seguro a la compra y venta de autos de segunda mano, contribuyendo a una economía circular y fomentando prácticas que minimizan el impacto ambiental asociado a la producción y consumo de vehículos nuevos. De esta manera, el proyecto refleja una visión integral que valora tanto la innovación tecnológica como su repercusión en la sociedad y el entorno.
+    <br>tb2:<br>Durante el desarrollo de los capítulos VI, VII y VIII, se demostró capacidad para emitir juicios informados al tomar decisiones técnicas fundamentadas no solo en la funcionalidad del software, sino también en su impacto en contextos globales, económicos, sociales y ambientales. La implementación de pruebas automatizadas, validaciones con usuarios reales, monitoreo continuo y despliegue controlado permitió asegurar que la solución fuera estable, eficiente y sostenible. Asimismo, se consideraron aspectos como el uso responsable de recursos computacionales, la escalabilidad del sistema en entornos reales y la experiencia del usuario final, entendiendo que una mala decisión técnica puede derivar en costos operativos, afectaciones al entorno o exclusión digital. Estas acciones reflejan una visión integral y crítica del rol que cumple el ingeniero de software en la sociedad.
 </tr>
 <br><br>
 </table>
@@ -2431,23 +2448,23 @@ Esta sección establece los derechos, obligaciones y restricciones aplicables a 
 
   - El usuario acepta no realizar actividades que puedan dañar, interferir o afectar la seguridad del servicio.
 
-  3.Restricciones
+    3.Restricciones
 
   - Queda prohibida la distribución, copia, modificación o explotación no autorizada del software y sus contenidos.
 
   - Está prohibido el uso del servicio para fines ilegales o no autorizados.
 
-  4.Transparencia y Accesibilidad
+    4.Transparencia y Accesibilidad
 
   - Car2Go garantiza que los términos son claros, accesibles y están disponibles para consulta pública en todo momento.
 
   - Se asegura el cumplimiento normativo vigente aplicable a servicios digitales.
 
-  5.Modificaciones al Acuerdo
+    5.Modificaciones al Acuerdo
 
   - Car2Go podrá modificar los términos y condiciones, notificando oportunamente a los usuarios y manteniendo la transparencia.
 
-  6.Protección de Datos
+    6.Protección de Datos
 
   - Car2Go se compromete a proteger los datos personales conforme a la legislación aplicable y su política de privacidad.
 
@@ -2835,17 +2852,294 @@ Las pruebas de sistema validaron que las funcionalidades críticas del sistema (
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
+Con el objetivo de garantizar la mantenibilidad y legibilidad del código fuente, adoptamos el estándar de estilo [Google Java Style](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) como convención oficial para el desarrollo de nuestro backend implementado en Spring Boot.
+Las convenciones aplicadas son las siguientes:
+
+1. Formato y legibilidad:
+
+- Máximo de 100 caracteres por línea para facilitar la lectura.
+- Indentación de 2 espacios
+- Las llaves de control (if, for, while) se colocan en la misma línea que la declaración.
+
+2. Nombres y organización:
+
+- Uso de CamelCase para clases e interfaces y camelCase para métodos y variables.
+- Constantes en mayúsculas y con guiones bajos.
+- Importaciones ordenadas alfabéticamente y sin comodicnes.
+
+3. Comentarios y documentación
+
+- Se incluye Javadoc para las clases, interfaces y métodos públicos.
+- Comentarios en línea breves y pertinentes.
+
+Por el lado del frontend hecho con Angular, se siguieron las convenciones ya aplicadas por Angular CLI más las reglas de formateo de ESLint.
+
+- Nombres de componentes en PascalCase
+- Servicios como PascalCase + sufijo Service
+- Ficheros en kebab-case
+- Identación de 2 espacios
+- Uso de comillas simples para cadenas de texto
+- Uso de punto y coma al final de las declaraciones
+- Máximo 100 caracteres por línea
+
+Para garantizar el cumplimiento continuo durante el desarrollo de estas reglas, el proyecto integra la herramienta CheckStyle con la configuración oficial de Google antes mencionada. La herramienta analiza el código fuente automáticamente y reporta cualquier diferencia con los estándares establecidos marcándolos como advertencias. De esta forma, la legibilidad del código aumenta, se facilita la revisión del mismo y ,en general, se mejora la calidad del software entregado.
+
 #### 6.2.1.2. Code Quality & Code Security.
 
+Con la finalidad de garantizar la calidad y seguridad de nuestra plataforma, incorporamos la herramienta SonarQube logrando una calificación de A en seguridad y confiabilidad. No se detectaron vulnerabilidades críticas ni defectos que comprometan la estabilidad del sistema, aunque se identificaron 2 security hostspots resultado del cambio de configuración de cors y desactivación de spring security para ciertas rutas. Con respecto a la mantenibilidad, se obtuvo nuevamente una calificación de A, aunque es importante señalar las 74 issues abiertas, que si bien no son críticas, son puntos de mejora en la refactorización del código. Por último, se obtuvo un 3,4% como índice de duplicación, lo que refleja la correcta reutilización y eliminación de código redundante para asegurar un producto más limpio y sostenible a largo plazo.
+![alt text](assets/sonarqube-report.png)
+
 ### 6.2.2. Reviews
+
+Para complementar el análisis estático del desarrollo, se realizaron las siguientes acciones:
+
+- Verificación con la herramienta Checkstyle, dentro del editor IntelliJ IDEA, el cumplimiento de los estándaras de Google Java Style y se aplicaron las correcciones necesarias previo a la subida de los cambios al repositorio remoto.
+- Implementación de revisiones del repositorio remoto cada vez que se suben cambios con el Code Scanning de GitHub para detectar vulnerabilidades y errores de seguridad en el código. Esta herramienta analiza automáticamente el código fuente y proporciona informes detallados sobre posibles problemas.
 
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
 
+Para validar las hipótesis y funcionalidades del sistema, se diseñaron entrevistas estructuradas con los siguientes objetivos:
+
+- Obtener retroalimentación directa de los usuarios finales sobre la usabilidad y funcionalidad del sistema
+- Identificar áreas de mejora en la experiencia del usuario
+- Validar la comprensión de los usuarios sobre las características clave del sistema
+- Recoger sugerencias para futuras mejoras y nuevas funcionalidades
+- Evaluar la satisfacción general de los usuarios con el sistema
+- Validar la percepción de seguridad y confianza en la plataforma
+- Identificar posibles barreras o dificultades en el uso del sistema
+- Evaluar la claridad de la información presentada en la plataforma
+
+Buenos días/ Tardes/ Noches., el propósito de esta entrevista es conocer su opinión sobre la plataforma Car2Go, la cual tiene como objetivo facilitar la compra y venta de autos de segunda mano. Agradecemos su tiempo y sinceridad en las respuestas. Por ello, le haré unas breves preguntas para conocer su opinión sobre la plataforma y su experiencia al utilizarla.
+
+Datos iniciales:
+
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿Cuál es su ocupación?
+
+Segmento de Vendedores:
+
+- ¿Cómo calificaría su experiencia al publicar un vehículo en la plataforma Car2Go?
+- ¿Qué tan fácil le resultó completar el proceso de publicación?
+- ¿Qué características de la plataforma le resultaron más útiles al publicar su vehículo?
+- ¿La plataforma cumplió con sus expectativas para el proceso de venta? ¿Por qué sí o por qué no?
+- ¿Qué mejoras sugeriría para hacer el proceso de publicación más eficiente?
+- ¿La visiblidad de su vehículo en la plataforma fue adecuada? ¿Por qué sí o por qué no?
+- ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma
+
+Segmento de Compradores:
+
+- ¿Cómo calificaría su experiencia al buscar y comprar un vehículo en la plataforma Car2Go?
+- ¿Qué tan fácil le resultó encontrar un vehículo que cumpliera con sus necesidades?
+- ¿Qué características de la plataforma le resultaron más útiles al buscar un vehículo?
+- ¿La plataforma cumplió con sus expectativas para el proceso de compra? ¿Por qué sí o por qué no?
+- ¿Qué mejoras sugeriría para hacer el proceso de búsqueda y compra más eficiente?
+- ¿La información proporcionada sobre los vehículos fue clara y suficiente para tomar una decisión de compra?
+- ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma?
+
+Para finalizar la entrevista, le agradecería que nos comparta cualquier comentario adicional que considere relevante sobre su experiencia con la plataforma Car2Go. Alguna mejora que le gustaría ver implementada o alguna funcionalidad que considere importante.
+
+Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayuda para mejorar la plataforma y ofrecer una mejor experiencia a nuestros usuarios.
+
 ### 6.3.2. Registro de Entrevistas.
 
+### Segmento 1: Compradores de Autos de Segunda Mano
+
+### Entrevista 1:
+
+**Nombre y Apellido:** Ariana Quiñones  
+**Edad:** 25 años  
+**Ocupación:** Emprendedora de joyas  
+**Duración de la entrevista:** 4 minutos y 42 segundos  
+**Evidencia de la reunión:**
+![alt text](assets/interwari2.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/Eex1U9LImONNssgyJCQtGnQBhNaNXL3LMXtZoHpgEBRMeg?e=6hdlGk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br/>
+  Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que logró su objetivo de forma rápida al buscar un vehículo. Señaló que la información está bien detallada y organizada, lo que facilitó la búsqueda de autos que cumplieran con sus expectativas.
+
+Entre las características más útiles mencionó el apartado de recomendaciones personalizadas, que le permitió acceder fácilmente a vehículos de su interés. También valoró positivamente el proceso de pagos, mencionando que fue sencillo, transmitía confianza y que no tuvo dificultades al ingresar sus datos.
+
+Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareció bien implementado. Además, consideró que la información mostrada de los vehículos era clara, suficiente y bien explicada. Por último, expresó un alto nivel de satisfacción con la seguridad de la plataforma, resaltando que le generó confianza por el manejo responsable de los datos.
+
+### Entrevista 2:
+
+- Nombre y Apellido: Pieere Ricaldi Solis
+- Edad: 23
+- Duración de la entrevista: 6:25
+- Evidencia de la reunión:
+  ![entrevista vendedor 2](./assets/entrevista2_comprador.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EYZUZ0f7MrNGt2u6lLfqwzQBkcUhrNinZ4zNDquKY7x4nA?e=TdARDf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:
+  Ricaldi indico que la plataforma es sencilla, intuitiva y falcil de usar. Entre las características más valoradas de la plataforma, se mencionaron la claridad de la información sobre los vehículos, la organización de los filtros de búsqueda, y la navegación intuitiva del sitio. El proceso de compra cumplió completamente con sus expectativas, resaltando la simplicidad y rapidez del mismo. La experiencia general fue positiva en todos los aspectos evaluados, lo cual refuerza que la plataforma Car2Go está bien alineada con las necesidades y expectativas.
+
+### Entrevista 3:
+
+- Nombre y Apellido: Joan Teves
+- Edad: 26
+- Duración de la entrevista: 3 minuto y 25 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_juancarlos2.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EdDzptW9KzVEltgPgl5ZmlsBeCUlIEzzAB6HXsooc9BZ6g?e=NLPrXL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br>
+  Joan Teves, de 26 años y estudiante de administración, participó en la validación de la plataforma Car2Go desde el rol de comprador. En general, calificó su experiencia como positiva, destacando que fue fácil buscar vehículos gracias a los filtros por precio, año y kilometraje.
+  <br>
+  Resaltó que la funcionalidad más útil fue el filtro de vehículos verificados, ya que le generó mayor confianza al momento de revisar las opciones disponibles. Joan indicó que la plataforma cumplió con sus expectativas, permitiéndole acceder a información clara y contactar con vendedores sin dificultades.
+  <br>
+  Como sugerencia de mejora, propuso agregar una opción para comparar vehículos y una calculadora de financiamiento, para ayudar a tomar decisiones más informadas. Sobre la visibilidad de los vehículos publicados, consideró que fue adecuada, ya que los anuncios incluían fotos y detalles relevantes.
+  <br>
+  Finalmente, se mostró satisfecho con la seguridad de sus datos personales, valorando la claridad con la que la plataforma explica qué información es pública y cuál permanece protegida.
+  <br>
+  En conclusión, Joan validó que Car2Go ofrece una buena experiencia para compradores, con énfasis en confianza, claridad y facilidad de uso.
+
+### Segmento 2: Vendedores de Autos de Segunda Mano
+
+### Entrevista 1:
+
+- Nombre y Apellido: Mijael Imanol Yen Quispe
+- Edad: 22 años
+- Duración de la entrevista: 10 minutos y 30 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_mijael.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/Eeyxji00RHhNjTZSY8dcedIBoBP8v_N30vfTIs55lxKlGg?e=cQAaEM)
+- Informe de resumen de la entrevista:<br/>
+  Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
+
+### Entrevista 2:
+
+- Nombre y Apellido: Gonzalo Carhuancote
+- Edad: 27
+- Duración de la entrevista: 2 minutos y 6 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_juancarlos.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EezHZu3fpXpEk2JjxHA4LloBRw84NQIQLONYV3ZjcA7Z9A?e=GACUKf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br>
+  Gonzalo Carhuancote (27 años, ingeniero mecánico) calificó su experiencia en Car2Go como fácil y clara. Destacó la opción de adjuntar y verificar documentos como el historial del auto, lo que genera mayor confianza al vender.
+  <br>
+  Consideró que la plataforma cumplió sus expectativas y sugirió agregar asesoría legal o técnica. También afirmó que la visibilidad del anuncio fue adecuada y que se sintió seguro compartiendo sus datos. En general, valoró el enfoque en seguridad y confianza en el proceso de venta.
+
+### Entrevista 3:
+
+- Nombre y Apellido: Lizet Antonia Pachas Torres
+- Edad: 38
+- Duración de la entrevista: 8 minutos y 20 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/interview-diseño.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUzdkMKh_dZDm3q1dPhz5lYBZdtcbgRc54mnINWqEQ8-oQ?e=y7quwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- Informe de resumen de la entrevista:<br>
+  La entrevistada, Lizet Antonia Pachas Torres, comerciante de vehículos usados, expresó una experiencia muy positiva al utilizar la plataforma Car2Go. Destacó que el proceso de publicación fue intuitivo y rápido, lo que le permitió colocar su anuncio en menos de 10 minutos. La facilidad del formulario y la posibilidad de tomar como referencia otras publicaciones activas en la plataforma fueron aspectos valorados, ya que le ayudaron a estructurar mejor su propio anuncio. Esta experiencia evidencia que Car2Go ha logrado una interfaz amigable que favorece la autogestión de los usuarios, especialmente en el segmento de vendedores independientes.</p>
+  En cuanto a la efectividad de la plataforma, Lizet indicó que Car2Go cumplió con sus expectativas, logrando concretar una venta en menos de una semana. Además, valoró las notificaciones automáticas como un mecanismo útil para mantener contacto con potenciales compradores. No obstante, sugiere como mejora la opción de duplicar publicaciones anteriores, lo cual agilizaria el trabajo para vendedores recurrentes. También expresó satisfacción con la visibilidad de su anuncio, especialmente al activar un plan premium, lo que sugiere que el algoritmo de posicionamiento es percibido como efectivo por los usuarios.</p>
+  Finalmente, en el ámbito de seguridad y confianza, Lizet manifestó sentirse protegida al no exponerse datos personales sensibles y al gestionarse toda la comunicación por la app. Como aporte adicional, recomendó incorporar estadísticas más detalladas por anuncio, así como una funcionalidad para identificar compradores frecuentes o confiables. Este tipo de sugerencias revela que los usuarios valoran herramientas que potencien el análisis y la fidelización dentro del ecosistema de compraventa digital, y ofrecen una guía útil para el desarrollo de futuras funcionalidades.
+
 ### 6.3.3. Evaluaciones según heurísticas.
+
+### Sitio a evaluar:
+
+Car2Go
+
+### Tareas a evaluar:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de usuario.
+2. Búsqueda de autos.
+3. Publicación de un auto.
+4. Edición de un auto publicado.
+5. Ver detalles de un auto.
+6. Comprar un auto.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Guardar un auto como favorito.
+2. Ver autos favoritos.
+3. Ver perfil de usuario.
+4. Editar perfil de usuario.
+
+### Escala de severidad:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+|Nivel|Descripción|
+|---|---|
+|1|Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que existe disponibilidad de tiempo.|
+|2| Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja. Resolverlo de cara al siguiente release.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+### Tabla resumen:
+
+| #   | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| --- | -------- | ------------------- | ------------------------------- |
+| 1   | a        | a                   | a                               |
+
+### Tabla resumen:
+
+| #   | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                                                       |
+| --- | ----------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------- |
+| 1   | El botón para guardar datos en el perfil no es claro              | 2                   | Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real |
+| 2   | La opción de "logout" no está dentro del perfil                   | 2                   | Control y libertad del usuario                                                        |
+| 3   | En el campo teléfono del perfil se pueden ingresar letras         | 2                   | Prevención de errores                                                                 |
+| 4   | No existe opción para duplicar publicaciones anteriores           | 2                   | Flexibilidad y eficiencia de uso                                                      |
+| 5   | No hay estadísticas detalladas por anuncio                        | 1                   | Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores               |
+| 6   | No se identifica fácilmente a compradores frecuentes o confiables | 1                   | Reconocimiento antes que recuerdo                                                     |
+
+### Descripción de problemas:
+
+#### Problema #1: El botón para guardar datos en el perfil no es claro
+
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real  
+**Problema:** El botón para guardar los cambios en el perfil no tiene un texto específico (por ejemplo, solo dice "Guardar" en vez de "Guardar cambios"), lo que puede generar confusión sobre su función exacta.  
+**Recomendación:** Cambiar el texto del botón a “Guardar cambios” para que sea más explícito.
+
+---
+
+#### Problema #2: La opción de "logout" no está dentro del perfil
+
+**Severidad:** 2  
+**Heurística violada:** Control y libertad del usuario  
+**Problema:** Los usuarios esperan encontrar la opción de cerrar sesión dentro de la sección de perfil, pero actualmente no está ubicada ahí, lo que dificulta encontrarla rápidamente.  
+**Recomendación:** Incluir la opción de "logout" dentro del menú de perfil.
+
+---
+
+#### Problema #3: En el campo teléfono del perfil se pueden ingresar letras
+
+**Severidad:** 2  
+**Heurística violada:** Prevención de errores  
+**Problema:** El campo para ingresar el teléfono permite caracteres no numéricos, lo que puede llevar a errores de validación y frustración del usuario.  
+**Recomendación:** Restringir el campo para que solo acepte números.
+
+---
+
+#### Problema #4: No existe opción para duplicar publicaciones anteriores
+
+**Severidad:** 2  
+**Heurística violada:** Flexibilidad y eficiencia de uso  
+**Problema:** Los vendedores recurrentes no pueden duplicar anuncios previos, lo que les obliga a repetir el proceso desde cero cada vez.  
+**Recomendación:** Agregar una funcionalidad para duplicar publicaciones anteriores.
+
+---
+
+#### Problema #5: No hay estadísticas detalladas por anuncio
+
+**Severidad:** 1  
+**Heurística violada:** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores  
+**Problema:** Los vendedores no pueden ver estadísticas detalladas de cada anuncio, lo que dificulta analizar el rendimiento de sus publicaciones.  
+**Recomendación:** Incluir un panel de estadísticas por anuncio.
+
+---
+
+#### Problema #6: No se identifica fácilmente a compradores frecuentes o confiables
+
+**Severidad:** 1  
+**Heurística violada:** Reconocimiento antes que recuerdo  
+**Problema:** No existe una funcionalidad para identificar compradores frecuentes o confiables, lo que podría ayudar a los vendedores a priorizar sus interacciones.  
+**Recomendación:** Implementar insignias o etiquetas para compradores frecuentes/confiables.
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
@@ -2853,20 +3147,181 @@ Las pruebas de sistema validaron que las funcionalidades críticas del sistema (
 
 #### 6.4.1.1. Información del grupo auditado.
 
+• **Nombre del Producto**: “Grupo 05-ArtCollab”
+
+• **Proyecto auditado**: Plataforma colaborativa para artistas emergentes.
+
+• **Enlace proporcionado**: <https://elegant-beijinho-a167d8.netlify.app/#/register>
+
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
+• **Fecha de auditoría**: 22 de junio de 2025
+
+• **Duración estimada**: 30 minutos
+
+• **Hora de la auditoria**: 18:15 pm
+
+• **Modo**: Remoto (vía navegador web)
+
 #### 6.4.1.3. Contenido de auditoría realizada.
+
+Durante el proceso de auditoría, se intentó acceder a la aplicación desplegada por el grupo auditado mediante el enlace proporcionado. Sin embargo, no fue posible evaluar la funcionalidad completa de la aplicación debido a un error técnico relacionado con la conexión entre el frontend y el backend.
+
+Al acceder a la aplicación, se evidenció el siguiente mensaje en la consola del navegador:
+
+    ❌ Solicitud de origen cruzado bloqueada: La política de mismo origen no permite la lectura de recursos remotos en https://art-collab.azurewebsites.net/api/v1/content/template. (Razón: Solicitud CORS sin éxito). Código de estado: (null)
+
+Este error impide cualquier acción de registro, lectura o validación, y genera una pantalla en blanco o sin respuesta, lo que imposibilita la evaluación de la experiencia del usuario en condiciones reales.
+
+**Observaciones:**
+
+• Se sugiere al grupo auditado revisar la configuración de CORS en el backend desplegado en Azure.
+
+• Se recomienda también implementar una página de error amigable que informe al usuario que existe una falla temporal del sistema.
+
+**Evaluación alternativa:**
+
+Debido a la imposibilidad de navegación, la evaluación se centró en los siguientes puntos visibles:
+
+• El diseño de la interfaz inicial carga correctamente el logo y título del proyecto.
+
+• Se observa consistencia visual en los elementos visibles, aunque no se pudo comprobar su funcionalidad.
+
+• No fue posible evaluar la arquitectura de navegación, flujos de usuario ni rendimiento.
 
 ### 6.4.2. Auditoría recibida.
 
 #### 6.4.2.1. Información del grupo auditor.
 
+- _AUDITOR :_ Grupo D -Grupo 5
+
+- **Proyecto auditado**: Car2go
+
 #### 6.4.2.2. Cronograma de auditoría recibida.
+
+• **Fecha de auditoría**: 23 de junio de 2025
+
+• **Duración estimada**: 30 minutos
+
+• **Hora de la auditoria**: 01:40 am
+
+• **Modo**: Remoto (vía navegador web)
 
 #### 6.4.2.3. Contenido de auditoría recibida.
 
+_TAREAS A EVALUAR:_
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+> 1. Comprensión del servicio y cómo funciona.
+> 2. Búsqueda de información sobre precios y tarifas.
+> 3. Proceso de registro para un nuevo usuario.
+> 4. Búsqueda y visualización de la zona de servicio en una ciudad.
+> 5. Descarga e instalación de la aplicación móvil.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:_
+
+> 1. Reserva o cancelación de un vehículo (requiere cuenta activa).
+> 2. Administración de un perfil de negocio.
+> 3. Uso del programa de recompensas.
+> 4. Contacto con el soporte técnico a través de la app.
+
+_ESCALA DE SEVERIDAD:_
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+- _1:_ Problema superficial.
+- _2:_ Problema menor.
+- _3:_ Problema mayor.
+- _4:_ Problema muy grave.
+
+_TABLA RESUMEN:_
+
+| #   | Problema                                                               | Escala de severidad | Heurística/Principio violada(o)                                   |
+| :-- | :--------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------- |
+| _1_ | Confusión de marca para usuarios de Car2go.                            | 3                   | Usability: Reconocimiento antes que recuerdo / Consistencia.      |
+| _2_ | El sitio web dirige constantemente a la app, limitando la información. | 3                   | Usability: Libertad y control del usuario.                        |
+| _3_ | La estructura de precios puede ser compleja y difícil de encontrar.    | 2                   | Information Architecture: Is it findable? / Is it understandable? |
+| _4_ | El mapa de la zona de servicio no es interactivo en la web.            | 2                   | Usability: Visibilidad del estado del sistema.                    |
+| _5_ | El proceso de registro solicita el carnet de conducir de inmediato.    | 3                   | Usability: Flexibilidad y eficiencia de uso.                      |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1:** Confusión de marca para usuarios de Car2go
+
+**Severidad:** 3
+
+Heurística violada: Usabilidad – Reconocimiento antes que recuerdo / Consistencia y estándares
+
+**Problema:**
+Los usuarios que buscan “Car2go” son redirigidos al sitio de SHARE NOW, que a su vez muestra un aviso sobre su integración con Free2move. Esta transición de tres marcas (Car2go → SHARE NOW → Free2move) no se explica de forma clara y prominente en la página de inicio. Un usuario antiguo de Car2go puede sentirse desorientado, sin entender si sus datos siguen siendo válidos o si el servicio es el mismo. Esto genera una carga cognitiva al obligarlo a investigar qué pasó con la marca que conocía.
+(Incluir además una captura de pantalla ilustrando el problema: página de inicio de SHARE NOW donde el aviso de Free2move es pequeño y no se menciona a Car2go).
+
+**Recomendación:**
+
+Implementar un banner o una sección claramente visible que dé la bienvenida a los usuarios de Car2go y explique la transición. Ejemplo de mensaje: “¿Buscando Car2go? ¡Estás en el lugar correcto! Ahora somos parte de Free2move para ofrecerte más opciones. Inicia sesión con tu cuenta de siempre”.
+
+---
+
+**PROBLEMA #2:** El sitio web dirige constantemente a la app, limitando la información
+
+**Severidad: 3**
+
+**Heurística violada:** Usabilidad – Libertad y control del usuario
+
+**Problema:**
+Muchas acciones que un usuario desearía explorar en la web (ver coches disponibles, calcular una tarifa exacta) no están disponibles; el sitio actúa principalmente como portal para descargar la aplicación móvil. Esto quita al usuario el control de informarse completamente antes de instalar la app, generando frustración y posible abandono.
+(Incluir captura de pantalla: sección de la web que muestra botones grandes para descargar la app en iOS y Android).
+
+**Recomendación:**
+Ofrecer más funcionalidades en la versión web, aunque sean limitadas. Por ejemplo, permitir una simulación de viaje en el mapa para obtener una estimación de costes sin necesidad de registrarse o descargar la app.
+
+---
+
+**PROBLEMA #3:** La estructura de precios puede ser compleja y difícil de encontrar
+
+**Severidad:** 2
+
+**Heurística violada:** Arquitectura de información – ¿Es encontrable? / ¿Es comprensible?
+
+**Problema:**
+La información sobre precios no está en una sección principal y visible del menú. El usuario debe entrar en “Cómo funciona” y buscar la sección de precios. Una vez allí, la estructura de tarifas (por minuto, por hora, por día, con cargos adicionales) resulta abrumadora y no existe una calculadora sencilla de costos.
+(Incluir captura de pantalla: tabla de precios con múltiples opciones y sin guía clara).
+
+**Recomendación:**
+Añadir una sección dedicada a “Precios” o “Tarifas” en el menú principal. Dentro, además de la tabla detallada, incluir una herramienta interactiva simple donde el usuario introduzca origen y destino (o duración estimada) y obtenga un coste aproximado del servicio.
+
+---
+
+**PROBLEMA #4:** El mapa de la zona de servicio no es interactivo en la web._ > 
+
+**Severidad:** 2
+
+**Heurística violada:**_ Usabilidad - Visibilidad del estado del sistema.
+
+**Problema:**
+El sitio web muestra imágenes estáticas de los mapas con la "zona de servicio" para cada ciudad. El usuario no puede hacer zoom, moverse por el mapa o buscar una dirección específica para ver si está dentro del área de operación. No sabe con certeza si su casa o su trabajo están cubiertos por el servicio hasta que descarga la app, lo cual es ineficiente.
+(Incluir además una captura de pantalla ilustrando el problema: Captura de la imagen estática del mapa de una ciudad ofrecida en la web).
+
+**Recomendación:**
+Integrar un mapa interactivo (como Google Maps o OpenStreetMap) en la página de cada ciudad. Este mapa debería tener una capa que muestre la zona de servicio y permitir al usuario navegar y buscar direcciones para verificar la cobertura de forma rápida y precisa.
+
+---
+
+**PROBLEMA #5:** El proceso de registro solicita el carnet de conducir de inmediato._ > _Severidad:_ 3
+
+**Heurística violada:**_ Usability - Flexibilidad y eficiencia de uso / Prevención de errores.
+
+**Problema:**
+Al iniciar el registro, uno de los primeros pasos obligatorios es subir una foto del carnet de conducir. Un usuario que está explorando el servicio desde su ordenador de escritorio puede no tener su carnet a mano, o puede no sentirse cómodo subiendo un documento tan sensible sin haber completado otros pasos menos intrusivos del perfil. Esto crea una barrera alta de entrada y puede provocar que el usuario abandone el proceso si no puede o no quiere cumplir con este requisito en ese preciso momento.
+(Incluir además una captura de pantalla ilustrando el problema: Captura del formulario de registro donde se pide validar el carnet de conducir como paso inicial).
+
+**Recomendación:**
+
+Permitir un registro progresivo. El sistema debería dejar que el usuario cree su cuenta con datos básicos (email, contraseña) y explore la aplicación. La validación del carnet de conducir debería ser un paso necesario antes de poder reservar el primer coche, pero no para crear la cuenta. El sistema puede mostrar un aviso claro de "Cuenta incompleta" o "Validación pendiente" para guiar al usuario a completar el proceso cuando esté listo.
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
+Debido a que la auditoría fue realizada en una hora muy cercana a la entrega, no fue posible implementar las modificaciones sugeridas dentro de este ciclo de desarrollo. Reconocemos la importancia de los hallazgos identificados y se ha tomado nota de cada uno para ser considerados en la siguiente entrega.
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -2912,16 +3367,16 @@ Para implementar el despliegue continuo en este proyecto, se ha utilizado GitHub
 
 En el flujo implementado, se emplea Flutter para la construcción del proyecto en versión web, y Firebase Hosting como plataforma para el despliegue y hospedaje de la aplicación. La configuración incluye:
 
-  - Automatización del pipeline: mediante workflows definidos en archivos YAML, se ejecutan pasos automáticos al realizar un push a ramas específicas del repositorio.
+- Automatización del pipeline: mediante workflows definidos en archivos YAML, se ejecutan pasos automáticos al realizar un push a ramas específicas del repositorio.
 
-  - Manejo seguro de credenciales: las claves necesarias para el despliegue a Firebase, como el token de acceso y la cuenta de servicio, se gestionan mediante secretos en GitHub, garantizando confidencialidad.
+- Manejo seguro de credenciales: las claves necesarias para el despliegue a Firebase, como el token de acceso y la cuenta de servicio, se gestionan mediante secretos en GitHub, garantizando confidencialidad.
 
-  - Control de versiones y ramas: se utiliza una rama específica para despliegue (pg-deployment), asegurando que solo código validado y estable sea desplegado en producción.
+- Control de versiones y ramas: se utiliza una rama específica para despliegue (pg-deployment), asegurando que solo código validado y estable sea desplegado en producción.
 
-  - Pruebas automatizadas: antes del despliegue se ejecutan comandos de análisis y testeo para asegurar la calidad del código.
+- Pruebas automatizadas: antes del despliegue se ejecutan comandos de análisis y testeo para asegurar la calidad del código.
 
 ![Image-yml-archivo](./assets/deployme-pipeline-yml.png)
-  
+
 Estas prácticas garantizan un proceso confiable, repetible y escalable para la entrega continua de la aplicación.
 
 ### 7.3.2. Production Deployment Pipeline Components.
@@ -2956,13 +3411,51 @@ Este pipeline permite que cada cambio aprobado y consolidado en la rama de despl
 
 ## 7.4. Continuous Monitoring
 
+En el proyecto móvil se implemento un sistema de monitoreo continuo a través de Firebase, permitiendo la detección temprana de errores y el envío de notificaciones automatizadas a los usuarios. Esto asegura la estabilidad de la aplicación durante su ejecución y facilita la respuesta oportuna ante fallos.
+
 ### 7.4.1. Tools and Practices
+
+Se han utilizado las siguientes herramientas de Firebase:
+
+- **Firebase Performance Monitoring**: Permite registrar automáticamente métricas relacionadas con el rendimiento de la app, como los tiempos de inicio, trazas personalizadas y latencia en llamadas de red.
+
+- **Firebase Cloud Messaging (FCM)**: Se ha integrado como canal de notificación y alertas, permitiendo la suscripción de dispositivos a tópicos específicos y el envío de notificaciones push ante condiciones definidas.
 
 ### 7.4.2. Monitoring Pipeline Components
 
+El monitoreo se realiza con los siguientes componentes:
+
+- Traces automáticos como app_start y http_request.
+
+- Traces personalizados definidos en secciones críticas de la app.
+
+- Monitoreo de red que evalúa latencias de respuesta en las peticiones HTTP.
+
+- Visualización de datos desde la consola de Firebase Performance.
+
+![Monitoring Pipeline](./assets/Monitoring-movil.png)
+
 ### 7.4.3. Alerting Pipeline Components
 
+El sistema de alertas ha sido diseñado con:
+
+- Tópicos específicos en FCM (ej. alertas-dev) a los que se suscriben los dispositivos.
+
+- Notificaciones push internas utilizadas para informar al usuario sobre eventos clave o fallos detectados.
+
+- Simulación y pruebas de alertas realizadas desde Firebase Console para verificar la respuesta del sistema.
+
+![Alerting mobile](/assets/alerting-mobile.png)
+
 ### 7.4.4. Notification Pipeline Components.
+
+Las notificaciones automáticas se gestionan con Firebase Cloud Messaging:
+
+- Suscripción dinámica a tópicos desde la app (subscribeToTopic()).
+
+- Mensajes push configurados desde Firebase Console o por backend para comunicar cambios o alertas.
+
+![notification-mobile](./assets/Notification-mobile.jpg)
 
 # Part III: Experiment-Driven Lifecycle
 
@@ -2972,35 +3465,228 @@ Este pipeline permite que cada cambio aprobado y consolidado en la rama de despl
 
 ### 8.1.1. As-Is Summary.
 
+Actualmente, en la industria de compra y venta de autos de segunda mano existe una falta de plataformas tecnológicas confiables que permitan realizar transacciones de forma segura, rápida y eficiente. Los usuarios, tanto compradores como vendedores, enfrentan problemas relacionados con la confianza, la transparencia en la información de los vehículos, la verificación de los pagos y la comunicación fluida entre ambas partes.
+
+**Car2Go** nace como una solución a estas problemáticas, con el objetivo de proporcionar una experiencia de compra y venta confiable para todos sus usuarios. A través de experimentación y validación de hipótesis, buscamos implementar mejoras que garanticen una mayor satisfacción del usuario, aumento de transacciones exitosas y crecimiento sostenido de la plataforma.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+### Supuestos (Assumptions)
+
+- Los compradores necesitan más confianza al momento de adquirir un auto usado.
+- Los vendedores requieren procesos rápidos y verificados para concretar ventas.
+- Los talleres técnicos están dispuestos a ofrecer servicios de inspección a través de la plataforma.
+- Un sistema de verificación de pago reducirá el número de fraudes en las transacciones.
+- La transparencia en la información del vehículo es un factor clave para los compradores.
+
+### Vacíos de conocimiento (Knowledge Gaps)
+
+- ¿Cuál es el principal motivo por el que los usuarios abandonan una compra?
+- ¿Qué porcentaje de los vendedores preferiría pagar por destacar sus publicaciones?
+- ¿Qué tan dispuestos están los usuarios a pagar por certificaciones técnicas del vehículo?
+
+### Ideas
+
+- Crear un sistema de reputación para compradores y vendedores.
+- Generar un historial verificable de cada vehículo.
+- Permitir que los talleres técnicos emitan certificaciones visibles para los usuarios.
+- Sistema automatizado de notificaciones en cada etapa del proceso de compra-venta.
+
+### Claims
+
+1. Si los compradores no confían en la información publicada sobre un vehículo, no realizarán la compra.
+2. Si no existe un sistema confiable de verificación de pagos, aumentarán los casos de estafas.
+3. Si los vendedores no pueden destacar sus publicaciones, les resultará difícil concretar ventas en un mercado competitivo.
+4. Si no se integran talleres técnicos certificados, los compradores no podrán garantizar el buen estado del vehículo.
+5. Si no existe un sistema ágil de comunicación entre compradores y vendedores, se perderán oportunidades de venta.
+6. Si no se implementa un sistema de seguimiento, los usuarios no podrán saber en qué estado se encuentra su transacción.
 
 ### 8.1.3. Experiment-Ready Questions.
 
+1. ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores y facilitará la concreción de ventas?
+2. ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión?
+3. ¿La implementación de un sistema automatizado de verificación de pagos reducirá los casos de estafas?
+4. ¿Integrar talleres técnicos para certificaciones aumentará la percepción de seguridad en los compradores?
+5. ¿Brindar al usuario una sección con el historial del vehículo permitirá que los compradores tomen mejores decisiones?
+6. ¿Facilitar la comunicación directa entre compradores y vendedores reducirá el abandono del proceso de compra?
+
 ### 8.1.4. Question Backlog.
 
-### 8.1.5. Experiment Cards.
+| Pregunta                                                                                       | Confidence | Risk | Impact | Interest | Total Score |
+| ---------------------------------------------------------------------------------------------- | ---------- | ---- | ------ | -------- | ----------- |
+| ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?     | 3          | 2    | 3      | 3        | 11          |
+| ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión? | 3          | 1    | 2      | 2        | 8           |
+| ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?       | 3          | 2    | 3      | 3        | 11          |
+| ¿Integrar talleres técnicos para certificaciones aumentará la percepción de seguridad?         | 3          | 2    | 3      | 3        | 11          |
+| ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?    | 3          | 1    | 3      | 2        | 9           |
+| ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?           | 3          | 1    | 2      | 2        | 8           |
+
+## 8.1.5 Experiment Cards
+
+| ID    | Nombre del Experimento                    | Objetivo                                                                   | Pregunta a responder                                                                           | Hipótesis                                                                                                                           | Segmento objetivo        | Tipo de experimento                              | Métricas clave                                                        | Criterio de éxito                    |
+| ----- | ----------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------ |
+| EXP01 | Sello de Verificación Técnica en Anuncios | Evaluar si el sello genera mayor confianza y aumenta el interés de compra  | ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?     | Creemos que al mostrar un sello de verificación en los anuncios, los compradores confiarán más y se incrementarán las interacciones | Compradores              | A/B Testing (anuncios con y sin sello)           | Tasa de clics (CTR), número de mensajes enviados                      | ≥15% de aumento en clics o contactos |
+| EXP02 | Publicaciones Destacadas para Vendedores  | Validar si destacar anuncios ayuda a concretar más ventas                  | ¿Ofrecer a los vendedores un sistema de publicación destacada aumentará su tasa de conversión? | Creemos que los anuncios destacados aumentan la visibilidad y permiten vender más rápido                                            | Vendedores               | Feature toggle + análisis de comportamiento      | Tasa de conversión, tiempo promedio hasta la venta                    | Reducción del tiempo ≥30%            |
+| EXP03 | Verificación de Pagos Segura              | Medir impacto de verificación automatizada en la reducción de estafas      | ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?       | Creemos que si los pagos se verifican mediante comprobantes validados, se reducirá el fraude                                        | Compradores y Vendedores | Test funcional con monitoreo de casos de disputa | Número de disputas/fraudes, % de confirmaciones exitosas              | Reducción ≥50% en fraudes            |
+| EXP04 | Historial del Vehículo en Anuncio         | Validar si mostrar el historial del vehículo influye en decisión de compra | ¿Brindar al usuario una sección con el historial del vehículo permitirá mejores decisiones?    | Creemos que mostrar el historial aumentará la confianza y reducirá la incertidumbre                                                 | Compradores              | A/B Testing (anuncios con y sin historial)       | Tasa de conversión, tiempo en página, % de retorno                    | +20% clics, +10% intención de compra |
+| EXP05 | Chat Directo entre Comprador y Vendedor   | Evaluar si la comunicación directa reduce el abandono de compra            | ¿Facilitar la comunicación directa entre compradores y vendedores reducirá abandono?           | Creemos que al implementar un chat directo se reducirán dudas y el abandono durante la compra                                       | Compradores y Vendedores | Activación progresiva + monitoreo del embudo     | Tasa de abandono, duración de conversación, transacciones completadas | Reducción del abandono ≥25%          |
 
 ## 8.2. Experiment Design
 
-### 8.2.1. Hypotheses.
+### 8.2.1 Hypotheses
 
-### 8.2.2. Measures.
+- Creemos que mostrar un sello visual de verificación técnica en los anuncios aumentará la confianza del comprador, lo que resultará en más interacciones con los vendedores.
+- Creemos que permitir a los vendedores destacar sus publicaciones incrementará su visibilidad, lo que resultará en una reducción del tiempo promedio hasta la venta.
+- Creemos que implementar un sistema que valide los pagos mediante comprobantes reducirá los fraudes, lo que resultará en más transacciones exitosas.
+- Creemos que incluir una sección con el historial completo del vehículo aumentará la transparencia, lo que resultará en una mejor toma de decisiones por parte del comprador.
+- Creemos que facilitar un canal de comunicación directa entre comprador y vendedor reducirá las dudas e incertidumbre, lo que resultará en una menor tasa de abandono del proceso de compra.
 
-### 8.2.3. Conditions.
+### 8.2.2 Measures
 
-### 8.2.4. Scale Calculations and Decisions.
+**Métricas Cuantitativas:**
 
-### 8.2.5. Methods Selection.
+- Tasa de clics en anuncios (CTR)
+- Número de mensajes enviados al vendedor
+- Tasa de conversión (visitas → contactos → venta)
+- Tiempo promedio desde publicación hasta la venta
+- Tasa de abandono del proceso de compra
+- Número de disputas o fraudes reportados
+- Porcentaje de uso de nuevas funcionalidades (filtro, chat, historial)
 
-### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+**Métricas Cualitativas:**
 
-### 8.2.7. Web and Mobile Tracking Plan.
+- Percepción de confianza del usuario (encuesta)
+- Comprensión del proceso de pago (test de usabilidad)
+- Feedback sobre utilidad del historial del vehículo (entrevista breve post-uso)
+- Opiniones sobre la experiencia de comunicación entre partes
+
+### 8.2.3 Conditions
+
+- **Segmentos involucrados:** Compradores y vendedores de autos usados
+- **Ambiente de prueba:** Plataforma web en entorno de staging o producción controlada con feature flags
+- **Duración del experimento:** 2 a 3 semanas por funcionalidad, con evaluación continua
+- **Muestra mínima:** 50 usuarios por grupo experimental (control y prueba)
+- **Métodos de ejecución:** A/B Testing, prototipos interactivos (Figma), entrevistas de validación, encuestas
+- **Variantes:** Anuncios con/sin sello, Con/sin historial, Chat activo/inactivo, Publicación destacada vs estándar, Pago tradicional vs verificado
+- **Ética del experimento:** Consentimiento informado, recolección anónima de datos, cumplimiento de la ley de protección de datos personales
+
+### 8.2.4. Scale Calculations and Decisions
+
+Para la correcta medición del impacto de nuevas funcionalidades, estrategias de monetización o mejoras en la experiencia del usuario en **Car2Go**, se realizarán **experimentos controlados (A/B tests)** con una **significancia estadística del 5% (α = 0.05)**, lo que implica una probabilidad aceptable del 5% de obtener un falso positivo (error tipo I).
+
+El **efecto mínimo detectable (MDE)** se definirá según el contexto de análisis. Por ejemplo, para evaluar la conversión de usuarios a planes de suscripción, se considerará un MDE del 3%-5% de diferencia mínima significativa entre variantes.
+
+La **potencia estadística** se fijará entre el **80% y el 95%**, dependiendo de la criticidad de la hipótesis a validar. Esto permitirá detectar diferencias reales cuando existan (minimizando errores tipo II).
+
+Además, se utilizarán **datos representativos** segmentados por tipo de usuario (comprador o vendedor), plan utilizado y ubicación geográfica para asegurar que los hallazgos sean extrapolables a toda la base de usuarios de Car2Go.
+
+---
+
+### 8.2.5. Methods Selection
+
+Car2Go implementará una combinación de métodos cuantitativos y cualitativos para validar hipótesis y optimizar la experiencia de usuario y la conversión:
+
+- **A/B Testing**: Para comparar el rendimiento de nuevas funciones (como destacar vehículos o modificar el flujo de pagos).
+- **Cohort Analysis**: Para entender el comportamiento de grupos de usuarios en función de su fecha de ingreso o tipo de plan.
+- **Funnel Analysis**: Para identificar puntos de abandono en el proceso de compra/venta.
+- **Encuestas y entrevistas (UX Research)**: Para complementar los datos con percepciones directas de los usuarios.
+- **Análisis de retención y churn**: Para monitorear el compromiso con la plataforma y evaluar el impacto de cambios específicos.
+
+La combinación de estos métodos permitirá validar hipótesis de negocio, ajustar estrategias de monetización y mejorar la satisfacción del cliente.
+
+---
+
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+Los objetivos analíticos de Car2Go se enfocarán en el **crecimiento, la retención, la conversión y la satisfacción del usuario**. Para ello, se definirán los siguientes KPIs y métricas clave:
+
+**Objetivos principales:**
+
+- Aumentar la tasa de conversión de visitantes a compradores/vendedores activos.
+- Optimizar el uso de los planes de suscripción.
+- Mejorar la retención de usuarios mes a mes.
+
+**KPIs seleccionados:**
+
+- **Tasa de conversión** (visitantes → compradores / vendedores).
+- **Customer Lifetime Value (CLV)**.
+- **Tasa de retención mensual / churn rate**.
+- **Adopción de planes premium / destacados**.
+- **Tiempo promedio de respuesta entre comprador y vendedor**.
+- **Duración media de publicación hasta la venta**.
+
+**Métricas de soporte:**
+
+- Tasa de clics en anuncios destacados.
+- Porcentaje de transacciones confirmadas con comprobante.
+- Número de publicaciones por usuario activo.
+- Frecuencia de uso de la plataforma por tipo de usuario.
+
+---
+
+### 8.2.7. Web and Mobile Tracking Plan
+
+Para implementar un plan de seguimiento eficaz en Car2Go (Web y App móvil), se establecerán eventos clave y parámetros personalizados en herramientas como **Google Analytics 4**, **Firebase**, o **Mixpanel**, con el objetivo de rastrear el comportamiento del usuario y alimentar los KPIs definidos.
+
+**Eventos clave a rastrear:**
+
+- Registro de usuario
+- Inicio de sesión / logout
+- Creación de anuncio de vehículo
+- Edición o eliminación de anuncio
+- Interacción con anuncios (clics, favoritos, compartidos)
+- Subida de comprobante de pago
+- Confirmación de transacción
+- Cambio de plan de suscripción
+- Mensajes enviados / recibidos entre usuarios
+- Notificaciones abiertas o ignoradas
+
+**Dimensiones a incluir:**
+
+- Tipo de usuario (vendedor/comprador)
+- Dispositivo (móvil/web)
+- Ubicación geográfica
+- Tipo de plan (free/premium)
+- Etapa del embudo de conversión
+
+Este plan asegurará una **medición integral del comportamiento de los usuarios**, facilitando mejoras iterativas en la plataforma y decisiones basadas en datos.
 
 ## 8.3. Experimentation
 
-### 8.3.1. To-Be User Stories.
+### 8.3.1. To-Be User Stories
+
+| Epic / Story ID | Título                                | Descripción                                                                                 | Criterios de Aceptación                                                                                                                                               | Relacionado con (Epic ID) |
+| --------------- | ------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| US-TB01         | Historial del Vehículo                | Como comprador quiero ver el historial técnico y de propiedad del auto                      | Escenario: Historial disponible<br>Given el auto tiene historial cargado<br>When el comprador entra al anuncio<br>Then el sistema debe mostrar un historial detallado | EP02                      |
+| US-TB02         | Chat Directo entre Usuarios           | Como comprador quiero comunicarme directamente con el vendedor desde la plataforma          | Escenario: Chat iniciado<br>Given el comprador está en el anuncio<br>When hace clic en "Contactar por chat"<br>Then debe abrirse un chat privado con el vendedor      | EP01                      |
+| US-TB03         | Verificación de Comprobante de Pago   | Como comprador quiero que el sistema valide automáticamente mi comprobante de pago          | Escenario: Comprobante válido<br>Given se carga un comprobante<br>When es verificado correctamente<br>Then se confirma la transacción y se notifica al vendedor       | EP03                      |
+| US-TB04         | Notificación de Transacción Segura    | Como vendedor quiero recibir una notificación cuando el comprador complete el pago validado | Escenario: Pago confirmado<br>Given el comprador completó el pago<br>When el sistema valida el comprobante<br>Then el vendedor recibe una notificación inmediata      | EP03                      |
+| US-TB05         | Publicación Destacada Premium         | Como vendedor quiero destacar mi anuncio para que tenga mayor visibilidad                   | Escenario: Activación de destacado<br>Given el vendedor selecciona "Anuncio Destacado"<br>When realiza el pago<br>Then el anuncio aparece en sección prioritaria      | EP08                      |
+| US-TB06         | Seguimiento del Estado de Transacción | Como comprador quiero ver en qué estado está mi proceso de compra                           | Escenario: Flujo de estados<br>Given el comprador hizo una oferta<br>When accede al detalle de la compra<br>Then el sistema muestra el estado actualizado             | EP03                      |
+| US-TB07         | Encuesta de Confianza Post Compra     | Como comprador quiero poder evaluar si me sentí seguro durante la compra                    | Escenario: Compra finalizada<br>Given una compra ha sido completada<br>When accede a su historial<br>Then se ofrece una encuesta rápida de satisfacción               | EP05                      |
+
+---
 
 ### 8.3.2. To-Be Product Backlog
+
+| Orden | User Story ID | Título                                | Descripción                                                            | Story Points |
+| ----- | ------------- | ------------------------------------- | ---------------------------------------------------------------------- | ------------ |
+| 1     | US-TB03       | Verificación de Comprobante de Pago   | Validar pagos mediante comprobantes automatizados                      | 5            |
+| 2     | US-TB02       | Chat Directo entre Usuarios           | Permitir comunicación directa entre compradores y vendedores           | 5            |
+| 3     | US-TB01       | Historial del Vehículo                | Mostrar historial técnico y de propiedad en cada anuncio               | 5            |
+| 4     | US-TB05       | Publicación Destacada Premium         | Dar opción al vendedor de pagar por destacar su anuncio                | 3            |
+| 5     | US-TB06       | Seguimiento del Estado de Transacción | Flujo visual que muestra el estado del proceso de compra               | 3            |
+| 6     | US-TB04       | Notificación de Transacción Segura    | Avisar automáticamente cuando un pago es validado                      | 3            |
+| 7     | US-TB07       | Encuesta de Confianza Post Compra     | Recolectar feedback sobre la percepción de seguridad en la transacción | 2            |
+| 8     | US-16         | Sistema de Pago Seguro                | Plataforma para ingresar y validar pagos de forma segura               | 5            |
+| 9     | US-17         | Confirmación de Transacción           | Confirmar automáticamente que la venta se completó                     | 3            |
+| 10    | US-01         | Registro de Usuario                   | Registro en plataforma para compradores y vendedores                   | 3            |
+| 11    | US-02         | Búsqueda de Autos                     | Búsqueda con filtros por marca, modelo, precio, etc.                   | 5            |
+| 12    | US-03         | Listado de Autos                      | Permitir publicar un auto a la venta                                   | 5            |
+| 13    | US-06         | Ver Detalles del Auto                 | Mostrar toda la información del auto al hacer clic                     | 5            |
+| 14    | US-24         | Soporte en Vivo                       | Chat de soporte en tiempo real para problemas urgentes                 | 5            |
+
+---
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
@@ -3062,6 +3748,10 @@ Link del repositorio de Github: <https://github.com/InnoSoft-1ASI0732-Diseno-Exp
 
 Link de landing page desplegado: <https://innosoft-1asi0732-diseno-experimentos.github.io/Car2Go-Landing-Page/>
 
-link de Continuous Integration y Continuous Delivery : <https://github.com/testttttttertetewtwesdv/Car2Go-Movil> 
+link de Continuous Integration y Continuous Delivery : <https://github.com/testttttttertetewtwesdv/Car2Go-Movil>
 
 Link de Production Deployment Pipeline Components: <https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos/Car2Go-Movil/actions>
+
+URL de la web desplegada: <https://car2go-c60fa.web.app/login> 
+
+URl del BackEnd desplegado: <https://car2go-backend.onrender.com>
