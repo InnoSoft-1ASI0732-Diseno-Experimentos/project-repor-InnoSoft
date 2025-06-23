@@ -110,7 +110,7 @@ Para el desarrollo de la entrega TB2, se opto por dividir el trabajo de la sigui
 
 **Evidencia**:
 
-![TB2](...)
+![TB2](./assets/tb2-contribution.png)
 
 ---
 
@@ -128,7 +128,7 @@ Para el desarrollo de la entrega TF1, se opto por dividir el trabajo de la sigui
 
 **Evidencia**:
 
-![TB2](assets/tf1.PNG)
+![TF](assets/tf1.PNG)
 
 ---
 
