@@ -2948,13 +2948,18 @@ Gonzalo Carhuancote (27 años, ingeniero mecánico) calificó su experiencia en 
 Consideró que la plataforma cumplió sus expectativas y sugirió agregar asesoría legal o técnica. También afirmó que la visibilidad del anuncio fue adecuada y que se sintió seguro compartiendo sus datos. En general, valoró el enfoque en seguridad y confianza en el proceso de venta.
 
 ### Entrevista 3:
-* Nombre y Apellido:
-* Edad:
-* Duración de la entrevista:
+* Nombre y Apellido: Lizet Antonia Pachas Torres
+* Edad: 38
+* Duración de la entrevista: 8 minutos y 20 segundos
 * Evidencia de la reunión:
+![alt text](assets/interview-diseño.png)
 
-* URL del video:
-* Informe de resumen de la entrevista:
+* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUzdkMKh_dZDm3q1dPhz5lYBZdtcbgRc54mnINWqEQ8-oQ?e=y7quwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+* Informe de resumen de la entrevista:<br>
+La entrevistada, Lizet Antonia Pachas Torres, comerciante de vehículos usados, expresó una experiencia muy positiva al utilizar la plataforma Car2Go. Destacó que el proceso de publicación fue intuitivo y rápido, lo que le permitió colocar su anuncio en menos de 10 minutos. La facilidad del formulario y la posibilidad de tomar como referencia otras publicaciones activas en la plataforma fueron aspectos valorados, ya que le ayudaron a estructurar mejor su propio anuncio. Esta experiencia evidencia que Car2Go ha logrado una interfaz amigable que favorece la autogestión de los usuarios, especialmente en el segmento de vendedores independientes.</p>
+En cuanto a la efectividad de la plataforma, Lizet indicó que Car2Go cumplió con sus expectativas, logrando concretar una venta en menos de una semana. Además, valoró las notificaciones automáticas como un mecanismo útil para mantener contacto con potenciales compradores. No obstante, sugiere como mejora la opción de duplicar publicaciones anteriores, lo cual agilizaria el trabajo para vendedores recurrentes. También expresó satisfacción con la visibilidad de su anuncio, especialmente al activar un plan premium, lo que sugiere que el algoritmo de posicionamiento es percibido como efectivo por los usuarios.</p>
+Finalmente, en el ámbito de seguridad y confianza, Lizet manifestó sentirse protegida al no exponerse datos personales sensibles y al gestionarse toda la comunicación por la app. Como aporte adicional, recomendó incorporar estadísticas más detalladas por anuncio, así como una funcionalidad para identificar compradores frecuentes o confiables. Este tipo de sugerencias revela que los usuarios valoran herramientas que potencien el análisis y la fidelización dentro del ecosistema de compraventa digital, y ofrecen una guía útil para el desarrollo de futuras funcionalidades.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
