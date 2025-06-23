@@ -2515,7 +2515,8 @@ Vehicle:
 <br> 
  Las pruebas unitarias realizadas incluyen la verificación del correcto funcionamiento de la clase Vehicle, asegurando que la creaeción y actualización de vehíuclos se realice adecuadamente, que lo atributos se asignen y modifiquen según lo esperado, y que el estado del vehículo se gestione correctamente. Además, se valida la asignación y recuperación del id del perfil de usuario, así como el mantenimiento del estado por defecto al crear un nuevo vehículo.
 
- Se incluyen las siguientes pruebas:
+Se incluyen las siguientes pruebas:
+
  <ul>
   <li>testVehicleCreation()</li>
   <li>testVehicleUpdate()</li>
@@ -2527,12 +2528,13 @@ Vehicle:
 
 Ejemplo de prueba unitaria:
 
-* Actualización de los datos de un vehículo
+- Actualización de los datos de un vehículo
+
 ```
  @Test
     @DisplayName("Should update a vehicle correctly")
     void testVehicleUpdate() {
-        // Arrange: 
+        // Arrange:
         vehicle = new Vehicle(validCreateCommand);
         UpdateVehicleCommand updateCommand = new UpdateVehicleCommand(
             UPDATED_NAME,
@@ -2555,11 +2557,11 @@ Ejemplo de prueba unitaria:
             VALID_SPEED,
             vehicleStatus.PENDING
         );
-        
-        // Act: 
+
+        // Act:
         vehicle.updateVehicleInfo(updateCommand);
-        
-        // Assert: 
+
+        // Assert:
         assertEquals(UPDATED_NAME, vehicle.getName());
         assertEquals(UPDATED_PHONE, vehicle.getPhone());
         assertEquals(UPDATED_EMAIL, vehicle.getEmail());
@@ -2570,7 +2572,9 @@ Ejemplo de prueba unitaria:
     }
 
 ```
-* Agregar profile id a un vehículo
+
+- Agregar profile id a un vehículo
+
 ```
 @Test
     @DisplayName("Should set and get profileId correctly")
@@ -2578,10 +2582,10 @@ Ejemplo de prueba unitaria:
         // Arrange:
         vehicle = new Vehicle(validCreateCommand);
         long profileId = 12345L;
-        
+
         // Act:
         vehicle.setProfileId(profileId);
-        
+
         // Assert:
         assertEquals(profileId, vehicle.getProfileId());
         assertEquals(profileId, vehicle.getUserId());
@@ -2593,34 +2597,36 @@ Pruebas de ejecución:
 
 <br><br>
 Profile:
-<br> 
- Las pruebas unitarias se enfocan en validar la correcta creación y actualización de perfiles de usuario, así como la gestión de sus métodos de pago. Se verifican que los atributos del perfil se asignen correctamente tanto al crear como actualizar, que el identificador del perfil pueda establecerse y recupearase, y que los métodos de pago puedan añadirse, actualizarse y eliminarse.
+<br>
+Las pruebas unitarias se enfocan en validar la correcta creación y actualización de perfiles de usuario, así como la gestión de sus métodos de pago. Se verifican que los atributos del perfil se asignen correctamente tanto al crear como actualizar, que el identificador del perfil pueda establecerse y recupearase, y que los métodos de pago puedan añadirse, actualizarse y eliminarse.
 
- Se incluyen las siguientes pruebas:
-  * testCreateProfileWithCommand()
-  * testCreateProfileWithUpdateCommand()
-  * testUpdateName()
-  * testSetAndGetProfileId()
-  * testAddPaymentMethod()
-  * testAddPaymentMethodExceedingLimit()
-  * testRemovePaymentMethodById()
-  * testRemoveNonExistentPaymentMethod()
-  * testUpdatePaymentMethod()
-  * testUpdateNonExistentPaymentMethod()
+Se incluyen las siguientes pruebas:
+
+- testCreateProfileWithCommand()
+- testCreateProfileWithUpdateCommand()
+- testUpdateName()
+- testSetAndGetProfileId()
+- testAddPaymentMethod()
+- testAddPaymentMethodExceedingLimit()
+- testRemovePaymentMethodById()
+- testRemoveNonExistentPaymentMethod()
+- testUpdatePaymentMethod()
+- testUpdateNonExistentPaymentMethod()
 
 Ejemplo de prueba unitaria:
 
-* Crear un perfil de usuario
+- Crear un perfil de usuario
+
 ```
  @Test
     @DisplayName("Should create a profile correctly with CreateProfileCommand")
     void testCreateProfileWithCommand() {
         // Arrange
         CreateProfileCommand command = createSampleCommand();
-        
+
         // Act
         Profile profile = new Profile(command, PROFILE_ID);
-        
+
         // Assert
         assertEquals(command.firstName(), profile.getFirstName());
         assertEquals(command.lastName(), profile.getLastName());
@@ -2634,7 +2640,9 @@ Ejemplo de prueba unitaria:
     }
 
 ```
-* Obtener id del perfil de usuario
+
+- Obtener id del perfil de usuario
+
 ```
 @Test
     @DisplayName("Should set and get profileId correctly")
@@ -2642,10 +2650,10 @@ Ejemplo de prueba unitaria:
         // Arrange
         Profile profile = new Profile(createSampleCommand(), PROFILE_ID);
         Long newProfileId = 2L;
-        
+
         // Act
         profile.setProfileId(newProfileId);
-        
+
         // Assert
         assertEquals(newProfileId, profile.getProfileId());
     }
@@ -2653,7 +2661,6 @@ Ejemplo de prueba unitaria:
 
 Pruebas de ejecución:
 ![](assets/profile-unit-test.png)
- 
 
 ### 6.1.2. Core Integration Test – UserRepository
 
@@ -2691,11 +2698,12 @@ void testCreateAndFindUserByUsername() {
 ```
 
 ## Archivo application-test.properties:
+
 ![](assets/Captura-application.PNG)
 
 ### Resultado de ejecución
 
-Durante la ejecución de la prueba, se presentaron conflictos relacionados con la configuración del entorno de pruebas y la compatibilidad entre versiones del SDK de Java, Maven y Spring Boot. 
+Durante la ejecución de la prueba, se presentaron conflictos relacionados con la configuración del entorno de pruebas y la compatibilidad entre versiones del SDK de Java, Maven y Spring Boot.
 
 A pesar de haber realizado múltiples correcciones —como la inclusión de la base de datos H2, la creación del archivo `application-test.properties`, la alineación del `pom.xml` con Java 21 y la configuración adecuada del entorno en IntelliJ IDEA—, la prueba no se ejecutó exitosamente.
 
@@ -2706,31 +2714,26 @@ Como resultado, la prueba quedó en estado fallido, pero con la estructura y con
 Pruebas de ejecución:
 ![](assets/Captura-test.PNG)
 
-
-
 ### 6.1.3. Core Behavior-Driven Development
 
 En esta sección se aplicaron técnicas de Behavior-Driven Development (BDD) para definir y verificar el comportamiento esperado del sistema desde la perspectiva del usuario. Se utilizó la herramienta Cucumber integrada con Spring Boot y JUnit 5, permitiendo escribir pruebas automatizadas en lenguaje natural mediante escenarios Gherkin.
 
 ### Herramientas utilizadas:
 
--   **Cucumber 7.14.0**
-    
--   **JUnit Platform Suite (JUnit 5)**
-    
--   **Spring Boot 3.3.4**
-    
--   **IntelliJ IDEA con plugin Cucumber for Java**
+- **Cucumber 7.14.0**
+- **JUnit Platform Suite (JUnit 5)**
+- **Spring Boot 3.3.4**
+- **IntelliJ IDEA con plugin Cucumber for Java**
 
 ### Escenario aplicado: Publicación de vehículo por parte de un vendedor
 
 Se eligió validar el flujo funcional de la publicación de un nuevo vehículo, correspondiente a la _User Story US-03_, donde un vendedor desea registrar un vehículo en la plataforma.
 
-###  Escenario BDD (`publicar_auto.feature`)
+### Escenario BDD (`publicar_auto.feature`)
 
 ![](assets/feature.png)
 
-###  Implementación del escenario en Java
+### Implementación del escenario en Java
 
 La lógica de cada paso (`Given`, `When`, `Then`) fue implementada en la clase `VehiclePublicationSteps.java`:
 
@@ -2738,7 +2741,7 @@ La lógica de cada paso (`Given`, `When`, `Then`) fue implementada en la clase `
 
 ![](assets/Steps-2.png)
 
-###  Resultado de la ejecución
+### Resultado de la ejecución
 
 La prueba se ejecutó correctamente utilizando el runner `CucumberTestRunner.java`, arrojando un resultado exitoso:
 
@@ -2752,19 +2755,20 @@ En esta sección se realizaron pruebas de sistema con el objetivo de validar la 
 
 ---
 
-###  Prueba 1: Publicación de vehículo (flujo completo Web)
+### Prueba 1: Publicación de vehículo (flujo completo Web)
 
 **Objetivo:** Validar que un vendedor pueda publicar un nuevo vehículo desde la interfaz o mediante API, y que este vehículo sea registrado correctamente en la plataforma.
 
-| Elemento             | Descripción                              |
-|----------------------|-------------------------------------------|
-| Plataforma           | Web                                       |
-| Rol                  | Vendedor                                  |
-| Endpoint involucrado | `POST /api/v1/vehicle`                    |
-| Datos enviados       | Marca, modelo, precio, imágenes, etc.     |
+| Elemento             | Descripción                                   |
+| -------------------- | --------------------------------------------- |
+| Plataforma           | Web                                           |
+| Rol                  | Vendedor                                      |
+| Endpoint involucrado | `POST /api/v1/vehicle`                        |
+| Datos enviados       | Marca, modelo, precio, imágenes, etc.         |
 | Resultado esperado   | Respuesta 201 y vehículo con estado `PENDING` |
 
 **Evidencia:**
+
 - Prueba ejecutada mediante escenario BDD (`CucumberTestRunner`)
 - Resultado exitoso: `1 test passed - Process finished with exit code 0`
 - El vehículo puede consultarse luego con `GET /api/v1/vehicle/{id}`
@@ -2777,23 +2781,22 @@ En esta sección se realizaron pruebas de sistema con el objetivo de validar la 
 
 **Objetivo:** Validar que un comprador pueda guardar un vehículo en su lista de favoritos correctamente.
 
-| Elemento             | Descripción                                 |
-|----------------------|----------------------------------------------|
-| Plataforma           | Móvil / API                                  |
-| Rol                  | Comprador                                    |
-| Endpoint involucrado | `POST /api/v1/favorites/{vehicleId}`        |
-| Requisitos           | Usuario autenticado con rol `BUYER`         |
-| Resultado esperado   | Código 200 y objeto `Favorite` creado       |
+| Elemento             | Descripción                           |
+| -------------------- | ------------------------------------- |
+| Plataforma           | Móvil / API                           |
+| Rol                  | Comprador                             |
+| Endpoint involucrado | `POST /api/v1/favorites/{vehicleId}`  |
+| Requisitos           | Usuario autenticado con rol `BUYER`   |
+| Resultado esperado   | Código 200 y objeto `Favorite` creado |
 
 **Evidencia:**
+
 - Se envió una solicitud autenticada con JWT válido
 - El vehículo fue agregado a favoritos y puede verificarse con `GET /api/v1/favorites/my-favorites`
 
 ![alt text](assets/test-favorites.png)
 
-
 Las pruebas de sistema validaron que las funcionalidades críticas del sistema (publicación de vehículos y gestión de favoritos) funcionan correctamente, integrando autenticación, persistencia de datos, lógica de negocio y respuesta API. Esto garantiza que la aplicación está lista para pruebas de aceptación por parte del usuario final.
-
 
 ## 6.2. Static testing & Verification
 
@@ -2801,30 +2804,35 @@ Las pruebas de sistema validaron que las funcionalidades críticas del sistema (
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
-Con el objetivo de garantizar la mantenibilidad y legibilidad del código fuente, adoptamos el estándar de estilo [Google Java Style](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) como convención oficial para el desarrollo de nuestro backend implementado en Spring Boot. 
+Con el objetivo de garantizar la mantenibilidad y legibilidad del código fuente, adoptamos el estándar de estilo [Google Java Style](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) como convención oficial para el desarrollo de nuestro backend implementado en Spring Boot.
 Las convenciones aplicadas son las siguientes:
+
 1. Formato y legibilidad:
-* Máximo de 100 caracteres por línea para facilitar la lectura.
-* Indentación de 2 espacios
-* Las llaves de control (if, for, while) se colocan en la misma línea que la declaración.
+
+- Máximo de 100 caracteres por línea para facilitar la lectura.
+- Indentación de 2 espacios
+- Las llaves de control (if, for, while) se colocan en la misma línea que la declaración.
 
 2. Nombres y organización:
-* Uso de CamelCase para clases e interfaces y camelCase para métodos y variables.
-* Constantes en mayúsculas y con guiones bajos.
-* Importaciones ordenadas alfabéticamente y sin comodicnes.
+
+- Uso de CamelCase para clases e interfaces y camelCase para métodos y variables.
+- Constantes en mayúsculas y con guiones bajos.
+- Importaciones ordenadas alfabéticamente y sin comodicnes.
 
 3. Comentarios y documentación
-* Se incluye Javadoc para las clases, interfaces y métodos públicos.
-* Comentarios en línea breves y pertinentes.
+
+- Se incluye Javadoc para las clases, interfaces y métodos públicos.
+- Comentarios en línea breves y pertinentes.
 
 Por el lado del frontend hecho con Angular, se siguieron las convenciones ya aplicadas por Angular CLI más las reglas de formateo de ESLint.
-* Nombres de componentes en PascalCase
-* Servicios como PascalCase + sufijo Service
-* Ficheros en kebab-case
-* Identación de 2 espacios
-* Uso de comillas simples para cadenas de texto
-* Uso de punto y coma al final de las declaraciones
-* Máximo 100 caracteres por línea
+
+- Nombres de componentes en PascalCase
+- Servicios como PascalCase + sufijo Service
+- Ficheros en kebab-case
+- Identación de 2 espacios
+- Uso de comillas simples para cadenas de texto
+- Uso de punto y coma al final de las declaraciones
+- Máximo 100 caracteres por línea
 
 Para garantizar el cumplimiento continuo durante el desarrollo de estas reglas, el proyecto integra la herramienta CheckStyle con la configuración oficial de Google antes mencionada. La herramienta analiza el código fuente automáticamente y reporta cualquier diferencia con los estándares establecidos marcándolos como advertencias. De esta forma, la legibilidad del código aumenta, se facilita la revisión del mismo y ,en general, se mejora la calidad del software entregado.
 
@@ -2835,15 +2843,17 @@ Con la finalidad de garantizar la calidad y seguridad de nuestra plataforma, inc
 
 ### 6.2.2. Reviews
 
-Para complementar el análisis estático del desarrollo, se realizaron las siguientes acciones: 
- - Verificación con la herramienta Checkstyle, dentro del editor IntelliJ IDEA, el cumplimiento de los estándaras de Google Java Style y se aplicaron las correcciones necesarias previo a la subida de los cambios al repositorio remoto.
- - Implementación de revisiones del repositorio remoto cada vez que se suben cambios con el Code Scanning de GitHub para detectar vulnerabilidades y errores de seguridad en el código. Esta herramienta analiza automáticamente el código fuente y proporciona informes detallados sobre posibles problemas.
+Para complementar el análisis estático del desarrollo, se realizaron las siguientes acciones:
+
+- Verificación con la herramienta Checkstyle, dentro del editor IntelliJ IDEA, el cumplimiento de los estándaras de Google Java Style y se aplicaron las correcciones necesarias previo a la subida de los cambios al repositorio remoto.
+- Implementación de revisiones del repositorio remoto cada vez que se suben cambios con el Code Scanning de GitHub para detectar vulnerabilidades y errores de seguridad en el código. Esta herramienta analiza automáticamente el código fuente y proporciona informes detallados sobre posibles problemas.
 
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
 
 Para validar las hipótesis y funcionalidades del sistema, se diseñaron entrevistas estructuradas con los siguientes objetivos:
+
 - Obtener retroalimentación directa de los usuarios finales sobre la usabilidad y funcionalidad del sistema
 - Identificar áreas de mejora en la experiencia del usuario
 - Validar la comprensión de los usuarios sobre las características clave del sistema
@@ -2856,11 +2866,13 @@ Para validar las hipótesis y funcionalidades del sistema, se diseñaron entrevi
 Buenos días/ Tardes/ Noches., el propósito de esta entrevista es conocer su opinión sobre la plataforma Car2Go, la cual tiene como objetivo facilitar la compra y venta de autos de segunda mano. Agradecemos su tiempo y sinceridad en las respuestas. Por ello, le haré unas breves preguntas para conocer su opinión sobre la plataforma y su experiencia al utilizarla.
 
 Datos iniciales:
+
 - ¿Cuál es su nombre?
 - ¿Cuál es su edad?
 - ¿Cuál es su ocupación?
 
 Segmento de Vendedores:
+
 - ¿Cómo calificaría su experiencia al publicar un vehículo en la plataforma Car2Go?
 - ¿Qué tan fácil le resultó completar el proceso de publicación?
 - ¿Qué características de la plataforma le resultaron más útiles al publicar su vehículo?
@@ -2870,6 +2882,7 @@ Segmento de Vendedores:
 - ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma
 
 Segmento de Compradores:
+
 - ¿Cómo calificaría su experiencia al buscar y comprar un vehículo en la plataforma Car2Go?
 - ¿Qué tan fácil le resultó encontrar un vehículo que cumpliera con sus necesidades?
 - ¿Qué características de la plataforma le resultaron más útiles al buscar un vehículo?
@@ -2894,88 +2907,97 @@ Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayud
 **Duración de la entrevista:** 4 minutos y 42 segundos  
 **Evidencia de la reunión:**
 ![alt text](assets/interwari2.png)
-* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/Eex1U9LImONNssgyJCQtGnQBhNaNXL3LMXtZoHpgEBRMeg?e=6hdlGk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* Informe de resumen de la entrevista:<br/>
-Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que logró su objetivo de forma rápida al buscar un vehículo. Señaló que la información está bien detallada y organizada, lo que facilitó la búsqueda de autos que cumplieran con sus expectativas.  
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/Eex1U9LImONNssgyJCQtGnQBhNaNXL3LMXtZoHpgEBRMeg?e=6hdlGk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br/>
+  Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que logró su objetivo de forma rápida al buscar un vehículo. Señaló que la información está bien detallada y organizada, lo que facilitó la búsqueda de autos que cumplieran con sus expectativas.
 
 Entre las características más útiles mencionó el apartado de recomendaciones personalizadas, que le permitió acceder fácilmente a vehículos de su interés. También valoró positivamente el proceso de pagos, mencionando que fue sencillo, transmitía confianza y que no tuvo dificultades al ingresar sus datos.
 
 Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareció bien implementado. Además, consideró que la información mostrada de los vehículos era clara, suficiente y bien explicada. Por último, expresó un alto nivel de satisfacción con la seguridad de la plataforma, resaltando que le generó confianza por el manejo responsable de los datos.
 
 ### Entrevista 2:
-* Nombre y Apellido: Pieere Ricaldi Solis
-* Edad: 23
-* Duración de la entrevista: 6:25
-* Evidencia de la reunión:
-![entrevista vendedor 2](./assets/entrevista2_comprador.png)
-* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EYZUZ0f7MrNGt2u6lLfqwzQBkcUhrNinZ4zNDquKY7x4nA?e=TdARDf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* Informe de resumen de la entrevista:
-Ricaldi indico que la plataforma es sencilla, intuitiva y falcil de usar. Entre las características más valoradas de la plataforma, se mencionaron la claridad de la información sobre los vehículos, la organización de los filtros de búsqueda, y la navegación intuitiva del sitio. El proceso de compra cumplió completamente con sus expectativas, resaltando la simplicidad y rapidez del mismo. La experiencia general fue positiva en todos los aspectos evaluados, lo cual refuerza que la plataforma Car2Go está bien alineada con las necesidades y expectativas.
+
+- Nombre y Apellido: Pieere Ricaldi Solis
+- Edad: 23
+- Duración de la entrevista: 6:25
+- Evidencia de la reunión:
+  ![entrevista vendedor 2](./assets/entrevista2_comprador.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EYZUZ0f7MrNGt2u6lLfqwzQBkcUhrNinZ4zNDquKY7x4nA?e=TdARDf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:
+  Ricaldi indico que la plataforma es sencilla, intuitiva y falcil de usar. Entre las características más valoradas de la plataforma, se mencionaron la claridad de la información sobre los vehículos, la organización de los filtros de búsqueda, y la navegación intuitiva del sitio. El proceso de compra cumplió completamente con sus expectativas, resaltando la simplicidad y rapidez del mismo. La experiencia general fue positiva en todos los aspectos evaluados, lo cual refuerza que la plataforma Car2Go está bien alineada con las necesidades y expectativas.
 
 ### Entrevista 3:
-* Nombre y Apellido: Joan Teves
-* Edad: 26
-* Duración de la entrevista: 3 minuto y 25 segundos
-* Evidencia de la reunión:
-![alt text](assets/validacion_juancarlos2.png)
-* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EdDzptW9KzVEltgPgl5ZmlsBeCUlIEzzAB6HXsooc9BZ6g?e=NLPrXL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* Informe de resumen de la entrevista:<br>
-Joan Teves, de 26 años y estudiante de administración, participó en la validación de la plataforma Car2Go desde el rol de comprador. En general, calificó su experiencia como positiva, destacando que fue fácil buscar vehículos gracias a los filtros por precio, año y kilometraje.
-<br>
-Resaltó que la funcionalidad más útil fue el filtro de vehículos verificados, ya que le generó mayor confianza al momento de revisar las opciones disponibles. Joan indicó que la plataforma cumplió con sus expectativas, permitiéndole acceder a información clara y contactar con vendedores sin dificultades.
-<br>
-Como sugerencia de mejora, propuso agregar una opción para comparar vehículos y una calculadora de financiamiento, para ayudar a tomar decisiones más informadas. Sobre la visibilidad de los vehículos publicados, consideró que fue adecuada, ya que los anuncios incluían fotos y detalles relevantes.
-<br>
-Finalmente, se mostró satisfecho con la seguridad de sus datos personales, valorando la claridad con la que la plataforma explica qué información es pública y cuál permanece protegida.
-<br>
-En conclusión, Joan validó que Car2Go ofrece una buena experiencia para compradores, con énfasis en confianza, claridad y facilidad de uso.
+
+- Nombre y Apellido: Joan Teves
+- Edad: 26
+- Duración de la entrevista: 3 minuto y 25 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_juancarlos2.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EdDzptW9KzVEltgPgl5ZmlsBeCUlIEzzAB6HXsooc9BZ6g?e=NLPrXL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br>
+  Joan Teves, de 26 años y estudiante de administración, participó en la validación de la plataforma Car2Go desde el rol de comprador. En general, calificó su experiencia como positiva, destacando que fue fácil buscar vehículos gracias a los filtros por precio, año y kilometraje.
+  <br>
+  Resaltó que la funcionalidad más útil fue el filtro de vehículos verificados, ya que le generó mayor confianza al momento de revisar las opciones disponibles. Joan indicó que la plataforma cumplió con sus expectativas, permitiéndole acceder a información clara y contactar con vendedores sin dificultades.
+  <br>
+  Como sugerencia de mejora, propuso agregar una opción para comparar vehículos y una calculadora de financiamiento, para ayudar a tomar decisiones más informadas. Sobre la visibilidad de los vehículos publicados, consideró que fue adecuada, ya que los anuncios incluían fotos y detalles relevantes.
+  <br>
+  Finalmente, se mostró satisfecho con la seguridad de sus datos personales, valorando la claridad con la que la plataforma explica qué información es pública y cuál permanece protegida.
+  <br>
+  En conclusión, Joan validó que Car2Go ofrece una buena experiencia para compradores, con énfasis en confianza, claridad y facilidad de uso.
 
 ### Segmento 2: Vendedores de Autos de Segunda Mano
 
 ### Entrevista 1:
-* Nombre y Apellido: Mijael Imanol Yen Quispe
-* Edad: 22 años
-* Duración de la entrevista: 10 minutos y 30 segundos
-* Evidencia de la reunión:
-![alt text](assets/validacion_mijael.png)
-* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/Eeyxji00RHhNjTZSY8dcedIBoBP8v_N30vfTIs55lxKlGg?e=cQAaEM)
-* Informe de resumen de la entrevista:<br/>
-Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
+
+- Nombre y Apellido: Mijael Imanol Yen Quispe
+- Edad: 22 años
+- Duración de la entrevista: 10 minutos y 30 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_mijael.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/Eeyxji00RHhNjTZSY8dcedIBoBP8v_N30vfTIs55lxKlGg?e=cQAaEM)
+- Informe de resumen de la entrevista:<br/>
+  Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
 
 ### Entrevista 2:
-* Nombre y Apellido: Gonzalo Carhuancote
-* Edad: 27
-* Duración de la entrevista: 2 minutos y 6 segundos
-* Evidencia de la reunión:
-![alt text](assets/validacion_juancarlos.png)
 
-* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EezHZu3fpXpEk2JjxHA4LloBRw84NQIQLONYV3ZjcA7Z9A?e=GACUKf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* Informe de resumen de la entrevista:<br>
-Gonzalo Carhuancote (27 años, ingeniero mecánico) calificó su experiencia en Car2Go como fácil y clara. Destacó la opción de adjuntar y verificar documentos como el historial del auto, lo que genera mayor confianza al vender.
-<br>
-Consideró que la plataforma cumplió sus expectativas y sugirió agregar asesoría legal o técnica. También afirmó que la visibilidad del anuncio fue adecuada y que se sintió seguro compartiendo sus datos. En general, valoró el enfoque en seguridad y confianza en el proceso de venta.
+- Nombre y Apellido: Gonzalo Carhuancote
+- Edad: 27
+- Duración de la entrevista: 2 minutos y 6 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_juancarlos.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EezHZu3fpXpEk2JjxHA4LloBRw84NQIQLONYV3ZjcA7Z9A?e=GACUKf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br>
+  Gonzalo Carhuancote (27 años, ingeniero mecánico) calificó su experiencia en Car2Go como fácil y clara. Destacó la opción de adjuntar y verificar documentos como el historial del auto, lo que genera mayor confianza al vender.
+  <br>
+  Consideró que la plataforma cumplió sus expectativas y sugirió agregar asesoría legal o técnica. También afirmó que la visibilidad del anuncio fue adecuada y que se sintió seguro compartiendo sus datos. En general, valoró el enfoque en seguridad y confianza en el proceso de venta.
 
 ### Entrevista 3:
-* Nombre y Apellido: Lizet Antonia Pachas Torres
-* Edad: 38
-* Duración de la entrevista: 8 minutos y 20 segundos
-* Evidencia de la reunión:
-![alt text](assets/interview-diseño.png)
 
-* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUzdkMKh_dZDm3q1dPhz5lYBZdtcbgRc54mnINWqEQ8-oQ?e=y7quwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Nombre y Apellido: Lizet Antonia Pachas Torres
+- Edad: 38
+- Duración de la entrevista: 8 minutos y 20 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/interview-diseño.png)
 
-* Informe de resumen de la entrevista:<br>
-La entrevistada, Lizet Antonia Pachas Torres, comerciante de vehículos usados, expresó una experiencia muy positiva al utilizar la plataforma Car2Go. Destacó que el proceso de publicación fue intuitivo y rápido, lo que le permitió colocar su anuncio en menos de 10 minutos. La facilidad del formulario y la posibilidad de tomar como referencia otras publicaciones activas en la plataforma fueron aspectos valorados, ya que le ayudaron a estructurar mejor su propio anuncio. Esta experiencia evidencia que Car2Go ha logrado una interfaz amigable que favorece la autogestión de los usuarios, especialmente en el segmento de vendedores independientes.</p>
-En cuanto a la efectividad de la plataforma, Lizet indicó que Car2Go cumplió con sus expectativas, logrando concretar una venta en menos de una semana. Además, valoró las notificaciones automáticas como un mecanismo útil para mantener contacto con potenciales compradores. No obstante, sugiere como mejora la opción de duplicar publicaciones anteriores, lo cual agilizaria el trabajo para vendedores recurrentes. También expresó satisfacción con la visibilidad de su anuncio, especialmente al activar un plan premium, lo que sugiere que el algoritmo de posicionamiento es percibido como efectivo por los usuarios.</p>
-Finalmente, en el ámbito de seguridad y confianza, Lizet manifestó sentirse protegida al no exponerse datos personales sensibles y al gestionarse toda la comunicación por la app. Como aporte adicional, recomendó incorporar estadísticas más detalladas por anuncio, así como una funcionalidad para identificar compradores frecuentes o confiables. Este tipo de sugerencias revela que los usuarios valoran herramientas que potencien el análisis y la fidelización dentro del ecosistema de compraventa digital, y ofrecen una guía útil para el desarrollo de futuras funcionalidades.
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUzdkMKh_dZDm3q1dPhz5lYBZdtcbgRc54mnINWqEQ8-oQ?e=y7quwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- Informe de resumen de la entrevista:<br>
+  La entrevistada, Lizet Antonia Pachas Torres, comerciante de vehículos usados, expresó una experiencia muy positiva al utilizar la plataforma Car2Go. Destacó que el proceso de publicación fue intuitivo y rápido, lo que le permitió colocar su anuncio en menos de 10 minutos. La facilidad del formulario y la posibilidad de tomar como referencia otras publicaciones activas en la plataforma fueron aspectos valorados, ya que le ayudaron a estructurar mejor su propio anuncio. Esta experiencia evidencia que Car2Go ha logrado una interfaz amigable que favorece la autogestión de los usuarios, especialmente en el segmento de vendedores independientes.</p>
+  En cuanto a la efectividad de la plataforma, Lizet indicó que Car2Go cumplió con sus expectativas, logrando concretar una venta en menos de una semana. Además, valoró las notificaciones automáticas como un mecanismo útil para mantener contacto con potenciales compradores. No obstante, sugiere como mejora la opción de duplicar publicaciones anteriores, lo cual agilizaria el trabajo para vendedores recurrentes. También expresó satisfacción con la visibilidad de su anuncio, especialmente al activar un plan premium, lo que sugiere que el algoritmo de posicionamiento es percibido como efectivo por los usuarios.</p>
+  Finalmente, en el ámbito de seguridad y confianza, Lizet manifestó sentirse protegida al no exponerse datos personales sensibles y al gestionarse toda la comunicación por la app. Como aporte adicional, recomendó incorporar estadísticas más detalladas por anuncio, así como una funcionalidad para identificar compradores frecuentes o confiables. Este tipo de sugerencias revela que los usuarios valoran herramientas que potencien el análisis y la fidelización dentro del ecosistema de compraventa digital, y ofrecen una guía útil para el desarrollo de futuras funcionalidades.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
-### Sitio a evaluar: 
+### Sitio a evaluar:
+
 Car2Go
 
 ### Tareas a evaluar:
+
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
 1. Registro de usuario.
 2. Búsqueda de autos.
 3. Publicación de un auto.
@@ -2984,12 +3006,14 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 6. Comprar un auto.
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
+
 1. Guardar un auto como favorito.
 2. Ver autos favoritos.
 3. Ver perfil de usuario.
 4. Editar perfil de usuario.
 
 ### Escala de severidad:
+
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 |Nivel|Descripción|
 |---|---|
@@ -2999,23 +3023,26 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 |4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
 
 ### Tabla resumen:
-|#|Problema|Escala de severidad|Heurística/Principio violada(o)|
-|---|---|---|---|
-|1|a|a|a|
+
+| #   | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| --- | -------- | ------------------- | ------------------------------- |
+| 1   | a        | a                   | a                               |
 
 ### Tabla resumen:
-|#|Problema|Escala de severidad|Heurística/Principio violada(o)|
-|---|---|---|---|
-|1|El botón para guardar datos en el perfil no es claro|2|Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real|
-|2|La opción de "logout" no está dentro del perfil|2|Control y libertad del usuario|
-|3|En el campo teléfono del perfil se pueden ingresar letras|2|Prevención de errores|
-|4|No existe opción para duplicar publicaciones anteriores|2|Flexibilidad y eficiencia de uso|
-|5|No hay estadísticas detalladas por anuncio|1|Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores|
-|6|No se identifica fácilmente a compradores frecuentes o confiables|1|Reconocimiento antes que recuerdo|
+
+| #   | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                                                       |
+| --- | ----------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------- |
+| 1   | El botón para guardar datos en el perfil no es claro              | 2                   | Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real |
+| 2   | La opción de "logout" no está dentro del perfil                   | 2                   | Control y libertad del usuario                                                        |
+| 3   | En el campo teléfono del perfil se pueden ingresar letras         | 2                   | Prevención de errores                                                                 |
+| 4   | No existe opción para duplicar publicaciones anteriores           | 2                   | Flexibilidad y eficiencia de uso                                                      |
+| 5   | No hay estadísticas detalladas por anuncio                        | 1                   | Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores               |
+| 6   | No se identifica fácilmente a compradores frecuentes o confiables | 1                   | Reconocimiento antes que recuerdo                                                     |
 
 ### Descripción de problemas:
 
 #### Problema #1: El botón para guardar datos en el perfil no es claro
+
 **Severidad:** 2  
 **Heurística violada:** Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real  
 **Problema:** El botón para guardar los cambios en el perfil no tiene un texto específico (por ejemplo, solo dice "Guardar" en vez de "Guardar cambios"), lo que puede generar confusión sobre su función exacta.  
@@ -3024,6 +3051,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ---
 
 #### Problema #2: La opción de "logout" no está dentro del perfil
+
 **Severidad:** 2  
 **Heurística violada:** Control y libertad del usuario  
 **Problema:** Los usuarios esperan encontrar la opción de cerrar sesión dentro de la sección de perfil, pero actualmente no está ubicada ahí, lo que dificulta encontrarla rápidamente.  
@@ -3032,6 +3060,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ---
 
 #### Problema #3: En el campo teléfono del perfil se pueden ingresar letras
+
 **Severidad:** 2  
 **Heurística violada:** Prevención de errores  
 **Problema:** El campo para ingresar el teléfono permite caracteres no numéricos, lo que puede llevar a errores de validación y frustración del usuario.  
@@ -3040,6 +3069,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ---
 
 #### Problema #4: No existe opción para duplicar publicaciones anteriores
+
 **Severidad:** 2  
 **Heurística violada:** Flexibilidad y eficiencia de uso  
 **Problema:** Los vendedores recurrentes no pueden duplicar anuncios previos, lo que les obliga a repetir el proceso desde cero cada vez.  
@@ -3048,6 +3078,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ---
 
 #### Problema #5: No hay estadísticas detalladas por anuncio
+
 **Severidad:** 1  
 **Heurística violada:** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores  
 **Problema:** Los vendedores no pueden ver estadísticas detalladas de cada anuncio, lo que dificulta analizar el rendimiento de sus publicaciones.  
@@ -3056,6 +3087,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ---
 
 #### Problema #6: No se identifica fácilmente a compradores frecuentes o confiables
+
 **Severidad:** 1  
 **Heurística violada:** Reconocimiento antes que recuerdo  
 **Problema:** No existe una funcionalidad para identificar compradores frecuentes o confiables, lo que podría ayudar a los vendedores a priorizar sus interacciones.  
@@ -3067,7 +3099,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 #### 6.4.1.1. Información del grupo auditado.
 
-•	**Nombre del Producto**: “Grupo 05-ArtCollab”
+• **Nombre del Producto**: “Grupo 05-ArtCollab”
 
 • **Proyecto auditado**: Plataforma colaborativa para artistas emergentes.
 
@@ -3075,13 +3107,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
-•	**Fecha de auditoría**: 22 de junio de 2025
+• **Fecha de auditoría**: 22 de junio de 2025
 
-•	**Duración estimada**: 30 minutos
+• **Duración estimada**: 30 minutos
 
-•	**Hora de la auditoria**: 18:15
+• **Hora de la auditoria**: 18:15 pm
 
-•	**Modo**: Remoto (vía navegador web)
+• **Modo**: Remoto (vía navegador web)
 
 #### 6.4.1.3. Contenido de auditoría realizada.
 
@@ -3095,32 +3127,153 @@ Este error impide cualquier acción de registro, lectura o validación, y genera
 
 **Observaciones:**
 
-•	Se sugiere al grupo auditado revisar la configuración de CORS en el backend desplegado en Azure.
+• Se sugiere al grupo auditado revisar la configuración de CORS en el backend desplegado en Azure.
 
-•	Se recomienda también implementar una página de error amigable que informe al usuario que existe una falla temporal del sistema.
+• Se recomienda también implementar una página de error amigable que informe al usuario que existe una falla temporal del sistema.
 
 **Evaluación alternativa:**
 
 Debido a la imposibilidad de navegación, la evaluación se centró en los siguientes puntos visibles:
 
-•	El diseño de la interfaz inicial carga correctamente el logo y título del proyecto.
+• El diseño de la interfaz inicial carga correctamente el logo y título del proyecto.
 
-•	Se observa consistencia visual en los elementos visibles, aunque no se pudo comprobar su funcionalidad.
+• Se observa consistencia visual en los elementos visibles, aunque no se pudo comprobar su funcionalidad.
 
-•	No fue posible evaluar la arquitectura de navegación, flujos de usuario ni rendimiento.
-
-
+• No fue posible evaluar la arquitectura de navegación, flujos de usuario ni rendimiento.
 
 ### 6.4.2. Auditoría recibida.
 
 #### 6.4.2.1. Información del grupo auditor.
 
+- _AUDITOR :_ Grupo D -Grupo 5
+
+- **Proyecto auditado**: Car2go
+
 #### 6.4.2.2. Cronograma de auditoría recibida.
+
+• **Fecha de auditoría**: 23 de junio de 2025
+
+• **Duración estimada**: 30 minutos
+
+• **Hora de la auditoria**: 01:40 am
+
+• **Modo**: Remoto (vía navegador web)
 
 #### 6.4.2.3. Contenido de auditoría recibida.
 
+_TAREAS A EVALUAR:_
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+> 1. Comprensión del servicio y cómo funciona.
+> 2. Búsqueda de información sobre precios y tarifas.
+> 3. Proceso de registro para un nuevo usuario.
+> 4. Búsqueda y visualización de la zona de servicio en una ciudad.
+> 5. Descarga e instalación de la aplicación móvil.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:_
+
+> 1. Reserva o cancelación de un vehículo (requiere cuenta activa).
+> 2. Administración de un perfil de negocio.
+> 3. Uso del programa de recompensas.
+> 4. Contacto con el soporte técnico a través de la app.
+
+_ESCALA DE SEVERIDAD:_
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+- _1:_ Problema superficial.
+- _2:_ Problema menor.
+- _3:_ Problema mayor.
+- _4:_ Problema muy grave.
+
+_TABLA RESUMEN:_
+
+| #   | Problema                                                               | Escala de severidad | Heurística/Principio violada(o)                                   |
+| :-- | :--------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------- |
+| _1_ | Confusión de marca para usuarios de Car2go.                            | 3                   | Usability: Reconocimiento antes que recuerdo / Consistencia.      |
+| _2_ | El sitio web dirige constantemente a la app, limitando la información. | 3                   | Usability: Libertad y control del usuario.                        |
+| _3_ | La estructura de precios puede ser compleja y difícil de encontrar.    | 2                   | Information Architecture: Is it findable? / Is it understandable? |
+| _4_ | El mapa de la zona de servicio no es interactivo en la web.            | 2                   | Usability: Visibilidad del estado del sistema.                    |
+| _5_ | El proceso de registro solicita el carnet de conducir de inmediato.    | 3                   | Usability: Flexibilidad y eficiencia de uso.                      |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1:** Confusión de marca para usuarios de Car2go
+
+**Severidad:** 3
+
+Heurística violada: Usabilidad – Reconocimiento antes que recuerdo / Consistencia y estándares
+
+**Problema:**
+Los usuarios que buscan “Car2go” son redirigidos al sitio de SHARE NOW, que a su vez muestra un aviso sobre su integración con Free2move. Esta transición de tres marcas (Car2go → SHARE NOW → Free2move) no se explica de forma clara y prominente en la página de inicio. Un usuario antiguo de Car2go puede sentirse desorientado, sin entender si sus datos siguen siendo válidos o si el servicio es el mismo. Esto genera una carga cognitiva al obligarlo a investigar qué pasó con la marca que conocía.
+(Incluir además una captura de pantalla ilustrando el problema: página de inicio de SHARE NOW donde el aviso de Free2move es pequeño y no se menciona a Car2go).
+
+**Recomendación:**
+
+Implementar un banner o una sección claramente visible que dé la bienvenida a los usuarios de Car2go y explique la transición. Ejemplo de mensaje: “¿Buscando Car2go? ¡Estás en el lugar correcto! Ahora somos parte de Free2move para ofrecerte más opciones. Inicia sesión con tu cuenta de siempre”.
+
+---
+
+**PROBLEMA #2:** El sitio web dirige constantemente a la app, limitando la información
+
+**Severidad: 3**
+
+**Heurística violada:** Usabilidad – Libertad y control del usuario
+
+**Problema:**
+Muchas acciones que un usuario desearía explorar en la web (ver coches disponibles, calcular una tarifa exacta) no están disponibles; el sitio actúa principalmente como portal para descargar la aplicación móvil. Esto quita al usuario el control de informarse completamente antes de instalar la app, generando frustración y posible abandono.
+(Incluir captura de pantalla: sección de la web que muestra botones grandes para descargar la app en iOS y Android).
+
+**Recomendación:**
+Ofrecer más funcionalidades en la versión web, aunque sean limitadas. Por ejemplo, permitir una simulación de viaje en el mapa para obtener una estimación de costes sin necesidad de registrarse o descargar la app.
+
+---
+
+**PROBLEMA #3:** La estructura de precios puede ser compleja y difícil de encontrar
+
+**Severidad:** 2
+
+**Heurística violada:** Arquitectura de información – ¿Es encontrable? / ¿Es comprensible?
+
+**Problema:**
+La información sobre precios no está en una sección principal y visible del menú. El usuario debe entrar en “Cómo funciona” y buscar la sección de precios. Una vez allí, la estructura de tarifas (por minuto, por hora, por día, con cargos adicionales) resulta abrumadora y no existe una calculadora sencilla de costos.
+(Incluir captura de pantalla: tabla de precios con múltiples opciones y sin guía clara).
+
+**Recomendación:**
+Añadir una sección dedicada a “Precios” o “Tarifas” en el menú principal. Dentro, además de la tabla detallada, incluir una herramienta interactiva simple donde el usuario introduzca origen y destino (o duración estimada) y obtenga un coste aproximado del servicio.
+
+---
+
+**PROBLEMA #4:** El mapa de la zona de servicio no es interactivo en la web._ > 
+
+**Severidad:** 2
+
+**Heurística violada:**_ Usabilidad - Visibilidad del estado del sistema.
+
+**Problema:**
+El sitio web muestra imágenes estáticas de los mapas con la "zona de servicio" para cada ciudad. El usuario no puede hacer zoom, moverse por el mapa o buscar una dirección específica para ver si está dentro del área de operación. No sabe con certeza si su casa o su trabajo están cubiertos por el servicio hasta que descarga la app, lo cual es ineficiente.
+(Incluir además una captura de pantalla ilustrando el problema: Captura de la imagen estática del mapa de una ciudad ofrecida en la web).
+
+**Recomendación:**
+Integrar un mapa interactivo (como Google Maps o OpenStreetMap) en la página de cada ciudad. Este mapa debería tener una capa que muestre la zona de servicio y permitir al usuario navegar y buscar direcciones para verificar la cobertura de forma rápida y precisa.
+
+---
+
+**PROBLEMA #5:** El proceso de registro solicita el carnet de conducir de inmediato._ > _Severidad:_ 3
+
+**Heurística violada:**_ Usability - Flexibilidad y eficiencia de uso / Prevención de errores.
+
+**Problema:**
+Al iniciar el registro, uno de los primeros pasos obligatorios es subir una foto del carnet de conducir. Un usuario que está explorando el servicio desde su ordenador de escritorio puede no tener su carnet a mano, o puede no sentirse cómodo subiendo un documento tan sensible sin haber completado otros pasos menos intrusivos del perfil. Esto crea una barrera alta de entrada y puede provocar que el usuario abandone el proceso si no puede o no quiere cumplir con este requisito en ese preciso momento.
+(Incluir además una captura de pantalla ilustrando el problema: Captura del formulario de registro donde se pide validar el carnet de conducir como paso inicial).
+
+**Recomendación:**
+
+Permitir un registro progresivo. El sistema debería dejar que el usuario cree su cuenta con datos básicos (email, contraseña) y explore la aplicación. La validación del carnet de conducir debería ser un paso necesario antes de poder reservar el primer coche, pero no para crear la cuenta. El sistema puede mostrar un aviso claro de "Cuenta incompleta" o "Validación pendiente" para guiar al usuario a completar el proceso cuando esté listo.
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
+Debido a que la auditoría fue realizada en una hora muy cercana a la entrega, no fue posible implementar las modificaciones sugeridas dentro de este ciclo de desarrollo. Reconocemos la importancia de los hallazgos identificados y se ha tomado nota de cada uno para ser considerados en la siguiente entrega.
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
