@@ -2913,13 +2913,22 @@ Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareci�
 Ricaldi indico que la plataforma es sencilla, intuitiva y falcil de usar. Entre las características más valoradas de la plataforma, se mencionaron la claridad de la información sobre los vehículos, la organización de los filtros de búsqueda, y la navegación intuitiva del sitio. El proceso de compra cumplió completamente con sus expectativas, resaltando la simplicidad y rapidez del mismo. La experiencia general fue positiva en todos los aspectos evaluados, lo cual refuerza que la plataforma Car2Go está bien alineada con las necesidades y expectativas.
 
 ### Entrevista 3:
-* Nombre y Apellido:
-* Edad:
-* Duración de la entrevista:
+* Nombre y Apellido: Joan Teves
+* Edad: 26
+* Duración de la entrevista: 3 minuto y 25 segundos
 * Evidencia de la reunión:
-
-* URL del video:
-* Informe de resumen de la entrevista:
+![alt text](assets/validacion_juancarlos2.png)
+* URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EdDzptW9KzVEltgPgl5ZmlsBeCUlIEzzAB6HXsooc9BZ6g?e=NLPrXL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* Informe de resumen de la entrevista:<br>
+Joan Teves, de 26 años y estudiante de administración, participó en la validación de la plataforma Car2Go desde el rol de comprador. En general, calificó su experiencia como positiva, destacando que fue fácil buscar vehículos gracias a los filtros por precio, año y kilometraje.
+<br>
+Resaltó que la funcionalidad más útil fue el filtro de vehículos verificados, ya que le generó mayor confianza al momento de revisar las opciones disponibles. Joan indicó que la plataforma cumplió con sus expectativas, permitiéndole acceder a información clara y contactar con vendedores sin dificultades.
+<br>
+Como sugerencia de mejora, propuso agregar una opción para comparar vehículos y una calculadora de financiamiento, para ayudar a tomar decisiones más informadas. Sobre la visibilidad de los vehículos publicados, consideró que fue adecuada, ya que los anuncios incluían fotos y detalles relevantes.
+<br>
+Finalmente, se mostró satisfecho con la seguridad de sus datos personales, valorando la claridad con la que la plataforma explica qué información es pública y cuál permanece protegida.
+<br>
+En conclusión, Joan validó que Car2Go ofrece una buena experiencia para compradores, con énfasis en confianza, claridad y facilidad de uso.
 
 ### Segmento 2: Vendedores de Autos de Segunda Mano
 
