@@ -2995,16 +2995,63 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 |---|---|---|---|
 |1|a|a|a|
 
+### Tabla resumen:
+|#|Problema|Escala de severidad|Heurística/Principio violada(o)|
+|---|---|---|---|
+|1|El botón para guardar datos en el perfil no es claro|2|Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real|
+|2|La opción de "logout" no está dentro del perfil|2|Control y libertad del usuario|
+|3|En el campo teléfono del perfil se pueden ingresar letras|2|Prevención de errores|
+|4|No existe opción para duplicar publicaciones anteriores|2|Flexibilidad y eficiencia de uso|
+|5|No hay estadísticas detalladas por anuncio|1|Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores|
+|6|No se identifica fácilmente a compradores frecuentes o confiables|1|Reconocimiento antes que recuerdo|
+
 ### Descripción de problemas:
-### Problema #1: --breve descripción del problema--
 
-Severidad:
-Heurística violada: 
+#### Problema #1: El botón para guardar datos en el perfil no es claro
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema / Correspondencia entre el sistema y el mundo real  
+**Problema:** El botón para guardar los cambios en el perfil no tiene un texto específico (por ejemplo, solo dice "Guardar" en vez de "Guardar cambios"), lo que puede generar confusión sobre su función exacta.  
+**Recomendación:** Cambiar el texto del botón a “Guardar cambios” para que sea más explícito.
 
-Problema:
---párrafo explicando el problema--
+---
 
-Recomendación:
+#### Problema #2: La opción de "logout" no está dentro del perfil
+**Severidad:** 2  
+**Heurística violada:** Control y libertad del usuario  
+**Problema:** Los usuarios esperan encontrar la opción de cerrar sesión dentro de la sección de perfil, pero actualmente no está ubicada ahí, lo que dificulta encontrarla rápidamente.  
+**Recomendación:** Incluir la opción de "logout" dentro del menú de perfil.
+
+---
+
+#### Problema #3: En el campo teléfono del perfil se pueden ingresar letras
+**Severidad:** 2  
+**Heurística violada:** Prevención de errores  
+**Problema:** El campo para ingresar el teléfono permite caracteres no numéricos, lo que puede llevar a errores de validación y frustración del usuario.  
+**Recomendación:** Restringir el campo para que solo acepte números.
+
+---
+
+#### Problema #4: No existe opción para duplicar publicaciones anteriores
+**Severidad:** 2  
+**Heurística violada:** Flexibilidad y eficiencia de uso  
+**Problema:** Los vendedores recurrentes no pueden duplicar anuncios previos, lo que les obliga a repetir el proceso desde cero cada vez.  
+**Recomendación:** Agregar una funcionalidad para duplicar publicaciones anteriores.
+
+---
+
+#### Problema #5: No hay estadísticas detalladas por anuncio
+**Severidad:** 1  
+**Heurística violada:** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores  
+**Problema:** Los vendedores no pueden ver estadísticas detalladas de cada anuncio, lo que dificulta analizar el rendimiento de sus publicaciones.  
+**Recomendación:** Incluir un panel de estadísticas por anuncio.
+
+---
+
+#### Problema #6: No se identifica fácilmente a compradores frecuentes o confiables
+**Severidad:** 1  
+**Heurística violada:** Reconocimiento antes que recuerdo  
+**Problema:** No existe una funcionalidad para identificar compradores frecuentes o confiables, lo que podría ayudar a los vendedores a priorizar sus interacciones.  
+**Recomendación:** Implementar insignias o etiquetas para compradores frecuentes/confiables.
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
