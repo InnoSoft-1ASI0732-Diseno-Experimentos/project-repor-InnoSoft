@@ -3210,11 +3210,161 @@ Este plan asegurará una **medición integral del comportamiento de los usuarios
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+**Home**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de la plataforma Car2Go.
+
+![alt text](assets/landing-hero.jpg)
+
+**Services**
+
+En esta sección se presenta evidencia de la implementación de la página de servicios de la plataforma Car2Go.
+
+![alt text](assets/landing-services.jpg)
+
+**Plans**
+
+En esta sección se presenta evidencia de la implementación de la página de planes de la plataforma Car2Go.
+
+![alt text](assets/landing-plans.jpg)
+
+**About Us**
+
+En esta sección se presenta evidencia de la implementación de la página "Sobre Nosotros" de la plataforma Car2Go.
+
+![alt text](assets/landing-about-us.jpg)
+
+**Contact Us**
+
+En esta sección se presenta evidencia de la implementación de la página de contacto de la plataforma Car2Go.
+
+![alt text](assets/landing-contact-footer.jpg)
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+**Sign Up**
+
+En esta sección se presenta evidencia de la implementación de la página de registro de la plataforma Car2Go.
+
+![alt text](assets/register-implement.jpg)
+
+**Login**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de sesión de la plataforma Car2Go.
+
+![alt text](assets/login-implement.jpg)
+
+**Profile Form**
+
+En esta sección se presenta evidencia de la implementación del formulario de la página de perfil de la plataforma Car2Go.
+
+![alt text](assets/profile-form-implement.jpg)
+
+**Plans**
+
+En esta sección se presenta evidencia de la implementación de la página de planes de la plataforma Car2Go.
+
+![alt text](assets/plans-implement.jpg)
+
+**Payment Form**
+
+En esta sección se presenta evidencia de la implementación del formulario de pago de la plataforma Car2Go.
+
+![alt text](assets/payment-form-implement.jpg)
+
+**Profile**
+
+En esta sección se presenta evidencia de la implementación de la página de perfil de la plataforma Car2Go.
+
+![alt text](assets/profile-implement.jpg)
+
+**My Vehicles**
+
+En esta sección se presenta evidencia de la implementación de la página de vehículos del usuario de la plataforma Car2Go.
+
+![alt text](assets/my-cars-implement.jpg)
+
+**Seel Vehicle**
+
+En esta sección se presenta evidencia de la implementación de la página de publicación de vehículos de la plataforma Car2Go.
+
+![alt text](assets/car-listing-form-implement.jpg)
+
+**Preview seel Vehicle**
+
+En esta sección se presenta evidencia de la implementación de la vista previa de la página de publicación de vehículos de la plataforma Car2Go.
+
+![alt text](assets/preview-car-implement.jpg)
+
+**My Offers**
+
+En esta sección se presenta evidencia de la implementación de la página de ofertas del usuario de la plataforma Car2Go.
+
+![alt text](assets/offers-implement.jpg)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+**Login**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de sesión de la plataforma Car2Go.
+
+![alt text](assets/login-movil-implement.jpg)
+
+**Register**
+
+En esta sección se presenta evidencia de la implementación de la página de registro de la plataforma Car2Go.
+
+![alt text](assets/register-movil-implement.jpg)
+
+**Home**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de la plataforma Car2Go.
+
+![alt text](assets/home-movil-implement.jpg)
+
+**Plans**
+
+En esta sección se presenta evidencia de la implementación de la página de planes de la plataforma Car2Go.
+
+![alt text](assets/plans-movil-implement.jpg)
+
+**My vehicles**
+
+En esta sección se presenta evidencia de la implementación de la página de vehículos del usuario de la plataforma Car2Go.
+
+![alt text](assets/my-cars-movil-implement.jpg)
+
+**Sell Vehicle**
+
+En esta sección se presenta evidencia de la implementación de la página de publicación de vehículos de la plataforma Car2Go.
+
+![alt text](assets/sell-car-1-movil-implement.jpg)
+
+![alt text](assets/sell-car-2-movil-implement.jpg)
+
+![alt text](assets/sell-car-3-movil-implement.jpg)
+
+!![alt text](assets/sell-car-4-movil-implement.jpg)
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+En esta sección se presenta evidencia de la implementación del backend de la plataforma Car2Go, que incluye la creación de endpoints RESTful para las funcionalidades principales del sistema.
+
+**Authentication Endpoints and Plans Endpoints**
+
+![alt text](assets/back-authentication-and-plans.jpg)
+
+**Roles Endpoints, Users Endpoints and Vehicles Endpoints**
+
+![alt text](assets/back-roles-users-vehicle.jpg)
+
+**Transaction Endpoints, Subscriptions Endpoints and Profiles Endpoints**
+
+![alt text](assets/back-transaction-subscription-profiles.jpg)
+
+**Reviews Endpoints and Favorites Endpoints**
+
+![alt text](assets/back-review-favorite.jpg)
 
 #### 8.3.3.6. Team Collaboration Insights
 
