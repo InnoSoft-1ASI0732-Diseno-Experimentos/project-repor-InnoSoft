@@ -3363,11 +3363,54 @@ Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareci�
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+Tras la implementación de los experimentos propuestos en las tarjetas del capítulo 8.1.5, y su validación a través de entrevistas, encuestas y pruebas funcionales, se obtuvieron resultados concluyentes:
+
+- **Sistema de verificación técnica:** Los usuarios compradores valoraron altamente esta funcionalidad, incrementando la percepción de seguridad y transparencia, y facilitando decisiones de compra informadas. Se confirmó que esta implementación reduce la incertidumbre sobre el estado del vehículo.
+
+- **Publicación destacada para vendedores:** Aumentó significativamente la visibilidad de los anuncios y su tasa de conversión. Vendedores frecuentes mostraron predisposición a pagar por esta funcionalidad, validando su valor.
+
+- **Verificación de pagos automatizada:** Fue clave para reducir fraudes. Tanto entrevistas como encuestas reflejaron un alto nivel de confianza al contar con comprobantes validados y notificaciones automáticas.
+
+- **Historial del vehículo:** Generó confianza y transparencia, especialmente cuando estaba respaldado por talleres técnicos certificados. Los usuarios reportaron sentirse más seguros comprando autos con historial verificado.
+
+- **Canales de comunicación directa y seguimiento:** Reducen el abandono de transacciones. Se evidenció que los usuarios prefieren comunicarse directamente y conocer el estado de su proceso en tiempo real.
+
+En conjunto, estos resultados validan las hipótesis iniciales, justifican la implementación de las funcionalidades propuestas y confirman que la plataforma **Car2Go** está alineada con las expectativas del mercado de autos usados.
+
+---
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+Con base en los resultados obtenidos y el feedback de usuarios, se reajustó el puntaje y la prioridad del backlog de preguntas experimentales. A continuación, se presenta la nueva priorización:
+
+| Pregunta                                                                                         | Confianza | Riesgo | Impacto | Interés | Puntuación Total | Nueva Prioridad |
+|--------------------------------------------------------------------------------------------------|-----------|--------|---------|---------|-------------------|------------------|
+| ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?       | 3         | 1      | 3       | 3       | 10                | 1                |
+| ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?         | 3         | 1      | 3       | 3       | 10                | 2                |
+| ¿Brindar al usuario un historial del vehículo permitirá mejores decisiones?                      | 3         | 1      | 3       | 3       | 10                | 3                |
+| ¿Facilitar comunicación directa reducirá el abandono del proceso de compra?                      | 3         | 1      | 2       | 3       | 9                 | 4                |
+| ¿Integrar talleres técnicos para certificaciones aumentará la seguridad percibida?               | 3         | 2      | 2       | 2       | 9                 | 5                |
+| ¿Publicaciones destacadas aumentarán la tasa de conversión de los vendedores?                    | 3         | 1      | 2       | 2       | 8                 | 6                |
+
+Este reordenamiento prioriza la confianza, seguridad y transparencia, seguido de funcionalidades que incrementan la visibilidad y eficiencia de los anuncios.
+
+---
 
 ## 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Durante la sesión de *Shareback*, el equipo compartió las lecciones aprendidas de todo el proceso de desarrollo experimental. Estas fueron documentadas a través de diversos artefactos y buenas prácticas:
+
+- **Workflow Documentado:** Se elaboró un flujo de trabajo que describe cómo se integraron los experimentos al ciclo de desarrollo ágil. Desde la definición de hipótesis hasta su validación, se utilizaron herramientas como GitHub Projects, Trello y documentos colaborativos.
+
+- **Retrospectiva de Sprint:** Cada cierre de sprint incluyó una reflexión grupal sobre lo que funcionó y lo que se puede mejorar, alimentando un ciclo de mejora continua.
+
+- **Feedback Recursivo:** Las entrevistas y encuestas sirvieron como mecanismo de aprendizaje. Los resultados se analizaron en reuniones semanales para iterar sobre funcionalidades clave.
+
+- **Documentación Visual:** Se recopilaron diagramas de flujos, wireframes, mockups y videos de interacción que sirvieron para compartir el progreso y aprendizaje entre los miembros del equipo y stakeholders.
+
+- **Repositorio Abierto:** Todos los entregables y artefactos están publicados en un repositorio accesible públicamente, fomentando la transparencia y el aprendizaje colectivo:  [GitHub Repository](https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos)
 
 ## 8.6. To-Be Software Platform Pre-launch
 
@@ -3388,6 +3431,11 @@ Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareci�
 - En conclusion,En esta etapa se implemento suites de pruebas unitarias, de integración, basadas en comportamiento y pruebas del sistema completo, lo que permitió validar la estabilidad y correcto funcionamiento de las funcionalidades centrales del proyecto, asegurando un producto confiable y robusto.
 
 - En conclusión, se incorporaron prácticas DevOps de integración continua, entrega continua y despliegue continuo. La automatización de los pipelines de compilación, pruebas y despliegue facilitó un flujo de trabajo ágil y confiable, garantizando que las actualizaciones mantengan altos estándares de calidad y se entreguen de manera eficiente a producción.
+
+- En conclusión, la fase de experimentación nos permitió validar de forma empírica las hipótesis planteadas en el Lean UX Canvas. A través del análisis de resultados y la retroalimentación directa de los usuarios, confirmamos que funcionalidades como la verificación técnica, la validación de pagos y la comunicación directa agregan un valor tangible a la plataforma. Esto nos permitió re-priorizar el backlog de preguntas, enfocándonos en aquello que realmente impacta la experiencia del usuario.
+
+- Finalmente, gracias al enfoque de aprendizaje continuo y las sesiones de *shareback*, el equipo interiorizó buenas prácticas colaborativas y de documentación, fomentando una cultura de mejora constante. Este aprendizaje organizacional no solo fortaleció la calidad del producto, sino también la madurez del equipo para enfrentar futuros retos de ingeniería de software centrada en la experimentación y el usuario.
+
 
 # Video About-the-Team.
 
