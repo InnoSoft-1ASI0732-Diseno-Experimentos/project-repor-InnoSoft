@@ -3588,7 +3588,7 @@ Durante la sesión de *Shareback*, el equipo compartió las lecciones aprendidas
 
 
 # Video About-the-Team.
-
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/ETvFK1ajgLRLrButmMiZCckBZspe2VcnDze0S2tCtZsBsg?e=3fqacE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 # Bibliografía
 
 # Anexos
