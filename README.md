@@ -3705,33 +3705,364 @@ Este plan asegurará una **medición integral del comportamiento de los usuarios
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+**Home**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de la plataforma Car2Go.
+
+![alt text](assets/landing-hero.jpg)
+
+**Services**
+
+En esta sección se presenta evidencia de la implementación de la página de servicios de la plataforma Car2Go.
+
+![alt text](assets/landing-services.jpg)
+
+**Plans**
+
+En esta sección se presenta evidencia de la implementación de la página de planes de la plataforma Car2Go.
+
+![alt text](assets/landing-plans.jpg)
+
+**About Us**
+
+En esta sección se presenta evidencia de la implementación de la página "Sobre Nosotros" de la plataforma Car2Go.
+
+![alt text](assets/landing-about-us.jpg)
+
+**Contact Us**
+
+En esta sección se presenta evidencia de la implementación de la página de contacto de la plataforma Car2Go.
+
+![alt text](assets/landing-contact-footer.jpg)
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+**Sign Up**
+
+En esta sección se presenta evidencia de la implementación de la página de registro de la plataforma Car2Go.
+
+![alt text](assets/register-implement.jpg)
+
+**Login**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de sesión de la plataforma Car2Go.
+
+![alt text](assets/login-implement.jpg)
+
+**Profile Form**
+
+En esta sección se presenta evidencia de la implementación del formulario de la página de perfil de la plataforma Car2Go.
+
+![alt text](assets/profile-form-implement.jpg)
+
+**Plans**
+
+En esta sección se presenta evidencia de la implementación de la página de planes de la plataforma Car2Go.
+
+![alt text](assets/plans-implement.jpg)
+
+**Payment Form**
+
+En esta sección se presenta evidencia de la implementación del formulario de pago de la plataforma Car2Go.
+
+![alt text](assets/payment-form-implement.jpg)
+
+**Profile**
+
+En esta sección se presenta evidencia de la implementación de la página de perfil de la plataforma Car2Go.
+
+![alt text](assets/profile-implement.jpg)
+
+**My Vehicles**
+
+En esta sección se presenta evidencia de la implementación de la página de vehículos del usuario de la plataforma Car2Go.
+
+![alt text](assets/my-cars-implement.jpg)
+
+**Seel Vehicle**
+
+En esta sección se presenta evidencia de la implementación de la página de publicación de vehículos de la plataforma Car2Go.
+
+![alt text](assets/car-listing-form-implement.jpg)
+
+**Preview seel Vehicle**
+
+En esta sección se presenta evidencia de la implementación de la vista previa de la página de publicación de vehículos de la plataforma Car2Go.
+
+![alt text](assets/preview-car-implement.jpg)
+
+**My Offers**
+
+En esta sección se presenta evidencia de la implementación de la página de ofertas del usuario de la plataforma Car2Go.
+
+![alt text](assets/offers-implement.jpg)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+**Login**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de sesión de la plataforma Car2Go.
+
+![alt text](assets/login-movil-implement.jpg)
+
+**Register**
+
+En esta sección se presenta evidencia de la implementación de la página de registro de la plataforma Car2Go.
+
+![alt text](assets/register-movil-implement.jpg)
+
+**Home**
+
+En esta sección se presenta evidencia de la implementación de la página de inicio de la plataforma Car2Go.
+
+![alt text](assets/home-movil-implement.jpg)
+
+**Plans**
+
+En esta sección se presenta evidencia de la implementación de la página de planes de la plataforma Car2Go.
+
+![alt text](assets/plans-movil-implement.jpg)
+
+**My vehicles**
+
+En esta sección se presenta evidencia de la implementación de la página de vehículos del usuario de la plataforma Car2Go.
+
+![alt text](assets/my-cars-movil-implement.jpg)
+
+**Sell Vehicle**
+
+En esta sección se presenta evidencia de la implementación de la página de publicación de vehículos de la plataforma Car2Go.
+
+![alt text](assets/sell-car-1-movil-implement.jpg)
+
+![alt text](assets/sell-car-2-movil-implement.jpg)
+
+![alt text](assets/sell-car-3-movil-implement.jpg)
+
+!![alt text](assets/sell-car-4-movil-implement.jpg)
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+En esta sección se presenta evidencia de la implementación del backend de la plataforma Car2Go, que incluye la creación de endpoints RESTful para las funcionalidades principales del sistema.
+
+**Authentication Endpoints and Plans Endpoints**
+
+![alt text](assets/back-authentication-and-plans.jpg)
+
+**Roles Endpoints, Users Endpoints and Vehicles Endpoints**
+
+![alt text](assets/back-roles-users-vehicle.jpg)
+
+**Transaction Endpoints, Subscriptions Endpoints and Profiles Endpoints**
+
+![alt text](assets/back-transaction-subscription-profiles.jpg)
+
+**Reviews Endpoints and Favorites Endpoints**
+
+![alt text](assets/back-review-favorite.jpg)
+
 #### 8.3.3.6. Team Collaboration Insights
+![alt text](assets/github-insights%20.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas.
 
+Para validar las hipótesis y funcionalidades del sistema, se diseñaron entrevistas estructuradas con los siguientes objetivos:
+
+- Obtener retroalimentación directa de los usuarios finales sobre la usabilidad y funcionalidad del sistema
+- Identificar áreas de mejora en la experiencia del usuario
+- Validar la comprensión de los usuarios sobre las características clave del sistema
+- Recoger sugerencias para futuras mejoras y nuevas funcionalidades
+- Evaluar la satisfacción general de los usuarios con el sistema
+- Validar la percepción de seguridad y confianza en la plataforma
+- Identificar posibles barreras o dificultades en el uso del sistema
+- Evaluar la claridad de la información presentada en la plataforma
+
+Buenos días/ Tardes/ Noches., el propósito de esta entrevista es conocer su opinión sobre la plataforma Car2Go, la cual tiene como objetivo facilitar la compra y venta de autos de segunda mano. Agradecemos su tiempo y sinceridad en las respuestas. Por ello, le haré unas breves preguntas para conocer su opinión sobre la plataforma y su experiencia al utilizarla.
+
+Datos iniciales:
+
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿Cuál es su ocupación?
+
+Segmento de Vendedores:
+
+- ¿Cómo calificaría su experiencia al publicar un vehículo en la plataforma Car2Go?
+- ¿Qué tan fácil le resultó completar el proceso de publicación?
+- ¿Qué características de la plataforma le resultaron más útiles al publicar su vehículo?
+- ¿La plataforma cumplió con sus expectativas para el proceso de venta? ¿Por qué sí o por qué no?
+- ¿Qué mejoras sugeriría para hacer el proceso de publicación más eficiente?
+- ¿La visiblidad de su vehículo en la plataforma fue adecuada? ¿Por qué sí o por qué no?
+- ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma
+
+Segmento de Compradores:
+
+- ¿Cómo calificaría su experiencia al buscar y comprar un vehículo en la plataforma Car2Go?
+- ¿Qué tan fácil le resultó encontrar un vehículo que cumpliera con sus necesidades?
+- ¿Qué características de la plataforma le resultaron más útiles al buscar un vehículo?
+- ¿La plataforma cumplió con sus expectativas para el proceso de compra? ¿Por qué sí o por qué no?
+- ¿Qué mejoras sugeriría para hacer el proceso de búsqueda y compra más eficiente?
+- ¿La información proporcionada sobre los vehículos fue clara y suficiente para tomar una decisión de compra?
+- ¿Qué tan satisfecho está con la seguridad y protección de sus datos personales en la plataforma?
+
+Para finalizar la entrevista, le agradecería que nos comparta cualquier comentario adicional que considere relevante sobre su experiencia con la plataforma Car2Go. Alguna mejora que le gustaría ver implementada o alguna funcionalidad que considere importante.
+
+Muchas gracias por su tiempo y colaboración. Sus respuestas serán de gran ayuda para mejorar la plataforma y ofrecer una mejor experiencia a nuestros usuarios.
+
 #### 8.3.4.2. Registro de Entrevistas.
+
+### Segmento 1: Compradores de Autos de Segunda Mano
+
+### Entrevista 1:
+
+**Nombre y Apellido:** Ariana Quiñones  
+**Edad:** 25 años  
+**Ocupación:** Emprendedora de joyas  
+**Duración de la entrevista:** 4 minutos y 42 segundos  
+**Evidencia de la reunión:**
+![alt text](assets/interwari2.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/Eex1U9LImONNssgyJCQtGnQBhNaNXL3LMXtZoHpgEBRMeg?e=6hdlGk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br/>
+  Ariana calificó la plataforma como intuitiva y fácil de usar, destacando que logró su objetivo de forma rápida al buscar un vehículo. Señaló que la información está bien detallada y organizada, lo que facilitó la búsqueda de autos que cumplieran con sus expectativas.
+
+Entre las características más útiles mencionó el apartado de recomendaciones personalizadas, que le permitió acceder fácilmente a vehículos de su interés. También valoró positivamente el proceso de pagos, mencionando que fue sencillo, transmitía confianza y que no tuvo dificultades al ingresar sus datos.
+
+Ariana no sugirió mejoras adicionales al proceso, indicando que todo le pareció bien implementado. Además, consideró que la información mostrada de los vehículos era clara, suficiente y bien explicada. Por último, expresó un alto nivel de satisfacción con la seguridad de la plataforma, resaltando que le generó confianza por el manejo responsable de los datos.
+
+### Entrevista 2:
+
+- Nombre y Apellido: Pieere Ricaldi Solis
+- Edad: 23
+- Duración de la entrevista: 6:25
+- Evidencia de la reunión:
+  ![entrevista vendedor 2](./assets/entrevista2_comprador.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EYZUZ0f7MrNGt2u6lLfqwzQBkcUhrNinZ4zNDquKY7x4nA?e=TdARDf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:
+  Ricaldi indico que la plataforma es sencilla, intuitiva y falcil de usar. Entre las características más valoradas de la plataforma, se mencionaron la claridad de la información sobre los vehículos, la organización de los filtros de búsqueda, y la navegación intuitiva del sitio. El proceso de compra cumplió completamente con sus expectativas, resaltando la simplicidad y rapidez del mismo. La experiencia general fue positiva en todos los aspectos evaluados, lo cual refuerza que la plataforma Car2Go está bien alineada con las necesidades y expectativas.
+
+### Entrevista 3:
+
+- Nombre y Apellido: Joan Teves
+- Edad: 26
+- Duración de la entrevista: 3 minuto y 25 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_juancarlos2.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EdDzptW9KzVEltgPgl5ZmlsBeCUlIEzzAB6HXsooc9BZ6g?e=NLPrXL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br>
+  Joan Teves, de 26 años y estudiante de administración, participó en la validación de la plataforma Car2Go desde el rol de comprador. En general, calificó su experiencia como positiva, destacando que fue fácil buscar vehículos gracias a los filtros por precio, año y kilometraje.
+  <br>
+  Resaltó que la funcionalidad más útil fue el filtro de vehículos verificados, ya que le generó mayor confianza al momento de revisar las opciones disponibles. Joan indicó que la plataforma cumplió con sus expectativas, permitiéndole acceder a información clara y contactar con vendedores sin dificultades.
+  <br>
+  Como sugerencia de mejora, propuso agregar una opción para comparar vehículos y una calculadora de financiamiento, para ayudar a tomar decisiones más informadas. Sobre la visibilidad de los vehículos publicados, consideró que fue adecuada, ya que los anuncios incluían fotos y detalles relevantes.
+  <br>
+  Finalmente, se mostró satisfecho con la seguridad de sus datos personales, valorando la claridad con la que la plataforma explica qué información es pública y cuál permanece protegida.
+  <br>
+  En conclusión, Joan validó que Car2Go ofrece una buena experiencia para compradores, con énfasis en confianza, claridad y facilidad de uso.
+
+### Segmento 2: Vendedores de Autos de Segunda Mano
+
+### Entrevista 1:
+
+- Nombre y Apellido: Mijael Imanol Yen Quispe
+- Edad: 22 años
+- Duración de la entrevista: 10 minutos y 30 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_mijael.png)
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122876_upc_edu_pe/Eeyxji00RHhNjTZSY8dcedIBoBP8v_N30vfTIs55lxKlGg?e=cQAaEM)
+- Informe de resumen de la entrevista:<br/>
+  Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
+
+### Entrevista 2:
+
+- Nombre y Apellido: Gonzalo Carhuancote
+- Edad: 27
+- Duración de la entrevista: 2 minutos y 6 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/validacion_juancarlos.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216150_upc_edu_pe/EezHZu3fpXpEk2JjxHA4LloBRw84NQIQLONYV3ZjcA7Z9A?e=GACUKf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Informe de resumen de la entrevista:<br>
+  Gonzalo Carhuancote (27 años, ingeniero mecánico) calificó su experiencia en Car2Go como fácil y clara. Destacó la opción de adjuntar y verificar documentos como el historial del auto, lo que genera mayor confianza al vender.
+  <br>
+  Consideró que la plataforma cumplió sus expectativas y sugirió agregar asesoría legal o técnica. También afirmó que la visibilidad del anuncio fue adecuada y que se sintió seguro compartiendo sus datos. En general, valoró el enfoque en seguridad y confianza en el proceso de venta.
+
+### Entrevista 3:
+
+- Nombre y Apellido: Lizet Antonia Pachas Torres
+- Edad: 38
+- Duración de la entrevista: 8 minutos y 20 segundos
+- Evidencia de la reunión:
+  ![alt text](assets/interview-diseño.png)
+
+- URL del video: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EUzdkMKh_dZDm3q1dPhz5lYBZdtcbgRc54mnINWqEQ8-oQ?e=y7quwd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- Informe de resumen de la entrevista:<br>
+  La entrevistada, Lizet Antonia Pachas Torres, comerciante de vehículos usados, expresó una experiencia muy positiva al utilizar la plataforma Car2Go. Destacó que el proceso de publicación fue intuitivo y rápido, lo que le permitió colocar su anuncio en menos de 10 minutos. La facilidad del formulario y la posibilidad de tomar como referencia otras publicaciones activas en la plataforma fueron aspectos valorados, ya que le ayudaron a estructurar mejor su propio anuncio. Esta experiencia evidencia que Car2Go ha logrado una interfaz amigable que favorece la autogestión de los usuarios, especialmente en el segmento de vendedores independientes.</p>
+  En cuanto a la efectividad de la plataforma, Lizet indicó que Car2Go cumplió con sus expectativas, logrando concretar una venta en menos de una semana. Además, valoró las notificaciones automáticas como un mecanismo útil para mantener contacto con potenciales compradores. No obstante, sugiere como mejora la opción de duplicar publicaciones anteriores, lo cual agilizaria el trabajo para vendedores recurrentes. También expresó satisfacción con la visibilidad de su anuncio, especialmente al activar un plan premium, lo que sugiere que el algoritmo de posicionamiento es percibido como efectivo por los usuarios.</p>
+  Finalmente, en el ámbito de seguridad y confianza, Lizet manifestó sentirse protegida al no exponerse datos personales sensibles y al gestionarse toda la comunicación por la app. Como aporte adicional, recomendó incorporar estadísticas más detalladas por anuncio, así como una funcionalidad para identificar compradores frecuentes o confiables. Este tipo de sugerencias revela que los usuarios valoran herramientas que potencien el análisis y la fidelización dentro del ecosistema de compraventa digital, y ofrecen una guía útil para el desarrollo de futuras funcionalidades.
+
 
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+Tras la implementación de los experimentos propuestos en las tarjetas del capítulo 8.1.5, y su validación a través de entrevistas, encuestas y pruebas funcionales, se obtuvieron resultados concluyentes:
+
+- **Sistema de verificación técnica:** Los usuarios compradores valoraron altamente esta funcionalidad, incrementando la percepción de seguridad y transparencia, y facilitando decisiones de compra informadas. Se confirmó que esta implementación reduce la incertidumbre sobre el estado del vehículo.
+
+- **Publicación destacada para vendedores:** Aumentó significativamente la visibilidad de los anuncios y su tasa de conversión. Vendedores frecuentes mostraron predisposición a pagar por esta funcionalidad, validando su valor.
+
+- **Verificación de pagos automatizada:** Fue clave para reducir fraudes. Tanto entrevistas como encuestas reflejaron un alto nivel de confianza al contar con comprobantes validados y notificaciones automáticas.
+
+- **Historial del vehículo:** Generó confianza y transparencia, especialmente cuando estaba respaldado por talleres técnicos certificados. Los usuarios reportaron sentirse más seguros comprando autos con historial verificado.
+
+- **Canales de comunicación directa y seguimiento:** Reducen el abandono de transacciones. Se evidenció que los usuarios prefieren comunicarse directamente y conocer el estado de su proceso en tiempo real.
+
+En conjunto, estos resultados validan las hipótesis iniciales, justifican la implementación de las funcionalidades propuestas y confirman que la plataforma **Car2Go** está alineada con las expectativas del mercado de autos usados.
+
+---
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+Con base en los resultados obtenidos y el feedback de usuarios, se reajustó el puntaje y la prioridad del backlog de preguntas experimentales. A continuación, se presenta la nueva priorización:
+
+| Pregunta                                                                                         | Confianza | Riesgo | Impacto | Interés | Puntuación Total | Nueva Prioridad |
+|--------------------------------------------------------------------------------------------------|-----------|--------|---------|---------|-------------------|------------------|
+| ¿Implementar un sistema de verificación técnica aumentará la confianza de los compradores?       | 3         | 1      | 3       | 3       | 10                | 1                |
+| ¿La implementación de un sistema de verificación de pagos reducirá los casos de estafas?         | 3         | 1      | 3       | 3       | 10                | 2                |
+| ¿Brindar al usuario un historial del vehículo permitirá mejores decisiones?                      | 3         | 1      | 3       | 3       | 10                | 3                |
+| ¿Facilitar comunicación directa reducirá el abandono del proceso de compra?                      | 3         | 1      | 2       | 3       | 9                 | 4                |
+| ¿Integrar talleres técnicos para certificaciones aumentará la seguridad percibida?               | 3         | 2      | 2       | 2       | 9                 | 5                |
+| ¿Publicaciones destacadas aumentarán la tasa de conversión de los vendedores?                    | 3         | 1      | 2       | 2       | 8                 | 6                |
+
+Este reordenamiento prioriza la confianza, seguridad y transparencia, seguido de funcionalidades que incrementan la visibilidad y eficiencia de los anuncios.
+
+---
 
 ## 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+Durante la sesión de *Shareback*, el equipo compartió las lecciones aprendidas de todo el proceso de desarrollo experimental. Estas fueron documentadas a través de diversos artefactos y buenas prácticas:
+
+- **Workflow Documentado:** Se elaboró un flujo de trabajo que describe cómo se integraron los experimentos al ciclo de desarrollo ágil. Desde la definición de hipótesis hasta su validación, se utilizaron herramientas como GitHub Projects, Trello y documentos colaborativos.
+
+- **Retrospectiva de Sprint:** Cada cierre de sprint incluyó una reflexión grupal sobre lo que funcionó y lo que se puede mejorar, alimentando un ciclo de mejora continua.
+
+- **Feedback Recursivo:** Las entrevistas y encuestas sirvieron como mecanismo de aprendizaje. Los resultados se analizaron en reuniones semanales para iterar sobre funcionalidades clave.
+
+- **Documentación Visual:** Se recopilaron diagramas de flujos, wireframes, mockups y videos de interacción que sirvieron para compartir el progreso y aprendizaje entre los miembros del equipo y stakeholders.
+
+- **Repositorio Abierto:** Todos los entregables y artefactos están publicados en un repositorio accesible públicamente, fomentando la transparencia y el aprendizaje colectivo:  [GitHub Repository](https://github.com/InnoSoft-1ASI0732-Diseno-Experimentos)
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
+
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/EQMNeA1kzf9LvQrHe7m-xgcBE8ib71JAxMoJN1MsXVfW4Q?e=Rse4f3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 # Conclusiones
 
@@ -3749,8 +4080,13 @@ Este plan asegurará una **medición integral del comportamiento de los usuarios
 
 - En conclusión, se incorporaron prácticas DevOps de integración continua, entrega continua y despliegue continuo. La automatización de los pipelines de compilación, pruebas y despliegue facilitó un flujo de trabajo ágil y confiable, garantizando que las actualizaciones mantengan altos estándares de calidad y se entreguen de manera eficiente a producción.
 
-# Video About-the-Team.
+- En conclusión, la fase de experimentación nos permitió validar de forma empírica las hipótesis planteadas en el Lean UX Canvas. A través del análisis de resultados y la retroalimentación directa de los usuarios, confirmamos que funcionalidades como la verificación técnica, la validación de pagos y la comunicación directa agregan un valor tangible a la plataforma. Esto nos permitió re-priorizar el backlog de preguntas, enfocándonos en aquello que realmente impacta la experiencia del usuario.
 
+- Finalmente, gracias al enfoque de aprendizaje continuo y las sesiones de *shareback*, el equipo interiorizó buenas prácticas colaborativas y de documentación, fomentando una cultura de mejora constante. Este aprendizaje organizacional no solo fortaleció la calidad del producto, sino también la madurez del equipo para enfrentar futuros retos de ingeniería de software centrada en la experimentación y el usuario.
+
+
+# Video About-the-Team.
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/ETvFK1ajgLRLrButmMiZCckBZspe2VcnDze0S2tCtZsBsg?e=3fqacE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 # Bibliografía
 
 # Anexos
