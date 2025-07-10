@@ -3367,6 +3367,7 @@ En esta sección se presenta evidencia de la implementación del backend de la p
 ![alt text](assets/back-review-favorite.jpg)
 
 #### 8.3.3.6. Team Collaboration Insights
+![alt text](assets/github-insights%20.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
