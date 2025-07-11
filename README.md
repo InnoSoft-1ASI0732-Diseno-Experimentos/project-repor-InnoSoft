@@ -3723,6 +3723,46 @@ Este plan asegurará una **medición integral del comportamiento de los usuarios
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.1. To-Be Sprint Backlogs
+Durante el desarrollo del proyecto Car2Go, se organizaron los siguientes sprints enfocados en validar funcionalidades clave alineadas con las hipótesis experimentales definidas previamente. Cada sprint abordó una serie de historias de usuario priorizadas en el *To-Be Product Backlog*, distribuidas en tareas específicas estimadas en horas, asignadas a miembros del equipo y ejecutadas siguiendo prácticas ágiles.
+
+---
+
+#### Sprint 1: Registro y Exploración Inicial
+
+| User Story ID | Historia de Usuario     | Tarea                  | Descripción                                        | Horas | Asignado a               | Estado     |
+|---------------|--------------------------|-------------------------|----------------------------------------------------|-------|--------------------------|------------|
+| US-01         | Registro de Usuario      | T-01 API de registro    | Backend para creación de cuentas                   | 8h    | Juan Carlos Alvarado     | Done       |
+| US-01         | Registro de Usuario      | T-02 Formulario registro| Frontend web/mobile                                | 6h    | César Antonio Castilla   | Done       |
+| US-01         | Registro de Usuario      | T-03 Validación         | Validación de datos del formulario                 | 4h    | Gerald Serrano           | Done       |
+| US-01         | Registro de Usuario      | T-04 Recuperar contraseña | Módulo de recuperación                           | 5h    | Samuel Valera            | Done       |
+| US-02         | Búsqueda de Autos        | T-05 API de búsqueda    | Endpoint con filtros (marca, precio, etc.)         | 7h    | Lynn Jeeferzon Meza      | In-Process |
+| US-02         | Búsqueda de Autos        | T-06 Interfaz de búsqueda | Frontend para mostrar resultados filtrados      | 6h    | Juan Carlos Alvarado     | Done       |
+
+---
+
+#### Sprint 2: Publicación y Gestión de Autos
+
+| User Story ID | Historia de Usuario     | Tarea                   | Descripción                                      | Horas | Asignado a               | Estado     |
+|---------------|--------------------------|--------------------------|--------------------------------------------------|-------|--------------------------|------------|
+| US-03         | Listado de Autos         | T-07 API de publicación  | Backend para crear autos                         | 7h    | Lynn Jeeferzon Meza      | Done       |
+| US-03         | Listado de Autos         | T-08 Formulario de listado | Frontend para cargar datos del auto           | 6h    | Gerald Serrano           | Done       |
+| US-04         | Edición de Listado       | T-09 API de edición      | Backend para actualizar autos                    | 5h    | Samuel Valera            | Done       |
+| US-04         | Edición de Listado       | T-10 UI de edición       | Frontend editable desde perfil                   | 4h    | César Antonio Castilla   | Done       |
+
+---
+
+#### Sprint 3: Detalles, Favoritos y Pagos
+
+| User Story ID | Historia de Usuario     | Tarea                    | Descripción                                     | Horas | Asignado a               | Estado     |
+|---------------|--------------------------|---------------------------|-------------------------------------------------|-------|--------------------------|------------|
+| US-06         | Ver Detalles del Auto    | T-11 API de detalles      | Backend con información completa del auto       | 5h    | Juan Carlos Alvarado     | Done       |
+| US-06         | Ver Detalles del Auto    | T-12 Pantalla de detalles | Frontend detallado con info completa            | 5h    | Lynn Jeeferzon Meza      | Done       |
+| US-08         | Guardar Autos Favoritos  | T-13 API de favoritos     | Endpoint para guardar favoritos                 | 4h    | Gerald Serrano           | Done       |
+| US-08         | Guardar Autos Favoritos  | T-14 Botón "Agregar favoritos" | UI en frontend para guardar favoritos     | 4h    | Samuel Valera            | Done       |
+
+---
+
+Estas iteraciones permitieron validar funcionalidades clave como el registro seguro, la publicación confiable de vehículos y la navegación fluida, alineadas con los objetivos de aprendizaje del ciclo de experimentación.
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
